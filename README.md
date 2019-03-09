@@ -56,7 +56,7 @@ Not fitting anywhere else.
 - [Case_RaspberryPi3_*](Misc/Case_RaspberryPi3_Top.FCStd) Case for Raspberry Pi 3 (from thiniverse)
 - [Holder_Magnet_Robot](Misc/Holder_Magnet_Robot.FCStd) magnet holder for robot
 - [Adapter_fly-vial-to-5mm-tube](Misc/Adapter_fly-vial-to-5mm-tube.FCStd) Funnel to move flies from one vial to another
-- [Wingbeat-analyzer_sensor_mask](Wingbeat-analyzer_sensor_mask.ai) Different masks to verify best shadow form
+- [Wingbeat-analyzer_sensor_mask](Wingbeat-analyzer_sensor_mask.svg) Different masks to verify best shadow for Wingbeat analyzer
 
 # Manufacturing
 
