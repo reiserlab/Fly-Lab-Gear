@@ -13,7 +13,11 @@
 
 Everything related to the tether between fly and robot.
 
-- [Holder-cone.scad](Holder/Holder-cone.scad) first attempt to build a 3D-printable holder
+- [Holder-cone_pointy](Holder/Holder-cone_pointy.scad) pointy cone, replaces earlier Holder-cone base design.
+- [Holder-cone_pointy_tip-0.07](Holder/Holder-cone_pointy_tip-0.07.scad) additional cylindric tip (0.07mm diameter) on pointy cone.
+- [Holder-cone_flat_hole-0.1](Holder/Holder-cone_flat_hole-0.1.scad) cone cut off, instead added a hole (0.1mm diameter) for a metal tether.
+- [Holder-cone_flat_hole-0.2](Holder/Holder-cone_flat_hole-0.2.scad) cone cut off, instead added a hole (0.2mm diameter) for a metal tether.
+
 
 ## Camera
 
