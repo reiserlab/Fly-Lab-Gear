@@ -1,4 +1,4 @@
-# Design and manufacturing
+# Design
 
 3D printing and laser cutting designs used in the lab.
 
@@ -8,6 +8,7 @@
 
 `*.md` with the same basename as other files contain additional information for that file. Usually that's related to licenses etc.
 
+`*.[jpg|png]` pictures of the produced items. They usually follow the filename pattern `<design>_<printer>_<nr>_<date>`.
 
 ## Holder
 
@@ -25,3 +26,13 @@ Camera related designs.
 
 - [Adapter_PS3-PCB-to-lens-mount.scad](Camera/Adapter_PS3-PCB-to-lens-mount.scad) basic solid that connects to the PCB (the two pins) and can be used to connect to a standard M12 lens holder
 - [PS3-lens-mount_M12.scad](Camera/PS3-lens-mount_M12.scad) the adapter from PS3-PCB including the lens mount
+
+
+# Manufacturing
+
+Printer shorthands in the pictures stand for:
+
+- form2: [Form 2](https://formlabs.com/3d-printers/form-2/) SLA printer, jET
+- form3: [Form 3](https://formlabs.com/3d-printers/form-3/) SLA printer, jET
+- connex: [Statsys Polyjet](https://www.stratasys.com/3d-printers/objet-260-500-connex1), jET
+- f170: [Stratsys F170](https://www.stratasys.com/3d-printers/f123), W2
