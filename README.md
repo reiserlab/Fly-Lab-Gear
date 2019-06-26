@@ -6,6 +6,8 @@
 
 `*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our printers, but not good for editing.
 
+`*.svg` Designs for laser cut (in [Inkscape](https://inkscape.org/)). Sometimes `*.dxf` is used as an export format.
+
 `*.md` with the same basename as other files contain additional information for that file. Usually that's related to licenses etc.
 
 `*.[jpg|png]` pictures of the produced items. They usually follow the filename pattern `<design>_<printer>_<nr>_<date>`.
@@ -29,6 +31,12 @@ Camera related designs.
 - [Adapter_PS3-PCB-to-lens-mount.scad](Camera/Adapter_PS3-PCB-to-lens-mount.scad) basic solid that connects to the PCB (the two pins) and can be used to connect to a standard M12 lens holder
 - [PS3-lens-mount_M12.scad](Camera/PS3-lens-mount_M12.scad) the adapter from PS3-PCB including the lens mount
 
+
+## Misc
+
+Not fitting anywhere else.
+
+- [Wells_3x3_optogenetics](Misc/RedPlate-Departments.svg) (and -cover) to observe individual flies on light plate
 
 # Manufacturing
 
