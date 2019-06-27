@@ -37,6 +37,8 @@ Camera related designs.
 Not fitting anywhere else.
 
 - [Wells_3x3_optogenetics](Misc/RedPlate-Departments.svg) (and -cover) to observe individual flies on light plate
+- [Adapter_metric-imperial_micro-manipulator_bottom](Misc/Adapter_metric-imperial_micro-manipulator_bottom.svg) adapt metric micro manipulator to imperial breadboard
+- [Adapter_metric-imperial_micro-manipulator_top](Misc/Adapter_metric-imperial_micro-manipulator_top) Add central crane mount to the top of a metric manipulator
 
 # Manufacturing
 
