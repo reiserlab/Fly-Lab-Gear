@@ -35,6 +35,11 @@ Camera related designs.
 - [PS3-lens-mount_M12.scad](Camera/PS3-lens-mount_M12.scad) the adapter from PS3-PCB including the lens mount
 
 
+## Schematics
+
+Documentation and original schematics of parts. Mostly other people's work and just a collection…
+
+
 ## Misc
 
 Not fitting anywhere else.
