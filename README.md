@@ -41,6 +41,7 @@ Not fitting anywhere else.
 - [Adapter_metric-imperial_micro-manipulator_top](Misc/Adapter_metric-imperial_micro-manipulator_top.svg) Add central crane mount to the top of a metric manipulator
 - [Sacrophagus_size-test](Misc/Sacrophagus_size-test.scad) Sarcophagus test prints for use on peltier element
 - [Sarcophagus_platform](Misc/Sarcophagus_platform.scad) Sarcophagus for CSHL
+- [Holder_Treadmill_Barb-adapter](Misc/Holder_Treadmill_Barb-adapter.stl) Ball holder for spherical treadmill with adapter for tubing
 
 # Manufacturing
 
