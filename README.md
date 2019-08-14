@@ -37,7 +37,9 @@ Camera related designs.
 
 ## Schematics
 
-Documentation and original schematics of parts. Mostly other people's work and just a collection…
+Documentation and original schematics of parts. Mostly other people's work and just a collection
+
+- [Michael Reiser_Brass Sarcophagus](Schematics/Michael Reiser_Brass Sarcophagus.pdf) original CAD design for sarcophagus
 
 
 ## Misc
