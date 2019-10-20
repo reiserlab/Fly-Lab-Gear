@@ -2,6 +2,8 @@
 
 3D printing and laser cutting designs used in the lab.
 
+`*.FCStd` files are the native format of [FreeCAD](https://www.freecadweb.org/), a 3D parametric modeller. It has a GUI to manipulate and parametrize models.
+
 `*.scad` files are the native file format of [OpenSCAD](https://www.openscad.org/), "The Programmers Solid 3D CAD Modeller". It uses a scripting language to build parametric models.
 
 `*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our printers, but not good for editing.
