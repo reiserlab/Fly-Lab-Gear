@@ -24,6 +24,8 @@ Everything related to the tether between fly and robot.
 - [Holder-cone_flat_hole-0.2](Holder/Holder-cone_flat_hole-0.2.scad) cone cut off, instead added a hole (0.2mm diameter) for a metal tether.
 - [Holder-cone_flat_hole-0.3](Holder/Holder-cone_flat_hole-0.3.scad) cone cut off, instead added a hole (0.3mm diameter) for a metal tether.
 - [Holder-cone_flat_helical-cutout](Holder-cone_flat_helical-cutout.scad) cone cut off, the hole is constructed of overlapping semi-circles, trying to address the minimal production size of the printers.
+- [Holder-lock](Holder/Holder-lock.FCStd) First attempt to create lock matching magnet
+- [Holder-lock_Luer](Holder/Holder-lock_Luer.FCStd) Attempt to model Luer lock
 
 
 ## Camera
@@ -44,6 +46,10 @@ Not fitting anywhere else.
 - [Sacrophagus_size-test](Misc/Sacrophagus_size-test.scad) Sarcophagus test prints for use on peltier element
 - [Sarcophagus_platform](Misc/Sarcophagus_platform.scad) Sarcophagus for CSHL
 - [Holder_Treadmill_Barb-adapter](Misc/Holder_Treadmill_Barb-adapter.stl) Ball holder for spherical treadmill with adapter for tubing
+- [Case_JetsonNano_*](Misc/Case_JetsonNano_Bottom.FCStd) Case for Jetson Nano (from thingiverse)
+- [Case_RaspberryPi3_*](Misc/Case_RaspberryPi3_Top.FCStd) Case for Raspberry Pi 3 (from thiniverse)
+- [Holder_Magnet_Robot](Misc/Holder_Magnet_Robot.FCStd) magnet holder for robot
+- [Adapter_fly-vial-to-5mm-tube](Misc/Adapter_fly-vial-to-5mm-tube.FCStd) Funnel to move flies from one vial to another
 
 # Manufacturing
 
