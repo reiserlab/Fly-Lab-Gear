@@ -10,6 +10,13 @@
   )
 
   (page USLetter)
+  (title_block
+    (title RJ45-M55)
+    (date 2020-03-23)
+    (rev v0.3)
+    (company Janelia)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

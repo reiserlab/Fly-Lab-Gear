@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.5"
     },
-    "CreationDate":  "2020-03-22T18:40:06-04:00"
+    "CreationDate":  "2020-03-23T15:00:30-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "M55-RJ45",
       "GUID": "4d35352d-524a-4343-952e-6b696361645f",
-      "Revision": "rev?"
+      "Revision": "v0.3"
     },
     "Size":
     {
