@@ -65,7 +65,7 @@ With the help of [jET](https://www.janelia.org/support-team/janelia-experimental
 
 `*.scad` files are the native file format of [OpenSCAD](https://www.openscad.org/), "The Programmers Solid 3D CAD Modeller". It uses a scripting language to build parametric models.
 
-`*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our printers, but not good for editing.
+`*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our 3D printers, but not good for editing.
 
 `*.svg` Designs for laser cut (in [Inkscape](https://inkscape.org/)). Sometimes `*.dxf` is used as an export format.
 
