@@ -1,1 +1,3 @@
-Original file received from Eyal
+Different designs tested as possible masks for the sensor of the Wingbeat Analyzer
+
+Original design by [Eyal Gruntman](https://www.janelia.org/people/eyal-gruntman)
