@@ -14,6 +14,7 @@ Everything related to the tether between fly and robot.
 - [Holder-cone_flat_hole-0.3](Holder/Holder-cone_flat_hole-0.3.scad) cone cut off, instead added a hole (0.3mm diameter) for a metal tether.
 - [Holder-cone_flat_helical-cutout](Holder-cone_flat_helical-cutout.scad) cone cut off, the hole is constructed of overlapping semi-circles, trying to address the minimal production size of the printers.
 - [Holder-Luer](Holder/Holder-Luer.FCStd) Magnetic holder to Luer lock
+- [Flyplate](Holder/Flyplate5.md) head fixation plate for imaging experiments
 
 
 ## Camera
