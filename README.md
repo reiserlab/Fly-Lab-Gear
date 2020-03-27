@@ -1,18 +1,7 @@
 # Design
 
-3D printing and laser cutting designs used in the lab.
+3D printing and laser cutting designs used in the [Reiser Lab](https://www.janelia.org/lab/reiser-lab).
 
-`*.FCStd` files are the native format of [FreeCAD](https://www.freecadweb.org/), a 3D parametric modeller. It has a GUI to manipulate and parametrize models.
-
-`*.scad` files are the native file format of [OpenSCAD](https://www.openscad.org/), "The Programmers Solid 3D CAD Modeller". It uses a scripting language to build parametric models.
-
-`*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our printers, but not good for editing.
-
-`*.svg` Designs for laser cut (in [Inkscape](https://inkscape.org/)). Sometimes `*.dxf` is used as an export format.
-
-`*.md` with the same basename as other files contain additional information for that file. Usually that's related to licenses etc.
-
-`*.[jpg|png]` pictures of the produced items. They usually follow the filename pattern `<design>_<printer>_<nr>_<date>`.
 
 ## Holder
 
@@ -56,13 +45,29 @@ Not fitting anywhere else.
 - [Case_RaspberryPi3_*](Misc/Case_RaspberryPi3_Top.FCStd) Case for Raspberry Pi 3 (from thiniverse)
 - [Holder_Magnet_Robot](Misc/Holder_Magnet_Robot.FCStd) magnet holder for robot
 - [Adapter_fly-vial-to-5mm-tube](Misc/Adapter_fly-vial-to-5mm-tube.FCStd) Funnel to move flies from one vial to another
-- [Wingbeat-analyzer_sensor_mask](Wingbeat-analyzer_sensor_mask.svg) Different masks to verify best shadow for Wingbeat analyzer
+- [Wingbeat-analyzer_sensor_mask](Misc/Wingbeat-analyzer_sensor_mask.svg) Different masks to verify best shadow for Wingbeat analyzer
+
 
 # Manufacturing
 
-Printer shorthands in the pictures stand for:
+With the help of [jET](https://www.janelia.org/support-team/janelia-experimental-technology), we produce many of the designs in-house and on different machines. For best reproducibility we document some of the results in pictures. For those images, the 3D Printer shorthands in the file names stand for:
 
 - form2: [Form 2](https://formlabs.com/3d-printers/form-2/) SLA printer, jET
 - form3: [Form 3](https://formlabs.com/3d-printers/form-3/) SLA printer, jET
 - connex: [Statsys Polyjet](https://www.stratasys.com/3d-printers/objet-260-500-connex1), jET
 - f170: [Stratsys F170](https://www.stratasys.com/3d-printers/f123), W2
+
+
+# Filetypes and applications
+
+`*.FCStd` files are the native format of [FreeCAD](https://www.freecadweb.org/), a 3D parametric modeller. It has a GUI to manipulate and parametrize models.
+
+`*.scad` files are the native file format of [OpenSCAD](https://www.openscad.org/), "The Programmers Solid 3D CAD Modeller". It uses a scripting language to build parametric models.
+
+`*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our printers, but not good for editing.
+
+`*.svg` Designs for laser cut (in [Inkscape](https://inkscape.org/)). Sometimes `*.dxf` is used as an export format.
+
+`*.md` with the same basename as other files contain additional information for that file. Usually that's related to licenses etc.
+
+`*.[jpg|png]` pictures of the produced items. They usually follow the filename pattern `<design>_<printer>_<nr>_<date>`.
