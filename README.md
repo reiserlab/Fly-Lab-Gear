@@ -25,11 +25,13 @@ Camera related designs.
 - [PS3-lens-mount_M12.scad](Camera/PS3-lens-mount_M12.scad) the adapter from PS3-PCB including the lens mount
 
 
-## Schematics
+## Plate-Sarcophagus
 
-Documentation and original schematics of parts. Mostly other people's work and just a collection
+Cooling plate and fly sarcophagus to hold the flies in place, usually under a microscope and during tethering.
 
-- [Michael Reiser_Brass Sarcophagus](Schematics/Michael_Reiser_Brass_Sarcophagus.pdf) original CAD design for sarcophagus
+- [Cooling_Plate](Plate-Sarcophagus/Cooling_plate.md) A cooling plate body with fly sarcophagus inlay
+- [Sacrophagus_size-test](Plate-Sarcophagus/Sacrophagus_size-test.scad) Sarcophagus design for test prints (3D plastic prints on top of peltier element)
+- [Sarcophagus_platform](Plate-Sarcophagus/Sarcophagus_platform.scad) Sarcophagus design used at CSHL workshop 2019
 
 
 ## Misc
@@ -39,8 +41,6 @@ Not fitting anywhere else.
 - [Wells_3x3_optogenetics](Misc/RedPlate-Departments.svg) (and -cover) to observe individual flies on light plate
 - [Adapter_metric-imperial_micro-manipulator_bottom](Misc/Adapter_metric-imperial_micro-manipulator_bottom.svg) adapt metric micro manipulator to imperial breadboard
 - [Adapter_metric-imperial_micro-manipulator_top](Misc/Adapter_metric-imperial_micro-manipulator_top.svg) Add central crane mount to the top of a metric manipulator
-- [Sacrophagus_size-test](Misc/Sacrophagus_size-test.scad) Sarcophagus test prints for use on peltier element
-- [Sarcophagus_platform](Misc/Sarcophagus_platform.scad) Sarcophagus for CSHL
 - [Holder_Treadmill_Barb-adapter](Misc/Holder_Treadmill_Barb-adapter.stl) Ball holder for spherical treadmill with adapter for tubing
 - [Case_JetsonNano_*](Misc/Case_JetsonNano_Bottom.FCStd) Case for Jetson Nano (from thingiverse)
 - [Case_RaspberryPi3_*](Misc/Case_RaspberryPi3_Top.FCStd) Case for Raspberry Pi 3 (from thiniverse)
