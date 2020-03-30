@@ -18,8 +18,6 @@ The inner part is within a bounding box of 0.8×0.7×2.9cm³ (width×height×dep
 
 ## 3D printed sarcophagus
 
-For a teaching course, we prototyped a 3D printed version of the sarcophagus to explore if it was possible to produce a considerably cheaper version that works good enough for behavioral experiments. As a cooling device we used the readily available [peltier mounted on a heatsink](https://www.adafruit.com/product/1335). Even in a warm environment of around 30°C the surface was cooled to below freezing. Our design is small enough to go on top of this peltier element and still have space for a few immobilized flies as well as sarcophagus of different dimensions:
-
-![Sarcophagus_platform](Sarcophagus_platform.stl)
+For a teaching course, we prototyped a 3D printed version of the sarcophagus to explore if it was possible to produce a considerably cheaper version that works good enough for behavioral experiments. As a cooling device we used the readily available [peltier mounted on a heatsink](https://www.adafruit.com/product/1335). Even in a warm environment of around 30°C the surface was cooled to below freezing. Our design of the [Sarcophagus platform](Sarcophagus_platform.stl) is small enough to go on top of this peltier element and still have space for a few immobilized flies as well as sarcophagus of different dimensions.
 
 We printed this design on with different materials (including ABS and resins) and with different material densities. We then immobilized flies by placing their vials in a container of ice until they stopped moving and positiond individual flies in the different printouts. The flies in the low-density prints were the first ones able to climb out of their groove in less than two minutes.  Independent of the material, the flies in the high-density prints stayed in place considerably longer, up to 10 minutes. This gives enough time to tether a fly and we were able to use the 3D printed platforms for the teaching course.
