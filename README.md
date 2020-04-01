@@ -61,14 +61,23 @@ With the help of [jET](https://www.janelia.org/support-team/janelia-experimental
 
 # Filetypes and applications
 
-`*.FCStd` files are the native format of [FreeCAD](https://www.freecadweb.org/), a 3D parametric modeller. It has a GUI to manipulate and parametrize models.
+`*.FCStd` files are the native format of [FreeCAD](https://www.freecadweb.org/), an open-source 3D parametric modeller. It has a GUI to manipulate and parametrize models.
 
-`*.scad` files are the native file format of [OpenSCAD](https://www.openscad.org/), "The Programmers Solid 3D CAD Modeller". It uses a scripting language to build parametric models.
+`*.scad` files are the native file format of [OpenSCAD](https://www.openscad.org/), "The Programmers Solid 3D CAD Modeller" – another open-source software (OSS). It uses a scripting language to build parametric models.
+
+`*.[iam|ipt|idw]` files are the file format of [Autodesk Inventor](http://autodesk.com/inventor), a proprietary and commercial 3D CAD software. The extensions represent assembly, part, and drawing files respectively. 
 
 `*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our 3D printers, but not good for editing.
 
-`*.svg` Designs for laser cut (in [Inkscape](https://inkscape.org/)). Sometimes `*.dxf` is used as an export format.
+`*.svg` 2D Designs for laser cut, can be edited in the OSS [Inkscape](https://inkscape.org/). Sometimes `*.dxf` is used as an export format.
 
 `*.md` with the same basename as other files contain additional information for that file. Usually that's related to licenses etc.
 
 `*.[jpg|png]` pictures of the produced items. They usually follow the filename pattern `<design>_<printer>_<nr>_<date>`.
+
+`*.pro` is a project file for the OSS [KiCad EDA](https://www.kicad-pcb.org/), an open-source electronics design automation suite. KiCad can produce `*.gbr` RS-274X gerber files for the manufacturers.
+
+
+# Contribution
+
+We welcome any kind of comments and corrections. You can either open an issue here on github or get in contact via the [Reiser Lab website](https://www.janelia.org/lab/reiser-lab). We are looking forward to your feedback.
