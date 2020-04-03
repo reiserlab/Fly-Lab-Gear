@@ -1,5 +1,5 @@
 module xbox (){
-    import("/home/floesche/Downloads/M12_Camera_Mount.stl");
+    import("./M12_Camera_Mount.stl");
 
 translate([0,0,2])
 difference(){
