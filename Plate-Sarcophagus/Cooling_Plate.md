@@ -6,16 +6,16 @@ The cooling plate consists of a body and inlay with the fly sarcophagus. The inl
 
 Here we provide an assembly files along with the two components:
 
-- [Colling_Plate-assembly.[pdf|iam]](Cooling_plage-assembly.pdf) (Part number JF-MR-FS0010)
-- [Cooling_Plate-body.[pdf|idw|ipt]](Cooling_plate-body.pdf) (Part number JF-MR-FS0006)
-- [Cooling_Plate-inlay.[pdf|idw|ipt]](Cooling_plate-inlay.pdf)  (Part number JF-MR-FS0007)
+- [Colling_Plate-assembly.[pdf|iam]](Cooling_Plate-assembly.pdf) (Part number JF-MR-FS0010)
+- [Cooling_Plate-body.[pdf|idw|ipt]](Cooling_Plate-body.pdf) (Part number JF-MR-FS0006)
+- [Cooling_Plate-inlay.[pdf|idw|ipt]](Cooling_Plate-inlay.pdf)  (Part number JF-MR-FS0007)
 
 ## Alternative file
 
 Melanie Basnak sent us a version in a more accessible file format ([STEP format](https://en.wikipedia.org/wiki/ISO_10303-21)) in August 2020, also resolving some discrepencies between drawing and model:
 
-- [Cooling_Plate-inlay.stp](Cooling_plate-inlay.stp)
-- [Cooling_Plate-body.stp](Cooling_plate-body.stp)
+- [Cooling_Plate-inlay.stp](Cooling_Plate-inlay.stp)
+- [Cooling_Plate-body.stp](Cooling_Plate-body.stp)
 
 
 # File types
