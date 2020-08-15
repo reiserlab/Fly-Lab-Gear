@@ -14,8 +14,8 @@ Here we provide an assembly files along with the two components:
 
 Melanie Basnak sent us a version in a more accessible file format ([STEP format](https://en.wikipedia.org/wiki/ISO_10303-21)) in August 2020, also resolving some discrepencies between drawing and model:
 
-- [Cooling_Plate-inlay.stp](Cooling_Plate-inlay.stp)
-- [Cooling_Plate-body.stp](Cooling_Plate-body.stp)
+- [Cooling_Plate-inlay.[stp|stl]](Cooling_Plate-inlay.stl)
+- [Cooling_Plate-body.[stp|stl]](Cooling_Plate-body.stl)
 
 
 # File types
