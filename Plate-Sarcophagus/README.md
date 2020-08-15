@@ -11,7 +11,7 @@ During the tethering process, flies are held in place by a groove, or sarcophagu
 
 ![Cooling plate - assembled](../_resources/p-s_cooling_plate_assembly.png)
 
-The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.*` contain the technical drawings and CAD files for this part.
+The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part. `Cooling_Plate-*.stp` are minor updates, solving discrepencies between drawing and model (kindly provided by Melanie Basnak).
 
 The inner part is within a bounding box of 0.8×0.7×2.9cm³ (width×height×depth). The sarcophagus in the files `Cooling_Plate-inlay.*` have little holes on the bottom of the groove. These holes are connected to a bigger intake which can be used to create an underpressure below the animal. Purely for tethering, this is usually not necessary the shape of the sarcophagus is constraining the immobilized animal good enough. The additional fixation through vacuum is helpful if additional manipulations with higher precision are conducted.
 

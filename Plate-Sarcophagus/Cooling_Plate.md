@@ -10,6 +10,13 @@ Here we provide an assembly files along with the two components:
 - [Cooling_Plate-body.[pdf|idw|ipt]](Cooling_plate-body.pdf) (Part number JF-MR-FS0006)
 - [Cooling_Plate-inlay.[pdf|idw|ipt]](Cooling_plate-inlay.pdf)  (Part number JF-MR-FS0007)
 
+## Alternative file
+
+Melanie Basnak sent us a version in a more accessible file format ([STEP format](https://en.wikipedia.org/wiki/ISO_10303-21)) in August 2020, also resolving some discrepencies between drawing and model:
+
+- [Cooling_Plate-inlay.stp](Cooling_plate-inlay.stp)
+- [Cooling_Plate-body.stp](Cooling_plate-body.stp)
+
 
 # File types
 
@@ -17,3 +24,4 @@ Here we provide an assembly files along with the two components:
 - `*.ipt` files are "Inventor Part files" ([Autodesk Inventor](https://www.autodesk.com/products/inventor/overview))
 - `*.iam` files are "Inventor Assembly files" ([Autodesk Inventor](https://www.autodesk.com/products/inventor/overview))
 - `*.pdf` files contain drawings of the parts
+- `*.stp` files are "[STEP](https://en.wikipedia.org/wiki/ISO_10303-21) files", a widely used 3D data exchange format.

@@ -67,6 +67,8 @@ With the help of [jET](https://www.janelia.org/support-team/janelia-experimental
 
 `*.[iam|ipt|idw]` files are the file format of [Autodesk Inventor](http://autodesk.com/inventor), a proprietary and commercial 3D CAD software. The extensions represent assembly, part, and drawing files respectively. 
 
+`*.stp` files are a 3D exchange format ([STEP](https://en.wikipedia.org/wiki/ISO_10303-21)). They can be opened and edited with different application, for example [FreeCAD](https://www.freecadweb.org/).
+
 `*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our 3D printers, but not good for editing.
 
 `*.svg` 2D Designs for laser cut, can be edited in the OSS [Inkscape](https://inkscape.org/). Sometimes `*.dxf` is used as an export format.
