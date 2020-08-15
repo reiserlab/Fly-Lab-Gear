@@ -12,9 +12,9 @@ Everything related to the tether between fly and robot.
 - [Holder-cone_flat_hole-0.1](Holder/Holder-cone_flat_hole-0.1.scad) cone cut off, instead added a hole (0.1mm diameter) for a metal tether.
 - [Holder-cone_flat_hole-0.2](Holder/Holder-cone_flat_hole-0.2.scad) cone cut off, instead added a hole (0.2mm diameter) for a metal tether.
 - [Holder-cone_flat_hole-0.3](Holder/Holder-cone_flat_hole-0.3.scad) cone cut off, instead added a hole (0.3mm diameter) for a metal tether.
-- [Holder-cone_flat_helical-cutout](Holder-cone_flat_helical-cutout.scad) cone cut off, the hole is constructed of overlapping semi-circles, trying to address the minimal production size of the printers.
+- [Holder-cone_flat_helical-cutout](Holder/Holder-cone_flat_helical-cutout.scad) cone cut off, the hole is constructed of overlapping semi-circles, trying to address the minimal production size of the printers.
 - [Holder-Luer](Holder/Holder-Luer.FCStd) Magnetic holder to Luer lock
-- [Flyplate](Holder/Flyplate5.md) head fixation plate for imaging experiments
+- [Flyplate](Holder/Flyplate5.step) head fixation plate for imaging experiments
 
 
 ## Camera
@@ -29,7 +29,7 @@ Camera related designs.
 
 Cooling plate and fly sarcophagus to hold the flies in place, usually under a microscope and during tethering.
 
-- [Cooling_Plate](Plate-Sarcophagus/Cooling_plate.md) A cooling plate body with fly sarcophagus inlay
+- [Cooling_Plate](Plate-Sarcophagus/Cooling_Plate.md) A cooling plate body with fly sarcophagus inlay
 - [Sacrophagus_size-test](Plate-Sarcophagus/Sacrophagus_size-test.scad) Sarcophagus design for test prints (3D plastic prints on top of peltier element)
 - [Sarcophagus_platform](Plate-Sarcophagus/Sarcophagus_platform.scad) Sarcophagus design used at CSHL workshop 2019
 
@@ -38,12 +38,11 @@ Cooling plate and fly sarcophagus to hold the flies in place, usually under a mi
 
 Not fitting anywhere else.
 
-- [Wells_3x3_optogenetics](Misc/RedPlate-Departments.svg) (and -cover) to observe individual flies on light plate
 - [Adapter_metric-imperial_micro-manipulator_bottom](Misc/Adapter_metric-imperial_micro-manipulator_bottom.svg) adapt metric micro manipulator to imperial breadboard
 - [Adapter_metric-imperial_micro-manipulator_top](Misc/Adapter_metric-imperial_micro-manipulator_top.svg) Add central crane mount to the top of a metric manipulator
 - [Holder_Treadmill_Barb-adapter](Misc/Holder_Treadmill_Barb-adapter.stl) Ball holder for spherical treadmill with adapter for tubing
 - [Case_JetsonNano_*](Misc/Case_JetsonNano_Bottom.FCStd) Case for Jetson Nano (from thingiverse)
-- [Case_RaspberryPi3_*](Misc/Case_RaspberryPi3_Top.FCStd) Case for Raspberry Pi 3 (from thiniverse)
+- [Case_RaspberryPi3_*](Misc/Case_RaspberryPi3_Top.stl) Case for Raspberry Pi 3 (from thiniverse)
 - [Holder_Magnet_Robot](Misc/Holder_Magnet_Robot.FCStd) magnet holder for robot
 - [Adapter_fly-vial-to-5mm-tube](Misc/Adapter_fly-vial-to-5mm-tube.FCStd) Funnel to move flies from one vial to another
 - [Wingbeat-analyzer_sensor_mask](Misc/Wingbeat-analyzer_sensor_mask.svg) Different masks to verify best shadow for Wingbeat analyzer
@@ -67,7 +66,7 @@ With the help of [jET](https://www.janelia.org/support-team/janelia-experimental
 
 `*.[iam|ipt|idw]` files are the file format of [Autodesk Inventor](http://autodesk.com/inventor), a proprietary and commercial 3D CAD software. The extensions represent assembly, part, and drawing files respectively. 
 
-`*.stp` files are a 3D exchange format ([STEP](https://en.wikipedia.org/wiki/ISO_10303-21)). They can be opened and edited with different application, for example [FreeCAD](https://www.freecadweb.org/).
+`*.[stp|step]` files are a 3D exchange format ([STEP](https://en.wikipedia.org/wiki/ISO_10303-21)). They can be opened and edited with different application, for example [FreeCAD](https://www.freecadweb.org/).
 
 `*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our 3D printers, but not good for editing.
 
