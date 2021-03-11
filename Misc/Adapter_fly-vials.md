@@ -1,1 +1,0 @@
-Received from Michael Reiser
