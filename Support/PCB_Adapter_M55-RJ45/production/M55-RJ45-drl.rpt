@@ -1,0 +1,24 @@
+Drill report for /home/loeschef/prj/2019_Janelia_3D_Print/PCB/M55-RJ45/M55-RJ45.kicad_pcb
+Created on Mon 23 Mar 2020 03:00:20 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'M55-RJ45.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (34 holes)
+    T2  2.60mm  0.102"  (2 holes)  (with 2 slots)
+
+    Total plated holes count 36
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T3  1.65mm  0.065"  (4 holes)
+
+    Total unplated holes count 4
