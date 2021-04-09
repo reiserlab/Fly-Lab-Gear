@@ -1,0 +1,15 @@
+$eminence: #612E85 !default;
+$camel: #B5905C !default;
+$darkmoss: #3C572A !default;
+$prussian: #1F3759 !default;
+$irresistible: #B53F6E !default;
+
+
+$body-text-color: darken($eminence, 40%);
+$body-heading-color: $eminence;
+$sidebar-color: lighten($camel, 40%);
+$nav-child-link-color: $eminence;
+$link-color: $eminence;
+
+$feedback-color: darken($sidebar-color, 3%);
+$border-color: $grey-lt-100;

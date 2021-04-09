@@ -1,3 +1,8 @@
+---
+title: Sphere holder
+parent: Rig
+---
+
 # Holder for Fly Treadmill
 
 All three versions of the "Holder Treadmill Barb" need to be printed on a high density printer to avoid air leaks. We produced our samples on the [connex](../README.md) (see Manufacturing in top-level README).

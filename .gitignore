@@ -105,7 +105,7 @@ fp-info-cache
 *.csv
 
 ### KiCad Patch ###
-escue-backup/
+rescue-backup/
 
 *.tsv
 bom/
@@ -114,6 +114,16 @@ bom/
 out/
 
 # End of https://www.gitignore.io/api/kicad
+
+
+# jekyll
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
 
 
 ## FreeCAD

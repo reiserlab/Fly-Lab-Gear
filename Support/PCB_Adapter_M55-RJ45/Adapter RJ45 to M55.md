@@ -1,7 +1,11 @@
+---
+title: Adapter RJ45 to M55
+parent: Support
+---
+
 # PCB
 
-Some electronic components are built with custom PCBs. 
-
+For prototyping we needed an adapter from an RJ45 connector (standard network) to an [Harwin Archer M55](https://www.harwin.com/products/M55-6002042R/) with a specific mapping. This is the custom PCB for it.
 
 ## M55-RJ45 converter
 
@@ -20,7 +24,3 @@ Some of the arena panels are connected via 20 pin Archer M55 connectors. For a p
 
 The M55 and RJ45 connectors have pads on opposite sides of the PCB, and contain both versions for [male](https://www.digikey.com/short/zjdjrj) and [female](https://www.digikey.com/short/zjdjr1) M55 connectors. For the [RJ45 connector](https://www.digikey.com/short/zjdjf8), we use a surface-mount only version.
 
-
-# File types
-
-File types and applications to open them are explained in our [project README](../README.md).
