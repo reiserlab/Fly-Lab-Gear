@@ -3,18 +3,19 @@ title: Experimental Setup
 has_children: true
 nav_order: 10
 has_toc: false
+permalink: /setup
 ---
 
 # Experimental setup
 
 Components listed here can be used on an experimental setup or are otherwise directly in contact with experiment.
 
-## [Inexpensive Treadmill Assembly](/setup/inexpensive-treadmill)
+## [Inexpensive Treadmill Assembly](inexpensive-treadmill)
 {:.clear}
 [![Inexpensive Setup assembly]({{"/assets/img/Experimental-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.png"|relative_url}}){:.ifr}](/setup/inexpensive-treadmill)
-Different components combined to a functional experimental setup. We use this assembly to produce the figures for the publication on the [Inexpensive Treadmill setup](/inexpensive-treadmill).
+Different components combined to a functional experimental setup. We use this assembly to produce the figures for the publication on the [Inexpensive Treadmill setup](../inexpensive-treadmill).
 
-## [Sphere holder (Treadmill)](/setup/sphere-holder)
+## [Sphere holder (Treadmill)]({{"/setup/sphere-holder"|relative_url}})
 {:.clear}
 
 [![Sphere holder with 90° inlet]({{"/assets/img/Experimental-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png"|relative_url}}){: .ifr}](/setup/sphere-holder)

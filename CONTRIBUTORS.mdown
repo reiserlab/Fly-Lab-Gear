@@ -1,7 +1,10 @@
 
-# Contributions
+# Core contributor
 
 * [Frank Loesche](https://www.janelia.org/people/frank-loesche)
+
+# Additional Contributions
+
 * [Eyal Gruntman](https://www.janelia.org/people/eyal-gruntman)
 * Igor Negrashov
 * [Melanie Basnak](https://github.com/mbasnak)
