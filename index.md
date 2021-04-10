@@ -7,13 +7,7 @@ nav_order: 1
 
 In this repository, we share a number of hardware designs that we developed for the submitted draft of "An inexpensive, high-precision, modular spherical treadmill setup optimized for <em>Drosophila</em> experiments". While writing this paper, we also started documenting previously developed components that we would like to share with other labs and researchers. And while we hope to improve these individual designs over time, we will use the repository as a supplementary file collection for other publications.
 
-Consequently we offer two different ways to navigate the components: In the [Collection](Collection) menu we will list components by publication. Currently this is only the submitted draft for the "[Inexpensive Treadmill](/Collection/Inexpensive-Treadmill)"
-
-There are two different ways to browse the collections of components: either
+Consequently we offer two different ways to navigate the components: In the [Collection](Collection) menu we will list components by publication. Currently this is only the submitted manuscript for the "[Inexpensive Treadmill](/Collection/Inexpensive-Treadmill)". The other way of navigating the website is by browsing the different categories. This would be the parts for an actual experimental setup, for tethering stage, some supporing components used in different locations, and parts that are useful in fly handling. In addition, the extra menu contains files that might be useful for visualization, but are not meant to be used.
 
 
-
-, we developed a number of components that might be useful to other labs. 
-
-
-In the past years, we developed a number of components that might be of interest for other labs. Not all of them are as extensive and elaborate as the [Modular LED displays](https://reiserlab.github.io/Modular-LED-Display/) and therefore do not require their own repository
+If you are building behavioral setups for insects, you might also be interested in the [Modular LED displays](https://reiserlab.github.io/Modular-LED-Display/).
