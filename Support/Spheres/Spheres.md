@@ -5,7 +5,7 @@ parent: Support
 
 # Spheres
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Spheres){:.ifr}
 For the spherical treadmill we experimented with different spheres and sphere helpers.
 

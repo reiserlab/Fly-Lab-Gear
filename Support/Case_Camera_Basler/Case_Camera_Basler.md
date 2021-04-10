@@ -5,7 +5,7 @@ parent: Support
 
 ## Case_Camera_Basler
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Case_Camera_Basler){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Case_Camera_Basler){:.ifr}
 This is the back side of a case for a small board camera. It includes a 90° screw hole.
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Support/Case_Camera_Basler/Case_Camera_Basler.png"|relative_url}}){:.ifr .pop}

@@ -5,7 +5,7 @@ parent: Support
 
 # Lens mount (S-mount or M12)
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Lens-mount_M12){:.ifr}
 M12 or S-mounts are often used in webcams and CCTV cameras. CCTV is also a good search term when looking for lenses. While the lens mount can be printed on a good 3D printer, it is often easier and cheaper to buy a lens mount when acquiring a lens. Nevertheless, here are two options:
 

@@ -5,7 +5,7 @@ parent: Support
 
 # Raspberry Pi 3 case
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Case_RaspberryPi3){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Case_RaspberryPi3){:.ifr}
 The case we use for our [RPi3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/).
 
 ## Origin and License

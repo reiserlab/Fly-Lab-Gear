@@ -6,7 +6,7 @@ parent: Tethering
 
 # Tethering station
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Tethering-Station){:.ifr}
 The goal of tethering station is to keep the [heatsink and fan](https://www.adafruit.com/product/1335) at an angle, that allows easy access to the flies. For convenience we also wanted to integrate a hand rest and a mount point for the micromanipulator. 
 

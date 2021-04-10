@@ -5,7 +5,7 @@ parent: Handling
 
 # Funnels
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Handling/Funnels){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Handling/Funnels){:.ifr}
 Funnels that help moving flies from one vial to another.
 
 ![Funnel 1]({{"/assets/img/Handling/Funnels/Adapter_fly-vials-01.png"|relative_url}}){:.ifr .pop}

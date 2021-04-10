@@ -5,7 +5,7 @@ parent: Support
 
 # Holder for MISUMI camera
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Case_Cable-Camera_Misumi){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Case_Cable-Camera_Misumi){:.ifr}
 A simple sketch to mount a cable camera (similar to [SYD-V311M5L8-77A](http://www.misumi.com.tw/PLIST.ASP?PC_ID=09)) by the manufacturer MISUMI.
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Support/Case_Cable-Camera_Misumi/Case_Cable-Camera.png"|relative_url}}){:.ifr .pop}

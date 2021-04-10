@@ -6,7 +6,7 @@ parent: Tethering
 
 # Holder 
 
-[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Tether_holder){:.ifr}
 These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate](/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using blunt dispensing needles for friction mounting to the [micro manipulator](/micromanipulator).
 
