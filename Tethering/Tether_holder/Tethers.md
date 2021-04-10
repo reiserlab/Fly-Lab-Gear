@@ -1,14 +1,15 @@
 ---
 title: Holder
 parent: Tethering
-
+permalink: /tether/tethers
+nav_order: 3
 ---
 
 # Holder 
 
 [![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Tether_holder){:.ifr}
-These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate](/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using blunt dispensing needles for friction mounting to the [micro manipulator](/micromanipulator).
+These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate](/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using [blunt dispensing needles](/extra/dispensing-needle) for friction mounting to the [micro manipulator](/micromanipulator).
 
 ## Holder cone
 
@@ -28,4 +29,4 @@ Similarly, a number of designs have a hole instead of the pointy end. These hole
 {:.clear}
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tether_mount/Adapter_Magnet_Luer.png"|relative_url}}){:.ifr .pop}
-We also designed an adapter between blunt tip dispensing needles with a Luer lock and the magnet adapter. Based on the observation, that flies seem to behave ok in experiments when tethered to a [34 gauge dispensing needle](https://www.amazon.com/dp/B07KGPDSHX/). The design `Holder-Luer` is an adapter between the wide conic magnetic pickup and a luer lock for the dispensing needles.
+We also designed an adapter between blunt tip dispensing needles with a Luer lock and the magnet adapter. Based on the observation, that flies seem to behave ok in experiments when tethered to a [34 gauge dispensing needle](https://www.amazon.com/dp/B07KGPDSHX/). The design `Holder-Luer` is an adapter between the wide conic magnetic pickup and a [luer lock for the dispensing needles](/extra/dispensing-needle).

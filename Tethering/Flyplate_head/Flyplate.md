@@ -1,7 +1,8 @@
 ---
 title: Flyplate
 parent: Tethering
-permalink: /flyplate
+permalink: /tether/flyplate
+nav_order: 4
 ---
 
 

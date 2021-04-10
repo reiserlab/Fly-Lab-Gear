@@ -1,6 +1,8 @@
 ---
 title: Sarcophagus
 parent: Tethering
+permalink: /tether/sarcophagus
+nav_order: 2
 ---
 
 # Plate-Sarcophagus
@@ -15,7 +17,7 @@ Flies are immobilized by low temperatures, for example by a cold metal plate und
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Sarcophagus_print){:.ifr}
 For a teaching course, we prototyped a 3D printed version of the sarcophagus to explore if it was possible to produce a considerably cheaper version that works good enough for behavioral experiments. As a cooling device we used the readily available [Peltier mounted on a heatsink from Adafruit](https://www.adafruit.com/product/1335). Even in a warm environment of around 30°C the surface was cooled to below freezing. Our design of the [Sarcophagus platform](production/Sarcophagus_platform_15.stl) is small enough to go on top of this Peltier element and still have space for a few immobilized flies as well as sarcophagus of different dimensions.
 
-![Fly Plate 5 machined]({{"/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png"|relative_url}}){:.ifr .pop}
+![cooling plate with 15 differently sized sarcophagi]({{"/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png"|relative_url}}){:.ifr .pop}
 `Sarcophagus_platform_15.FCStd`: We printed this design on with different materials (including ABS and resins) and with different material densities. We then immobilized flies by placing their vials in a container of ice until they stopped moving and positioned individual flies in the different printouts. The flies in the low-density prints were the first ones able to climb out of their groove in less than two minutes. Independent of the material, the flies in the high-density prints stayed in place considerably longer, up to 10 minutes. This gives enough time to tether a fly and we were able to use the 3D printed platforms for the teaching course.
 
 ## Machined Brass Sarcophagus

@@ -1,6 +1,8 @@
 ---
 title: Tablet holder
 parent: Support
+permalink: /support/tablet-holder
+nav_order: 7
 ---
 
 # Tablet holder

@@ -1,6 +1,8 @@
 ---
 title: Baseplate
 parent: Support
+permalink: /support/baseplate
+nav_order: 1
 ---
 
 # Baseplate

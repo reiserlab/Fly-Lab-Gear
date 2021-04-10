@@ -1,6 +1,7 @@
 ---
-title: Luer Tether
+title: Dispensing Needle
 parent: Extra
+permalink: /extra/dispensing-needle
 ---
 
 # Luer Tether

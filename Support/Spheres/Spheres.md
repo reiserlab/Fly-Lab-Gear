@@ -1,6 +1,8 @@
 ---
 title: Spheres
-parent: Support
+parent: Suppor
+permalink: /support/sphere
+nav_order: 3
 ---
 
 # Spheres

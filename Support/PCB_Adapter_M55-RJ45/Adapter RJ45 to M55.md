@@ -1,6 +1,8 @@
 ---
 title: Adapter RJ45 to M55
 parent: Support
+permalink: /support/rj45-m55
+nav_order: 6
 ---
 
 # PCB
@@ -11,7 +13,7 @@ For prototyping we needed an adapter from an RJ45 connector (standard network) t
 
 ## M55-RJ45 converter
 
-![Machined Sarcophagus assembly]({{"/assets/img/Support/Adapter_M55-RJ45/Adapter_M55-RJ45.png"|relative_url}}){:.ifr .pop}
+![RJ45 to M55 adapter]({{"/assets/img/Support/Adapter_M55-RJ45/Adapter_M55-RJ45.png"|relative_url}}){:.ifr .pop}
 Some of the arena panels are connected via 20 pin Archer M55 connectors. For a prototype, we wanted to transmit a subset from seven specific pins via ethernet cables. The M55-RJ45 project adapts specific M55 pins to the RJ45 pins.
 
 | M55 pin(s) | RJ45 pin(s) |

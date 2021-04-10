@@ -1,6 +1,8 @@
 ---
 title: Tethering Station
 parent: Tethering
+permalink: /tether/station
+nav_order: 1
 ---
 
 

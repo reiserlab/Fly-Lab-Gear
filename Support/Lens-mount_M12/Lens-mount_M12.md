@@ -1,6 +1,8 @@
 ---
 title: Lens mount M12
 parent: Support
+permalink: /support/lens-mount
+nav_order: 4
 ---
 
 # Lens mount (S-mount or M12)

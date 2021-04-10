@@ -1,6 +1,8 @@
 ---
 title: Funnels
 parent: Handling
+permalink: /handling/funnels
+nav_order: 2
 ---
 
 # Funnels
@@ -20,9 +22,8 @@ Funnels that help moving flies from one vial to another.
 `Adapter_fly-vials-03.stl`: Funnel 3, fly rearing vial to 12mm test tube.
 {:.clear}
 
-
 ![Funnel 3]({{"/assets/img/Handling/Funnels/Funnel_fly-vial-to-12mm-tube.png"|relative_url}}){:.ifr .pop}
-`Funnel_fly-vial-to-12mm-tube.FCStd`: Redesign of Funnel 3, fly rearing bottle to vial.
+`Funnel_fly-vial-to-12mm-tube.FCStd`: Redesign of Funnel 3, fly rearing bottle to 12mm test tube.
 {:.clear}
 
 
