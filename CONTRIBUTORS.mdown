@@ -4,5 +4,5 @@
 * [Frank Loesche](https://www.janelia.org/people/frank-loesche)
 * [Eyal Gruntman](https://www.janelia.org/people/eyal-gruntman)
 * Igor Negrashov
-* Melanie Basnak
+* [Melanie Basnak](https://github.com/mbasnak)
 * [Michael Reiser](https://www.janelia.org/lab/reiser-lab)
