@@ -1,6 +1,8 @@
 ---
 title: Scale Bar
 parent: Extra
+permalink: /extra/scale-bar
+nav_order: 1
 ---
 
 # Scale bar

@@ -2,6 +2,7 @@
 title: Dispensing Needle
 parent: Extra
 permalink: /extra/dispensing-needle
+nav_order: 4
 ---
 
 # Luer Tether
@@ -10,5 +11,5 @@ permalink: /extra/dispensing-needle
 This is a model of a [34 gauge blunt tip dispensing needle](https://amazon.com/dp/B01FI9GKL0). These are used for tethering flies in walking setups. This file is a representation of the commercially available tip.
 
 
-![Model of the dispensing needle with Luer lock]({{"/assets/img/Extra/Luer-Tether/Luer-Tether.png"|relative_url}}){: .ifr .pop}
+![Model of the dispensing needle with Luer lock]({{"/assets/img/Extra/Luer-Tether/Luer-Tether.png"|relative_url}}){:.ifr .pop}
 The 34 gauge dispensinge needles come with an outer diameter of around 0.25mm and a green Luer lock.

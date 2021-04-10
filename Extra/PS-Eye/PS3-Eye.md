@@ -1,6 +1,8 @@
 ---
 title: PS3 Eye
 parent: Extra
+permalink: /extra/ps3-eye
+nav_order: 3
 ---
 
 # Playstation 3 Eye camera

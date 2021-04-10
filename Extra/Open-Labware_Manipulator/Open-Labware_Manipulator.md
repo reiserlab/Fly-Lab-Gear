@@ -1,6 +1,8 @@
 ---
 title: Open-Labware Manipulator
 parent: Extra
+permalink: /extra/openlabware-manipulator
+nav_order: 6
 ---
 
 # Open-Labware micromanipulator

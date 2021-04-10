@@ -1,6 +1,8 @@
 ---
 title: Heatsink
 parent: Extra
+permalink: /extra/heatsink
+nav_order: 5
 ---
 
 # Heatsink
