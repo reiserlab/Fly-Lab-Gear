@@ -1,13 +1,13 @@
 ---
-title: Rig
+title: Experimental Setup
 has_children: true
 nav_order: 5
 has_toc: false
 ---
 
-# Rig
+# Experimental setup
 
-Components listed here can be used on an experimental setup, or rig, or are otherwise directly in contact with experiment.
+Components listed here can be used on an experimental setup or are otherwise directly in contact with experiment.
 
 ## Inexpensive Treadmill Assembly
 
