@@ -1,6 +1,8 @@
 ---
 title: Illumination
 parent: Experimental Setup
+permalink: /setup/illumination
+nav_order: 3
 ---
 
 # Illumination

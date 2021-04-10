@@ -1,7 +1,7 @@
 ---
 title: Inexpensive Treadmill
-parent: Collection
-permalink: /Inexpensive-Treadmill
+parent: Collections
+permalink: /inexpensive-treadmill
 nav_order: 1
 ---
 

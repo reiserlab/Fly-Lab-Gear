@@ -1,6 +1,8 @@
 ---
 title: Robotic Arm Magnet holder
 parent: Experimental Setup
+permalink: /setup/magnet-holder
+nav_order: 90
 ---
 
 # Robotic Arm Magnet holder

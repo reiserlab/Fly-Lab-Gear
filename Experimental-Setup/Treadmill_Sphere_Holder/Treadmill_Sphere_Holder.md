@@ -1,6 +1,8 @@
 ---
 title: Sphere holder
 parent: Experimental Setup
+permalink: /setup/sphere-holder
+nav_order: 2
 ---
 
 # Holder for Fly Treadmill

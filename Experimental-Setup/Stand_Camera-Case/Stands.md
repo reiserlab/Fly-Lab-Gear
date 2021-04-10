@@ -1,6 +1,8 @@
 ---
 title: Stands
 parent: Experimental Setup
+permalink: /setup/stands
+nav_order: 4
 ---
 
 ## Stand Camera case

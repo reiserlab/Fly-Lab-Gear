@@ -2,7 +2,7 @@
 title: Tethering
 has_children: true
 has_toc: false
-nav_order: 10
+nav_order: 20
 ---
 
 ## Flyplate

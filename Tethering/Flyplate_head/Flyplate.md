@@ -16,10 +16,10 @@ The [Flyplate5](production/Flyplate5.stl) was designed at [Janelia Experimental 
 {:.clear}
 
 ![Fly Plate 5 machined]({{"/assets/img/Tethering/Flyplate/Flyplate5_machined_01_2018.jpg"|relative_url}}){:.ifr .pop}
-Initially the design was machined according to the specification in the design files. The result is very sturdy and can be re-used many times. The following images shows a machine Fly Plate after having been used many times:
+Initially the design was machined according to the specification in the design files. The result is very sturdy and can be re-used many times. The following images shows a detail of the machined Fly Plate after having been used many times.
 {:.clear}
 
 ![Fly Plate 5 3D printed on the Connex machine]({{"/assets/img/Tethering/Flyplate/Flyplate5_connex_03_2019-11.jpg"|relative_url}}){:.ifr .pop}
-We recently started to see if 3D printing could work as well. We have not run experiments yet, but the print itself looks as follows when printed on the Connex printer.
+We recently started to see if 3D printing could work as well. So far, we have not run experiments with it, but the same detail of the flyplate looks very similar. This flyplate was printed on the [Connex](/production) printer.
 {:.clear}
 

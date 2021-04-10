@@ -1,6 +1,8 @@
 ---
 title: Square wells
 parent: Experimental Setup
+permalink: /setup/wells
+nav_order: 5
 ---
 
 # Quadratic wells
