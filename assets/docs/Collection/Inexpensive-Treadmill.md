@@ -7,4 +7,4 @@ nav_order: 1
 
 # Inexpensive Treadmill
 
-![Title page of current draft](/assets/img/Collection/title.png){:.ifr .pop}
+![Title page of manuscript]({{"/assets/img/Collection/title.png"|relative_url}}){:.ifr .pop}
