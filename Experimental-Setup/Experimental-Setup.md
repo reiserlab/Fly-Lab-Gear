@@ -10,15 +10,15 @@ permalink: /setup
 
 Components listed here can be used on an experimental setup or are otherwise directly in contact with experiment.
 
-## [Inexpensive Treadmill Assembly](inexpensive-treadmill)
+## [Inexpensive Treadmill Assembly]({{site.baseurl}}/inexpensive-treadmill)
 {:.clear}
-[![Inexpensive Setup assembly]({{"/assets/img/Experimental-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.png"|relative_url}}){:.ifr}](/setup/inexpensive-treadmill)
-Different components combined to a functional experimental setup. We use this assembly to produce the figures for the publication on the [Inexpensive Treadmill setup](../inexpensive-treadmill).
+[![Inexpensive Setup assembly]({{"/assets/img/Experimental-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.png"|relative_url}}){:.ifr}]({{site.baseurl}}/setup/inexpensive-treadmill)
+Different components combined to a functional experimental setup. We use this assembly to produce the figures for the publication on the [Inexpensive Treadmill setup]({{site.baseurl}}/inexpensive-treadmill).
 
-## [Sphere holder (Treadmill)]({{"/setup/sphere-holder"|relative_url}})
+## [Sphere holder (Treadmill)]({{site.baseurl}}/setup/sphere-holder)
 {:.clear}
 
-[![Sphere holder with 90° inlet]({{"/assets/img/Experimental-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png"|relative_url}}){: .ifr}](/setup/sphere-holder)
+[![Sphere holder with 90° inlet]({{"/assets/img/Experimental-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png"|relative_url}}){: .ifr}]({{site.baseurl}}/setup/sphere-holder)
 Spherical treadmills for insects are essentially small sphere floating on air. A sphere holder is the component that holds the sphere in a defined place, so it has an air inlet and an air outlet where the sphere would be placed.
 
 ## [Illumination]({{site.baseurl}}/setup/illumination)
@@ -27,13 +27,13 @@ Spherical treadmills for insects are essentially small sphere floating on air. A
 [![Set of lamps]({{"/assets/img/Experimental-Setup/Lamp_LED_5mm/illumination-lamps.png"|relative_url}}){:.ifr}](/setup/illumination)
 Optical tracking of spherical treadmills, for example through [FicTrac](https://github.com/rjdmoore/fictrac), requires good illumination. 
 
-## [Stands](/setup/stands)
+## [Stands]({{site.baseurl}}/setup/stands)
 {:.clear}
 
 [![Manipulator Stand]({{"/assets/img/Experimental-Setup/Stands/Stand_Treadmill_Sphere_Holder.png"|relative_url}}){: .ifr}](/setup/stands)
 To assemble different components at specific locations, we use different stands. For example we designed simple but stable stands for the camera, for Micromanipulators, and for the sphere holder.
 
-## [Wells](/setup/wells)
+## [Wells]({{site.baseurl}}/setup/wells)
 {:.clear}
 
 [![Square Wells]({{"/assets/img/Experimental-Setup/Square_wells_90mm/Wells_3x3_optogenetics.png"|relative_url}}){: .ifr}](/setup/wells)
