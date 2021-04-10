@@ -1,5 +1,6 @@
 ---
 title: Production
+permalink: /production
 nav_order: 95
 ---
 

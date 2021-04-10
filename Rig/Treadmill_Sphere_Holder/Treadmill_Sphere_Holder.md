@@ -5,8 +5,19 @@ parent: Rig
 
 # Holder for Fly Treadmill
 
-All three versions of the "Holder Treadmill Barb" need to be printed on a high density printer to avoid air leaks. We produced our samples on the [connex](../README.md) (see Manufacturing in top-level README).
+[![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png" | relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Rig/Treadmill_Sphere_Holder){:.ifr}
+All versions of the "Treadmill Sphere Holder" need to be printed on a high density printer to avoid air leaks. This worked well on a Connex printer (see [production](/production)). Alternatively we printed it at normal density using ABS and the post-processed it by applying acetone to the outer layer of the sphere holder. At the moment we only have the design files in a proprietary format. We started converting it to FreeCAD, but at the moment they are not particularly easy to modify.
 
-The initial version [Holder_Treadmill_Barb-adapter_straight](Holder_Treadmill_Barb-adapter_straight.stl) worked fine, but required the connector to be fixed below the holder. This limits how  the holder can be positioned. The one-armed version is a variance of that design that allows more flexible positioning, requires less space, and is cheaper in production. At the same time its more difficult to fixate. The material at the screw mount holes was so thin that it would break upon forceful fixation.
+![Sphere holder]({{"/assets/img/Rig/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_180deg.png" | relative_url}}){: .ifr .pop}
+`Treadmill_Sphere_Holder_9mm-ball_180deg.ipt`: This initial version worked fine, but required the connector to be fixed below the holder. This limits how the holder can be positioned.
+{:.clear}
 
-[Holder_Treadmill_Barb-adapter](Holder_Treadmill_Barb-adapter.stl) is an improvement, as it is generally more sturdy. Furthermore the hose is attached in a 90° angle to the direction of the airflow output. In setups with a base plate, it can be positioned much closer to that ground level.
+![1-armed sphere holder]({{"/assets/img/Rig/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_180deg_1mount.png" | relative_url}}){: .ifr .pop}
+`Treadmill_Sphere_Holder_9mm-ball_180deg_1mount.ipt`: The one-armed version is a variance of that design that allows more flexible positioning, requires less space, and is cheaper in production. At the same time its more difficult to fixate and keep steady. The material at the screw mount holes is also thin enough that it would break upon forceful screw fixation.
+{:.clear}
+
+![Sphere holder with 90° inlet]({{"/assets/img/Rig/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png" | relative_url}}){: .ifr .pop}
+`Treadmill_Sphere_Holder_9mm-ball_90deg.ipt`: This version is an improvement, as it is generally more sturdy. Furthermore the hose is attached in a 90° angle to the direction of the airflow output. This means, it can be positioned directly on the base plate, allowing more compact setups. Also, our stand fits this version.
+
+![Sphere holder with 90° inlet]({{"/assets/img/Rig/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_10mm-ball_90deg.png" | relative_url}}){: .ifr .pop}
+`Treadmill_Sphere_Holder_10mm-ball_90deg.ipt`: The same as before, but for a 10mm sphere.
