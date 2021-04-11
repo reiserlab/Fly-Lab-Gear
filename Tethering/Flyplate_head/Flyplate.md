@@ -21,6 +21,6 @@ Initially the design was machined according to the specification in the design f
 {:.clear}
 
 ![Fly Plate 5 3D printed on the Connex machine]({{"/assets/img/Tethering/Flyplate/Flyplate5_connex_03_2019-11.jpg"|relative_url}}){:.ifr .pop}
-We recently started to see if 3D printing could work as well. So far, we have not run experiments with it, but the same detail of the flyplate looks very similar. This flyplate was printed on the [Connex](/production) printer.
+We recently started to see if 3D printing could work as well. So far, we have not run experiments with it, but the same detail of the flyplate looks very similar. This flyplate was printed on the [Connex]({{site.baseurl}}/production) printer.
 {:.clear}
 

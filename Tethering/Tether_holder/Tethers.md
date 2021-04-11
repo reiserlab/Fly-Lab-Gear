@@ -9,7 +9,7 @@ nav_order: 3
 
 [![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Tether_holder){:.ifr}
-These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate](/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using [blunt dispensing needles](/extra/dispensing-needle) for friction mounting to the [micro manipulator](/micromanipulator).
+These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate]({{site.baseurl}}/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using [blunt dispensing needles]({{site.baseurl}}/extra/dispensing-needle) for friction mounting to the [micro manipulator]({{site.baseurl}}/micromanipulator).
 
 ## Holder cone
 
@@ -22,11 +22,11 @@ Just a quick explanation of the design – which should be similar for many of t
 {:.clear}
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tether_mount/Tether_holder_cone_tip_neck-wedge.png"|relative_url}}){:.ifr .pop}
-Talking about the `Holder-cone_pointy_neck-wedge`: this is an attempt to see how thin current printers like the [Form 3](/production) can currently print. This never really worked, but we keep it to test future printers.
+Talking about the `Holder-cone_pointy_neck-wedge`: this is an attempt to see how thin current printers like the [Form 3]({{site.baseurl}}/production) can currently print. This never really worked, but we keep it to test future printers.
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tether_mount/Tether_holder_flat-cone_hole-0.3mm.png"|relative_url}}){:.ifr .pop}
 Similarly, a number of designs have a hole instead of the pointy end. These holes come at different diameters to account for different printing materials and leave just enough room, to glue a thinner metal thread into that gap. In addition to the cylindrical holes, the size and quality of which largely depends on the printer, printing material, and some environmental factors, `Holder-cone_flat_helical-cutout` uses a different way to form a holder for the tether: Similarly the steps in a spiral staircase, helical cutouts are situated around the center. Their overlap over different of these steps form a space that can be used to glue in the fly tether.
 {:.clear}
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tether_mount/Adapter_Magnet_Luer.png"|relative_url}}){:.ifr .pop}
-We also designed an adapter between blunt tip dispensing needles with a Luer lock and the magnet adapter. Based on the observation, that flies seem to behave ok in experiments when tethered to a [34 gauge dispensing needle](https://www.amazon.com/dp/B07KGPDSHX/). The design `Holder-Luer` is an adapter between the wide conic magnetic pickup and a [luer lock for the dispensing needles](/extra/dispensing-needle).
+We also designed an adapter between blunt tip dispensing needles with a Luer lock and the magnet adapter. Based on the observation, that flies seem to behave ok in experiments when tethered to a [34 gauge dispensing needle](https://www.amazon.com/dp/B07KGPDSHX/). The design `Holder-Luer` is an adapter between the wide conic magnetic pickup and a [luer lock for the dispensing needles]({{site.baseurl}}/extra/dispensing-needle).

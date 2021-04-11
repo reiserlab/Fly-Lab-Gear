@@ -17,4 +17,4 @@ The goal of tethering station is to keep the [heatsink and fan](https://www.adaf
 {:.clear}
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tethering-Station/Tethering-Station_print.png"|relative_url}}){:.ifr .pop}
-`Tethering-Station_print.FCStd`: We first designed this version, but printing it would have used too much material to be recommended in our [Inexpensive Treadmill manuscript](/inexpensive-treadmill).
+`Tethering-Station_print.FCStd`: We first designed this version, but printing it would have used too much material to be recommended in our [Inexpensive Treadmill manuscript]({{site.baseurl}}/inexpensive-treadmill).
