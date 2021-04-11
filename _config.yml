@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #github_username:  floesche
 
 
-repository: https://github.com/reiserlab/Component-Design
+repository: reiserlab/Component-Design
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
