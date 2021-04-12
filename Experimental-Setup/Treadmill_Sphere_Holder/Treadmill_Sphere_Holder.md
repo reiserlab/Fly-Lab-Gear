@@ -20,6 +20,8 @@ All versions of the "Treadmill Sphere Holder" need to be printed on a high densi
 
 ![Sphere holder with 90° inlet]({{"/assets/img/Experimental-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png"|relative_url}}){: .ifr .pop}
 `Treadmill_Sphere_Holder_9mm-ball_90deg.ipt`: This version is an improvement, as it is generally more sturdy. Furthermore the hose is attached in a 90° angle to the direction of the airflow output. This means, it can be positioned directly on the base plate, allowing more compact setups. Also, our stand fits this version.
+{:.clear}
 
 ![Sphere holder with 90° inlet]({{"/assets/img/Experimental-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_10mm-ball_90deg.png"|relative_url}}){: .ifr .pop}
 `Treadmill_Sphere_Holder_10mm-ball_90deg.ipt`: The same as before, but for a 10mm sphere.
+{:.clear}
