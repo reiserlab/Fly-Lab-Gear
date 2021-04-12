@@ -22,6 +22,6 @@ nav_order: 90
 
 `*.pdf` files are used for different purposes. Within 3D projects, they sometimes contain drawings of the parts.
 
-`*.[md|mdown]` is the documentation. The `mdown` files are meant as readme files on the [GitHub project](github.com/reiserlab/Component-Design), the md files are rendered into the website at <https://reiserlab.github.io/Component-Design/>
+`*.[md|mdown]` is the documentation. The `mdown` files are meant as readme files on the [GitHub project](https://github.com/reiserlab/Component-Design), the md files are rendered into the website at <https://reiserlab.github.io/Component-Design/>
 
 `*.[jpg|png]` pictures of the produced items. Sometimes they follow the filename pattern `<design>_<printer>_<nr>_<date>`.

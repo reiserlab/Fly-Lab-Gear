@@ -9,12 +9,12 @@ nav_order: 3
 
 [![Open GitHub folder]({{"/assets/img/GitHub-Mark-32px.png"|relative_url}}) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Tether_holder){:.ifr}
-These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate]({{site.baseurl}}/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using [blunt dispensing needles]({{site.baseurl}}/extra/dispensing-needle) for friction mounting to the [micro manipulator]({{site.baseurl}}/micromanipulator).
+These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body fixate a fly. Take a look at [Flyplate]({{site.baseurl}}/tether/flyplate), if you are looking for head fixation. In addition to the Luer lock holder, we are also using [blunt dispensing needles]({{site.baseurl}}/extra/dispensing-needle) for friction mounting to the [micro manipulator]({{site.baseurl}}/tether/micromanipulator).
 
 ## Holder cone
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tether_mount/Tether_holder_cone_tip-0.07.png"|relative_url}}){:.ifr .pop}
-During behavioral experiments, the thorax of flies is tethered to a thin thread. The conic holders represent different approaches on how to mount the thin thread to material that is big enough for manual and robotic pickup. In one of the setups, we are using a magnet that has the inverse form of the wider cone, for example as shown in [Holder-cone_pointy](Holder-cone_pointy.stl). For this particular design, we tried to glue the thinner and pointy end to the fly. The design [Holder-cone_pointy_tip-0.07](Holder-cone_pointy_tip-0.07.stl) is intended for a similar use, and in fact the results are show here.
+During behavioral experiments, the thorax of flies is tethered to a thin thread. The conic holders represent different approaches on how to mount the thin thread to material that is big enough for manual and robotic pickup. In one of the setups, we are using a magnet that has the inverse form of the wider cone, for example as shown in `Holder-cone_pointy.stl`. For this particular design, we tried to glue the thinner and pointy end to the fly. The design `Holder-cone_pointy_tip-0.07.stl` is intended for a similar use, and in fact the results are show here.
 {:.clear}
 
 ![Fly tethered to a pointy holder]({{"/assets/img/Tethering/Tether_mount/Tether_holder_cone_tip-0.07_form3_03_2019-11_fly.jpg"|relative_url}}){:.ifr .pop}
@@ -29,4 +29,4 @@ Similarly, a number of designs have a hole instead of the pointy end. These hole
 {:.clear}
 
 ![Machined Sarcophagus assembly]({{"/assets/img/Tethering/Tether_mount/Adapter_Magnet_Luer.png"|relative_url}}){:.ifr .pop}
-We also designed an adapter between blunt tip dispensing needles with a Luer lock and the magnet adapter. Based on the observation, that flies seem to behave ok in experiments when tethered to a [34 gauge dispensing needle](https://www.amazon.com/dp/B07KGPDSHX/). The design `Holder-Luer` is an adapter between the wide conic magnetic pickup and a [luer lock for the dispensing needles]({{site.baseurl}}/extra/dispensing-needle).
+We also designed an adapter between blunt tip dispensing needles with a Luer lock and the magnet adapter. Based on the observation, that flies seem to behave ok in experiments when tethered to a [34 gauge dispensing needle](https://www.amazon.com/dp/B01FI9GKL0/). The design `Holder-Luer` is an adapter between the wide conic magnetic pickup and a [luer lock for the dispensing needles]({{site.baseurl}}/extra/dispensing-needle).
