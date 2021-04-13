@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+        <script type="module">
+            import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
+            import { DeviceOrientationControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/DeviceOrientationControls.js';;
+            //const scene = new THREE.Scene();
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera( 90, window.innerWidth / window.innerHeight, 0.01, 2 );
+
+            const controls = new DeviceOrientationControls( camera );
+
+			const renderer = new THREE.WebGLRenderer();
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+
+            const bangle = (20/180)*Math.PI;
+            
+            const geometry = new THREE.CylinderBufferGeometry(0.1525, 0.1525, 0.8, 12, 1, true, 0, bangle);
+            const material = new THREE.MeshBasicMaterial( { color: 0x00ff00, side:THREE.DoubleSide } );
+            const panels = new THREE.Group();
+            for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                const bar = new THREE.Mesh(geometry, material);
+                bar.rotation.y = a;
+                panels.add(bar);
+            }
+
+			// const geometry = new THREE.BoxGeometry();
+			// const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+			// const cube = new THREE.Mesh( geometry, material );
+			scene.add( panels );
+
+			camera.position.x = 0;
+            camera.position.y = 0;
+            camera.position.z = 0;
+
+			const animate = function () {
+				requestAnimationFrame( animate );
+
+                controls.update();
+                panels.rotation.y += 0.01;
+                // camera.rotation.y += 0.01;
+				// cube.rotation.x += 0.01;
+				// cube.rotation.y += 0.01;
+
+				renderer.render( scene, camera );
+			};
+
+			animate();
+          </script>
+	</body>
+</html>
