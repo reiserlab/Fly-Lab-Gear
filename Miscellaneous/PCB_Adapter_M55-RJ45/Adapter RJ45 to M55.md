@@ -2,7 +2,7 @@
 title: Adapter RJ45 to M55
 parent: Miscellaneous
 permalink: /miscellaneous/rj45-m55
-nav_order: 6
+nav_order: 13
 ---
 
 # PCB

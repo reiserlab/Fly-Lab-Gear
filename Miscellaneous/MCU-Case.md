@@ -1,8 +1,8 @@
 ---
 title: MCU cases
-parent: Support
+parent: Miscellaneous
 permalink: /miscellaneous/mcu-case
-nav_order: 5
+nav_order: 12
 ---
 
 # Raspberry Pi 3 case

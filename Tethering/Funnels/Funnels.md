@@ -2,7 +2,7 @@
 title: Funnels
 parent: Tethering
 permalink: /tether/funnels
-nav_order: 2
+nav_order: 5
 ---
 
 # Funnels

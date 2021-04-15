@@ -1,8 +1,8 @@
 ---
 title: Baseplate
-parent: Walking Setup
+parent: Miscellaneous
 permalink: /miscellaneous/baseplate
-nav_order: 15
+nav_order: 8
 ---
 
 # Baseplate

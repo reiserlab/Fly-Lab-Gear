@@ -2,7 +2,7 @@
 title: Lens mount M12
 parent: Miscellaneous
 permalink: /miscellaneous/lens-mount
-nav_order: 4
+nav_order: 11
 ---
 
 # Lens mount (S-mount or M12)

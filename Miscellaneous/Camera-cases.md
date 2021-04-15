@@ -1,8 +1,8 @@
 ---
 title: Camera cases
-parent: Support
+parent: Miscellaneous
 permalink: /miscellaneous/camera-case
-nav_order: 2
+nav_order: 9
 ---
 
 # Case_Camera_Basler

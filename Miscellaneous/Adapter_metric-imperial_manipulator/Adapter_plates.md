@@ -2,7 +2,7 @@
 title: Adapter plates
 parent: Miscellaneous
 permalink: /miscellaneous/adapter
-nav_order: 3
+nav_order: 7
 ---
 
 # Adapter plates

@@ -2,7 +2,7 @@
 title: Tablet holder
 parent: Miscellaneous
 permalink: /miscellaneous/tablet-holder
-nav_order: 7
+nav_order: 14
 ---
 
 # Tablet holder

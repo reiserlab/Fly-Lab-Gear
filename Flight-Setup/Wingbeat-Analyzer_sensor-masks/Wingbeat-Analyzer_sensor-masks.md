@@ -2,7 +2,7 @@
 title: Masks Wingbeat Analyzer
 parent: Flight Setup
 permalink: /flight/wba-masks
-nav_order: 6
+nav_order: 1
 ---
 
 # Sensor masks for the Wingbeat Analyzer
