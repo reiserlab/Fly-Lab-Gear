@@ -3,7 +3,7 @@ title: Miscellaneous
 has_children: true
 has_toc: false
 nav_order: 60
-parmalink: /miscellaneous
+permalink: /miscellaneous
 ---
 
 # Miscellaneous

@@ -3,7 +3,7 @@ title: Component Design
 nav_order: 1
 ---
 
-**Disclaimer:** This page is currently work in progress. If you want to get notified once we release this page or want to contribute, then please get in [contact]({{site.baseurl}}/Contact).
+**Disclaimer:** This page is currently work in progress. If you want to get notified once we release this page or want to contribute, then please get in [contact]({{site.baseurl}}/contact).
 
 In this repository, we share a number of hardware designs that we developed for the submitted manuscript of "An inexpensive, high-precision, modular spherical treadmill setup optimized for <em>Drosophila</em> experiments". While writing this paper, we also started documenting previously developed components that we would like to share with other labs and researchers. And while we hope to improve these individual designs over time, we will use the repository as a supplementary file collection for other publications.
 
