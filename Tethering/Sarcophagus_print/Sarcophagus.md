@@ -13,7 +13,7 @@ Flies are immobilized by low temperatures, for example by a cold metal plate und
 
 ## 3D printed sarcophagus
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Sarcophagus_print){:.ifr}
 For a teaching course, we prototyped a 3D printed version of the sarcophagus to explore if it was possible to produce a considerably cheaper version that works good enough for behavioral experiments. As a cooling device we used the readily available [Peltier mounted on a heatsink from Adafruit](https://www.adafruit.com/product/1335). Even in a warm environment of around 30°C the surface was cooled to below freezing. Our design of the [Sarcophagus platform](production/Sarcophagus_platform_15.stl) is small enough to go on top of this Peltier element and still have space for a few immobilized flies as well as sarcophagus of different dimensions.
 
@@ -23,7 +23,7 @@ For a teaching course, we prototyped a 3D printed version of the sarcophagus to 
 ## Machined Brass Sarcophagus
 {:.clear}
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Support/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Holder_Tablet){:.ifr}
  project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Sarcophagus_machined){:.ifr}
 Original design by Tanya Tabachnik <tt2564@columbia.edu> around June 2011. She was Lead Mechanical Engineer at Janelia by the time. In August 2020, Melanie Basnak sent us a version in a more accessible file format (STEP and STL), that also solved some discrepancies between model and technical drawing.
 
