@@ -44,3 +44,10 @@ FreeCAD model of a heatsink we use for our tethering station. Useful for visuali
 
 [![Explosion model of the Manipulator]({{site.baseurl}}/assets/img/Miscellaneous/Open-Labware_Manipulator/linearstage.png){: .ifr}]({{site.baseurl}}/miscellaneous/openlabware-manipulator)
 Local copy of the Open-Labware Manipulator. 
+
+
+## [Adapters]({{site.baseurl}}/miscellaneous/adapter)
+{:.clear}
+
+[![Adapter plates]({{site.baseurl}}/assets/img/Miscellaneous/Adapter_metric-imperial_manipulator/Adapter_metric-imperial_micro-manipulator_bottom.png){:.ifr}]({{site.baseurl}}/miscellaneous/adapter)
+Some basic files that help adapting between different "things" – for example a specific metrical component to an imperical setup.

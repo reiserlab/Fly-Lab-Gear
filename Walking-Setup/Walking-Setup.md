@@ -3,7 +3,7 @@ title: Walking Setup
 has_children: true
 nav_order: 10
 has_toc: false
-permalink: /setup
+permalink: /walking
 ---
 
 # Walking Setup
@@ -38,18 +38,3 @@ To assemble different components at specific locations, we use different stands.
 
 [![Square Wells]({{site.baseurl}}/assets/img/Walking-Setup/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr}]({{site.baseurl}}/walking/wells)
 Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking. 
-
-## [Wingbeat analyzer masks]({{site.baseurl}}/walking/wba-masks)
-{:.clear}
-
-[![Sphere holder]({{site.baseurl}}/assets/img/Walking-Setup/Wingbeat-Analyzer_sensor-masks/Wingbeat-Analyzer_sensor-masks.png){: .ifr}]({{site.baseurl}}/walking/wba-masks)
-
-# Scrapbook
-{:.clear}
-
-These parts are not finished yet, but might be useful to some in the future.
-
-## [Magnetic robot arm holder]({{site.baseurl}}/walking/magnet-holder)
-
-[![Magnet holder]({{site.baseurl}}/assets/img/Walking-Setup/Robot_Arm_Magnet-Holder/Robot_Arm_Magnet-Holder.png){: .ifr}]({{site.baseurl}}/walking/magnet-holder)
-The starting sketch for a magnet holder on a robotic arm.

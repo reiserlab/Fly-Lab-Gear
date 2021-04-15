@@ -19,7 +19,7 @@ For the experiments in the "Inexpensive Treadmill" manuscript, we used *Drosophi
 
 ### Flypicker
 
-![Different suction fly picker]({{site.baseurl}}/assets/img/Handling/Flypicker/Flypickers.jpg){:.ifr .pop}
+![Different suction fly picker]({{site.baseurl}}/assets/img/Tethering/Flypicker/Flypickers.jpg){:.ifr .pop}
 To move individual flies, we use so called "fly pickers". With those pen-sized devices we lift flies through suction: a weak partial vacuum inside the device holds the anesthetized fly in place without injuring them. Similar devices are used in microelectronics to place small components during PCB assembly and we have used commercial devices from this industry in the past (top image). For the "Inexpensive Treadmill" we improvised a similar device using a plastic transfer pipette, a few Luer connectors, and either a heat shrink tube (center image) or a one-way tip from a pipette (bottom image). <!-- TODO: add page and description on how to produce this -->
 
 

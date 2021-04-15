@@ -3,6 +3,7 @@ title: Tethering
 has_children: true
 has_toc: false
 nav_order: 20
+permalink: /tether
 ---
 
 # Tethering
@@ -27,9 +28,20 @@ Cylindrical shapes are used to hold the cold-anesthesized animal in place during
 [![Tether with small tip and robot mount]({{site.baseurl}}/assets/img/Tethering/Tether_mount/Tether_holder_cone_tip-0.07.png){:.ifr}]({{site.baseurl}}/tether/tethers)
 Different materials are used for tethering flies. Here we show some desings that can be 3D printed, link to commercially available solutions, and the adapters between these solutions.
 
-
-## [Flyplate]({{site.baseurl}}/tether/flyplate)
+## [MicroManipulator]({{site.baseurl}}/tether/micromanipulator)
 {:.clear}
 
-[![Fly Plate 5 machined]({{site.baseurl}}/assets/img/Tethering/Flyplate/Flyplate5.png){:.ifr}]({{site.baseurl}}/tether/flyplate)
-The flyplate is used in electrophysiology and imaging experiments. The fly head is glued to the plate, which allows dissecting and imaging in head-fixed experiments.
+[![MicroManipualtor]({{site.baseurl}}/assets/img/Handling/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
+A three-axis linear stage that we use in the experimental setup as well as the tethering station. In the experimental setup, we use it to place a body fixated fly on a spherical treadmill, in the tethering station we use it attache the tether to the fly's thorax.
+
+## [Funnels]({{site.baseurl}}/tether/funnels)
+{:.clear}
+
+[![Funnel redesign]({{site.baseurl}}/assets/img/Handling/Funnels/Funnel_fly-vial-to-12mm-tube.png){:.ifr}]({{site.baseurl}}/tether/funnels)
+Funnels help in moving flies between bottles, vials, and test tubes.
+
+## [Adapters]({{site.baseurl}}/handling/adapter)
+{:.clear}
+
+[![Adapter plates]({{site.baseurl}}/assets/img/Handling/Adapter_metric-imperial_manipulator/Adapter_metric-imperial_micro-manipulator_bottom.png){:.ifr}]({{site.baseurl}}/handling/adapter)
+Some basic files that help adapting between different "things" – for example a specific metrical component to an imperical setup.
