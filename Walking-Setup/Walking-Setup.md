@@ -32,9 +32,3 @@ Optical tracking of spherical treadmills, for example through [FicTrac](https://
 
 [![Manipulator Stand]({{site.baseurl}}/assets/img/Walking-Setup/Stands/Stand_Treadmill_Sphere_Holder.png){: .ifr}]({{site.baseurl}}/walking/stands)
 To assemble different components at specific locations, we use different stands. For example we designed simple but stable stands for the camera, for Micromanipulators, and for the sphere holder.
-
-## [Wells]({{site.baseurl}}/walking/wells)
-{:.clear}
-
-[![Square Wells]({{site.baseurl}}/assets/img/Walking-Setup/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr}]({{site.baseurl}}/walking/wells)
-Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking. 

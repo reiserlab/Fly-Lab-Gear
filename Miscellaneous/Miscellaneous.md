@@ -95,3 +95,9 @@ A two-way adapter between to specific connectors that we needed for a prototype.
 
 [![Tablet holder]({{site.baseurl}}/assets/img/Miscellaneous/Holder_Tablet/Holder_Tablet.png){:.ifr}]({{site.baseurl}}/miscellaneous/tablet-holder)
 Model of a tablet holder, used for visualization.
+
+## [Wells]({{site.baseurl}}/miscellaneous/wells)
+{:.clear}
+
+[![Square Wells]({{site.baseurl}}/assets/img/Miscellaneous/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr}]({{site.baseurl}}/miscellaneous/wells)
+Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking. 

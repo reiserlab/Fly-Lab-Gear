@@ -1,6 +1,6 @@
 ---
 title: Flyplate
-parent: Physiology-Setup
+parent: Physiology Setup
 permalink: /physiology/flyplate
 nav_order: 4
 ---

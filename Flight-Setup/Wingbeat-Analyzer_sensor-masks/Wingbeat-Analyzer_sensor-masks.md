@@ -1,16 +1,16 @@
 ---
 title: Masks Wingbeat Analyzer
-parent: Walking Setup
-permalink: /walking/wba-masks
+parent: Flight Setup
+permalink: /flight/wba-masks
 nav_order: 6
 ---
 
 # Sensor masks for the Wingbeat Analyzer
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Walking-Setup/Wingbeat-Analyzer_sensor-masks){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Flight-Setup/Wingbeat-Analyzer_sensor-masks){:.ifr}
 Different designs tested as possible masks for the sensor of the Wingbeat Analyzer.
 
-![Sphere holder]({{site.baseurl}}/assets/img/Walking-Setup/Wingbeat-Analyzer_sensor-masks/Wingbeat-Analyzer_sensor-masks.png){: .ifr .pop}
+![Sphere holder]({{site.baseurl}}/assets/img/Flight-Setup/Wingbeat-Analyzer_sensor-masks/Wingbeat-Analyzer_sensor-masks.png){: .ifr .pop}
 `Wingbeat-Analyzer_sensor-masks.svg`: In our setup, the optical wingbeat analyzer has a circular filter. In addition, to achieve an optimal shape of the shadow cast on the sensors, we use a mask. This file contains different shapes that we tested and that have different properties for the resulting measurements. These masks are laser-cut from opaque acrylic.
 
 ## Source
