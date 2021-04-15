@@ -7,7 +7,7 @@ nav_order: 2
 
 # Holder for Fly Treadmill
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Walking-Setup/Treadmill_Sphere_Holder){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Walking-Setup/Treadmill_Sphere_Holder){:.ifr}
 All versions of the "Treadmill Sphere Holder" need to be printed on a high density printer to avoid air leaks. This worked well on a Connex printer (see [production]({{site.baseurl}}/production)). Alternatively we printed it at normal density using ABS and the post-processed it by applying acetone to the outer layer of the sphere holder. At the moment we only have the design files in a proprietary format. We started converting it to FreeCAD, but at the moment they are not particularly easy to modify.
 
 ![Sphere holder]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_180deg.png){: .ifr .pop}

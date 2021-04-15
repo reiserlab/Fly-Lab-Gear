@@ -7,7 +7,7 @@ nav_order: 1
 
 # Scale bar
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Scale-Bar){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Scale-Bar){:.ifr}
 A FreeCAD model of a scale bar that can be embedded in other assemblies to signify the size.
 
 ![Model of a 20mm scale bar]({{site.baseurl}}/assets/img/Miscellaneous/Scale-Bar/Scale-Bar.png){: .ifr .pop}

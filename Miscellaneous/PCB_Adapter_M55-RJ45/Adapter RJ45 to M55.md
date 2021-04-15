@@ -7,7 +7,7 @@ nav_order: 13
 
 # PCB
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Holder_Tablet){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Holder_Tablet){:.ifr}
 For prototyping we needed an adapter from an RJ45 connector (standard network) to an [Harwin Archer M55](https://www.harwin.com/products/M55-6002042R/) with a specific mapping. This is the custom PCB for it.
 
 ## M55-RJ45 converter

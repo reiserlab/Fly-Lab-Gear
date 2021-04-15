@@ -7,7 +7,7 @@ nav_order: 10
 
 # Spheres
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Spheres){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Spheres){:.ifr}
 For the spherical treadmill we experimented with different spheres and sphere helpers.
 
 ![Magnet holder]({{site.baseurl}}/assets/img/Miscellaneous/Spheres/Magnet-Holder_1pc.png){:.ifr .pop}

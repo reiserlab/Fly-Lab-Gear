@@ -7,7 +7,7 @@ nav_order: 1
 
 # Inexpensive Treadmill Assembly
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Walking-Setup/Inexpensive-Treadmill_Assembly){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Walking-Setup/Inexpensive-Treadmill_Assembly){:.ifr}
 This project folder contains an assembly of components. It uses the [Assembly4 workbench](https://wiki.freecadweb.org/Assembly4_Workbench) in FreeCAD.
 
 ![Baseplate model]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.png){: .ifr .pop}

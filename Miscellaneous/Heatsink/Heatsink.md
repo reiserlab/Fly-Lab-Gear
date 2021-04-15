@@ -7,7 +7,7 @@ nav_order: 5
 
 # Heatsink
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Heatsink){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Heatsink){:.ifr}
 For the tethering stage we use a [readily available](https://www.adafruit.com/product/1335) combination of a heatsink with a fan and Peltier element. The files here are preliminary models of these components and might get used in 3D assemblies.
 
 ![Model of the Fan casing]({{site.baseurl}}/assets/img/Miscellaneous/Heatsink/Fan.png){: .ifr .pop}

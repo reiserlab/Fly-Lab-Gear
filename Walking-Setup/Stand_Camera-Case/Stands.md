@@ -7,7 +7,7 @@ nav_order: 4
 
 ## Stand Camera case
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Walking-Setup/Stand_Camera-Case){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Walking-Setup/Stand_Camera-Case){:.ifr}
 This stand fits a camera case we used to replace a broken PS3 Eye case.
 
 ![Camera Stand]({{site.baseurl}}/assets/img/Walking-Setup/Stands/Stand_Camera-Case.png){: .ifr .pop}
@@ -17,7 +17,7 @@ This stand fits a camera case we used to replace a broken PS3 Eye case.
 ## Stand Micromanipulator
 {:.clear}
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Walking-Setup/Stand_MicroManipulator){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Walking-Setup/Stand_MicroManipulator){:.ifr}
 This stand fits the MicroManipulator. It can be used in the experimental setup as well as the Tethering Station.
 
 ![Manipulator Stand]({{site.baseurl}}/assets/img/Walking-Setup/Stands/Stand_MicroManipulator.png){: .ifr .pop}
@@ -26,7 +26,7 @@ This stand fits the MicroManipulator. It can be used in the experimental setup a
 ## Stand Sphere Holder
 {:.clear}
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Walking-Setup/Stand_Treadmill_Sphere_Holder){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Walking-Setup/Stand_Treadmill_Sphere_Holder){:.ifr}
 The stand for our models of the treadmill's sphere holder.
 
 ![Manipulator Stand]({{site.baseurl}}/assets/img/Walking-Setup/Stands/Stand_Treadmill_Sphere_Holder.png){: .ifr .pop}

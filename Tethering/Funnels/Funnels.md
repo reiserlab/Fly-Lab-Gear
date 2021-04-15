@@ -7,7 +7,7 @@ nav_order: 5
 
 # Funnels
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Tethering/Funnels){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Tethering/Funnels){:.ifr}
 Funnels that help moving flies from one vial to another.
 
 ![Funnel 1]({{site.baseurl}}/assets/img/Tethering/Funnels/Adapter_fly-vials-01.png){:.ifr .pop}

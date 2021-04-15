@@ -7,7 +7,7 @@ nav_order: 8
 
 # Baseplate
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Baseplate){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Baseplate){:.ifr}
 The Baseplate is the basis for the experimental setup. We are using this as a replacement for a 12"×12" Breadboard, such as the [Thorlabs MB12](https://www.thorlabs.com/thorproduct.cfm?partnumber=MB12). We lasercut our baseplate from acrylic, for example [1/4" cast acrylic](https://www.mcmaster.com/8505K754-8505K913/). This reduces the material cost to less than 10%. The weight is also drastically reduced. When laser-cutting the holes, they are not threaded. This allows easier friction mount (see lamp posts and different stands), but for more stable fixations a counter nut is required.
 
 ![Baseplate model]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate.png){: .ifr .pop}

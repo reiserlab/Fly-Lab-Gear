@@ -7,7 +7,7 @@ nav_order: 15
 
 # Quadratic wells
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Design/tree/main/Miscellaneous/Square_wells_90mm){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Square_wells_90mm){:.ifr}
 These wells were intended for individual optogentic experiments. The `.svg` files can be used to laser-cut the wells from acrylic.
 
 ![Square Wells]({{site.baseurl}}/assets/img/Miscellaneous/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr .pop}
