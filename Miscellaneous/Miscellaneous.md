@@ -7,7 +7,7 @@ nav_order: 60
 
 # Miscellaneous
 
-These files are not necessarily parts to be used and produced, but placeholders in constructions and assemblies. This could be a model of the tablet, a camera, or the scale bar.
+These files are either models of existing hardware that we use for visualization, or some supporting components that can be used in different contexts. This could be a model of the tablet, a camera, or the scale bar, but also three-axis manipulators or cases for MCUs.
 
 ## [Scale bar]({{site.baseurl}}/miscellaneous/scale-bar)
 {:.clear}
