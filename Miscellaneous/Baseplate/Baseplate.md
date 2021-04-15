@@ -13,7 +13,7 @@ The Baseplate is the basis for the experimental setup. We are using this as a re
 ![Baseplate model]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate.png){: .ifr .pop}
 `Baseplate.FCStd`: The FreeCAD 3D model of the baseplate. This is a 11"×12" grid (because we accidentally cut off one row in our first example) with 6.3mm holes. The material is 8mm thick. This file can be used to represent the baseplate in a model or to export the sketch as a laser cutting file.
 
-![]({{site.baseurl}}/assets/Miscellaneous/Baseplate/Baseplate_sketch.png){:.ifr .pop}
+![]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate_sketch.png){:.ifr .pop}
 `baseplate_sketch.svg`: A vector graphics file that can be used to laser cut the baseplate. If you open the file in Inkscape, it has different layers for only cutting the holes, the outer edges, or both. If you don't have a laser cutter, you can print this file and use it as a blueprint when drilling holes in your base material.
 {:.clear}
 
