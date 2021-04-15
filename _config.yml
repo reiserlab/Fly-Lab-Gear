@@ -38,14 +38,14 @@ color_scheme: "components"
 kramdown:
   toc_levels: "1,2"
 
-relative_links:
-  enabled: true
+# relative_links:
+#   enabled: true
 
 
 
-exclude: [
-  # Placeholder
-]
+# exclude: [
+#   # Placeholder
+# ]
 
 
 #plugins:
