@@ -50,6 +50,7 @@
                     panels.add(bar);
                 }
                 scene.add( panels );
+                window.addEventListener( 'resize', onResize );
             };
 
             const animate = function () {
@@ -60,6 +61,13 @@
                 panels.rotation.y += 0.01 * direction;
                 renderer.render( scene, camera );
             };
+
+            const onResize = function() {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+            };
+
 
           </script>
     </body>
