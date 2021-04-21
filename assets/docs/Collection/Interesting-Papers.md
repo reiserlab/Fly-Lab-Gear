@@ -3,11 +3,16 @@ title: Interesting Publications
 parent: Collections
 permalink: /interesting-publications
 nav_order: 99
+has_toc: true
 ---
 
-# Interesting Publications
 
-This is a list of potentially interesting, but not necessarily directly related publications.
+This is a list of potentially interesting, but not necessarily directly related publications. [Get in contact](/contact) if you think something is missing.
+
+* TOC 
+{:toc}
+
+---
 
 ## [A new type of spherical flexure joint based on tetrahedron elements](https://doi.org/10.1016/j.precisioneng.2021.03.002)
 
