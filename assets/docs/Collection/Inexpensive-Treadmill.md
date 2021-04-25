@@ -22,5 +22,16 @@ For the experiments in the "Inexpensive Treadmill" manuscript, we used *Drosophi
 ![Different suction fly picker]({{site.baseurl}}/assets/img/Tethering/Flypicker/Flypickers.jpg){:.ifr .pop}
 To move individual flies, we use so called "fly pickers". With those pen-sized devices we lift flies through suction: a weak partial vacuum inside the device holds the anesthetized fly in place without injuring them. Similar devices are used in microelectronics to place small components during PCB assembly and we have used commercial devices from this industry in the past (top image). For the "Inexpensive Treadmill" we improvised a similar device using a plastic transfer pipette, a few Luer connectors, and either a heat shrink tube (center image) or a one-way tip from a pipette (bottom image). <!-- TODO: add page and description on how to produce this -->
 
-
 ## Tethering Station
+
+We use chill coma to immobilize flies during body-fixation. For the inexpensive treadmill setup, we use an air cooled heat sink with a fan that cools down a small Peltier element. On top of the peltier element we have a cooling plate. A blunt tip dispensing needle, which acts as a tether, is positioned on the thorax of the fly with a micromanipulator.
+
+### Cooling plate with sarcophagi
+
+![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr .pop}
+During tethering flies are held in an upright position by the cylindrical shape of a "sarcophagus". Our current design of the cooling plate has room for 15 different sarcophagi for different insect body sizes and with more or less 3D printed material between the Peltier element and the insect.
+
+### Hand rest
+
+![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr .pop}
+All elements of the tethering station are held in place by the hand rest. This part is optional and laser-cut from a sheet of acrylic.
