@@ -8,7 +8,7 @@ nav_order: 1
 # Inexpensive Treadmill
 
 ![Title page of manuscript]({{site.baseurl}}/assets/img/Collection/title.png){:.ifr .pop}
-"An inexpensive, high-precision, modular spherical treadmill setup optimized for *Drosophila* experiments" is a manuscript Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)". We developed a range of new components for this "Inexpensive Treadmill" submission. In this collection we name the components used in the manuscript, refer to their detailed pages, and add information that are outside the scope of a scientific publication.
+"An inexpensive, high-precision, modular spherical treadmill setup optimized for *Drosophila* experiments" is a manuscript Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)" ([bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2021.04.29.442008v1) at <https://doi.org/10.1101/2021.04.29.442008>). We developed a range of new components for this "Inexpensive Treadmill" submission. In this collection we name the components used in the manuscript, refer to their detailed pages, and add information that are outside the scope of a scientific publication.
 
 ## Fly Handling
 
@@ -31,7 +31,12 @@ We use chill coma to immobilize flies during body-fixation. For the inexpensive 
 ![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr .pop}
 During tethering flies are held in an upright position by the cylindrical shape of a "sarcophagus". Our current design of the cooling plate has room for 15 different sarcophagi for different insect body sizes and with more or less 3D printed material between the Peltier element and the insect.
 
+### Micro Manipulator
+
+![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}
+The blunt tip dispensing needle, aka tether, needs to be placed on the fly's thorax at high precision. We achieve fine-graind translational movement of the tether in three dimensions through a 3-axis micro manipulator.
+
 ### Hand rest
 
 ![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr .pop}
-All elements of the tethering station are held in place by the hand rest. This part is optional and laser-cut from a sheet of acrylic.
+All elements of the tethering station are held in place by the hand rest. This part is the fancy version of sloping the heat sink by unscrewing two of the screws. It is optional and laser-cut from an acrylic sheet.
