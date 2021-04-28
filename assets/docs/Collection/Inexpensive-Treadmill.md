@@ -34,9 +34,48 @@ During tethering flies are held in an upright position by the cylindrical shape 
 ### Micro Manipulator
 
 ![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}
-The blunt tip dispensing needle, aka tether, needs to be placed on the fly's thorax at high precision. We achieve fine-graind translational movement of the tether in three dimensions through a 3-axis micro manipulator.
+The blunt tip dispensing needle, aka tether, needs to be placed on the fly's thorax at high precision. We achieve fine-grained translational movement of the tether in three dimensions through a 3-axis micro manipulator.
 
 ### Hand rest
 
 ![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr .pop}
 All elements of the tethering station are held in place by the hand rest. This part is the fancy version of sloping the heat sink by unscrewing two of the screws. It is optional and laser-cut from an acrylic sheet.
+
+## Experimental setup
+
+The experimental setup consists of several components. In this modular setup, each of the components can be exchanged with another part without impairing the performance of the system.
+
+### Baseplate
+
+![Baseplate model]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate.png){: .ifr .pop}
+We laser-cut our own baseplate from an acrylic sheet. That is less expensive, lighter, and provides more flexibility.
+
+### Treadmill
+
+![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png){: .ifr .pop}
+The Treadmill itself is sphere floating on an air stream. The 3D printed sphere holder keeps the sphere in place. 
+
+### Camera
+
+![Model of the PS3 Eye camera]({{site.baseurl}}/assets/img/Miscellaneous/PS3-Eye/PS3-Eye.png){: .ifr .pop}
+The camera based rotation tracking with the software [FicTrac](https://github.com/rjdmoore/fictrac) is robust. It requires a camera with low resolution but high frame rates. In our setup we modified a Playstation 3 Eye camera to work with near infrared (NIR) illumination and at >180fps.
+
+### Illumination
+
+![Set of lamps]({{site.baseurl}}/assets/img/Walking-Setup/Lamp_LED_5mm/illumination-lamps.png){:.ifr .pop}
+We use 5mm LEDs in the NIR spectrum. To avoid light pollution and improve light placement, we 3D printed light shades.
+
+### Micro Manipulator
+
+![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}
+To position the tethered fly on the spherical treadmill, we use the same type of micro manipulator as for the tethering procedure.
+
+### Display
+
+![Model of a 7" tablet]({{site.baseurl}}/assets/img/Miscellaneous/Tablet/FireTablet.png){: .ifr .pop}
+In our setup, we use an inexpensive 7" tablet for stimulus presentation. We developed a client-server software "FlyFlix" to stream stimuli to a client in the tablet's web browser. 
+
+### Heat pad
+
+![Heating plate]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Heating-Base.png){:.ifr .pop}
+With a circular heat pad we control the environment of the experiment, namely the temperature. 
