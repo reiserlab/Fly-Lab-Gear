@@ -26,19 +26,19 @@ To move individual flies, we use so called "fly pickers". With those pen-sized d
 
 We use chill coma to immobilize flies during body-fixation. For the inexpensive treadmill setup, we use an air cooled heat sink with a fan that cools down a small Peltier element. On top of the peltier element we have a cooling plate. A blunt tip dispensing needle, which acts as a tether, is positioned on the thorax of the fly with a micromanipulator.
 
-### Cooling plate with sarcophagi
+### [Cooling plate with sarcophagi]({{site.baseurl}}/tether/sarcophagus)
 
-![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr .pop}
+[![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr}]({{site.baseurl}}/tether/sarcophagus)
 During tethering flies are held in an upright position by the cylindrical shape of a "sarcophagus". Our current design of the cooling plate has room for 15 different sarcophagi for different insect body sizes and with more or less 3D printed material between the Peltier element and the insect.
 
-### Micro Manipulator
+### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
 
-![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}
+[![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}]({{site.baseurl}}/tether/micromanipulator)
 The blunt tip dispensing needle, aka tether, needs to be placed on the fly's thorax at high precision. We achieve fine-grained translational movement of the tether in three dimensions through a 3-axis micro manipulator.
 
-### Hand rest
+### [Hand rest]({{site.baseurl}}/tether/station)
 
-![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr .pop}
+[![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr .pop}]({{site.baseurl}}/tether/station)
 All elements of the tethering station are held in place by the hand rest. This part is the fancy version of sloping the heat sink by unscrewing two of the screws. It is optional and laser-cut from an acrylic sheet.
 
 ## Experimental setup
