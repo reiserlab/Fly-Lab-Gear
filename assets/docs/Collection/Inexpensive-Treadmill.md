@@ -47,17 +47,17 @@ The experimental setup consists of several components. In this modular setup, ea
 
 ### [Baseplate]({{site.baseurl}}/miscellaneous/baseplate)
 
-![Baseplate model]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate.png){: .ifr .pop}
+[![Baseplate model]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate.png){: .ifr}]({{site.baseurl}}/miscellaneous/baseplate)
 We laser-cut our own baseplate from an acrylic sheet. That is less expensive, lighter, and provides more flexibility.
 
-### Treadmill
+### [Treadmill]({{site.baseurl}}/walking/sphere-holder)
 
-![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png){: .ifr .pop}
+[![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png){: .ifr}]({{site.baseurl}}/walking/sphere-holder)
 The Treadmill itself is sphere floating on an air stream. The 3D printed sphere holder keeps the sphere in place. 
 
-### Camera
+### [Camera]({{site.baseurl}}/miscellaneous/ps3-eye)
 
-![Model of the PS3 Eye camera]({{site.baseurl}}/assets/img/Miscellaneous/PS3-Eye/PS3-Eye.png){: .ifr .pop}
+[![Model of the PS3 Eye camera]({{site.baseurl}}/assets/img/Miscellaneous/PS3-Eye/PS3-Eye.png){: .ifr}]({{site.baseurl}}/miscellaneous/ps3-eye)
 The camera based rotation tracking with the software [FicTrac](https://github.com/rjdmoore/fictrac) is robust. It requires a camera with low resolution but high frame rates. In our setup we modified a Playstation 3 Eye camera to work with near infrared (NIR) illumination and at >180fps.
 
 ### Illumination
