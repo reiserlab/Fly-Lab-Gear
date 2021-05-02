@@ -33,19 +33,19 @@ During tethering flies are held in an upright position by the cylindrical shape 
 
 ### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
 
-[![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}]({{site.baseurl}}/tether/micromanipulator)
+[![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
 The blunt tip dispensing needle, aka tether, needs to be placed on the fly's thorax at high precision. We achieve fine-grained translational movement of the tether in three dimensions through a 3-axis micro manipulator.
 
 ### [Hand rest]({{site.baseurl}}/tether/station)
 
-[![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr .pop}]({{site.baseurl}}/tether/station)
+[![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr}]({{site.baseurl}}/tether/station)
 All elements of the tethering station are held in place by the hand rest. This part is the fancy version of sloping the heat sink by unscrewing two of the screws. It is optional and laser-cut from an acrylic sheet.
 
 ## Experimental setup
 
 The experimental setup consists of several components. In this modular setup, each of the components can be exchanged with another part without impairing the performance of the system.
 
-### Baseplate
+### [Baseplate]({{site.baseurl}}/miscellaneous/baseplate)
 
 ![Baseplate model]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Baseplate.png){: .ifr .pop}
 We laser-cut our own baseplate from an acrylic sheet. That is less expensive, lighter, and provides more flexibility.
