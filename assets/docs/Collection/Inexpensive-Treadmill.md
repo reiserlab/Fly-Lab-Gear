@@ -60,14 +60,14 @@ The Treadmill itself is sphere floating on an air stream. The 3D printed sphere 
 [![Model of the PS3 Eye camera]({{site.baseurl}}/assets/img/Miscellaneous/PS3-Eye/PS3-Eye.png){: .ifr}]({{site.baseurl}}/miscellaneous/ps3-eye)
 The camera based rotation tracking with the software [FicTrac](https://github.com/rjdmoore/fictrac) is robust. It requires a camera with low resolution but high frame rates. In our setup we modified a Playstation 3 Eye camera to work with near infrared (NIR) illumination and at >180fps.
 
-### Illumination
+### [Illumination]({{site.baseurl}}/walking/illumination)
 
-![Set of lamps]({{site.baseurl}}/assets/img/Walking-Setup/Lamp_LED_5mm/illumination-lamps.png){:.ifr .pop}
+[![Set of lamps]({{site.baseurl}}/assets/img/Walking-Setup/Lamp_LED_5mm/illumination-lamps.png){:.ifr}]({{site.baseurl}}/walking/illumination)
 We use 5mm LEDs in the NIR spectrum. To avoid light pollution and improve light placement, we 3D printed light shades.
 
-### Micro Manipulator
+### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
 
-![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr .pop}
+[![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
 To position the tethered fly on the spherical treadmill, we use the same type of micro manipulator as for the tethering procedure.
 
 ### Display
