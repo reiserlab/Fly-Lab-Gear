@@ -70,12 +70,12 @@ We use 5mm LEDs in the NIR spectrum. To avoid light pollution and improve light 
 [![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
 To position the tethered fly on the spherical treadmill, we use the same type of micro manipulator as for the tethering procedure.
 
-### Display
+### [Display]({{site.baseurl}}/miscellaneous/tablet)
 
-![Model of a 7" tablet]({{site.baseurl}}/assets/img/Miscellaneous/Tablet/FireTablet.png){: .ifr .pop}
-In our setup, we use an inexpensive 7" tablet for stimulus presentation. We developed a client-server software "FlyFlix" to stream stimuli to a client in the tablet's web browser. 
+[![Model of a 7" tablet]({{site.baseurl}}/assets/img/Miscellaneous/Tablet/FireTablet.png){: .ifr}]({{site.baseurl}}/miscellaneous/tablet)
+In our setup, we use an inexpensive 7" tablet for stimulus presentation. We developed a client-server software "FlyFlix" to stream stimuli to a client in the tablet's web browser.
 
-### Heat pad
+### [Heat pad]({{site.baseurl}}/miscellaneous/baseplate)
 
-![Heating plate]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Heating-Base.png){:.ifr .pop}
-With a circular heat pad we control the environment of the experiment, namely the temperature. 
+[![Heating plate]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Heating-Base.png){:.ifr}]({{site.baseurl}}/miscellaneous/baseplate)
+With a circular heat pad we control the environment of the experiment, namely the temperature.
