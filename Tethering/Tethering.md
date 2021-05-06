@@ -20,7 +20,7 @@ We use the tethering station in our manuscript about an [Inexpensive Treadmill s
 {:.clear}
 
 [![Sarcophagus]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr}]({{site.baseurl}}/tether/sarcophagus)
-Cylindrical shapes are used to hold the cold-anesthesized animal in place during tethering. The original design dates back to the 1970s, is very flexible, and is machined from brass. An inexpensive alternative that can be used for behavior experiments is our design of the 3D-printed Sarcophagus. Here we share both designs.
+Cylindrical shapes are used to hold the cold-anesthesized animal in place during tethering. The original design dates back to the 1960s, is very flexible, and is machined from brass. An inexpensive alternative that can be used for behavior experiments is our design of the 3D-printed Sarcophagus. Here we share both designs.
 
 ## [Tethers]({{site.baseurl}}/tether/tethers)
 {:.clear}
