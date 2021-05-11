@@ -17,3 +17,14 @@ The only thing that really needs calibration, are the settings of the virtual [C
 Another way to think about stimulus construction, is placement in 3D. For example, you could have an [inner and outer arena](05_inner_outer.html) rotating in opposing directions.
 
 While all of the above stimuli have a stationary fly / camera, you could also virtually [move the fly ](08_obstacles.html).
+
+Here again the (same) demos as a list:
+
+1. [10° bars rotating](01_rotation.html)
+1. [different contrasts](02_contrast.html)
+1. [different colors](03_colors.html)
+1. [moving in different directions](04_colors_movement.html)
+1. [position and modify the bar](07_bar.html)
+1. [Camera](06_Camera.html)
+1. [inner and outer arena](05_inner_outer.html)
+1. [move the fly ](08_obstacles.html)
