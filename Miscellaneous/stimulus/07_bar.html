@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inexpensive Treadmill Visual stimulus demo</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body { margin: 0; }
+            #overlay {position: absolute;font-size: 16px;z-index: 2;top: 0;left: 0;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;background: rgba(0,0,0,0.7);}
+            #overlay button {background: transparent;border: 0;border: 1px solid rgb(255, 255, 255);border-radius: 4px;color: #ffffff;padding: 12px 18px;text-transform: uppercase;cursor: pointer;}
+
+		</style>
+	</head>
+	<body>
+        <div id="overlay">
+			<button id="startButton">Start Virtual Arena</button>
+		</div>
+        <script type="module">
+
+            import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
+            import { DeviceOrientationControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/DeviceOrientationControls.js';
+            import {GUI} from 'https://unpkg.com/three@0.127.0/examples/jsm/libs/dat.gui.module.js';
+
+            let camera, scene, renderer, controls, panels;
+            let counter = 0;
+            let direction = 1;
+            const params = {color: 0x00ff00};
+
+            const startButton = document.getElementById( 'startButton' );
+            startButton.addEventListener( 'click', function () {
+                init();
+                animate();
+            } );
+
+            const init = function() {
+                const overlay = document.getElementById( 'overlay' );
+                overlay.remove();
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 0.01, 2 );
+                camera.rotation.y=Math.PI/2;
+                renderer = new THREE.WebGLRenderer();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                document.body.appendChild( renderer.domElement );
+                const bangle = (10/180)*Math.PI;
+                const geometry = new THREE.CylinderBufferGeometry(0.1525, 0.1525, 0.1, 12, 1, true, 0, bangle);
+                const material = new THREE.MeshBasicMaterial( { color: params.color, side:THREE.DoubleSide } );
+                panels = new THREE.Mesh(geometry, material);
+                panels.rotation.y = 1.5*Math.PI;
+                scene.add(panels);
+                window.addEventListener( 'resize', onResize );
+                const gui = new GUI();
+                gui.addColor( params, 'color' ).onChange( function () {material.color.set( params.color );} );
+                const rotF = gui.addFolder("move right<->left")
+                rotF.add(panels.rotation, 'y', Math.PI, Math.PI*2, 0.01);
+                rotF.open();
+                const transF = gui.addFolder("move up<->down")
+                transF.add(panels.position, 'y', -0.5, 0.5, 0.01);
+                transF.open();
+                const scaleF = gui.addFolder("scale")
+                scaleF.add(panels.scale, 'x', 0.1, 10, 0.01);
+                scaleF.add(panels.scale, 'y', 0.1, 10, 0.01);
+                scaleF.open();
+                
+            };
+
+            const animate = function () {
+                counter +=1;
+                if( (counter % 500 - 250) > 0){ direction = 1; } else { direction = -1;}
+                requestAnimationFrame( animate );
+                renderer.render( scene, camera );
+            };
+
+            function updateCamera() {
+                camera.updateProjectionMatrix();
+            }
+
+            const onResize = function() {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+            };
+
+
+          </script>
+    </body>
+</html>

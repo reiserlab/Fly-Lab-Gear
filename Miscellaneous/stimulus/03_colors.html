@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inexpensive Treadmill Visual stimulus demo</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body { margin: 0; }
+            #overlay {position: absolute;font-size: 16px;z-index: 2;top: 0;left: 0;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;background: rgba(0,0,0,0.7);}
+            #overlay button {background: transparent;border: 0;border: 1px solid rgb(255, 255, 255);border-radius: 4px;color: #ffffff;padding: 12px 18px;text-transform: uppercase;cursor: pointer;}
+
+		</style>
+	</head>
+	<body>
+        <div id="overlay">
+			<button id="startButton">Start Virtual Arena</button>
+		</div>
+        <script type="module">
+
+            import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
+            import { DeviceOrientationControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/DeviceOrientationControls.js';
+
+            let camera, scene, renderer, controls, panelsA, panelsB, panelsC, panelsD, panelsE, panelsF;
+            let counter = 0;
+            let direction = 1;
+
+            const startButton = document.getElementById( 'startButton' );
+            startButton.addEventListener( 'click', function () {
+                init();
+                animate();
+            } );
+
+            const init = function() {
+                const overlay = document.getElementById( 'overlay' );
+                overlay.remove();
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 0.01, 2 );
+                camera.rotation.y=Math.PI/2;
+                renderer = new THREE.WebGLRenderer();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                document.body.appendChild( renderer.domElement );
+                const bangle = (10/180)*Math.PI;
+                const geometry = new THREE.CylinderBufferGeometry(0.1525, 0.1525, 0.1, 12, 1, true, 0, bangle);
+                panelsA = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const matn  = new THREE.MeshBasicMaterial({color: new THREE.Color(a*(1/(2*Math.PI)), 0 ,0), side: THREE.DoubleSide});
+                    const bar = new THREE.Mesh(geometry, matn);
+                    bar.rotation.y = a;
+                    panelsA.add(bar);
+                }
+                panelsA.position.y=-0.25
+                scene.add( panelsA );
+                
+                panelsB = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const matn  = new THREE.MeshBasicMaterial({color: new THREE.Color(0,a*(1/(2*Math.PI)), 0), side: THREE.DoubleSide});
+                    const bar = new THREE.Mesh(geometry, matn);
+                    bar.rotation.y = a;
+                    panelsB.add(bar);
+                }
+                panelsB.position.y = -0.15;
+                scene.add( panelsB );
+
+                panelsC = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const matn  = new THREE.MeshBasicMaterial({color: new THREE.Color(0,0,a*(1/(2*Math.PI))), side: THREE.DoubleSide});
+                    const bar = new THREE.Mesh(geometry, matn);
+                    bar.rotation.y = a;
+                    panelsC.add(bar);
+                }
+                panelsC.position.y = -0.05;
+                scene.add( panelsC );
+
+                panelsD = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const matn  = new THREE.MeshBasicMaterial({color: new THREE.Color(0,a*(1/(2*Math.PI)),a*(1/(2*Math.PI))), side: THREE.DoubleSide});
+                    const bar = new THREE.Mesh(geometry, matn);
+                    bar.rotation.y = a;
+                    panelsD.add(bar);
+                }
+                panelsD.position.y = 0.05;
+                scene.add( panelsD );
+
+                panelsE = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const matn  = new THREE.MeshBasicMaterial({color: new THREE.Color(a*(1/(2*Math.PI)),0,a*(1/(2*Math.PI))), side: THREE.DoubleSide});
+                    const bar = new THREE.Mesh(geometry, matn);
+                    bar.rotation.y = a;
+                    panelsE.add(bar);
+                }
+                panelsE.position.y = 0.15;
+                scene.add( panelsE );
+
+                panelsF = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const matn  = new THREE.MeshBasicMaterial({color: new THREE.Color(a*(1/(2*Math.PI)),a*(1/(2*Math.PI)),0), side: THREE.DoubleSide});
+                    const bar = new THREE.Mesh(geometry, matn);
+                    bar.rotation.y = a;
+                    panelsF.add(bar);
+                }
+                panelsF.position.y = 0.25;
+                scene.add( panelsF );
+
+                window.addEventListener( 'resize', onResize );
+            };
+
+            const animate = function () {
+                counter +=1;
+                // if( (counter % 500 - 250) > 0){ direction = 1; } else { direction = -1;}
+                requestAnimationFrame( animate );
+                panelsA.rotation.y += 0.01 * direction;
+                panelsB.rotation.y += 0.01 * direction;
+                panelsC.rotation.y += 0.01 * direction;
+                panelsD.rotation.y += 0.01 * direction;
+                panelsE.rotation.y += 0.01 * direction;
+                panelsF.rotation.y += 0.01 * direction;
+                renderer.render( scene, camera );
+            };
+
+            const onResize = function() {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+            };
+
+
+          </script>
+    </body>
+</html>
