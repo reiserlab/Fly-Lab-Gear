@@ -52,7 +52,7 @@
                 scene.add( panels );
                 window.addEventListener( 'resize', onResize );
                 const gui = new GUI();
-                gui.add(camera, 'zoom', 0.01, 1, 0.01).onChange(updateCamera);
+                gui.add(camera, 'zoom', 0.01, 5, 0.01).onChange(updateCamera);
                 gui.add(camera, 'fov', 1, 150).onChange(updateCamera);
             };
 
