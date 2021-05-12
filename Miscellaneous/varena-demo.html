@@ -8,19 +8,22 @@
 			body { margin: 0; }
             #overlay {position: absolute;font-size: 16px;z-index: 2;top: 0;left: 0;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;background: rgba(0,0,0,0.7);}
             #overlay button {background: transparent;border: 0;border: 1px solid rgb(255, 255, 255);border-radius: 4px;color: #ffffff;padding: 12px 18px;text-transform: uppercase;cursor: pointer;}
-
+            #blink{position:absolute; width:20px;height:20px; bottom:0; right:0;background-color:#cc0000;}
 		</style>
 	</head>
 	<body>
         <div id="overlay">
 			<button id="startButton">Start Virtual Arena</button>
 		</div>
+        <div id="blink">            
+        </div>
         <script type="module">
 
             import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
             import { DeviceOrientationControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/DeviceOrientationControls.js';
+            import Stats from 'https://unpkg.com/three@0.127.0/examples/jsm/libs/stats.module.js';
 
-            let camera, scene, renderer, controls, panels;
+            let camera, scene, renderer, controls, panels, stats;
             let counter = 0;
             let direction = 1;
 
@@ -39,6 +42,8 @@
                 renderer = new THREE.WebGLRenderer();
                 renderer.setSize( window.innerWidth, window.innerHeight );
                 document.body.appendChild( renderer.domElement );
+                stats = new Stats();
+			    document.body.appendChild( stats.dom );
 
                 const bangle = (10/180)*Math.PI;
                 const geometry = new THREE.CylinderBufferGeometry(0.1525, 0.1525, 0.6, 12, 1, true, 0, bangle);
@@ -55,9 +60,12 @@
 
             const animate = function () {
                 counter +=1;
-                if( (counter % 500 - 250) > 0){ direction = 1; } else { direction = -1;}
+                
                 requestAnimationFrame( animate );
                 controls.update();
+                stats.update();
+                if( (counter % 500 - 250) > 0){ direction = 1; } else { direction = -1;}
+                if (((counter / 10) % 2) == 0 ) {document.getElementById('blink').style.background = "#CC0000";} else if (((counter / 10) % 2) == 1 ) {document.getElementById('blink').style.background = "#000000";} 
                 panels.rotation.y += 0.01 * direction;
                 renderer.render( scene, camera );
             };
