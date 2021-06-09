@@ -10,5 +10,5 @@ With the help of [jET](https://www.janelia.org/support-team/janelia-experimental
 
 - form2: [Form 2](https://formlabs.com/3d-printers/form-2/) SLA printer, jET
 - form3: [Form 3](https://formlabs.com/3d-printers/form-3/) SLA printer, jET
-- connex: [Statsys Polyjet](https://www.stratasys.com/3d-printers/objet-260-500-connex1), jET
-- f170: [Stratsys F170](https://www.stratasys.com/3d-printers/f123), W2
+- connex: [Stratasys Polyjet](https://www.stratasys.com/3d-printers/objet-260-500-connex1), jET
+- f170: [Stratasys F170](https://www.stratasys.com/3d-printers/f123), W2
