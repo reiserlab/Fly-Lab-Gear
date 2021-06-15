@@ -104,6 +104,9 @@ fp-info-cache
 *.xml
 *.csv
 
+# CSV exception for data displayed on site
+!/_data/*.csv
+
 ### KiCad Patch ###
 rescue-backup/
 
@@ -132,5 +135,5 @@ vendor
 
 *.FCStd1
 
-# rbenv 
+# rbenv
 .ruby-version
