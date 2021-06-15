@@ -105,7 +105,7 @@ fp-info-cache
 *.csv
 
 # CSV exception for data displayed on site
-!/_data/*.csv
+!/data/*.csv
 
 ### KiCad Patch ###
 rescue-backup/
