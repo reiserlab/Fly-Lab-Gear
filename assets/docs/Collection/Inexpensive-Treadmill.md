@@ -80,24 +80,27 @@ In our setup, we use an inexpensive 7" tablet for stimulus presentation. We deve
 [![Heating plate]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Heating-Base.png){:.ifr}]({{site.baseurl}}/miscellaneous/baseplate)
 With a circular heat pad we control the environment of the experiment, namely the temperature.
 
-## Ordering components
+## Ordering Components
 
 ### Tethering Station
 
 Download tethering station table as .csv file [here]({{site.baseurl}}/assets/data/tethering_order.csv).
 
+<!-- Generates table from tethering_order.csv -->
+<!-- note: Jekyll/Liquid wants to skip identical column headings, so there's a
+space after duplicate headings in the user-friendly section -->
 
 <table>
   {% for row in site.data.tethering_order %}
     {% if forloop.first %}
     <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
+      <!-- Ignores display-unfriendly columns -->
+      {% for pair in row offset:7 %}
+          <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
     {% endif %}
-
-    {% tablerow pair in row %}
+    {% tablerow pair in row offset:7 %}
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
