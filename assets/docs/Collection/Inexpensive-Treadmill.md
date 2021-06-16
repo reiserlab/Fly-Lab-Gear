@@ -53,7 +53,7 @@ We laser-cut our own baseplate from an acrylic sheet. That is less expensive, li
 ### [Treadmill]({{site.baseurl}}/walking/sphere-holder)
 
 [![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png){: .ifr}]({{site.baseurl}}/walking/sphere-holder)
-The Treadmill itself is sphere floating on an air stream. The 3D printed sphere holder keeps the sphere in place. 
+The Treadmill itself is sphere floating on an air stream. The 3D printed sphere holder keeps the sphere in place.
 
 ### [Camera]({{site.baseurl}}/miscellaneous/ps3-eye)
 
@@ -79,3 +79,26 @@ In our setup, we use an inexpensive 7" tablet for stimulus presentation. We deve
 
 [![Heating plate]({{site.baseurl}}/assets/img/Miscellaneous/Baseplate/Heating-Base.png){:.ifr}]({{site.baseurl}}/miscellaneous/baseplate)
 With a circular heat pad we control the environment of the experiment, namely the temperature.
+
+## Ordering components
+
+### Tethering Station
+
+Download tethering station table as .csv file [here]({{site.baseurl}}/assets/data/tethering_order.csv).
+
+
+<table>
+  {% for row in site.data.tethering_order %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
