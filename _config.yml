@@ -41,9 +41,8 @@ kramdown:
 # relative_links:
 #   enabled: true
 
-# change location of data directory from /_data to /data
-# so that data is publishable
-data_source: data
+# change location of data directory from /_data to /assets/data
+data_dir: assets/data
 
 # exclude: [
 #   # Placeholder
