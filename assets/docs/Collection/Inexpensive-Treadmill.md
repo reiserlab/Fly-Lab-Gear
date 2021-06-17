@@ -88,10 +88,30 @@ Download tethering station table as .csv file [here]({{site.baseurl}}/assets/dat
 
 <!-- Generates table from tethering_order.csv -->
 <!-- note: Jekyll/Liquid wants to skip identical column headings, so there's a
-space after duplicate headings in the user-friendly section -->
+space after duplicate headings in the user-friendly section of the csv files-->
 
 <table>
   {% for row in site.data.tethering_order %}
+    {% if forloop.first %}
+    <tr>
+      <!-- Ignores display-unfriendly columns -->
+      {% for pair in row offset:7 %}
+          <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+    {% tablerow pair in row offset:7 %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+
+### Walking Setup
+
+Download walking setup table as .csv file [here]({{site.baseurl}}/assets/data/walkingsetup_order.csv).
+
+<table>
+  {% for row in site.data.walkingsetup_order %}
     {% if forloop.first %}
     <tr>
       <!-- Ignores display-unfriendly columns -->
