@@ -1,1 +1,1 @@
-For the repository's documentation refer to <https://reiserlab.github.io/Component-Designs/>. Questions and comments? [Get in contact](https://reiserlab.github.io/Component-Designs/Contact).
+For the repository's documentation refer to <https://reiserlab.github.io/Component-Designs/>. Questions and comments? [Get in contact](https://reiserlab.github.io/Component-Designs/about).

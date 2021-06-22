@@ -1,5 +1,6 @@
 ---
 title: File types and software
+parent: About
 permalink: /file-types
 nav_order: 90
 ---

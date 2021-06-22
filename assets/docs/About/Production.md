@@ -1,5 +1,6 @@
 ---
 title: Production
+parent: About
 permalink: /production
 nav_order: 95
 ---
@@ -12,3 +13,16 @@ With the help of [jET](https://www.janelia.org/support-team/janelia-experimental
 - form3: [Form 3](https://formlabs.com/3d-printers/form-3/) SLA printer, jET
 - connex: [Stratasys Polyjet](https://www.stratasys.com/3d-printers/objet-260-500-connex1), jET
 - f170: [Stratasys F170](https://www.stratasys.com/3d-printers/f123), W2
+
+## Production services
+
+We have ordered components through the following services:
+
+- [Craftcloud](https://craftcloud3d.com/): 3D-printing marketplace allows direct comparison of services for a specific model and material.
+- [Ponoko](https://www.ponoko.com/): laser cut acrylic
+
+We are also aware of the following services, which we have not verified and may or may not work. Please let us know if you have had any positive or negative experiences while working with them.
+
+- [i.materialize](https://i.materialise.com/en): 3D-printing service
+- [Shapeways](https://www.shapeways.com/): 3D-printing service
+- [Sculpteo](https://www.sculpteo.com/en/): 3D-printing service

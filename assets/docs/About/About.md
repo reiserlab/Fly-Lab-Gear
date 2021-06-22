@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Contact
-permalink: /contact
+title: About
+permalink: /about
+has_children: true
+has_toc: false
 nav_order: 99
 ---
 
@@ -15,6 +17,6 @@ If you spot mistakes in this data collection, feel free to blame it on [Frank Lo
 
 Pull requests for improvements are greatly appreciated.
 
-# This page
+# This site
 
-This page is hosted as a [github page](https://pages.github.com/). The layout uses [Just the Docs](https://github.com/pmarsceill/just-the-docs), a documentation theme for Jekyll.
+This website is hosted as a [github page](https://pages.github.com/). The layout uses [Just the Docs](https://github.com/pmarsceill/just-the-docs), a documentation theme for Jekyll.
