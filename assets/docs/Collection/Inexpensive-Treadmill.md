@@ -91,20 +91,44 @@ Download tethering station table as .csv file [here]({{site.baseurl}}/assets/dat
 space after duplicate headings in the user-friendly section of the csv files-->
 
 <table>
+  <tr>
+    <th width="10%">Quantity</th>
+    <th width="50%">Name + Description</th>
+    <th width="20%">Vendor</th>
+    <th width="20%">Note</th>
+  </tr>
+  {% for row in site.data.tethering_order %}
+  <tr>
+    <td>{{row['Quantity'] | strip }}</td>
+    {% assign url_component = row['Link to Component Page'] %}
+    <td>{% if url_component != nil %}<a href="{{ url_component | strip }}"> {% endif %}
+    <strong>{{ row.Name}}</strong>
+    {% if url_component != nil %}</a>{% endif %}
+    {% if row['Description'] != nil %}<br/>{{ row['Description'] }} {% endif %}
+    </td>
+    {% assign url_shop = row['Link to Source'] %}
+    <td><a href="{{ url_shop | strip }}">{{ url_shop | remove: 'http://' | remove: 'https://' | remove_first: 'www.' | split: '/' | first | capitalize }}</a></td>
+    <td>{{ row['Notes'] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% comment %}
+<table>
   {% for row in site.data.tethering_order %}
     {% if forloop.first %}
     <tr>
       <!-- Ignores display-unfriendly columns -->
-      {% for pair in row offset:7 %}
+      {% for pair in row offset:8 %}
           <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
     {% endif %}
-    {% tablerow pair in row offset:7 %}
+    {% tablerow pair in row offset:8 %}
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
 </table>
+{% endcomment %}
 
 ### Walking Setup
 
