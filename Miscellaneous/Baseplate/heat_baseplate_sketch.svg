@@ -7,7 +7,7 @@
    viewBox="0 0 80 80"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
    sodipodi:docname="heat_baseplate_sketch.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4823793"
-     inkscape:cx="39.463583"
-     inkscape:cy="214.18269"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="5.9295172"
+     inkscape:cx="133.14743"
+     inkscape:cy="140.98956"
+     inkscape:window-width="3836"
+     inkscape:window-height="2109"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      width="70mm" />
@@ -54,11 +54,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <circle
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    <path
        id="path31"
-       cy="40"
-       cx="40"
-       r="34.933998" />
+       style="fill:none;fill-rule:evenodd;stroke:#fc0000;stroke-width:0.005;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 74.933998,40 A 34.933998,34.933998 0 0 1 40,74.933998 34.933998,34.933998 0 0 1 5.0660019,40 34.933998,34.933998 0 0 1 40,5.0660019 34.933998,34.933998 0 0 1 74.933998,40 Z" />
   </g>
 </svg>
