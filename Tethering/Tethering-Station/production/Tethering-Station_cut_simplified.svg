@@ -6,7 +6,7 @@
    version="1.1"
    id="svg680"
    sodipodi:docname="Tethering-Station_cut_simplified.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -36,18 +36,18 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="3836"
+     inkscape:window-height="2109"
      id="namedview682"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="290.26733"
-     inkscape:cy="940.09847"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="1"
+     inkscape:cx="-47.5"
+     inkscape:cy="560"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg680"
      inkscape:document-rotation="0"
@@ -58,7 +58,7 @@
      inkscape:pagecheckerboard="0" />
   <g
      id="g1620"
-     transform="rotate(-39.958568,201.97758,353.1371)"
+     transform="rotate(-39.958568,195.34991,374.37327)"
      style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
     <path
        id="Shape2DView003_nwe0000"
@@ -324,400 +324,396 @@
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
-     id="g3073"
-     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     transform="rotate(-90,91.369585,13.829163)">
-    <path
-       id="Shape2DView004_nwe0000"
-       d="M 11.632307,79.61047 2.602796,28.40157"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0001"
-       d="m 11.632307,79.61047 a 2.03085,2.03085 0 0 0 1.999989,1.67824"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0002"
-       d="M 2.602796,28.40157 H 8.1351738"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0003"
-       d="m 16.632307,81.28867 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0005"
-       d="m 16.632307,81.28867 a 2.03085,2.03085 0 0 0 1.999989,-1.67796"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0006"
-       d="m 82.129441,28.40157 h 5.532378"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0007"
-       d="m 87.661819,28.40157 -9.029512,51.2089"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0008"
-       d="m 76.632307,81.28867 a 2.03085,2.03085 0 0 0 1.999989,-1.67796"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0009"
-       d="m 76.632307,81.28867 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0010"
-       d="m 71.632307,79.61047 a 2.03085,2.03085 0 0 0 1.999989,1.67824"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0011"
-       d="M 71.632307,79.61047 63.780343,35.07977"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0012"
-       d="M 63.780343,35.07977 A 2.03085,2.03085 0 0 0 61.780296,33.40171"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0013"
-       d="M 61.780343,33.40157 H 28.484272"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0014"
-       d="m 28.484272,33.40157 a 2.03085,2.03085 0 0 0 -1.999976,1.67814"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0015"
-       d="m 26.484272,35.07977 -7.851965,44.5307"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0016"
-       d="M 18.335174,28.40157 H 8.1351738"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0018"
-       d="M 18.335174,28.40157 H 29.39993"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0019"
-       d="m 29.39993,28.40157 v -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0020"
-       d="m 39.59993,25.40157 h -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0021"
-       d="m 39.59993,28.40157 v -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0022"
-       d="M 39.59993,28.40157 H 50.664685"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0023"
-       d="m 50.664685,28.40157 v -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0024"
-       d="m 60.864685,25.40157 h -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0025"
-       d="m 60.864685,28.40157 v -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0026"
-       d="M 60.864685,28.40157 H 71.929441"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView004_nwe0028"
-       d="m 82.129441,28.40157 h -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="rect2076"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       d="m 13.632307,53.535652 h 2.753016 v 27.753016 h -2.753016 z" />
-    <path
-       id="rect2076-0"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       d="m 73.632294,53.535694 h 2.753015 V 81.28871 h -2.753015 z" />
+     id="g11661">
+    <g
+       id="g12471"
+       transform="translate(-14.683341,17.126603)">
+      <path
+         id="Shape2DView004_nwe0000"
+         d="m 157.15089,93.585625 -51.2089,9.029515"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0001"
+         d="m 157.15089,93.585625 a 2.03085,2.03085 0 0 0 1.67824,-1.999989"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0002"
+         d="M 105.94199,102.61514 V 97.082758"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0003"
+         d="m 158.82909,88.585625 v 0.246984"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="Shape2DView004_nwe0005"
+         d="m 158.82909,88.585625 a 2.03085,2.03085 0 0 0 -1.67796,-1.999989"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0006"
+         d="M 105.94199,23.088491 V 17.556113"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0007"
+         d="m 105.94199,17.556113 51.2089,9.029512"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0008"
+         d="m 158.82909,28.585625 a 2.03085,2.03085 0 0 0 -1.67796,-1.999989"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0009"
+         d="m 158.82909,28.585625 v 0.251484"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="Shape2DView004_nwe0010"
+         d="m 157.15089,33.585625 a 2.03085,2.03085 0 0 0 1.67824,-1.999989"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0011"
+         d="m 157.15089,33.585625 -44.5307,7.851964"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0012"
+         d="m 112.62019,41.437589 a 2.03085,2.03085 0 0 0 -1.67806,2.000047"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0013"
+         d="M 110.94199,43.437589 V 76.73366"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0014"
+         d="m 110.94199,76.73366 a 2.03085,2.03085 0 0 0 1.67814,1.999976"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0015"
+         d="m 112.62019,78.73366 44.5307,7.851965"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0016"
+         d="m 105.94199,86.882758 v 10.2"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0018"
+         d="M 105.94199,86.882758 V 75.818002"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0019"
+         d="m 105.94199,75.818002 h -3"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0020"
+         d="m 102.94199,65.618002 v 10.2"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0021"
+         d="m 105.94199,65.618002 h -3"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0022"
+         d="M 105.94199,65.618002 V 54.553247"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0023"
+         d="m 105.94199,54.553247 h -3"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0024"
+         d="m 102.94199,44.353247 v 10.2"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0025"
+         d="m 105.94199,44.353247 h -3"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0026"
+         d="M 105.94199,44.353247 V 33.288491"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="Shape2DView004_nwe0028"
+         d="m 105.94199,23.088491 v 10.2"
+         stroke="#191919"
+         stroke-width="0.35 px"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="rect2076"
+         style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m 158.82909,91.585625 h -27.75302 v -2.753016 h 27.75302"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="rect2076-0"
+         style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m 158.82913,31.585638 h -27.75301 v -2.753015 h 27.75301"
+         sodipodi:nodetypes="cccc" />
+    </g>
   </g>
   <g
-     id="g3043"
-     transform="translate(106.65672,-4.99535)"
-     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+     id="g12441"
+     transform="translate(-23.977348,-39.97268)">
     <path
        id="Shape2DView002_nwe0003"
-       d="m 61.602796,189.94927 v 86.3394"
+       d="m 173.71105,227.37854 v 86.3394"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0004"
-       d="m 54.602796,182.94927 a 7,7 0 0 1 7,7.00044"
+       d="m 166.71105,220.37854 a 7,7 0 0 1 7,7.00044"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0005"
-       d="m 9.602796,182.94927 h 45"
+       d="m 121.71105,220.37854 h 45"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0006"
-       d="m 9.602796,182.94927 a 7,7 0 0 1 -7,-6.99956"
+       d="m 121.71105,220.37854 a 7,7 0 0 1 -7,-6.99956"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0007"
-       d="m 2.602796,130.94927 v 45"
+       d="m 114.71105,168.37854 v 45"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0008"
-       d="m 2.602796,130.94927 a 7,7 0 0 1 7,-6.99956"
+       d="m 114.71105,168.37854 a 7,7 0 0 1 7,-6.99956"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0009"
-       d="m 54.602796,123.94927 h -45"
+       d="m 166.71105,161.37854 h -45"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0010"
-       d="m 61.602796,116.94927 a 7,7 0 0 1 -7,7.00044"
+       d="m 173.71105,154.37854 a 7,7 0 0 1 -7,7.00044"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0011"
-       d="m 61.602796,91.28867 v 25.6606"
+       d="m 173.71105,128.71794 v 25.6606"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0012"
-       d="m 75.552796,91.28867 h -13.95"
+       d="m 187.66105,128.71794 h -13.95"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0016"
-       d="M 80.35693,91.288665 H 74.378"
+       d="m 192.46518,128.71793 h -5.97893"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0023"
-       d="M 135.5528,91.28867 H 78.652796"
+       d="m 247.66105,128.71794 h -56.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0030"
-       d="m 140.53076,91.288665 h -5.97893"
+       d="m 252.63901,128.71793 h -5.97893"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0034"
-       d="m 152.6028,91.28867 h -13.95"
+       d="m 264.71105,128.71794 h -13.95"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0035"
-       d="m 152.6028,276.28867 v -185"
+       d="m 264.71105,313.71794 v -185"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0036"
-       d="m 152.6028,276.28867 a 7,7 0 0 1 -7,7.00004"
+       d="m 264.71105,313.71794 a 7,7 0 0 1 -7,7.00004"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0037"
-       d="m 134.6028,283.28867 h 11"
+       d="m 246.71105,320.71794 h 11"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0038"
-       d="m 134.6028,283.28867 a 7,7 0 0 1 -7,-6.99996"
+       d="m 246.71105,320.71794 a 7,7 0 0 1 -7,-6.99996"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0039"
-       d="m 127.6028,230.44927 v 45.8394"
+       d="m 239.71105,267.87854 v 45.8394"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0040"
-       d="m 120.6028,223.44927 a 7,7 0 0 1 7,7.00044"
+       d="m 232.71105,260.87854 a 7,7 0 0 1 7,7.00044"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0041"
-       d="M 93.602796,223.44927 H 120.6028"
+       d="m 205.71105,260.87854 h 27"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0042"
-       d="m 86.602796,230.44927 a 7,7 0 0 1 7,-6.99956"
+       d="m 198.71105,267.87854 a 7,7 0 0 1 7,-6.99956"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0043"
-       d="m 86.602796,276.28867 v -45.8394"
+       d="m 198.71105,313.71794 v -45.8394"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0044"
-       d="m 135.5528,263.70986 v 9.8"
+       d="m 247.66105,301.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0045"
-       d="m 138.6528,273.50986 h -3.1"
+       d="m 250.76105,310.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0046"
-       d="m 138.6528,263.70986 v 9.8"
+       d="m 250.76105,301.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0047"
-       d="m 138.6528,263.70986 h -3.1"
+       d="m 250.76105,301.13913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       cx="137.1028"
-       cy="-260.60986"
-       r="1.7"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle396"
-       transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0049"
-       d="m 135.5528,247.70986 v 9.8"
+       d="m 247.66105,285.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0050"
-       d="m 138.6528,257.50986 h -3.1"
+       d="m 250.76105,294.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0051"
-       d="m 138.6528,247.70986 v 9.8"
+       d="m 250.76105,285.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0052"
-       d="m 138.6528,247.70986 h -3.1"
+       d="m 250.76105,285.13913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0053"
-       d="m 135.5528,233.70986 v 9.8"
+       d="m 247.66105,271.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0054"
-       d="m 138.6528,243.50986 h -3.1"
+       d="m 250.76105,280.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0055"
-       d="m 138.6528,233.70986 v 9.8"
+       d="m 250.76105,271.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0056"
-       d="m 138.6528,233.70986 h -3.1"
+       d="m 250.76105,271.13913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       cx="137.1028"
-       cy="-230.60986"
+       cx="249.21104"
+       cy="-268.03912"
        r="1.7"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -726,211 +722,193 @@
        transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0058"
-       d="m 135.11921,220.65986 v -3.1"
+       d="m 247.22746,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0059"
-       d="m 135.5528,220.65986 h -0.43359"
+       d="m 247.66105,258.08913 h -0.43359"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0060"
-       d="m 135.5528,220.65986 v 6.85"
+       d="m 247.66105,258.08913 v 6.85"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0061"
-       d="m 138.6528,227.50986 h -3.1"
+       d="m 250.76105,264.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0062"
-       d="m 138.6528,220.65986 v 6.85"
+       d="m 250.76105,258.08913 v 6.85"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0063"
-       d="M 144.91921,220.65986 H 138.6528"
+       d="m 257.02746,258.08913 h -6.26641"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0064"
-       d="m 144.91921,220.65986 v -3.1"
+       d="m 257.02746,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0065"
-       d="m 144.91921,217.55986 h -9.8"
+       d="m 257.02746,254.98913 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0066"
-       d="m 138.6528,205.96971 v -9.8"
+       d="m 250.76105,243.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0067"
-       d="m 135.5528,196.16971 h 3.1"
+       d="m 247.66105,233.59898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0068"
-       d="m 135.5528,205.96971 v -9.8"
+       d="m 247.66105,243.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0069"
-       d="m 135.5528,205.96971 h 3.1"
+       d="m 247.66105,243.39898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       cx="137.1028"
-       cy="-193.06972"
-       r="1.7"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle420"
-       transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0071"
-       d="m 138.6528,189.96971 v -9.8"
+       d="m 250.76105,227.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0072"
-       d="m 135.5528,180.16971 h 3.1"
+       d="m 247.66105,217.59898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0073"
-       d="m 135.5528,189.96971 v -9.8"
+       d="m 247.66105,227.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0074"
-       d="m 135.5528,189.96971 h 3.1"
+       d="m 247.66105,227.39898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0075"
-       d="m 122.97494,217.55986 h -9.8"
+       d="m 235.08319,254.98913 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0076"
-       d="m 113.17494,220.65986 v -3.1"
+       d="m 225.28319,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0077"
-       d="m 122.97494,220.65986 h -9.8"
+       d="m 235.08319,258.08913 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0078"
-       d="m 122.97494,220.65986 v -3.1"
+       d="m 235.08319,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0079"
-       d="m 75.552796,263.70986 v 9.8"
+       d="m 187.66105,301.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0081"
-       d="m 78.652796,263.70986 v 9.8"
+       d="m 190.76105,301.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0082"
-       d="m 78.652796,263.70986 h -3.1"
+       d="m 190.76105,301.13913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       cx="77.102798"
-       cy="-260.60986"
-       r="1.7"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle434"
-       transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0084"
-       d="m 75.552796,247.70986 v 9.8"
+       d="m 187.66105,285.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0085"
-       d="m 78.652796,257.50986 h -3.1"
+       d="m 190.76105,294.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0086"
-       d="m 78.652796,247.70986 v 9.8"
+       d="m 190.76105,285.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0087"
-       d="m 78.652796,247.70986 h -3.1"
+       d="m 190.76105,285.13913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0088"
-       d="m 75.552796,233.70986 v 9.8"
+       d="m 187.66105,271.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0089"
-       d="m 78.652796,243.50986 h -3.1"
+       d="m 190.76105,280.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0090"
-       d="m 78.652796,233.70986 v 9.8"
+       d="m 190.76105,271.13913 v 9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0091"
-       d="m 78.652796,233.70986 h -3.1"
+       d="m 190.76105,271.13913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       cx="77.102798"
-       cy="-230.60986"
+       cx="189.21104"
+       cy="-268.03912"
        r="1.7"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -939,169 +917,151 @@
        transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0093"
-       d="M 101.03066,217.55986 H 91.230658"
+       d="m 213.13891,254.98913 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0094"
-       d="m 91.230658,220.65986 v -3.1"
+       d="m 203.33891,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0095"
-       d="M 101.03066,220.65986 H 91.230658"
+       d="m 213.13891,258.08913 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0096"
-       d="m 101.03066,220.65986 v -3.1"
+       d="m 213.13891,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0097"
-       d="m 78.652796,205.96971 v -9.8"
+       d="m 190.76105,243.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0098"
-       d="m 75.552796,196.16971 h 3.1"
+       d="m 187.66105,233.59898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0099"
-       d="m 75.552796,205.96971 v -9.8"
+       d="m 187.66105,243.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0100"
-       d="m 75.552796,205.96971 h 3.1"
+       d="m 187.66105,243.39898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       cx="77.102798"
-       cy="-193.06972"
-       r="1.7"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle454"
-       transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0102"
-       d="m 78.652796,189.96971 v -9.8"
+       d="m 190.76105,227.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0103"
-       d="m 75.552796,180.16971 h 3.1"
+       d="m 187.66105,217.59898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0104"
-       d="m 75.552796,189.96971 v -9.8"
+       d="m 187.66105,227.39898 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0105"
-       d="m 75.552796,189.96971 h 3.1"
+       d="m 187.66105,227.39898 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0106"
-       d="m 138.6528,174.88941 v -9.8"
+       d="m 250.76105,212.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0107"
-       d="m 135.5528,165.08941 h 3.1"
+       d="m 247.66105,202.51868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0108"
-       d="m 135.5528,174.88941 v -9.8"
+       d="m 247.66105,212.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0109"
-       d="m 135.5528,174.88941 h 3.1"
+       d="m 247.66105,212.31868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       cx="137.1028"
-       cy="-161.98943"
-       r="1.7"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle464"
-       transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0111"
-       d="m 138.6528,158.88941 v -9.8"
+       d="m 250.76105,196.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0112"
-       d="m 135.5528,149.08941 h 3.1"
+       d="m 247.66105,186.51868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0113"
-       d="m 135.5528,158.88941 v -9.8"
+       d="m 247.66105,196.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0114"
-       d="m 135.5528,158.88941 h 3.1"
+       d="m 247.66105,196.31868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0115"
-       d="m 138.6528,143.80912 v -9.8"
+       d="m 250.76105,181.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0116"
-       d="m 135.5528,134.00912 h 3.1"
+       d="m 247.66105,171.43839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0117"
-       d="m 135.5528,143.80912 v -9.8"
+       d="m 247.66105,181.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0118"
-       d="m 135.5528,143.80912 h 3.1"
+       d="m 247.66105,181.23839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       cx="137.1028"
-       cy="-130.90913"
+       cx="249.21104"
+       cy="-168.33839"
        r="1.7"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -1110,184 +1070,175 @@
        transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0120"
-       d="m 138.6528,127.80912 v -9.8"
+       d="m 250.76105,165.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0121"
-       d="m 135.5528,118.00912 h 3.1"
+       d="m 247.66105,155.43839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0122"
-       d="m 135.5528,127.80912 v -9.8"
+       d="m 247.66105,165.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0123"
-       d="m 135.5528,127.80912 h 3.1"
+       d="m 247.66105,165.23839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0124"
-       d="m 138.6528,112.72882 v -9.8"
+       d="m 250.76105,150.15809 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0125"
-       d="m 135.5528,102.92882 h 3.1"
+       d="m 247.66105,140.35809 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0126"
-       d="m 135.5528,112.72882 v -9.8"
+       d="m 247.66105,150.15809 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0127"
-       d="m 135.5528,112.72882 h 3.1"
+       d="m 247.66105,150.15809 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0128"
-       d="m 122.63518,95.23867 h -9.8"
+       d="m 234.74343,132.66794 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0129"
-       d="m 112.83518,98.33867 v -3.1"
+       d="m 224.94343,135.76794 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0130"
-       d="m 122.63518,98.33867 h -9.8"
+       d="m 234.74343,135.76794 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0131"
-       d="m 122.63518,98.33867 v -3.1"
+       d="m 234.74343,135.76794 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0132"
-       d="m 78.652796,174.88941 v -9.8"
+       d="m 190.76105,212.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0133"
-       d="m 75.552796,165.08941 h 3.1"
+       d="m 187.66105,202.51868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0134"
-       d="m 75.552796,174.88941 v -9.8"
+       d="m 187.66105,212.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0135"
-       d="m 75.552796,174.88941 h 3.1"
+       d="m 187.66105,212.31868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       cx="77.102798"
-       cy="-161.98943"
-       r="1.7"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle492"
-       transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0137"
-       d="m 78.652796,158.88941 v -9.8"
+       d="m 190.76105,196.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0138"
-       d="m 75.552796,149.08941 h 3.1"
+       d="m 187.66105,186.51868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0139"
-       d="m 75.552796,158.88941 v -9.8"
+       d="m 187.66105,196.31868 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0140"
-       d="m 75.552796,158.88941 h 3.1"
+       d="m 187.66105,196.31868 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0141"
-       d="M 101.37042,95.23867 H 91.570418"
+       d="m 213.47867,132.66794 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0142"
-       d="m 91.570418,98.33867 v -3.1"
+       d="m 203.67867,135.76794 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0143"
-       d="M 101.37042,98.33867 H 91.570418"
+       d="m 213.47867,135.76794 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0144"
-       d="m 101.37042,98.33867 v -3.1"
+       d="m 213.47867,135.76794 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0145"
-       d="m 78.652796,143.80912 v -9.8"
+       d="m 190.76105,181.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0146"
-       d="m 75.552796,134.00912 h 3.1"
+       d="m 187.66105,171.43839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0147"
-       d="m 75.552796,143.80912 v -9.8"
+       d="m 187.66105,181.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0148"
-       d="m 75.552796,143.80912 h 3.1"
+       d="m 187.66105,181.23839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       cx="77.102798"
-       cy="-130.90913"
+       cx="189.21104"
+       cy="-168.33839"
        r="1.7"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -1296,103 +1247,103 @@
        transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0150"
-       d="m 78.652796,127.80912 v -9.8"
+       d="m 190.76105,165.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0151"
-       d="m 75.552796,118.00912 h 3.1"
+       d="m 187.66105,155.43839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0152"
-       d="m 75.552796,127.80912 v -9.8"
+       d="m 187.66105,165.23839 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0153"
-       d="m 75.552796,127.80912 h 3.1"
+       d="m 187.66105,165.23839 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0154"
-       d="m 78.652796,112.72882 v -9.8"
+       d="m 190.76105,150.15809 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0155"
-       d="m 75.552796,102.92882 h 3.1"
+       d="m 187.66105,140.35809 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0156"
-       d="m 75.552796,112.72882 v -9.8"
+       d="m 187.66105,150.15809 v -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0157"
-       d="m 75.552796,112.72882 h 3.1"
+       d="m 187.66105,150.15809 h 3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0158"
-       d="m 69.286383,220.65986 v -3.1"
+       d="m 181.39463,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0159"
-       d="M 75.552796,220.65986 H 69.286383"
+       d="m 187.66105,258.08913 h -6.26642"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0160"
-       d="m 75.552796,220.65986 v 6.85"
+       d="m 187.66105,258.08913 v 6.85"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0161"
-       d="m 78.652796,227.50986 h -3.1"
+       d="m 190.76105,264.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0162"
-       d="m 78.652796,220.65986 v 6.85"
+       d="m 190.76105,258.08913 v 6.85"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0163"
-       d="M 79.086383,220.65986 H 78.652796"
+       d="m 191.19463,258.08913 h -0.43358"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0164"
-       d="m 79.086383,220.65986 v -3.1"
+       d="m 191.19463,258.08913 v -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0165"
-       d="m 79.086383,217.55986 h -9.8"
+       d="m 191.19463,254.98913 h -9.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       cx="36.202793"
-       cy="-166.14928"
+       cx="148.31105"
+       cy="-203.57854"
        r="3.1500001"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -1400,8 +1351,8 @@
        id="circle524"
        transform="scale(1,-1)" />
     <circle
-       cx="36.202793"
-       cy="-140.74928"
+       cx="148.31105"
+       cy="-178.17854"
        r="3.1500001"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -1409,8 +1360,8 @@
        id="circle526"
        transform="scale(1,-1)" />
     <circle
-       cx="10.802795"
-       cy="-166.14928"
+       cx="122.91105"
+       cy="-203.57854"
        r="3.1500001"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -1418,8 +1369,8 @@
        id="circle528"
        transform="scale(1,-1)" />
     <circle
-       cx="10.802795"
-       cy="-140.74928"
+       cx="122.91105"
+       cy="-178.17854"
        r="3.1500001"
        stroke="#191919"
        stroke-width="0.35 px"
@@ -1428,1819 +1379,1756 @@
        transform="scale(1,-1)" />
     <path
        id="Shape2DView002_nwe0000"
-       d="m 68.602796,283.28867 h 11"
+       d="m 180.71105,320.71794 h 11"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0001"
-       d="m 68.602796,283.28867 a 7,7 0 0 1 -7,-6.99996"
+       d="m 180.71105,320.71794 a 7,7 0 0 1 -7,-6.99996"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0002"
-       d="m 86.602796,276.28867 a 7,7 0 0 1 -7,7.00004"
+       d="m 198.71105,313.71794 a 7,7 0 0 1 -7,7.00004"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView002_nwe0080"
-       d="m 78.652796,273.50986 h -3.1"
+       d="m 190.76105,310.93913 h -3.1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <g
-     id="g2889"
-     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     transform="translate(-0.4999999,-169.03529)">
+     id="g10685"
+     transform="translate(-21.769214,4.852417)">
     <path
-       id="Shape2DView_nwe0000"
-       d="m 5.602796,423.96971 h -3"
+       id="Shape2DView005_nwe0000"
+       d="M 180.92874,75.58381 171.01586,5.05"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0001"
+       d="m 183.58304,77.718198 c -1.24621,-4.2e-5 -2.48071,-0.900205 -2.6542,-2.134278"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="Shape2DView005_nwe0002"
+       d="M 171.01586,5.05 H 176.888"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0004"
+       d="m 176.888,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0006"
+       d="m 187.088,2.05 h -10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0007"
+       d="m 187.088,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0008"
+       d="m 187.088,5.05 h 11.74428"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0009"
+       d="m 198.83228,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0010"
+       d="m 209.03228,2.05 h -10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0011"
+       d="m 209.03228,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0012"
+       d="m 209.03228,5.05 h 11.74427"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0013"
+       d="m 220.77655,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0014"
+       d="m 230.97655,2.05 h -10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0015"
+       d="m 230.97655,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0016"
+       d="m 230.97655,5.05 h 11.74428"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0017"
+       d="m 242.72083,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0018"
+       d="m 252.92083,2.05 h -10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0019"
+       d="m 252.92083,5.05 v -3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0020"
+       d="m 252.92083,5.05 h 5.87213"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0021"
+       d="m 258.79296,5.05 -9.91288,70.53381"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0022"
+       d="m 248.88008,75.58381 a 2.5,2.5 0 0 1 -2.47524,2.15211"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0025"
+       d="m 233.42941,77.73588 h 10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0027"
+       d="m 233.42941,77.73588 h -5.55"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0028"
+       d="m 227.87941,77.73588 v 3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0029"
+       d="m 217.67941,80.73588 h 10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0030"
+       d="m 217.67941,77.73588 v 3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0031"
+       d="m 217.67941,77.73588 h -5.55"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0032"
+       d="m 212.12941,77.73588 v 3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0033"
+       d="m 201.92941,80.73588 h 10.2"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0034"
+       d="m 201.92941,77.73588 v 3"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0035"
+       d="m 201.92941,77.73588 h -5.55"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="Shape2DView005_nwe0037"
+       d="m 186.31195,77.718198 10.06746,0.01768"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="rect2076-9"
+       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 183.58304,77.718198 V 43.989286 h 2.72891 v 33.728912"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect2076-0-2"
+       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 243.62941,77.73588 0.0121,-33.649899 h 2.72891 l 0.0345,33.649939"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     id="g7831">
     <path
        id="Shape2DView_nwe0001"
-       d="m 2.602796,423.96971 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.1027961,257.93442 v 7.2" />
     <path
        id="Shape2DView_nwe0002"
-       d="m 5.602796,435.36971 v -1.2"
+       d="m 5.1027961,266.33442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0003"
-       d="m 13.202796,435.36971 h -7.6"
+       d="M 12.702796,266.33442 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0004"
-       d="m 13.202796,434.36971 v 1"
+       d="m 12.702796,265.33442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0005"
-       d="m 15.502796,434.36971 h -2.3"
+       d="m 15.002796,265.33442 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0006"
-       d="m 15.502796,434.36971 v 1"
+       d="m 15.002796,265.33442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0007"
-       d="m 22.902796,435.36971 h -7.4"
+       d="m 22.402796,266.33442 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0008"
-       d="m 22.902796,435.36971 v 3.4"
+       d="m 22.402796,266.33442 v 3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0009"
-       d="m 22.902796,438.76971 h -7.4"
+       d="m 22.402796,269.73442 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0010"
-       d="m 15.502796,438.76971 v 1"
+       d="m 15.002796,269.73442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0011"
-       d="m 15.502796,439.76971 h -2.3"
+       d="m 15.002796,270.73442 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0012"
-       d="m 13.202796,438.76971 v 1"
+       d="m 12.702796,269.73442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0013"
-       d="m 13.202796,438.76971 h -7.6"
+       d="M 12.702796,269.73442 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0014"
-       d="m 5.602796,439.96971 v -1.2"
+       d="m 5.1027961,270.93442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0015"
-       d="m 5.602796,434.16971 h -3"
+       d="m 5.1027961,265.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0016"
-       d="m 5.602796,439.96971 h -3"
+       d="m 5.1027961,270.93442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0017"
-       d="m 2.602796,439.96971 v 10.2"
+       d="m 2.1027961,270.93442 v 10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0018"
-       d="m 5.602796,453.96971 v -3.8"
+       d="m 5.1027961,284.93442 v -3.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0019"
-       d="m 5.602796,450.16971 h -3"
+       d="m 5.1027961,281.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0020"
-       d="m 5.602796,453.96971 h -3"
+       d="m 5.1027961,284.93442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0021"
-       d="m 2.602796,453.96971 v 10.2"
+       d="m 2.1027961,284.93442 v 10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0022"
-       d="m 5.602796,465.36971 v -1.2"
+       d="m 5.1027961,296.33442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0028"
-       d="m 5.602796,465.36971 v 3.4"
+       d="m 5.1027961,296.33442 v 3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0034"
-       d="m 5.602796,469.96971 v -1.2"
+       d="m 5.1027961,300.93442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0035"
-       d="m 5.602796,464.16971 h -3"
+       d="m 5.1027961,295.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0036"
-       d="m 5.602796,469.96971 h -3"
+       d="m 5.1027961,300.93442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0037"
-       d="m 2.602796,469.96971 v 10.2"
+       d="m 2.1027961,300.93442 v 10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0038"
-       d="m 5.602796,482.06971 v -1.9"
+       d="m 5.1027961,313.03442 v -1.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0039"
-       d="M 78.288675,482.06971 H 5.602796"
+       d="M 77.788675,313.03442 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0040"
-       d="m 78.288675,480.16971 v 1.9"
+       d="m 77.788675,311.13442 v 1.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0041"
-       d="m 5.602796,480.16971 h -3"
+       d="m 5.1027961,311.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0042"
-       d="m 78.288675,480.16971 h 3"
+       d="m 77.788675,311.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0043"
-       d="m 81.288675,480.16971 v -10.2"
+       d="m 80.788675,311.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0044"
-       d="m 78.288675,468.76971 v 1.2"
+       d="m 77.788675,299.73442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0045"
-       d="m 70.688675,468.76971 h 7.6"
+       d="m 70.188675,299.73442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0046"
-       d="m 70.688675,469.76971 v -1"
+       d="m 70.188675,300.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0047"
-       d="m 68.388675,469.76971 h 2.3"
+       d="m 67.888675,300.73442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0048"
-       d="m 68.388675,469.76971 v -1"
+       d="m 67.888675,300.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0049"
-       d="m 60.988675,468.76971 h 7.4"
+       d="m 60.488675,299.73442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0050"
-       d="m 60.988675,468.76971 v -3.4"
+       d="m 60.488675,299.73442 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0051"
-       d="m 60.988675,465.36971 h 7.4"
+       d="m 60.488675,296.33442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0052"
-       d="m 68.388675,465.36971 v -1"
+       d="m 67.888675,296.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0053"
-       d="m 68.388675,464.36971 h 2.3"
+       d="m 67.888675,295.33442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0054"
-       d="m 70.688675,465.36971 v -1"
+       d="m 70.188675,296.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0055"
-       d="m 70.688675,465.36971 h 7.6"
+       d="m 70.188675,296.33442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0056"
-       d="m 78.288675,464.16971 v 1.2"
+       d="m 77.788675,295.13442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0057"
-       d="m 78.288675,469.96971 h 3"
+       d="m 77.788675,300.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0058"
-       d="m 78.288675,464.16971 h 3"
+       d="m 77.788675,295.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0059"
-       d="m 81.288675,464.16971 v -10.2"
+       d="m 80.788675,295.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0060"
-       d="m 78.288675,450.16971 v 3.8"
+       d="m 77.788675,281.13442 v 3.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0061"
-       d="m 78.288675,453.96971 h 3"
+       d="m 77.788675,284.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0062"
-       d="m 78.288675,450.16971 h 3"
+       d="m 77.788675,281.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0063"
-       d="m 81.288675,450.16971 v -10.2"
+       d="m 80.788675,281.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0064"
-       d="m 78.288675,438.76971 v 1.2"
+       d="m 77.788675,269.73442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0065"
-       d="m 70.688675,438.76971 h 7.6"
+       d="m 70.188675,269.73442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0066"
-       d="m 70.688675,439.76971 v -1"
+       d="m 70.188675,270.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0067"
-       d="m 68.388675,439.76971 h 2.3"
+       d="m 67.888675,270.73442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0068"
-       d="m 68.388675,439.76971 v -1"
+       d="m 67.888675,270.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0069"
-       d="m 60.988675,438.76971 h 7.4"
+       d="m 60.488675,269.73442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0070"
-       d="m 60.988675,438.76971 v -3.4"
+       d="m 60.488675,269.73442 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0071"
-       d="m 60.988675,435.36971 h 7.4"
+       d="m 60.488675,266.33442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0072"
-       d="m 68.388675,435.36971 v -1"
+       d="m 67.888675,266.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0073"
-       d="m 68.388675,434.36971 h 2.3"
+       d="m 67.888675,265.33442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0074"
-       d="m 70.688675,435.36971 v -1"
+       d="m 70.188675,266.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0075"
-       d="m 70.688675,435.36971 h 7.6"
+       d="m 70.188675,266.33442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0076"
-       d="m 78.288675,434.16971 v 1.2"
+       d="m 77.788675,265.13442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0077"
-       d="m 78.288675,439.96971 h 3"
+       d="m 77.788675,270.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0078"
-       d="m 78.288675,434.16971 h 3"
+       d="m 77.788675,265.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0079"
-       d="m 81.288675,434.16971 v -10.2"
+       d="m 80.788675,265.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0080"
-       d="m 76.682816,415.49186 a 7,7 0 0 1 4.60588,6.57785"
+       d="m 76.182816,246.45657 a 7,7 0 0 1 4.60588,6.57785"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0081"
-       d="M 76.682816,415.49186 15.602796,393.26055"
+       d="M 76.182816,246.45657 15.102796,224.22526"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0082"
-       d="m 81.288675,422.06971 h -3"
+       d="m 80.788675,253.03442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0083"
-       d="M 15.602796,393.26055 46.726629,307.74852"
+       d="M 15.102796,224.22526 46.226629,138.71323"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0084"
-       d="m 78.288675,422.06971 v 1.9"
+       d="m 77.788675,253.03442 v 1.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0085"
-       d="m 46.726629,307.74852 9.396926,3.42021"
+       d="m 46.226629,138.71323 9.396926,3.42021"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0086"
-       d="m 58.489899,297.74852 a 6.91873,6.91873 0 1 1 -2.366303,13.42019"
+       d="m 57.989899,128.71323 a 6.91873,6.91873 0 1 1 -2.366303,13.42019"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0087"
-       d="M 58.489899,297.74852 H 5.602796"
+       d="M 57.989899,128.71323 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0088"
-       d="m 78.288675,423.96971 h 3"
+       d="m 77.788675,254.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0091"
-       d="M 5.602796,307.98867 V 297.74852"
+       d="m 5.1027961,138.95338 0,-3.3999"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="cc" />
     <path
        id="Shape2DView_nwe0105"
-       d="m 5.602796,307.98867 v 1.2"
+       d="m 5.1027961,138.95338 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0106"
-       d="m 5.602796,309.18867 h -3"
+       d="m 5.1027961,140.15338 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0107"
-       d="m 2.602796,319.38867 v -10.2"
+       d="m 2.1027961,150.35338 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0108"
-       d="m 5.602796,319.38867 h -3"
+       d="m 5.1027961,150.35338 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0109"
-       d="m 5.602796,319.38867 v 4.8803"
+       d="m 5.1027961,150.35338 v 4.8803"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0110"
-       d="m 5.602796,324.26897 h -3"
+       d="m 5.1027961,155.23368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0111"
-       d="m 2.602796,334.46897 v -10.2"
+       d="m 2.1027961,165.43368 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0112"
-       d="m 5.602796,334.46897 h -3"
+       d="m 5.1027961,165.43368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0113"
-       d="m 5.602796,334.46897 v 1.2"
+       d="m 5.1027961,165.43368 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0114"
-       d="m 13.202796,335.66897 h -7.6"
+       d="M 12.702796,166.63368 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0115"
-       d="m 13.202796,335.66897 v -1"
+       d="m 12.702796,166.63368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0116"
-       d="m 15.502796,334.66897 h -2.3"
+       d="m 15.002796,165.63368 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0117"
-       d="m 15.502796,335.66897 v -1"
+       d="m 15.002796,166.63368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0118"
-       d="m 22.902796,335.66897 h -7.4"
+       d="m 22.402796,166.63368 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0119"
-       d="m 22.902796,339.06897 v -3.4"
+       d="m 22.402796,170.03368 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0120"
-       d="m 22.902796,339.06897 h -7.4"
+       d="m 22.402796,170.03368 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0121"
-       d="m 15.502796,340.06897 v -1"
+       d="m 15.002796,171.03368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0122"
-       d="m 15.502796,340.06897 h -2.3"
+       d="m 15.002796,171.03368 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0123"
-       d="m 13.202796,340.06897 v -1"
+       d="m 12.702796,171.03368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0124"
-       d="m 13.202796,339.06897 h -7.6"
+       d="M 12.702796,170.03368 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0125"
-       d="m 5.602796,339.06897 v 1.2"
+       d="m 5.1027961,170.03368 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0126"
-       d="m 5.602796,340.26897 h -3"
+       d="m 5.1027961,171.23368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0127"
-       d="m 2.602796,350.46897 v -10.2"
+       d="m 2.1027961,181.43368 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0128"
-       d="m 5.602796,350.46897 h -3"
+       d="m 5.1027961,181.43368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0129"
-       d="m 5.602796,350.46897 v 4.8803"
+       d="m 5.1027961,181.43368 v 4.8803"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0130"
-       d="m 5.602796,355.34927 h -3"
+       d="m 5.1027961,186.31398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0131"
-       d="m 2.602796,365.54927 v -10.2"
+       d="m 2.1027961,196.51398 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0132"
-       d="m 5.602796,365.54927 h -3"
+       d="m 5.1027961,196.51398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0133"
-       d="m 5.602796,365.54927 v 1.2"
+       d="m 5.1027961,196.51398 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0139"
-       d="m 5.602796,370.14927 v -3.4"
+       d="m 5.1027961,201.11398 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0145"
-       d="m 5.602796,370.14927 v 1.2"
+       d="m 5.1027961,201.11398 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0146"
-       d="m 5.602796,371.34927 h -3"
+       d="m 5.1027961,202.31398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0147"
-       d="m 2.602796,381.54927 v -10.2"
+       d="m 2.1027961,212.51398 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0148"
-       d="m 5.602796,381.54927 h -3"
+       d="m 5.1027961,212.51398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0149"
-       d="m 5.602796,381.54927 v 4.88029"
+       d="m 5.1027961,212.51398 v 4.88029"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0150"
-       d="m 5.602796,386.42956 h -3"
+       d="m 5.1027961,217.39427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0151"
-       d="m 2.602796,396.62956 v -10.2"
+       d="m 2.1027961,227.59427 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0152"
-       d="m 5.602796,396.62956 h -3"
+       d="m 5.1027961,227.59427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0153"
-       d="m 5.602796,396.62956 v 1.2"
+       d="m 5.1027961,227.59427 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0159"
-       d="m 5.602796,401.22956 v -3.4"
+       d="m 5.1027961,232.19427 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0165"
-       d="m 5.602796,401.22956 v 1.2"
+       d="m 5.1027961,232.19427 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0166"
-       d="m 5.602796,402.42956 h -3"
+       d="m 5.1027961,233.39427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0167"
-       d="m 2.602796,412.62956 v -10.2"
+       d="m 2.1027961,243.59427 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0168"
-       d="m 5.602796,412.62956 h -3"
+       d="m 5.1027961,243.59427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0169"
-       d="m 5.602796,412.62956 v 11.34015"
+       d="m 5.1027961,243.59427 v 11.34015"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 2.4999999,421.99999 H 47.5 v 3 H 2.4999999"
-       id="path2066" />
+       d="M 5.1027961,254.93442 H 47.102797 v 3 H 2.1027961"
+       id="path2066"
+       sodipodi:nodetypes="cccc" />
     <path
        id="rect2076-6"
        style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       transform="rotate(90)"
-       d="M 301.82703,-5.6027966 V -31.364464 h 2.76166 m 0,0 v 25.7616674"
+       d="M 5.1027966,132.79174 H 30.864464 v 2.76166 m 0,0 H 5.1027966"
        sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 5.1027964,132.79174 -5e-7,-4.07851"
+       id="path7496" />
   </g>
   <g
-     id="g2625"
-     transform="rotate(180,92.38728,257.31721)"
-     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+     id="g7831-6"
+     transform="rotate(180,42.811188,176.84087)">
     <path
-       id="Shape2DView001_nwe0000"
-       d="m 94.288675,423.96971 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView001_nwe0001"
-       d="m 91.288675,423.96971 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="Shape2DView_nwe0001-7"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.1027961,257.93442 v 7.2" />
     <path
-       id="Shape2DView001_nwe0002"
-       d="m 94.288675,435.36971 v -1.2"
+       id="Shape2DView_nwe0002-5"
+       d="m 5.1027961,266.33442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0003"
-       d="M 101.88867,435.36971 H 94.288675"
+       id="Shape2DView_nwe0003-3"
+       d="M 12.702796,266.33442 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0004"
-       d="m 101.88867,434.36971 v 1"
+       id="Shape2DView_nwe0004-5"
+       d="m 12.702796,265.33442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0005"
-       d="m 104.18868,434.36971 h -2.30001"
+       id="Shape2DView_nwe0005-6"
+       d="m 15.002796,265.33442 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0006"
-       d="m 104.18868,434.36971 v 1"
+       id="Shape2DView_nwe0006-2"
+       d="m 15.002796,265.33442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0007"
-       d="m 111.58868,435.36971 h -7.4"
+       id="Shape2DView_nwe0007-9"
+       d="m 22.402796,266.33442 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0008"
-       d="m 111.58868,435.36971 v 3.4"
+       id="Shape2DView_nwe0008-1"
+       d="m 22.402796,266.33442 v 3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0009"
-       d="m 111.58868,438.76971 h -7.4"
+       id="Shape2DView_nwe0009-2"
+       d="m 22.402796,269.73442 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0010"
-       d="m 104.18868,438.76971 v 1"
+       id="Shape2DView_nwe0010-7"
+       d="m 15.002796,269.73442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0011"
-       d="m 104.18868,439.76971 h -2.30001"
+       id="Shape2DView_nwe0011-0"
+       d="m 15.002796,270.73442 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0012"
-       d="m 101.88867,438.76971 v 1"
+       id="Shape2DView_nwe0012-9"
+       d="m 12.702796,269.73442 v 1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0013"
-       d="M 101.88867,438.76971 H 94.288675"
+       id="Shape2DView_nwe0013-3"
+       d="M 12.702796,269.73442 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0014"
-       d="m 94.288675,439.96971 v -1.2"
+       id="Shape2DView_nwe0014-6"
+       d="m 5.1027961,270.93442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0015"
-       d="m 94.288675,434.16971 h -3"
+       id="Shape2DView_nwe0015-0"
+       d="m 5.1027961,265.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0016"
-       d="m 94.288675,439.96971 h -3"
+       id="Shape2DView_nwe0016-6"
+       d="m 5.1027961,270.93442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0017"
-       d="m 91.288675,439.96971 v 10.2"
+       id="Shape2DView_nwe0017-2"
+       d="m 2.1027961,270.93442 v 10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0018"
-       d="m 94.288675,453.96971 v -3.8"
+       id="Shape2DView_nwe0018-6"
+       d="m 5.1027961,284.93442 v -3.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0019"
-       d="m 94.288675,450.16971 h -3"
+       id="Shape2DView_nwe0019-1"
+       d="m 5.1027961,281.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0020"
-       d="m 94.288675,453.96971 h -3"
+       id="Shape2DView_nwe0020-8"
+       d="m 5.1027961,284.93442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0021"
-       d="m 91.288675,453.96971 v 10.2"
+       id="Shape2DView_nwe0021-7"
+       d="m 2.1027961,284.93442 v 10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0022"
-       d="m 94.288675,465.36971 v -1.2"
+       id="Shape2DView_nwe0022-9"
+       d="m 5.1027961,296.33442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0028"
-       d="m 94.288675,465.36971 v 3.4"
+       id="Shape2DView_nwe0028-2"
+       d="m 5.1027961,296.33442 v 3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0034"
-       d="m 94.288675,469.96971 v -1.2"
+       id="Shape2DView_nwe0034-0"
+       d="m 5.1027961,300.93442 v -1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0035"
-       d="m 94.288675,464.16971 h -3"
+       id="Shape2DView_nwe0035-2"
+       d="m 5.1027961,295.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0036"
-       d="m 94.288675,469.96971 h -3"
+       id="Shape2DView_nwe0036-3"
+       d="m 5.1027961,300.93442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0037"
-       d="m 91.288675,469.96971 v 10.2"
+       id="Shape2DView_nwe0037-7"
+       d="m 2.1027961,300.93442 v 10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0038"
-       d="m 94.288675,482.06971 v -1.9"
+       id="Shape2DView_nwe0038-5"
+       d="m 5.1027961,313.03442 v -1.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0039"
-       d="M 166.97456,482.06971 H 94.288675"
+       id="Shape2DView_nwe0039-9"
+       d="M 77.788675,313.03442 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0040"
-       d="m 166.97456,480.16971 v 1.9"
+       id="Shape2DView_nwe0040-2"
+       d="m 77.788675,311.13442 v 1.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0041"
-       d="m 94.288675,480.16971 h -3"
+       id="Shape2DView_nwe0041-2"
+       d="m 5.1027961,311.13442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0042"
-       d="m 166.97456,480.16971 h 3"
+       id="Shape2DView_nwe0042-8"
+       d="m 77.788675,311.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0043"
-       d="m 169.97456,480.16971 v -10.2"
+       id="Shape2DView_nwe0043-9"
+       d="m 80.788675,311.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0044"
-       d="m 166.97456,468.76971 v 1.2"
+       id="Shape2DView_nwe0044-7"
+       d="m 77.788675,299.73442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0045"
-       d="m 159.37456,468.76971 h 7.6"
+       id="Shape2DView_nwe0045-3"
+       d="m 70.188675,299.73442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0046"
-       d="m 159.37456,469.76971 v -1"
+       id="Shape2DView_nwe0046-6"
+       d="m 70.188675,300.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0047"
-       d="m 157.07456,469.76971 h 2.3"
+       id="Shape2DView_nwe0047-1"
+       d="m 67.888675,300.73442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0048"
-       d="m 157.07456,469.76971 v -1"
+       id="Shape2DView_nwe0048-2"
+       d="m 67.888675,300.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0049"
-       d="m 149.67456,468.76971 h 7.4"
+       id="Shape2DView_nwe0049-9"
+       d="m 60.488675,299.73442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0050"
-       d="m 149.67456,468.76971 v -3.4"
+       id="Shape2DView_nwe0050-3"
+       d="m 60.488675,299.73442 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0051"
-       d="m 149.67456,465.36971 h 7.4"
+       id="Shape2DView_nwe0051-1"
+       d="m 60.488675,296.33442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0052"
-       d="m 157.07456,465.36971 v -1"
+       id="Shape2DView_nwe0052-9"
+       d="m 67.888675,296.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0053"
-       d="m 157.07456,464.36971 h 2.3"
+       id="Shape2DView_nwe0053-4"
+       d="m 67.888675,295.33442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0054"
-       d="m 159.37456,465.36971 v -1"
+       id="Shape2DView_nwe0054-7"
+       d="m 70.188675,296.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0055"
-       d="m 159.37456,465.36971 h 7.6"
+       id="Shape2DView_nwe0055-8"
+       d="m 70.188675,296.33442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0056"
-       d="m 166.97456,464.16971 v 1.2"
+       id="Shape2DView_nwe0056-4"
+       d="m 77.788675,295.13442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0057"
-       d="m 166.97456,469.96971 h 3"
+       id="Shape2DView_nwe0057-5"
+       d="m 77.788675,300.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0058"
-       d="m 166.97456,464.16971 h 3"
+       id="Shape2DView_nwe0058-0"
+       d="m 77.788675,295.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0059"
-       d="m 169.97456,464.16971 v -10.2"
+       id="Shape2DView_nwe0059-3"
+       d="m 80.788675,295.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0060"
-       d="m 166.97456,450.16971 v 3.8"
+       id="Shape2DView_nwe0060-6"
+       d="m 77.788675,281.13442 v 3.8"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0061"
-       d="m 166.97456,453.96971 h 3"
+       id="Shape2DView_nwe0061-1"
+       d="m 77.788675,284.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0062"
-       d="m 166.97456,450.16971 h 3"
+       id="Shape2DView_nwe0062-0"
+       d="m 77.788675,281.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0063"
-       d="m 169.97456,450.16971 v -10.2"
+       id="Shape2DView_nwe0063-6"
+       d="m 80.788675,281.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0064"
-       d="m 166.97456,438.76971 v 1.2"
+       id="Shape2DView_nwe0064-3"
+       d="m 77.788675,269.73442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0065"
-       d="m 159.37456,438.76971 h 7.6"
+       id="Shape2DView_nwe0065-2"
+       d="m 70.188675,269.73442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0066"
-       d="m 159.37456,439.76971 v -1"
+       id="Shape2DView_nwe0066-0"
+       d="m 70.188675,270.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0067"
-       d="m 157.07456,439.76971 h 2.3"
+       id="Shape2DView_nwe0067-6"
+       d="m 67.888675,270.73442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0068"
-       d="m 157.07456,439.76971 v -1"
+       id="Shape2DView_nwe0068-1"
+       d="m 67.888675,270.73442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0069"
-       d="m 149.67456,438.76971 h 7.4"
+       id="Shape2DView_nwe0069-5"
+       d="m 60.488675,269.73442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0070"
-       d="m 149.67456,438.76971 v -3.4"
+       id="Shape2DView_nwe0070-5"
+       d="m 60.488675,269.73442 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0071"
-       d="m 149.67456,435.36971 h 7.4"
+       id="Shape2DView_nwe0071-4"
+       d="m 60.488675,266.33442 h 7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0072"
-       d="m 157.07456,435.36971 v -1"
+       id="Shape2DView_nwe0072-7"
+       d="m 67.888675,266.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0073"
-       d="m 157.07456,434.36971 h 2.3"
+       id="Shape2DView_nwe0073-6"
+       d="m 67.888675,265.33442 h 2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0074"
-       d="m 159.37456,435.36971 v -1"
+       id="Shape2DView_nwe0074-5"
+       d="m 70.188675,266.33442 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0075"
-       d="m 159.37456,435.36971 h 7.6"
+       id="Shape2DView_nwe0075-6"
+       d="m 70.188675,266.33442 h 7.6"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0076"
-       d="m 166.97456,434.16971 v 1.2"
+       id="Shape2DView_nwe0076-9"
+       d="m 77.788675,265.13442 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0077"
-       d="m 166.97456,439.96971 h 3"
+       id="Shape2DView_nwe0077-3"
+       d="m 77.788675,270.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0078"
-       d="m 166.97456,434.16971 h 3"
+       id="Shape2DView_nwe0078-7"
+       d="m 77.788675,265.13442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0079"
-       d="m 169.97456,434.16971 v -10.2"
+       id="Shape2DView_nwe0079-4"
+       d="m 80.788675,265.13442 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0080"
-       d="m 165.3687,415.49186 a 7,7 0 0 1 4.6061,6.57785"
+       id="Shape2DView_nwe0080-5"
+       d="m 76.182816,246.45657 a 7,7 0 0 1 4.60588,6.57785"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0081"
-       d="M 165.3687,415.49186 104.28868,393.26055"
+       id="Shape2DView_nwe0081-2"
+       d="M 76.182816,246.45657 15.102796,224.22526"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0082"
-       d="m 169.97456,422.06971 h -3"
+       id="Shape2DView_nwe0082-5"
+       d="m 80.788675,253.03442 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0083"
-       d="m 104.28868,393.26055 31.12383,-85.51203"
+       id="Shape2DView_nwe0083-4"
+       d="M 15.102796,224.22526 46.226629,138.71323"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0084"
-       d="m 166.97456,422.06971 v 1.9"
+       id="Shape2DView_nwe0084-7"
+       d="m 77.788675,253.03442 v 1.9"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0085"
-       d="m 135.41251,307.74852 9.39693,3.42021"
+       id="Shape2DView_nwe0085-4"
+       d="m 46.226629,138.71323 9.396926,3.42021"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0086"
-       d="m 147.17578,297.74852 a 6.91873,6.91873 0 1 1 -2.36598,13.42019"
+       id="Shape2DView_nwe0086-4"
+       d="m 57.989899,128.71323 a 6.91873,6.91873 0 1 1 -2.366303,13.42019"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0087"
-       d="M 147.17578,297.74852 H 94.288675"
+       id="Shape2DView_nwe0087-3"
+       d="M 57.989899,128.71323 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0088"
-       d="m 166.97456,423.96971 h 3"
+       id="Shape2DView_nwe0088-0"
+       d="m 77.788675,254.93442 h 3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0091"
-       d="M 94.288675,307.98867 V 297.74852"
+       id="Shape2DView_nwe0091-7"
+       d="m 5.1027961,138.95338 v -3.3999"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="cc" />
     <path
-       id="Shape2DView001_nwe0105"
-       d="m 94.288675,307.98867 v 1.2"
+       id="Shape2DView_nwe0105-8"
+       d="m 5.1027961,138.95338 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0106"
-       d="m 94.288675,309.18867 h -3"
+       id="Shape2DView_nwe0106-6"
+       d="m 5.1027961,140.15338 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0107"
-       d="m 91.288675,319.38867 v -10.2"
+       id="Shape2DView_nwe0107-8"
+       d="m 2.1027961,150.35338 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0108"
-       d="m 94.288675,319.38867 h -3"
+       id="Shape2DView_nwe0108-8"
+       d="m 5.1027961,150.35338 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0109"
-       d="m 94.288675,319.38867 v 4.8803"
+       id="Shape2DView_nwe0109-4"
+       d="m 5.1027961,150.35338 v 4.8803"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0110"
-       d="m 94.288675,324.26897 h -3"
+       id="Shape2DView_nwe0110-3"
+       d="m 5.1027961,155.23368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0111"
-       d="m 91.288675,334.46897 v -10.2"
+       id="Shape2DView_nwe0111-1"
+       d="m 2.1027961,165.43368 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0112"
-       d="m 94.288675,334.46897 h -3"
+       id="Shape2DView_nwe0112-4"
+       d="m 5.1027961,165.43368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0113"
-       d="m 94.288675,334.46897 v 1.2"
+       id="Shape2DView_nwe0113-9"
+       d="m 5.1027961,165.43368 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0114"
-       d="M 101.88867,335.66897 H 94.288675"
+       id="Shape2DView_nwe0114-2"
+       d="M 12.702796,166.63368 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0115"
-       d="m 101.88867,335.66897 v -1"
+       id="Shape2DView_nwe0115-0"
+       d="m 12.702796,166.63368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0116"
-       d="m 104.18868,334.66897 h -2.30001"
+       id="Shape2DView_nwe0116-6"
+       d="m 15.002796,165.63368 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0117"
-       d="m 104.18868,335.66897 v -1"
+       id="Shape2DView_nwe0117-8"
+       d="m 15.002796,166.63368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0118"
-       d="m 111.58868,335.66897 h -7.4"
+       id="Shape2DView_nwe0118-9"
+       d="m 22.402796,166.63368 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0119"
-       d="m 111.58868,339.06897 v -3.4"
+       id="Shape2DView_nwe0119-2"
+       d="m 22.402796,170.03368 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0120"
-       d="m 111.58868,339.06897 h -7.4"
+       id="Shape2DView_nwe0120-6"
+       d="m 22.402796,170.03368 h -7.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0121"
-       d="m 104.18868,340.06897 v -1"
+       id="Shape2DView_nwe0121-6"
+       d="m 15.002796,171.03368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0122"
-       d="m 104.18868,340.06897 h -2.30001"
+       id="Shape2DView_nwe0122-4"
+       d="m 15.002796,171.03368 h -2.3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0123"
-       d="m 101.88867,340.06897 v -1"
+       id="Shape2DView_nwe0123-9"
+       d="m 12.702796,171.03368 v -1"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0124"
-       d="M 101.88867,339.06897 H 94.288675"
+       id="Shape2DView_nwe0124-5"
+       d="M 12.702796,170.03368 H 5.1027961"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0125"
-       d="m 94.288675,339.06897 v 1.2"
+       id="Shape2DView_nwe0125-0"
+       d="m 5.1027961,170.03368 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0126"
-       d="m 94.288675,340.26897 h -3"
+       id="Shape2DView_nwe0126-4"
+       d="m 5.1027961,171.23368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0127"
-       d="m 91.288675,350.46897 v -10.2"
+       id="Shape2DView_nwe0127-8"
+       d="m 2.1027961,181.43368 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0128"
-       d="m 94.288675,350.46897 h -3"
+       id="Shape2DView_nwe0128-7"
+       d="m 5.1027961,181.43368 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0129"
-       d="m 94.288675,350.46897 v 4.8803"
+       id="Shape2DView_nwe0129-1"
+       d="m 5.1027961,181.43368 v 4.8803"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0130"
-       d="m 94.288675,355.34927 h -3"
+       id="Shape2DView_nwe0130-7"
+       d="m 5.1027961,186.31398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0131"
-       d="m 91.288675,365.54927 v -10.2"
+       id="Shape2DView_nwe0131-2"
+       d="m 2.1027961,196.51398 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0132"
-       d="m 94.288675,365.54927 h -3"
+       id="Shape2DView_nwe0132-7"
+       d="m 5.1027961,196.51398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0133"
-       d="m 94.288675,365.54927 v 1.2"
+       id="Shape2DView_nwe0133-2"
+       d="m 5.1027961,196.51398 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0139"
-       d="m 94.288675,370.14927 v -3.4"
+       id="Shape2DView_nwe0139-2"
+       d="m 5.1027961,201.11398 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0145"
-       d="m 94.288675,370.14927 v 1.2"
+       id="Shape2DView_nwe0145-6"
+       d="m 5.1027961,201.11398 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0146"
-       d="m 94.288675,371.34927 h -3"
+       id="Shape2DView_nwe0146-1"
+       d="m 5.1027961,202.31398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0147"
-       d="m 91.288675,381.54927 v -10.2"
+       id="Shape2DView_nwe0147-0"
+       d="m 2.1027961,212.51398 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0148"
-       d="m 94.288675,381.54927 h -3"
+       id="Shape2DView_nwe0148-6"
+       d="m 5.1027961,212.51398 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0149"
-       d="m 94.288675,381.54927 v 4.88029"
+       id="Shape2DView_nwe0149-1"
+       d="m 5.1027961,212.51398 v 4.88029"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0150"
-       d="m 94.288675,386.42956 h -3"
+       id="Shape2DView_nwe0150-5"
+       d="m 5.1027961,217.39427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0151"
-       d="m 91.288675,396.62956 v -10.2"
+       id="Shape2DView_nwe0151-9"
+       d="m 2.1027961,227.59427 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0152"
-       d="m 94.288675,396.62956 h -3"
+       id="Shape2DView_nwe0152-4"
+       d="m 5.1027961,227.59427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0153"
-       d="m 94.288675,396.62956 v 1.2"
+       id="Shape2DView_nwe0153-9"
+       d="m 5.1027961,227.59427 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0159"
-       d="m 94.288675,401.22956 v -3.4"
+       id="Shape2DView_nwe0159-0"
+       d="m 5.1027961,232.19427 v -3.4"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0165"
-       d="m 94.288675,401.22956 v 1.2"
+       id="Shape2DView_nwe0165-9"
+       d="m 5.1027961,232.19427 v 1.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0166"
-       d="m 94.288675,402.42956 h -3"
+       id="Shape2DView_nwe0166-1"
+       d="m 5.1027961,233.39427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0167"
-       d="m 91.288675,412.62956 v -10.2"
+       id="Shape2DView_nwe0167-7"
+       d="m 2.1027961,243.59427 v -10.2"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0168"
-       d="m 94.288675,412.62956 h -3"
+       id="Shape2DView_nwe0168-7"
+       d="m 5.1027961,243.59427 h -3"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView001_nwe0169"
-       d="m 94.288675,412.62956 v 11.34015"
+       id="Shape2DView_nwe0169-1"
+       d="m 5.1027961,243.59427 v 11.34015"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 91.200001,421.99999 H 136.2 v 3 H 91.200001"
-       id="path2060" />
-    <path
-       id="rect2076-6-8"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       transform="rotate(90)"
-       d="m 301.82703,-94.28867 v -25.76167 h 2.76166 v 25.76167"
+       d="M 5.1027961,254.93442 H 47.102797 v 3 H 2.1027961"
+       id="path2066-1"
        sodipodi:nodetypes="cccc" />
-  </g>
-  <g
-     id="g3120"
-     transform="translate(73.354038,-0.55279)"
-     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-    <g
-       id="g1710"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-      <path
-         id="Shape2DView005_nwe0000"
-         d="M 107.5747,76.1366 97.661819,5.60279"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0001"
-         d="m 110.229,78.270988 c -1.24621,-4.2e-5 -2.48071,-0.900205 -2.6542,-2.134278"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:nodetypes="cc" />
-      <path
-         id="Shape2DView005_nwe0002"
-         d="m 97.661819,5.60279 h 5.872141"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0004"
-         d="m 103.53396,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0006"
-         d="m 113.73396,2.60279 h -10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0007"
-         d="m 113.73396,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0008"
-         d="m 113.73396,5.60279 h 11.74428"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0009"
-         d="m 125.47824,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0010"
-         d="m 135.67824,2.60279 h -10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0011"
-         d="m 135.67824,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0012"
-         d="m 135.67824,5.60279 h 11.74427"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0013"
-         d="m 147.42251,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0014"
-         d="m 157.62251,2.60279 h -10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0015"
-         d="m 157.62251,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0016"
-         d="m 157.62251,5.60279 h 11.74428"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0017"
-         d="m 169.36679,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0018"
-         d="m 179.56679,2.60279 h -10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0019"
-         d="m 179.56679,5.60279 v -3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0020"
-         d="m 179.56679,5.60279 h 5.87213"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0021"
-         d="M 185.43892,5.60279 175.52604,76.1366"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0022"
-         d="m 175.52604,76.1366 a 2.5,2.5 0 0 1 -2.47524,2.15211"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0025"
-         d="m 160.07537,78.28867 h 10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0027"
-         d="m 160.07537,78.28867 h -5.55"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0028"
-         d="m 154.52537,78.28867 v 3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0029"
-         d="m 144.32537,81.28867 h 10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0030"
-         d="m 144.32537,78.28867 v 3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0031"
-         d="m 144.32537,78.28867 h -5.55"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0032"
-         d="m 138.77537,78.28867 v 3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0033"
-         d="m 128.57537,81.28867 h 10.2"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0034"
-         d="m 128.57537,78.28867 v 3"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0035"
-         d="m 128.57537,78.28867 h -5.55"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0037"
-         d="m 112.95791,78.270988 10.06746,0.01768"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:nodetypes="cc" />
-      <path
-         id="Shape2DView005_nwe0038"
-         d="M 120.55037,73.28867 A 2.5,2.5 0 0 1 118.0508,70.78871"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0039"
-         d="M 118.05037,70.78867 V 13.10279"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0040"
-         d="m 118.05037,13.10279 a 2.5,2.5 0 0 1 2.50043,-2.50008"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0041"
-         d="m 120.55037,10.60279 h 42"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0042"
-         d="m 162.55037,10.60279 a 2.5,2.5 0 0 1 2.50043,2.49992"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0043"
-         d="M 165.05037,13.10279 V 70.78867"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0044"
-         d="m 165.05037,70.78867 a 2.5,2.5 0 0 1 -2.49957,2.50004"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="Shape2DView005_nwe0045"
-         d="m 162.55037,73.28867 h -42"
-         stroke="#191919"
-         stroke-width="0.35 px"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
     <path
-       id="rect2076-9"
+       id="rect2076-6-5"
        style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       d="m 110.229,44.542076 h 2.72891 V 78.270988 H 110.229 Z" />
+       d="M 5.1027966,132.79174 H 30.864464 v 2.76166 m 0,0 H 5.1027966"
+       sodipodi:nodetypes="ccccc" />
     <path
-       id="rect2076-0-2"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       d="m 173.01634,78.367683 h -2.72891 m 0,0 V 44.638771 h 2.72891 v 33.728912"
-       sodipodi:nodetypes="cccccc" />
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 5.1027964,132.79174 -5e-7,-4.07851"
+       id="path7496-9" />
   </g>
 </svg>
