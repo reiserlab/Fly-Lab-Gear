@@ -8,7 +8,7 @@ nav_order: 1
 # Inexpensive Treadmill
 
 ![Title page of manuscript]({{site.baseurl}}/assets/img/Collection/title.png){:.ifr .pop}
-"An inexpensive, high-precision, modular spherical treadmill setup optimized for *Drosophila* experiments" is a manuscript Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)" ([bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2021.04.29.442008v1) at <https://doi.org/10.1101/2021.04.29.442008>). We developed a range of new components for this "Inexpensive Treadmill" submission. In this collection we name the components used in the manuscript, refer to their detailed pages, and add information that are outside the scope of a scientific publication.
+["An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for *Drosophila* Experiments"](https://doi.org/10.3389/fnbeh.2021.689573) is an article Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)" (for an earlier version see [bioRxiv preprint](https://doi.org/10.1101/2021.04.29.442008)). We developed a range of new components for this "Inexpensive Treadmill" submission. In this collection we name the components used in the manuscript, refer to their detailed pages, and add information that are outside the scope of a scientific publication.
 
 ## Fly Handling
 
