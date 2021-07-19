@@ -8,7 +8,7 @@ permalink: /walking
 
 # Walking Setup
 
-Components listed here can be used on an experimental setup or are otherwise directly in contact with experiment.
+Components listed here can be used on an experimental setup. Components related to fly tethering are listed under the [Tethering](/tether) menu. 
 
 ## [Inexpensive Treadmill Assembly]({{site.baseurl}}/walking/inexpensive-treadmill)
 {:.clear}
