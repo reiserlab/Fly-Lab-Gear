@@ -8,7 +8,7 @@ permalink: /walking
 
 # Walking Setup
 
-Components listed here can be used on an experimental setup for walking flies, also referred to as a "treadmill setup". Most of the components have been developed for the ["Inexpensive Treadmill"](/inexpensive-treadmill) paper. We also started collecting parts for [Flight](/flight) and [physiology](/physiology) setups, although there might be some overlap. Components related to fly tethering are listed under the [Tethering](/tether) menu, with additional components and 3D models under [Miscellaneous](/miscellaneous). 
+Components listed here can be used on an experimental setup for walking flies, also referred to as a "treadmill setup". Most of the components have been developed for the ["Inexpensive Treadmill"](/inexpensive-treadmill) paper. We also started collecting parts for [Flight](/flight) and [physiology](/physiology) setups, although there might be some overlap. Components related to fly tethering are listed under the [Tethering](/tether) menu, with additional components and 3D models under [Miscellaneous](/miscellaneous).
 
 ## [Inexpensive Treadmill Assembly]({{site.baseurl}}/walking/inexpensive-treadmill)
 {:.clear}

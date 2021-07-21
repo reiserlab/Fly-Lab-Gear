@@ -8,8 +8,7 @@ permalink: /flight
 
 # Flight Setup
 
-Components listed here can be used on an experimental setup or are otherwise directly in contact with experiment.
-
+Components listed here can be used on an experimental setup for flying flies. Over time we plan to have a collection similar to the [walking setup](/walking). Components related to fly tethering are listed under the [Tethering](/tether) menu, with additional components and 3D models under [Miscellaneous](/miscellaneous). Parts used in [physiology setups](/physiology) are mentioned elsewhere.
 
 ## [Wingbeat analyzer masks]({{site.baseurl}}/flight/wba-masks)
 {:.clear}
