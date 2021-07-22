@@ -8,8 +8,7 @@ permalink: /physiology
 
 # Physiology.
 
-These components help with head fixating flies in a physiology setup.
-
+Components listed here such as the head fixation plate can be used for physiology experiments and might be useful for both, the [walking](/walking) and [flight](/flight) setups. Components related to fly tethering are listed under the [Tethering](/tether) menu, with additional components and 3D models under [Miscellaneous](/miscellaneous).
 
 ## [Flyplate]({{site.baseurl}}/physiology/flyplate)
 {:.clear}
