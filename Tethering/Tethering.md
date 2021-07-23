@@ -8,7 +8,7 @@ permalink: /tether
 
 # Tethering
 
-These components help with body fixating or head fixating flies and potentially other insects.
+These components help with body fixating or head fixating flies and potentially other insects. While the list contains any useful component we use in the lab and for [walking](/walking) as well as [flight](/flight) experiments, some components have been developed specifically for the ["Inexpensive Treadmill"](/inexpensive-treadmill).
 
 ## [Tethering station]({{site.baseurl}}/tether/station)
 {:.clear}
