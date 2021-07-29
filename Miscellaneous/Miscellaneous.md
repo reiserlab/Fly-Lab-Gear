@@ -8,7 +8,7 @@ permalink: /miscellaneous
 
 # Miscellaneous
 
-These files are either models of existing hardware that we use for visualization, or some supporting components that can be used in different contexts such as [walking](/walking), [flight](/flight), [physiology](/physiology) experimental setups, or tools used for [fly tethering](/tether). Files in the current section include models of the tablet and camera used in the ["Inexpensive Treadmill"](/inexpensive-treadmill), a local copy of an external three-axis manipulator, cases for MCUs, or the scale bar used only for visualizations.
+These files are either models of actual hardware that we use for visualization, or some supporting components that can be used in a variety of scenarios such as [walking](/walking), [flight](/flight), [physiological](/physiology) experimental setups, or tools used for [fly tethering](/tether). Models of the tablet and camera used in the ["Inexpensive Treadmill,"](/inexpensive-treadmill) a local copy of an external three-axis manipulator, cases for MCUs, and the scale bar used only for visualizations are among the files in this current category.
 
 ## [Scale bar]({{site.baseurl}}/miscellaneous/scale-bar)
 {:.clear}
