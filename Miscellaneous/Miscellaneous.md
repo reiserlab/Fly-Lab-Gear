@@ -44,16 +44,13 @@ FreeCAD model of a heatsink we use for our tethering station. Useful for visuali
 {:.clear}
 
 [![Explosion model of the Manipulator]({{site.baseurl}}/assets/img/Miscellaneous/Open-Labware_Manipulator/linearstage.png){: .ifr}]({{site.baseurl}}/miscellaneous/openlabware-manipulator)
-Local copy of the Open-Labware Manipulator. 
-
+Local copy of the Open-Labware Manipulator.
 
 ## [Adapters]({{site.baseurl}}/miscellaneous/adapter)
 {:.clear}
 
 [![Adapter plates]({{site.baseurl}}/assets/img/Miscellaneous/Adapter_metric-imperial_manipulator/Adapter_metric-imperial_micro-manipulator_bottom.png){:.ifr}]({{site.baseurl}}/miscellaneous/adapter)
 Some basic files that help adapting between different "things" – for example a specific metrical component to an imperical setup.
-
-
 
 ## [Baseplates]({{site.baseurl}}/miscellaneous/baseplate)
 {:.clear}
@@ -101,4 +98,4 @@ Model of a tablet holder, used for visualization.
 {:.clear}
 
 [![Square Wells]({{site.baseurl}}/assets/img/Miscellaneous/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr}]({{site.baseurl}}/miscellaneous/wells)
-Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking. 
+Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking.
