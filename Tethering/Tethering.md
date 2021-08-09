@@ -32,7 +32,7 @@ Different materials are used for tethering flies. Here we show some desings that
 {:.clear}
 
 [![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
-A three-axis linear stage that we use in the experimental setup as well as the tethering station. In the experimental setup, we use it to place a body fixated fly on a spherical treadmill, in the tethering station we use it attache the tether to the fly's thorax.
+Both the experimental setup and the tethering station make use of a three-axis linear stage. This device is used to place a body-fixed fly on a spherical treadmill, and to attach the tether to the fly's thorax in the tethering station.
 
 ## [Funnels]({{site.baseurl}}/tether/funnels)
 {:.clear}
