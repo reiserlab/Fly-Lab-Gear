@@ -38,4 +38,4 @@ Both the experimental setup and the tethering station make use of a three-axis l
 {:.clear}
 
 [![Funnel redesign]({{site.baseurl}}/assets/img/Tethering/Funnels/Funnel_fly-vial-to-12mm-tube.png){:.ifr}]({{site.baseurl}}/tether/funnels)
-Funnels help in moving flies between bottles, vials, and test tubes.
+Using funnels, flies can be moved between bottles, vials, and test tubes.
