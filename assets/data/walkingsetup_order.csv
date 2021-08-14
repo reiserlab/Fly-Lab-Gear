@@ -2,26 +2,34 @@ Name,Description,Link to Component Page,Link to File,Quantity,Link to Source,Not
 Sphere,Last-A-Foam FR-7120,,,1 + extra,https://www.generalplastics.com/products/fr-7100,Milled or filed to 9 mm diameter sphere
 Flow Meter,Dwyer VFA-23 Flow Meter,,,1,https://www.dwyer-inst.com/Product/Flow/Flowmeters/VariableArea/SeriesVF,
 Power Supply,5V Power Supply,,,1,https://www.adafruit.com/product/276,
-Tube Clamp,Keck Roller Clamp,,,1,https://www.usplastic.com/catalog/item.aspx?itemid=31260,
+Resistor Multipack,470-3k Ohms recommended,,,1,https://www.amazon.com/SIQUK-Resistors-Resistor-Assortment-Experiments/dp/B091LCG3MP/ref=sr_1_14?dchild=1&keywords=resistor+kit&qid=1628980043&sr=8-14,
+Breadboard,,,,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4539/12082396?s=N4IgTCBcDaIBIEEAyAxAtAZQJIC0CiABAEIBKeCAIkQPIIkUEDqWAKnAQLLUCqAciyAC6AXyA,
+F/F Jumper Wire,,,,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/1950/6827084,
+M/F Jumper Wire,,,,1,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-12794/5993859?s=N4IgTCBcDaIFIFUCyAFAogJQAQHUCSGaWSA9AGJYBsAOiFmAAwoDCAyiALoC%2BQA,
+M/M Jumper Wire,,,,1,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-12795/5993860,
+Black Wire,22 AWG stranded,,,1,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-08867/6833930,Also used in walking setup.
+Red Wire,22 AWG stranded,,,1,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-08865/6833925,Also used in walking setup.
+DC Power Plug Adaptor,,,,2,https://www.digikey.com/en/products/detail/adafruit-industries-llc/368/5629434,Identical to tethering setup part.
 Tubing,"1/4"" OD Pneumatic Tubing",,,1,https://www.amazon.com/dp/B08JGVQY4S,
 Air Pump,Rotary air pump,,,1,https://amazon.com/dp/B074N2DCG5,
 Rubber Baseplate Feet,,,,,https://amazon.com/dp/B06XPFDQBH,
 Heat Pad,,,,1,https://www.amazon.com/dp/B07P1H8N8H,
-Temperature Controller,W1209 Temperature Controller,,,1,https://www.amazon.com/dp/B07VDRGK9F,Identical to tethering setup temperature controller.
+Temperature Controller,W1209 Temperature Controller,,,1,https://www.amazon.com/dp/B07VDRGK9F,Identical to tethering setup temperature controller. Link ships 2-packs.
 IR LED,"850-950 nm LED, 5 mm profile",,,1 per lamp shade,https://www.amazon.com/dp/B01BVGU1R8,
 Display,Amazon Fire tablet,,,1,https://www.amazon.com/dp/B07FKR6KXF,
 Tablet Holder,,,,1,https://www.amazon.com/dp/B08F77HBSB,
 Camera,PS3 eye camera,,,1,https://www.amazon.com/Sony-PlayStation-Camera-Bulk-Packaging-Pc/dp/B0072I2240/ref=sr_1_3?dchild=1&keywords=ps3+eye&qid=1623267585&sr=8-3,
 Tubing Fitting,Feed to Sphere Holder,,,1,https://www.mcmaster.com/51235K107/,
 "M3 Screws, 6 mm","M3 x 0.5 thread, 6 mm length. Socket head.",,,,https://www.amazon.com/iExcell-M3-P0-5-Stainless-Socket-Assortment/dp/B07HQC1CYF/ref=sr_1_2?dchild=1&keywords=Screws&pd_rd_r=f0fbe043-6887-47a1-906d-1af80e02e983&pd_rd_w=KOyZU&pd_rd_wg=jEsS4&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=E2AQVHN5H9G4JWFFWWP6&pid=eogsvs9&qid=1626199419&refinements=p_n_feature_fourteen_browse-bin%3A11434052011&s=industrial&sr=1-2&th=1,Screw included in set; also can be purchased individually through McMaster-Carr. Also used in tethering setup. 
+"M3 Screws, 8 mm","M3 x 0.5 thread, 8 mm length. Socket head.",,,,https://www.amazon.com/iExcell-M3-P0-5-Stainless-Socket-Assortment/dp/B07HQC1CYF/ref=sr_1_2?dchild=1&keywords=Screws&pd_rd_r=f0fbe043-6887-47a1-906d-1af80e02e983&pd_rd_w=KOyZU&pd_rd_wg=jEsS4&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=E2AQVHN5H9G4JWFFWWP6&pid=eogsvs9&qid=1626199419&refinements=p_n_feature_fourteen_browse-bin%3A11434052011&s=industrial&sr=1-2&th=1,Screw included in set; also can be purchased individually through McMaster-Carr.
 "M3 Screws, 10 mm","M3 x 0.5 thread, 10 mm length. Socket head.",,,,https://www.amazon.com/iExcell-M3-P0-5-Stainless-Socket-Assortment/dp/B07HQC1CYF/ref=sr_1_2?dchild=1&keywords=Screws&pd_rd_r=f0fbe043-6887-47a1-906d-1af80e02e983&pd_rd_w=KOyZU&pd_rd_wg=jEsS4&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=E2AQVHN5H9G4JWFFWWP6&pid=eogsvs9&qid=1626199419&refinements=p_n_feature_fourteen_browse-bin%3A11434052011&s=industrial&sr=1-2&th=1,Screw included in set; also can be purchased individually through McMaster-Carr. Also used in tethering setup. 
 "M3 Screws, 40 mm","M3 x 0.5 thread, 40 mm length. Hex head.",,,,https://www.mcmaster.com/91287A028/,Also used in tethering setup.
 M3 Locking nuts,M3 x 0.5 nylock nut,,,,https://www.mcmaster.com/90576A102/,Also used in tethering setup.
 M3 Nuts,M3 x 0.5 hex nut,,,,https://www.mcmaster.com/90592A085/,Also used in tethering setup.
 M3 Washers,"M3, nylon, black",,,,https://www.mcmaster.com/95610A530/,Also used in tethering setup.
-M6 Screws,M6 flat washer,,,,https://www.mcmaster.com/91274A138/,
-M6 Nuts,M6 x 0.5 hex nut,,,,https://www.mcmaster.com/90592A016/,
-M6 Washers,"M6, nylon, black",,,,https://www.mcmaster.com/91166A250/,
+M6 Screws,"M6 x 1mm thread, 12 mm length. Socket head.",,,,https://www.mcmaster.com/91274A138/,
+M6 Nuts,M6 x 1 mm hex nut,,,,https://www.mcmaster.com/90592A016/,
+M6 Washers,"M6, zinc plated steel",,,,https://www.mcmaster.com/91166A250/,
 Lens,25 mm M12 Lens,,,1,http://www.m12lenses.com/25mm-F2-4-5MP-CCTV-Lens-p/pt-2524mp5y.htm,
 Lens Holder,M12 Lens Holder,,,1,http://www.m12lenses.com/M12-Lens-Holder-Plastic-p/pt-lh001p.htm,
 Lens Extension,M12 Macro Extension,,,1,http://www.m12lenses.com/7mm-Metal-Extension-Ring-for-M12-Mount-p/pt-erm12-700m.htm,
@@ -44,3 +52,4 @@ Micromanipulator Carriage Bottom/Center,"3D printed, mm scale. ",https://reiserl
 Micromanipulator Stand,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/walking/stands#stand-micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Walking-Setup/Stand_MicroManipulator/production/Stand_MicroManipulator-Stand.stl,1,https://craftcloud3d.com/upload,Identical to tethering setup micromanipulator part.
 Micromanipulator Arena Arm,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Arm_Arena.stl,1,https://craftcloud3d.com/upload,NOT identical to tethering setup micromanipulator arm.
 "Micromanipulator Arena Arm, Tilted","3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Arm_tilted_Arena.stl,1,https://craftcloud3d.com/upload,NOT identical to tethering setup micromanipulator arm.
+Tube Roller Clamp,"3D printed, mm scale. ",,https://www.thingiverse.com/thing:174398,1,https://craftcloud3d.com/upload,Identical to tethering setup roller clamp. 
