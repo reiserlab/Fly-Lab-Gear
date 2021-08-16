@@ -8,13 +8,13 @@ permalink: /tether
 
 # Tethering
 
-These components aid in the body fixation or head fixation of flies and possibly other insects. While the list below includes components that we use in the lab – for [walking](/walking) as well as [flight](/flight) studies – others have been developed exclusively for the ["Inexpensive Treadmill."](/inexpensive-treadmill)
+These components aid in the body fixation or head fixation of flies and possibly other insects. While the list below includes components that we use in the lab – for [walking]({{site.baseurl}}/walking) as well as [flight]({{site.baseurl}}/flight) studies – others have been developed exclusively for the ["Inexpensive Treadmill."]({{site.baseurl}}/inexpensive-treadmill)
 
 ## [Tethering station]({{site.baseurl}}/tether/station)
 {:.clear}
 
 [![Machined Sarcophagus assembly]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr}]({{site.baseurl}}/tether/station)
-We use the tethering station in our manuscript about an [Inexpensive Treadmill setup]({{site.baseurl}}/inexpensive-treadmill). The tethering station is designed for a specific heat sink and fan package, has a mount point for our micromanipulator, and has a hand rest that helps with delicate procedure of tethering a fly.
+In our manuscript about an [Inexpensive Treadmill Setup]({{site.baseurl}}/inexpensive-treadmill), we introduce this tethering station. As well as having a mount point on our micromanipulator, the tethering station also incorporates a hand rest to help with the delicate procedure of attaching a fruit fly to a thin rod.
 
 ## [Sarcophagus]({{site.baseurl}}/tether/sarcophagus)
 {:.clear}
