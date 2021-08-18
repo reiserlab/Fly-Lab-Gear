@@ -8,7 +8,7 @@ permalink: /physiology
 
 # Physiology.
 
-Components such as the head fixation plate mentioned below can be utilized for physiology research and may be beneficial for both the [walking](/walking) and [flight](/flight) setups. Tethering-related components are listed under the [Tethering](/tether) menu, while additional components and 3D models are presented under [Miscellaneous](/miscellaneous).
+Components such as the head fixation plate mentioned below can be utilized for physiology research and may be beneficial for both the [walking]({{site.baseurl}}/walking) and [flight]({{site.baseurl}}/flight) setups. Tethering-related components are listed under the [Tethering]({{site.baseurl}}/tether) menu, while additional components and 3D models are presented under [Miscellaneous]({{site.baseurl}}/miscellaneous).
 
 ## [Flyplate]({{site.baseurl}}/physiology/flyplate)
 {:.clear}
