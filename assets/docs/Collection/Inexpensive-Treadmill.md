@@ -8,7 +8,7 @@ nav_order: 1
 # Inexpensive Treadmill
 
 [![Title page of published article]({{site.baseurl}}/assets/img/Collection/10.3389_fnbeh.2021.689573.png){:.ifr}](https://doi.org/10.3389/fnbeh.2021.689573)
-["An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for *Drosophila* Experiments"](https://doi.org/10.3389/fnbeh.2021.689573) is an article Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)" (for an earlier version see [bioRxiv preprint](https://doi.org/10.1101/2021.04.29.442008)). We developed a range of new components for this "Inexpensive Treadmill" submission. In this collection we name the components used in the manuscript, refer to their detailed pages, and add information that are outside the scope of a scientific publication.
+["An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for *Drosophila* Experiments"](https://doi.org/10.3389/fnbeh.2021.689573) is an article Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)" (for an earlier version see [bioRxiv preprint](https://doi.org/10.1101/2021.04.29.442008)). For this "Inexpensive Treadmill" publication, we created a number of additional hardware and software components that turn out to be useful in the lab. The goal of this website and the github repository is to name the components used in the article, point to their detailed pages, and include material that is not appropriate for a scientific publication.
 
 ## Fly Handling
 
@@ -20,7 +20,7 @@ For the experiments in the "Inexpensive Treadmill" manuscript, we used *Drosophi
 ### Flypicker
 
 ![Different suction fly picker]({{site.baseurl}}/assets/img/Tethering/Flypicker/Flypickers.jpg){:.ifr .pop}
-To move individual flies, we use so called "fly pickers". With those pen-sized devices we lift flies through suction: a weak partial vacuum inside the device holds the anesthetized fly in place without injuring them. Similar devices are used in microelectronics to place small components during PCB assembly and we have used commercial devices from this industry in the past (top image). For the "Inexpensive Treadmill" we improvised a similar device using a plastic transfer pipette, a few Luer connectors, and either a heat shrink tube (center image) or a one-way tip from a pipette (bottom image). <!-- TODO: add page and description on how to produce this -->
+To move individual flies, we use so called "fly pickers". With those pen-sized devices we lift flies through suction: a weak partial vacuum inside the device holds the anesthetized fly in place without injuring them. Similar devices are used in the microelectronics sector to pick and place small components during PCB assembly, and we have previously employed commercial devices from this industry (top image). Using a plastic transfer pipette, a few Luer connections, and a heat shrink tube or a one-way pipette tip, we created a similar gadget for the "Inexpensive Treadmill" setup (bottom image). <!-- TODO: add page and description on how to produce this -->
 
 ## Tethering Station
 
