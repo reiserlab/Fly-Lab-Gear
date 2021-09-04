@@ -29,7 +29,7 @@ We use chill coma to immobilize flies during body-fixation. For the inexpensive 
 ### [Cooling plate with sarcophagi]({{site.baseurl}}/tether/sarcophagus)
 
 [![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr}]({{site.baseurl}}/tether/sarcophagus)
-During tethering flies are held in an upright position by the cylindrical shape of a "sarcophagus". Our current design of the cooling plate has room for 15 different sarcophagi for different insect body sizes and with more or less 3D printed material between the Peltier element and the insect.
+Flies are held upright during tethering by the cylindrical shape of a "sarcophagus." Our present cooling plate design accommodates 15 different sarcophagi for various insect body sizes, with more or less 3D printed material between the Peltier element and the insect.
 
 ### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
 
