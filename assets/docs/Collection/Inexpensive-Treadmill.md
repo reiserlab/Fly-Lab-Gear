@@ -34,7 +34,7 @@ Flies are held upright during tethering by the cylindrical shape of a "sarcophag
 ### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
 
 [![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
-The blunt tip dispensing needle, aka tether, needs to be placed on the fly's thorax at high precision. We achieve fine-grained translational movement of the tether in three dimensions through a 3-axis micro manipulator.
+The blunt tip dispensing needle, also known as the tether, must be precisely placed on the fly's thorax. Using a 3-axis micro manipulator, we achieve fine-grained translational manipulation of the tether in three dimensions.
 
 ### [Hand rest]({{site.baseurl}}/tether/station)
 
