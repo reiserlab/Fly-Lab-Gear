@@ -19,7 +19,7 @@ Different components combined to a functional experimental setup. We use this as
 {:.clear}
 
 [![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg.png){: .ifr}]({{site.baseurl}}/walking/sphere-holder)
-Spherical treadmills for insects are essentially small sphere floating on air. A sphere holder is the component that holds the sphere in a defined place, so it has an air inlet and an air outlet where the sphere would be placed.
+Spherical insect treadmills are essentially small spheres floating in air. A sphere holder is the component that holds the sphere in a specific location and contains an air intake for pressurized air and an outlet where the sphere would be situated.
 
 ## [Illumination]({{site.baseurl}}/walking/illumination)
 {:.clear}
