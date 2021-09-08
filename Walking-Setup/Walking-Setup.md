@@ -31,4 +31,4 @@ Optical tracking of spherical treadmills, for example through [FicTrac](https://
 {:.clear}
 
 [![Manipulator Stand]({{site.baseurl}}/assets/img/Walking-Setup/Stands/Stand_Treadmill_Sphere_Holder.png){: .ifr}]({{site.baseurl}}/walking/stands)
-To assemble different components at specific locations, we use different stands. For example we designed simple but stable stands for the camera, for Micromanipulators, and for the sphere holder.
+To assemble different components at specific locations, we use different stands. Examples include camera stands, Micromanipulator stands, and spherical holder stands that are easy, but stable, to build.
