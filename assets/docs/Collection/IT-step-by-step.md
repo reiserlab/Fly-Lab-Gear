@@ -3,25 +3,30 @@ title: Building an Inexpensive Treadmill step by step
 parent: Collections
 permalink: /how-to-build-inexpensive-treadmill
 nav_order: 2
+has_toc: true
+toc_levels: 1
 ---
 
 # Preface
 
-The initial version of this document was written by Alice  Jiang, who replicated the [Inexpensive Treadmill]({{site.baseurl}}/inexpensive-treadmill) at home and documented the process.
+The initial version of this document was written by Alice  Jiang, who replicated the [Inexpensive Treadmill]({{site.baseurl}}/inexpensive-treadmill) at home and documented the process. If you want to see the overall structure of the document, have a look at the [table of contents](#toc) at the end of the document (to keep the start brief).
 
 # 1. Ordering Components
+{: #order-components}
 
 \[insert ordering table from csv file with COTS components\]
 
 A full bill of materials for the fly tethering station and walking setup is available above and may be downloaded as a CSV file from the [project website]({{site.baseurl}}/inexpensive-treadmill). Many components are commercially available off-the-shelf from different vendors. For clarity we linked one potential source for each part, without endorsing this particular provider over others.
 
 # 2. Ordering/Manufacturing Custom Components
+{: #custom-components}
 
 Custom components must be laser cut/3D printed in-house or purchased from a manufacturer. We have tested custom parts from the manufacturers listed in the tables.
 
 Manufacturing custom components involves the use of a laser cutter or a 3D printer. See 2.1 and 2.2 for instructions on ordering parts; see 2.3 and 2.4 for manufacturing.
 
 ## 2.1. Ordering Laser-Cut Parts
+{: #order-laser-cut}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image19.png){:.ifr .pop}
 
@@ -30,12 +35,14 @@ Three components of the setup are laser cut: the baseplate, the heat pad plate, 
 Ponoko will extract paths from the vector graphics file to produce the part. Different colors can have different meanings, but all parts for the setup require lines to be cut. If Ponoko extracts multiple colors, set all line colors to "Cutting" in the drop down menu, as shown below. 
 
 ## 2.2 Ordering 3D-Printed Parts
+{: #order-3d-print}
 
 Upload all parts to Craftcloud or a 3D printing service of your choice. All parts need to be printed  in mm scale with the exception of the sphere holder files, which are in inches scale and may need to be uploaded separately.
 
 The sphere holder must also be airtight. We recommend printing it in resin, as this requires no additional processing. All other parts may be printed in a material of your choice; we have tested and recommend ABS.
 
 ## 2.3. Manufacturing Laser-Cut Parts
+{: #manufacture-laser-cut}
 
 Three components of the setup are laser cut: the baseplate, the heat pad plate, and the tethering station. Vector graphics files for all laser-cut parts are linked in the order table. Upload these to your laser cutting software and set all lines to "cut". Refer to the components table for acrylic thicknesses.
 
@@ -46,6 +53,7 @@ The color of a path defines the intensity of the laser for laser cutters. Differ
 Because the cut is so tiny, there are no tolerances or extra material sto consider. The laser beam\'s power is commonly set in the cutter interface. Acrylic is a widely used material, and many machines let you select the material strength as a proxy for cutting power.
 
 ## 2.4. Manufacturing 3D-Printed Parts
+{: #manufacture-3d-print}
 
 All parts are designed and consequently exported in a metric scale with the exception of the sphere holders, which are in imperial scale. Depending on your printer settings, the adjustments between the metric and imperial system can be achieved by scaling the parts, for example the sphere holders up 2540% in mm scale.
 
@@ -56,12 +64,14 @@ All other parts may be printed in a material of your choice. We have tested ABS 
 A print guide is listed as an appendix to this document. It contains information on support usage and recommended print orientations for the best possible part quality.
 
 # 3. Micromanipulator Assembly
+{: #micromanipulator}
 
 A micromanipulator is necessary for both the tethering and walking
 setup. Since both of these setups require a different arm, we recommend
 constructing two micromanipulators.
 
 ## 3.1. Components
+{: #micromanipulator-components}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image24.png){:.ifr .pop}
 
@@ -90,6 +100,7 @@ The following tools will be helpful:
 - Needle Files
 
 ## 3.2. Sanding to Fit
+{: #micromanipulator-postprocess}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image53.png){:.ifr .pop}
 
@@ -100,14 +111,17 @@ Using a rat tail to smooth the tracks in the carriages (a) and the inside of the
 Pay special attention to the open ends of the rails, as print material can build up at the corners and impede the carriage from sliding in through the open end.
 
 ## 3.3. Assembling Top Rail and Carriage
+{: #micromanipulator-assembly}
 
 ### 3.3.1. Preparing top carriage
+{: #micromanipulator-assembly-top-carriage}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image54.png){:.ifr .pop}
 
 The top carriage has two nut slots. We have found that using only one nut yields the smoothest performance. Load a nut into the slot that is farther from the end of the carriage. Make sure to insert the nut with the flats parallel to the sides of the carriage, shown in (a). When the nut is fully inserted, its hole should be concentric with the hole in the carriage (b).
 
 ### 3.3.2. Loading top carriage into rail
+{: #micromanipulator-assembly-top-rail}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image29.png){:.ifr .pop}
 
@@ -117,14 +131,17 @@ Push the top carriage into the rail. The slot with the inserted nut should make 
 (d).
 
 ## 3.4. Attaching Center Rail
+{: #micromanipulator-assembly-center}
 
 ### 3.4.1. Preparing center rail
+{: #micromanipulator-assembly-center-rail}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image38.png){:.ifr .pop}
 
 Load the center rail with a 40 mm M3 screw the same way as the top rail, with the nuts and washers in contact but still allowing the screw to turn after the nut is tightened. 
 
 ### 3.4.2. Joining top and center rails
+{: #micromanipulator-assembly-top-center}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image48.png){:.ifr .pop}
 
@@ -133,8 +150,10 @@ Mount the top top rail assembly on the screw-loaded center rail with four 6 mm M
 Add a handle to the screw in the center rail (b).
 
 ## 3.5. Attaching Bottom Rail
+{: #micromanipulator-assembly-bottom}
 
 ### 3.5.1. Preparing bottom rail and carriage
+{: #micromanipulator-assembly-bottom-carriage}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image6.png){:.ifr .pop}
 
@@ -143,14 +162,17 @@ The center carriage has two bars, each of which has two slots. Again, only one n
 Repeat the screw loading process with the bottom rail (b). Add a handle to the bottom rail and load the center carriage onto the rail, with the occupied nut slot facing the handle (c). Turn the handle to move the carriage into the center of the rail (d).
 
 ### 3.5.2. Joining bottom and top/center rails
+{: #micromanipulator-assembly-center-botttom}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image1.png){:.ifr .pop}
 
 Load the upper bar of the center carriage into the center rail, with the nut slot again facing the handle (a). Turn the center rail handle until the center carriage sits in the middle of the rail (b).
 
 ## 3.6. Finishing Micromanipulator
+{: #micromanipulator-finish}
 
 ### 3.6.1. Installing arm
+{: #micromanipulator-arm}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image56.png){:.ifr .pop}
 
@@ -163,6 +185,7 @@ Align the hole in the arm with the hole in the carriage and nut (b). Secure the 
 A completed tethering micromanipulator (c) and a completed arena micromanipulator (d) are shown below.
 
 ### 3.6.2. Finished Micromanipulators
+{: #micromanipulator-finalize}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image45.png){:.ifr .pop}
 
@@ -171,24 +194,29 @@ The micromanipulator is complete.
 Below are pictures of tethering (left) and arena (right) micromanipulators made from ordered parts.
 
 # 4. Tethering Station Assembly
+{: #tethering-station-assembly}
 
 The tethering station consists of an acrylic hand rest, on which a micromanipulator and a chiller are mounted. The goal of the tethering station is provide experimenters with a temperature-controlled environment to precisely tether cold-anesthetizes flies.
 
 ## 4.1. Components
+{: #tethering-station-assembly-components}
 
 TODO
 
 ## 4.2. Hand Rest Assembly
+{: #tethering-station-assembly-handrest}
 
 The hand rest is the acrylic assembly that holds together the tethering setup. It will hold the chiller and tethering micromanipulator and provide a place for the experimenter to rest their hand during operation.
 
 ### 4.2.1. Components and Preparation
+{: #tethering-station-assembly-handrest-component}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image44.png){:.ifr .pop}
 
 The tethering stand requires a total of six acrylic pieces. You may need to remove backing paper and pop out slots and holes before assembly. Acrylic is prone to shattering, so assemble the pieces carefully. If fits are particularly tight, lightly sanding/filing the slots may help assembly.
 
 ### 4.2.2. Assembling Acrylic Pieces
+{: #tethering-station-assembly-acrylic}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image52.png){:.ifr .pop}
 
@@ -199,6 +227,7 @@ Interlock the chiller supports with the front and back supports and slot their t
 Press the arm rest onto the back support and chiller supports, making sure to align all the tabe with the slots in the plate.
 
 ### 4.2.3. Securing Hand Rest with Screws
+{: #tethering-station-assembly-securing}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image14.png){:.ifr .pop}
 
@@ -207,6 +236,7 @@ There are eight t-shaped slots in the hand rest. Screws should be inserted in th
 Screw a 20 mm (or slightly shorter) M3 screw and a washer into the slot (b). Repeat for all 8 screws in the hand rest (c).
 
 ### 4.2.4. Installing Hand Rest Feet
+{: #tethering-station-assembly-feet}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image39.jpg){:.ifr .pop}
 
@@ -215,14 +245,17 @@ Press several adhesive feet on the bottom of the hand rest. These will keep the 
 The hand rest is complete.
 
 ## 4.3. Chiller Assembly
+{: #tethering-station-chiller}
 
 The chiller assembly includes a peltier chiller, a "sarcophagus" to hold flies during tethering, and a W1209 temperature controller. You will install the sarcophagus on the chiller and wire the chiller with the temperature controller, thermistor, and power adaptor.
 
 ### 4.3.1. Components
+{: #tethering-station-chiller-components}
 
 TODO
 
 ### 4.3.2. Assembling Temperature Controller
+{: #tethering-station-chiller-temperature-controller}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image46.png){:.ifr .pop}
 
@@ -233,6 +266,7 @@ The parts of the housing are shown in (a). Mount the circuit board to the bottom
 Insert the side plates into their slots on the base plate, matching the orientation shown in (a). Place the top plate over the tabs on the side plates. Make sure that the holes in the top plate line up with the components on top of the board.
 
 ### 4.3.3. Wiring Chiller
+{: #tethering-station-chiller-wiring}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image3.png){:.ifr .pop}
 
@@ -247,24 +281,28 @@ The chiller should have power and ground wires for both the fan and the peltier 
 Twist together the two black ground wires from the chiller with the prepared black wire. Insert all three wires into the "GND" terminal (c). Finally, connect the two remaining ends of the long wires to the plug adaptor \-- red should go to "plus" and black to "minus" (c).
 
 ### 4.3.4. Swapping Thermistor
+{: #tethering-station-chiller-thermistor}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image16.jpg){:.ifr .pop}
 
 The thermistor that comes with the temperature controller should be swapped out with a ring thermistor. Cut off the rod-shaped end of the thermistor that comes with the controller. Strip the two strands of remaining wire and twist them together with the leads of the thermistor. You may also solder the connection if you wish. Cover the connection with electric tape.
 
 ### 4.3.5. Preparing Sarcophagus
+{: #tethering-station-chiller-sarcophagus}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image40.png){:.ifr .pop}
 
 Line the back of the sarcophagus with thermal tape. Try to cover the full surface with tape, with the backing still on (a). Trim the ends of the tape strips to fit the sarcophagus (b), then peel the backing from the strips of tape (c).
 
 ### 4.3.6. Mounting Sarcophagus and Thermistor
+{: #tethering-station-chiller-mount-sarcophagus}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image55.png){:.ifr .pop}
 
 Press the sarcophagus onto the cold plate of the chiller, making sure to leave one of the screws fully exposed (a). Unscrew the exposed screw; it will likely come out with a black adaptor. Remove the adaptor and load the thermistor onto the screw, then replace the adaptor (a). Replace the screw in the cold plate of the chiller (b). Plug the thermistor into its connector on the temperature controller. 
 
 ## 4.4. Assembling Tethering Station
+{: #tethering-station-finalize}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image28.png){:.ifr .pop}
 
@@ -277,14 +315,17 @@ To use the tethering station, mount a luer needle on the micromanipulator and ro
 The tethering station is complete. Another angle of the setup is shown below.
 
 ## 4.5. Fly Picker Assembly
+{: #fly-picker}
 
 Secondary to the tethering station, a vacuum fly picker is useful to move cold anesthetized flies to the tethering station. It can be run off a laboratory vacuum line or with the "deflate" port of a rotary pump.
 
 ### 4.5.1. Components and Preparation
+{: #fly-picker-components}
 
 TODO
 
 ### 4.5.2. Fly Picker Tip Assembly
+{: #fly-picker-tip}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image15.png){:.ifr .pop}
 
@@ -293,6 +334,7 @@ Mark a dot in marker \~1 inch from the end of the pipet. The dot should be rough
 The connector will be hot glued to the pipette to maintain a good seal. Load the cup around the inner tube of the connector with hot glue, making sure to keep glue out of the tube (d). Quickly press the connector back into the hole and let the glue set (e). Trim off the bulb of the pipette.
 
 ### 4.5.3. Connecting to Tubing
+{: #fly-picker-tubing}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image11.png){:.ifr .pop}
 
@@ -301,6 +343,7 @@ Load another luer connector with hot glue, this time under the rim of the other 
 Bend the end of a micropipette tip. Insert a needle or pin in the end of the tip and submerge in hot water or heat with hot air. Carefully bend the tip with the pin, then let the tip cool before removing the pin. Press the tip onto the pipette and connect tubing to the end luer connector (c).
 
 ### 4.5.4. Connecting to Air Pump
+{: #fly-picker-air-pump}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image12.jpg){:.ifr .pop}
 
@@ -309,16 +352,20 @@ The tubing can be connected to a laboratory airline. If one is not available, we
 The fly picker is complete. Cover the hole of the perpendicular connector with a finger to pick up flies and release to set them down.
 
 # 5. Walking Setup Assembly
+{: #experimental-setup}
 
 ## 5.1. Components and Preparation
+{: #experimental-setup-components}
 
 TODO
 
 ## 5.2. Replacing Camera Lens
+{: #experimental-setup-camera}
 
 The setup uses a PlayStation 3 Eye camera (PSEye) to record the movement of the fly. You will replace the camera's lens with a new lens at a larger magnification. To do this, you will need a small Phillips head screwdriver, a flathead screwdriver or similar object for prying, and superglue, along with the camera and lens kit.
 
 ### 5.2.1. Removing Back Cover
+{: #experimental-setup-camera-back}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image33.png){:.ifr .pop}
 
@@ -327,6 +374,7 @@ Remove the four screws from the back of the camera. You may have to remove foam 
 Pry the back cover off the camera with a flathead screwdriver, being careful to not damage the printed circuit board. This may result in breaking plastic snaps on the side of the case\--this is fine.
 
 ### 5.2.2. Removing Lens
+{: #experimental-setup-camera-remove-lens}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image37.png){:.ifr .pop}
 
@@ -335,6 +383,7 @@ Remove the printed circuit board from the camera face, speaker holder, and stand
 Flip the board over and remove the two screws securing the old lens mount.
 
 ### 5.2.3. Installing New Lens
+{: #experimental-setup-camera-new-lens}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image47.png){:.ifr .pop}
 
@@ -343,6 +392,7 @@ Apply glue to the new lens mount and secure it to the front of the board, aligni
 Screw the extender and the lens into the lens mount.
 
 ### 5.2.4. Replacing PCB
+{: #experimental-setup-camera-pcb}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image30.png){:.ifr .pop}
 
@@ -351,20 +401,24 @@ Remove the plastic lens cover and insert the board into the speaker holder, came
 Replace and tighten the screws on the back of the camera. Replace the lens cover to protect the lens while not in use.
 
 ### 5.2.5. Mounting Camera
+{: #experimental-setup-camera-mount}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image8.jpg){:.ifr .pop}
 
 The base of the camera slots into the top of the camera stand. Fix the camera in place with two M6 screws, placing their hex nuts in front of the camera's base to hold it in place.
 
 ## 5.3. Preparing Heat Pad
+{: #heat-pad}
 
 ### 5.3.1. Sticking Heat Pad to Acrylic Plate
+{: #heat-pad-mount}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image36.png){:.ifr .pop}
 
 The heat pad is mounted on an acrylic plate (a). Peel the backing from the heat pad and affix it to the plate (b). The heat pad will be facing up, towards the fly.
 
 ### 5.3.2. Wiring Heat Pad
+{: #heat-pad-wiring}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image18.png){:.ifr .pop}
 
@@ -373,20 +427,24 @@ The heat pad is wired to the same temperature controller, the W1209, as the chil
 Twist together the short and long red wires and insert them into the "+12V" terminal. Connect the free end of the short red wire to the "K1" terminal. Connect one wire of the heat pad to the "K0" terminal (a). Twist together the other wire of the heat pad and the black wire. Insert them into the "GND" terminal.
 
 ### 5.3.3. Powering Heat Pad
+{: #heat-pad-power}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image23.jpg){:.ifr .pop}
 
 Connect the free ends of the long wires to the power adaptor. Red goes to "+" and black to "-". Plug the included thermistor into its port. To use the setup, plug a 5V power supply into the plug adaptor. 
 
 ## 5.4. Assembling Illumination
+{: #illumination}
 
 ### 5.4.1. Assembling Lamp Posts
+{: #illumination-post}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image4.png){:.ifr .pop}
 
 Secure the lamp shades to the lamp posts with 8mm M3 screws (a). Insert an IR LED into each lamp shade, with its leads sticking out through the holes (b). Holding the leads of the LED to the lamp post, angle the shade to its desired position, bending the leads (c).
 
 ### 5.4.2. Wiring Illumination
+{: #illumination-wiring}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image7.png){:.ifr .pop}
 
@@ -397,26 +455,31 @@ Build the illumination circuit shown in (b). The resistor can be changed to fit 
 IR light is not visible, but most cameras can pick it up. Use the PS Eye or a phone camera to look at each bulb to verify that they are working properly (c).
 
 ## 5.5. Assembling Baseplate
+{: #baseplate}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image21.png){:.ifr .pop}
 
 Place rubber feet on the bottom of the acrylic baseplate. Be liberal with the feet in order to prevent bowing of the baseplate.
 
 # 6. Software
+{: #software}
 
 The setup uses FicTrac to analyze the movement of tethered flies. We recommend running FicTrac on a Linux operating system, or in a Linux VM on another operating system. We have not yet run FicTrac on other operating systems at the desired fidelity but are currently working on this.
 
 ## 6.1. Camera Driver
+{: #software-camera-driver}
 
 No camera driver is needed for Linux.
 
 We have not gotten FicTrac to run on Windows at the desired frames per second. However, the camera can connect to FicTrac after installing the [CL Eye Driver](https://archive.org/details/CLEyeDriver5.3.0.0341Emuline) and then the [PSEyeDriver](https://github.com/inspirit/PS3EYEDriver).
 
 ## 6.2. FicTrac
+{: #software-fictrac}
 
 FicTrac is the tracking software used to track the fly's motion.
 
 ### 6.2.1. Installing VM
+{: #software-fictrac-vm}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image51.png){:.ifr .pop}
 
@@ -427,6 +490,7 @@ To connect the USB camera to the VM, you will also need to install VirtualBox Ex
 Navigate into the Settings menu and enable USB 3.0. Connect the PS3 Eye to the host machine and hit the "Add USB Filter" button to select and add the camera.
 
 ### 6.2.2. Installing FicTrac
+{: #software-fictrac-vm-install}
 
 We have a branch of FicTrac that allows the camera to be read in low resolution/high frames per second mode. It can be found here:
 
@@ -435,6 +499,7 @@ Install FicTrac on the Linux operating system according to the instructions on t
 The instructions suggest building FicTrac with cmake in the "build" directory of a FicTrac clone. If this does not work, try building in the main fictrac directory instead. 
 
 ### 6.2.3. Configuration File
+{: #software-fictrac-vm-configure}
 
 FicTrac provides a configuration GUI for orientation information. However, it must still be fed some basic information about the setup to operate.
 
@@ -451,12 +516,14 @@ vfov             : 5
 `src_fn` controls the USB input channel. If `0` does not work, increment up by one until the camera is recognized. `src_fps` gives the frames per second \-- `187` is the highest the camera can output at the lower resolution given by `src_height` and `src_width`. Finally, `vfov` is the field of view of the camera, which is 5 degrees for our recommended lenses.
 
 ### 6.2.4. Running FicTrac
+{: #software-fictrac-vm-run}
 
 First, position the camera so that it is focused on the ball. This can be done with any camera software that recognizes the camera; Linux's native "Cheese" works.
 
 There will be configGui and fictrac executables in the fictrac/bin directory. Run the configGui to equip the software with spatial information. After running through the GUI, run fictrac to begin tracking.
 
 ### 6.2.5. Recommended Settings
+{: #software-fictrac-vm-settings}
 
 If you are receiving suboptimal frames per second, we recommend turning
 off the display and lowering the q factor from the default 6.
@@ -467,6 +534,7 @@ q_factor          : 3
 ```
 
 ### 6.2.6. Windows Errors
+{: #software-fictrac-vm-errors}
 
 We also installed FicTrac on Windows 10. Documentation of errors we encountered follows.
 
@@ -483,16 +551,19 @@ The instructions suggest building FicTrac with cmake in the "build" directory of
 ---
 
 # Appendix: Print Production
+{: #print}
 
 This appendix contains recommended print orientations and support usage for all 3D printed parts in the setup. 
 
 ## A.1. Print Settings
+{: #print-settings}
 
 If you have a printer that is capable of producing soluble supports, print with supports everywhere (touching buildplate and touching part) for optimal part quality. If you will have to manually remove the supports (i.e., your printer only extrudes one material), follow the support instructions listed for each part. Support appearance will depend on the slicer used; example supports are shown in red in the pictures.
 
 Printed parts have been tested on a Creality Ender 3 Pro, with Hatchbox PLA. Parts were sliced with .2mm layer height and 20% infill. 
 
 ## A.2. Removing Supports
+{: #print-supports}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image2.png){:.ifr .pop}
 
@@ -506,6 +577,7 @@ In particular:
 - Needle files can be used for the same purposes as sandpaper. They are particularly useful for shaping narrow areas, like corners, pockets, and holes.
 
 ## A.3. Micromanipulator Arms
+{: #print-micromanipulator-arm}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image22.png){:.ifr .pop}
 
@@ -514,18 +586,21 @@ No supports necessary for tethering arm (center).
 Supports touching build plate necessary for arena arms (left, right). A support should generate under arm tip and should be snapped off.
 
 ## A.4. Micromanipulator Bottom Rail
+{: #print-bottom-rail}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image50.png){:.ifr .pop}
 
 No supports necessary.
 
 ## A.5. Micromanipulator Center Rail
+{: #print-center-rail}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image41.png){:.ifr .pop}
 
 Supports touching build plate necessary. Supports should generate on the underside of the rail and should be pried off.
 
 ## A.6. Micromanipulator Top Rail
+{: #print-top-rail}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image35.png){:.ifr .pop}
 
@@ -536,24 +611,28 @@ Supports touching build plate necessary. Supports should generate on the undersi
 Supports touching build plate necessary. Note that only the back face of the part's lower plate is touching the buildplate. Supports should generate underneath the rail and should be pried off.
 
 ## A.7. Micromanipulator Center Carriage
+{: #print-center-carriage}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image34.png){:.ifr .pop}
 
 Supports touching build plate necessary. Supports should generate on the underside of the upper bar and underneath the semicircular indent on the lower bar. The lower bar support should be pried off. The larger supports should be carefully loosened from the upper bar, then pulled directly downwards to ensure removal of the support tabs inside the upper bar.
 
 ## A.8. Micromanipulator Top Carriage
+{: #print-top-carriage}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image42.png){:.ifr .pop}
 
 No supports necessary.
 
 ## A.9. Micromanipulator Handle
+{: #print-handle}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image10.png){:.ifr .pop}
 
 No supports necessary. This part benefits from higher infill and/or wall thickness.
 
 ## A.10. Micromanipulator Stands
+{: #print-micromanipulator-stands}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image20.png){:.ifr .pop}
 
@@ -562,43 +641,58 @@ No supports necessary. This part benefits from higher infill and/or wall thickne
 No supports necessary.
 
 ## A.11. Sarcophagus
+{: #print-sarcophagus}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image17.png){:.ifr .pop}
 
 No supports necessary.
 
 ## A.12. Funnel
+{: #print-funnel}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image43.png){:.ifr .pop}
 
 Supports touching build plate necessary. Supports should generate under the rim and should be pried off.
 
 ## A.13. Sphere Holder
+{: #print-sphere-holder}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image13.png){:.ifr .pop}
 
 No supports necessary. If the horizontal hole prints poorly without supports, re-print with supports touching everywhere.
 
 ## A.14. Sphere Holder Stand and Feet
+{: #print-sphere-holder-stand}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image27.png){:.ifr .pop}
 
 No supports necessary.
 
 ## A.15. Camera Stand
+{: #print-camera-stand}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image5.png){:.ifr .pop}
 
 No supports necessary.
 
 ## A.16. Lamp Posts
+{: #print-lamp-post}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image26.png){:.ifr .pop}
 
 Supports touching everywhere necessary.
 
 ## A.17. Lamp Shades
+{: #print-lamp-shades}
 
 ![]({{site.baseurl}}/assets/img/Collection/how-to/image32.png){:.ifr .pop}
 
 Supports touching build plate necessary. Note that the full circumference of the shade's rim should touch the build plate. Supports should generate under the bell of the shade and should be pulled out.
+
+# Table of Contents
+{: #toc}
+
+This document has the following structure:
+
+* TOC
+{:toc}
