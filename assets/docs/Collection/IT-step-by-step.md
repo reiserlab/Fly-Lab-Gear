@@ -1,6 +1,5 @@
 ---
 title: Building an Inexpensive Treadmill step by step
-#parent: Inexpensive Treadmill
 parent: Collections
 permalink: /how-to-build-inexpensive-treadmill
 nav_order: 2
