@@ -3,12 +3,13 @@ title: Inexpensive Treadmill
 parent: Collections
 permalink: /inexpensive-treadmill
 nav_order: 1
+has_children: true
 ---
 
 # Inexpensive Treadmill
 
 [![Title page of published article]({{site.baseurl}}/assets/img/Collection/10.3389_fnbeh.2021.689573.png){:.ifr}](https://doi.org/10.3389/fnbeh.2021.689573)
-["An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for *Drosophila* Experiments"](https://doi.org/10.3389/fnbeh.2021.689573) is an article Frank Loesche and Michael B. Reiser submitted to the research topic "[Modern Methods in Neuroethology](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology)" for "[Frontiers in Behavioral Neuroscience](https://www.frontiersin.org/journals/behavioral-neuroscience)" (for an earlier version see [bioRxiv preprint](https://doi.org/10.1101/2021.04.29.442008)). For this "Inexpensive Treadmill" publication, we created a number of additional hardware and software components that turn out to be useful in the lab. The goal of this website and the github repository is to name the components used in the article, point to their detailed pages, and include material that is not appropriate for a scientific publication.
+["An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for *Drosophila* Experiments"](https://doi.org/10.3389/fnbeh.2021.689573) is an article Frank Loesche and Michael B. Reiser published in the Research Topic ["Modern Methods in Neuroethology"](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology) for ["Frontiers in Behavioral Neuroscience"](https://www.frontiersin.org/journals/behavioral-neuroscience) (for an earlier version see [bioRxiv preprint](https://doi.org/10.1101/2021.04.29.442008)). For this "Inexpensive Treadmill" publication, we created a number of additional hardware and software components that turn out to be useful in the lab. The goal of this website and the github repository is to name the components used in the article, point to their detailed pages, and include material that is not appropriate for a scientific publication. Also note the [step-by-step guide]({{site.baseurl}}/how-to-inexpensive-treadmill) on how to build an inexpensive treadmill.
 
 ## Fly Handling
 
