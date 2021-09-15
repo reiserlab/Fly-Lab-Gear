@@ -9,7 +9,7 @@ toc_levels: 1
 
 # Preface
 
-The initial version of this document was written by Alice  Jiang, who replicated the [Inexpensive Treadmill]({{site.baseurl}}/inexpensive-treadmill) at home and documented the process. If you want to see the overall structure of the document, have a look at the [table of contents](#toc) at the end of the document (to keep the start brief).
+The initial version of this document was written by [Alice Jiang](https://www.janelia.org/lab/reiser-lab/members), who replicated the [Inexpensive Treadmill]({{site.baseurl}}/inexpensive-treadmill) at home and documented the process. If you want to see the overall structure of the document, have a look at the [table of contents](#toc) at the end of the document (to keep the start brief).
 
 # 1. Ordering Components
 {: #order-components}
