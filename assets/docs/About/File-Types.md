@@ -18,7 +18,8 @@ nav_order: 90
 
 `*.stl` are "stereolithography" files, containing unstructured triangulated surfaces of 3D models. This is the output format understood by our 3D printers, but not good for editing.
 
-`*.svg` 2D Designs for laser cut, can be edited in the OSS [Inkscape](https://inkscape.org/). Sometimes `*.dxf` is used as an export format.
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-raw_button.png)
+`*.svg` 2D Designs for laser cut, can be edited in the OSS [Inkscape](https://inkscape.org/). Sometimes `*.dxf` is used as an export format. To download these files, you might need to click on the `raw` button and then save the file.
 
 `*.[iam|ipt|idw]` files are the file format of [Autodesk Inventor](http://autodesk.com/inventor), a proprietary and commercial 3D CAD software. The extensions represent assembly, part, and drawing files respectively: `*.idw` files are "Inventor Drawing files", `*.ipt` files are "Inventor Part files", `*.iam` files are "Inventor Assembly files" ([Autodesk Inventor](https://www.autodesk.com/products/inventor/overview)).
 
