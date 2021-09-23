@@ -21,5 +21,5 @@ Original design by [Eyal Gruntman](https://www.janelia.org/people/eyal-gruntman)
 ---
 {:.clear}
 
-<sup>a</sup> Read more about how to [download this filetype]({{site.baseurl}}/file-types) from GitHub
+<sup>a</sup> Read more about how to [download this filetype]({{site.baseurl}}/file-types#ft-svg) from GitHub
 {:#fna}

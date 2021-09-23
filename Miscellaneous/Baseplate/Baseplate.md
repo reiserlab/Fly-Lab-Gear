@@ -24,5 +24,5 @@ The Baseplate is the basis for the experimental setup. We are using this as a re
 ---
 {:.clear}
 
-<sup>a</sup> Read more about how to [download this filetype]({{site.baseurl}}/file-types) from GitHub
+<sup>a</sup> Read more about how to [download this filetype]({{site.baseurl}}/file-types#ft-svg) from GitHub
 {:#fna}
