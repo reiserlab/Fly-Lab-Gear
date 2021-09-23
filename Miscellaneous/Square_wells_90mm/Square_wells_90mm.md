@@ -11,4 +11,10 @@ nav_order: 15
 These wells were intended for individual optogentic experiments. The `.svg` files can be used to laser-cut the wells from acrylic.
 
 ![Square Wells]({{site.baseurl}}/assets/img/Miscellaneous/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr .pop}
-`Wells_3x3_optogenetics.svg`: A simple 3x3 grid of 90mm square wells for individual optogenetic experiments. The cutout on the top right fits a 5mm LED to be video recorded along with the animals' traces. For the lasercutter we use, red signifies cutting, green engraving.
+`Wells_3x3_optogenetics.svg`[<sup>a</sup>](#fna): A simple 3x3 grid of 90mm square wells for individual optogenetic experiments. The cutout on the top right fits a 5mm LED to be video recorded along with the animals' traces. For the lasercutter we use, red signifies cutting, green engraving.
+
+---
+{:.clear}
+
+<sup>a</sup> Read more about how to [download this filetype]({{site.baseurl}}/file-types) from GitHub
+{:#fna}
