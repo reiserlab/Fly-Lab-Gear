@@ -25,3 +25,7 @@ All versions of the "Treadmill Sphere Holder" need to be printed on a high densi
 ![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_10mm-ball_90deg.png){: .ifr .pop}
 `Treadmill_Sphere_Holder_10mm-ball_90deg.ipt`: The same as before, but for a 10mm sphere.
 {:.clear}
+
+![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Camera-base_Sphere-Holder_9mm-ball.png){: .ifr .pop}
+`Treadmill_Camera-base_Sphere-Holder_9mm-ball.FCStd`: A two-part sphere holder that can sit on top of the camera. The camera is facing up in this component, and the sphere holder's "base" section surrounds the lens. The pressurized air intake can be fitted by drilling a hole into the base. The tip (top section with the cup for the 9mm sphere) also features a large enough opening for FicTrac (or other software) to track the sphere rotation from below. This design is ideal for constraint spaces and was contributed by [Zhengchang Lei](https://www.janelia.org/people/zhengchang-lei).
+{:.clear}
