@@ -548,6 +548,11 @@ Additionally, installing packages seems to require keyboard input after unspecif
 
 The instructions suggest building FicTrac with cmake in the "build" directory of a FicTrac clone. If this does not work, try building in the main fictrac directory instead.
 
+### 6.3. FlyFlix Stimulus presentation
+{: #software-flyflix}
+
+Install the [FlyFlix](https://github.com/floesche/FlyFlix) software by cloning the [FlyFlix repository](https://github.com/floesche/FlyFlix). Follow the instruction on the repo readme to start the server. Make sure that the tablet is in the same network as the server and point the webbrowser to the server's IP address and port `17000`, for example `http://10.10.10.1:17000`. Select the experiment you want to run, click on the *fullscreen* button and then the *start* button. Some experiments require FicTrac to run in the background.
+
 ---
 
 # Appendix: Print Production
