@@ -18,6 +18,17 @@ Different designs tested as possible masks for the sensor of the Wingbeat Analyz
 
 Original design by [Eyal Gruntman](https://www.janelia.org/people/eyal-gruntman)
 
+
+# Cover for Wingbeat Analyzer
+
+The production folder contains a [STL]({{site.baseurl}}/file-types#ft-stl) file
+for the original cover of the Wingbeat Analyzer sensor. 
+
+## Source
+{:.clear}
+
+File provided by [Michael Reiser](https://www.janelia.org/people/michael-reiser)
+
 ---
 {:.clear}
 
