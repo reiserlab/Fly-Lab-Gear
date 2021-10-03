@@ -137,3 +137,6 @@ vendor
 
 # rbenv
 .ruby-version
+
+# Offlie data
+0-offline/*
