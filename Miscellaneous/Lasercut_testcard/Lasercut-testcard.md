@@ -7,6 +7,7 @@ nav_order: 16
 
 # Material Test card for Laser cutter
 
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Lasercut_testcard){:.ifr}
 Open the `sample_combined.svg`[<sup>a</sup>](#fna) file and edit the text about material type and laser cutter settings. Adjust the colors as required by your laser cutter software.
 
 ## Source 
