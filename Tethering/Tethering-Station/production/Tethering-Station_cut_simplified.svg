@@ -43,9 +43,9 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:document-units="mm"
-     inkscape:zoom="2"
-     inkscape:cx="201.25"
-     inkscape:cy="353.75"
+     inkscape:zoom="16"
+     inkscape:cx="75.21875"
+     inkscape:cy="840.96875"
      inkscape:window-x="962"
      inkscape:window-y="1129"
      inkscape:window-maximized="1"
@@ -2030,11 +2030,11 @@
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="Shape2DView_nwe0081"
-     d="m 76.182816,246.45657 c 0,0 -57.285348,-21.07137 -58.000393,-21.08424 -0.715045,-0.0129 -0.744871,0.29679 -1.167908,0.29679 -1.348983,0 -2.442555,-1.09357 -2.44255,-2.44255 4e-6,-1.10499 1.53484,-1.97442 1.740608,-2.34018 0.205768,-0.36576 29.914056,-82.17316 29.914056,-82.17316"
+     d="m 76.182816,246.45657 c 0,0 -56.900189,-20.72682 -58.000393,-21.08424 -1.100204,-0.35742 -2.755266,0.26637 -3.230119,-1.38508 -0.474854,-1.65146 0.956063,-2.02403 1.360269,-3.10086 0.404206,-1.07683 29.914056,-82.17316 29.914056,-82.17316"
      stroke="#191919"
      stroke-width="0.35 px"
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="czsszc" />
+     sodipodi:nodetypes="czzzc" />
   <path
      id="Shape2DView_nwe0082"
      d="m 80.788675,253.03442 h -3"
