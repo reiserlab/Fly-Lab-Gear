@@ -43,9 +43,9 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:document-units="mm"
-     inkscape:zoom="16"
-     inkscape:cx="75.21875"
-     inkscape:cy="840.96875"
+     inkscape:zoom="2"
+     inkscape:cx="250.25"
+     inkscape:cy="884.25"
      inkscape:window-x="962"
      inkscape:window-y="1129"
      inkscape:window-maximized="1"
@@ -2030,11 +2030,11 @@
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="Shape2DView_nwe0081"
-     d="m 76.182816,246.45657 c 0,0 -56.900189,-20.72682 -58.000393,-21.08424 -1.100204,-0.35742 -2.755266,0.26637 -3.230119,-1.38508 -0.474854,-1.65146 0.956063,-2.02403 1.360269,-3.10086 0.404206,-1.07683 29.914056,-82.17316 29.914056,-82.17316"
+     d="m 76.182816,246.45657 c 0,0 -56.900189,-20.72682 -58.000393,-21.08424 -1.100204,-0.35742 -2.755266,0.26637 -3.230119,-1.38508 -0.474854,-1.65146 0.956063,-2.02403 1.360269,-3.10086 0.362978,-0.967 28.60915,-78.5508 29.055245,-79.81309 0.446095,-1.26229 -0.596408,-2.47177 0.734788,-2.93058 1.331195,-0.45881 1.174088,1.00046 2.480359,1.42815 1.306271,0.42769 7.04059,2.56257 7.04059,2.56257"
      stroke="#191919"
      stroke-width="0.35 px"
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="czzzc" />
+     sodipodi:nodetypes="czzszzzc" />
   <path
      id="Shape2DView_nwe0082"
      d="m 80.788675,253.03442 h -3"
@@ -2044,12 +2044,6 @@
   <path
      id="Shape2DView_nwe0084"
      d="m 77.788675,253.03442 v 1.9"
-     stroke="#191919"
-     stroke-width="0.35 px"
-     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="Shape2DView_nwe0085"
-     d="m 46.226629,138.71323 9.396926,3.42021"
      stroke="#191919"
      stroke-width="0.35 px"
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
@@ -2782,11 +2776,11 @@
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="Shape2DView_nwe0081-2"
-     d="m 9.43956,107.22517 c 0,0 57.866104,21.06438 58.713131,21.37902 0.847027,0.31464 1.62054,-0.66859 2.359502,0.52172 0.738962,1.19031 -0.41374,1.85779 -0.863604,2.68889 -0.459107,1.03336 -30.252842,83.15371 -30.252842,83.15371"
+     d="m 9.43956,107.22517 c 0,0 57.866104,21.06438 58.713131,21.37902 0.847027,0.31464 1.62054,-0.66859 2.359502,0.52172 0.738962,1.19031 -0.41374,1.85779 -0.863604,2.68889 -0.412802,0.92914 -29.013404,79.75315 -29.404264,80.81502 -0.39086,1.06187 0.606263,2.49632 -0.550922,3.08283 -1.157185,0.58651 -1.587675,-1.21051 -2.690808,-1.61518 -1.103133,-0.40467 -7.003774,-2.54917 -7.003774,-2.54917"
      stroke="#191919"
      stroke-width="0.35 px"
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="czzcc" />
+     sodipodi:nodetypes="czzczzzc" />
   <path
      id="Shape2DView_nwe0082-5"
      d="m 4.833701,100.64732 h 3"
@@ -2796,12 +2790,6 @@
   <path
      id="Shape2DView_nwe0084-7"
      d="m 7.833701,100.64732 v -1.9"
-     stroke="#191919"
-     stroke-width="0.35 px"
-     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="Shape2DView_nwe0085-4"
-     d="M 39.395747,214.96851 29.998821,211.5483"
      stroke="#191919"
      stroke-width="0.35 px"
      style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
