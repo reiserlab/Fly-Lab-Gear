@@ -5,8 +5,8 @@
    viewBox="0 0 174.99999 280"
    version="1.1"
    id="svg680"
-   sodipodi:docname="Tethering-Station_cut_nobase.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Tethering-Station_noBaseplate.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -36,18 +36,18 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1916"
+     inkscape:window-height="1029"
      id="namedview682"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:document-units="mm"
-     inkscape:zoom="0.5"
-     inkscape:cx="447"
-     inkscape:cy="729"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="22.627417"
+     inkscape:cx="171.36291"
+     inkscape:cy="402.23327"
+     inkscape:window-x="962"
+     inkscape:window-y="1129"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg680"
      inkscape:document-rotation="0"
@@ -1131,10 +1131,11 @@
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="Shape2DView_nwe0081"
-       d="M 76.182816,246.45657 15.102796,224.22526"
+       d="m 76.182816,246.45657 c 0,0 -57.501745,-20.95148 -58.702452,-21.36595 -1.200706,-0.41446 -2.667368,1.23565 -3.452438,-0.43541 -0.785069,-1.67107 1.558683,-1.81684 1.933882,-2.79007 0.337227,-0.87473 28.957409,-79.55541 29.408103,-80.79651 0.450694,-1.24109 -0.679771,-2.57009 0.646243,-3.04529 1.326014,-0.4752 1.404671,1.13933 2.560374,1.54519 1.155703,0.40585 7.047027,2.56491 7.047027,2.56491"
        stroke="#191919"
        stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="czzszzzc" />
     <path
        id="Shape2DView_nwe0082"
        d="m 80.788675,253.03442 h -3"
@@ -1142,20 +1143,8 @@
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="Shape2DView_nwe0083"
-       d="M 15.102796,224.22526 46.226629,138.71323"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
        id="Shape2DView_nwe0084"
        d="m 77.788675,253.03442 v 1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0085"
-       d="m 46.226629,138.71323 9.396926,3.42021"
        stroke="#191919"
        stroke-width="0.35 px"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
