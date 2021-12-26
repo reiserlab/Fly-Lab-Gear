@@ -14,9 +14,9 @@ The initial version of this document was written by [Alice Jiang](https://www.ja
 # 1. Ordering Components
 {: #order-components}
 
-\[insert ordering table from csv file with COTS components\]
+[List of Components](https://reiserlab.github.io/Component-Designs/inexpensive-treadmill#ordering-components)
 
-A full bill of materials for the fly tethering station and walking setup is available above and may be downloaded as a CSV file from the [project website]({{site.baseurl}}/inexpensive-treadmill). Many components are commercially available off-the-shelf from different vendors. For clarity we linked one potential source for each part, without endorsing this particular provider over others.
+A full bill of materials for the fly tethering station and walking setup is available above and may be downloaded as a CSV file. Many components are commercially available off-the-shelf from different vendors. For clarity we linked one potential source for each part, without endorsing this particular provider over others.
 
 # 2. Ordering/Manufacturing Custom Components
 {: #custom-components}
