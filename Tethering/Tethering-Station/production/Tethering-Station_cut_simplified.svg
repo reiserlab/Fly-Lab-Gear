@@ -6,7 +6,7 @@
    version="1.1"
    id="svg680"
    sodipodi:docname="Tethering-Station_cut_simplified.svg"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -36,18 +36,18 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="3836"
-     inkscape:window-height="2109"
+     inkscape:window-width="1916"
+     inkscape:window-height="1029"
      id="namedview682"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:document-units="mm"
-     inkscape:zoom="1"
-     inkscape:cx="-47.5"
-     inkscape:cy="560"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="2"
+     inkscape:cx="250.25"
+     inkscape:cy="884.25"
+     inkscape:window-x="962"
+     inkscape:window-y="1129"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg680"
      inkscape:document-rotation="0"
@@ -1610,1525 +1610,1496 @@
        d="m 243.62941,77.73588 0.0121,-33.649899 h 2.72891 l 0.0345,33.649939"
        sodipodi:nodetypes="cccc" />
   </g>
-  <g
-     id="g7831">
-    <path
-       id="Shape2DView_nwe0001"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2.1027961,257.93442 v 7.2" />
-    <path
-       id="Shape2DView_nwe0002"
-       d="m 5.1027961,266.33442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0003"
-       d="M 12.702796,266.33442 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0004"
-       d="m 12.702796,265.33442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0005"
-       d="m 15.002796,265.33442 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0006"
-       d="m 15.002796,265.33442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0007"
-       d="m 22.402796,266.33442 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0008"
-       d="m 22.402796,266.33442 v 3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0009"
-       d="m 22.402796,269.73442 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0010"
-       d="m 15.002796,269.73442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0011"
-       d="m 15.002796,270.73442 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0012"
-       d="m 12.702796,269.73442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0013"
-       d="M 12.702796,269.73442 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0014"
-       d="m 5.1027961,270.93442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0015"
-       d="m 5.1027961,265.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0016"
-       d="m 5.1027961,270.93442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0017"
-       d="m 2.1027961,270.93442 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0018"
-       d="m 5.1027961,284.93442 v -3.8"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0019"
-       d="m 5.1027961,281.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0020"
-       d="m 5.1027961,284.93442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0021"
-       d="m 2.1027961,284.93442 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0022"
-       d="m 5.1027961,296.33442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0028"
-       d="m 5.1027961,296.33442 v 3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0034"
-       d="m 5.1027961,300.93442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0035"
-       d="m 5.1027961,295.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0036"
-       d="m 5.1027961,300.93442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0037"
-       d="m 2.1027961,300.93442 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0038"
-       d="m 5.1027961,313.03442 v -1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0039"
-       d="M 77.788675,313.03442 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0040"
-       d="m 77.788675,311.13442 v 1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0041"
-       d="m 5.1027961,311.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0042"
-       d="m 77.788675,311.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0043"
-       d="m 80.788675,311.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0044"
-       d="m 77.788675,299.73442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0045"
-       d="m 70.188675,299.73442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0046"
-       d="m 70.188675,300.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0047"
-       d="m 67.888675,300.73442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0048"
-       d="m 67.888675,300.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0049"
-       d="m 60.488675,299.73442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0050"
-       d="m 60.488675,299.73442 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0051"
-       d="m 60.488675,296.33442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0052"
-       d="m 67.888675,296.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0053"
-       d="m 67.888675,295.33442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0054"
-       d="m 70.188675,296.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0055"
-       d="m 70.188675,296.33442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0056"
-       d="m 77.788675,295.13442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0057"
-       d="m 77.788675,300.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0058"
-       d="m 77.788675,295.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0059"
-       d="m 80.788675,295.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0060"
-       d="m 77.788675,281.13442 v 3.8"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0061"
-       d="m 77.788675,284.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0062"
-       d="m 77.788675,281.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0063"
-       d="m 80.788675,281.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0064"
-       d="m 77.788675,269.73442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0065"
-       d="m 70.188675,269.73442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0066"
-       d="m 70.188675,270.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0067"
-       d="m 67.888675,270.73442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0068"
-       d="m 67.888675,270.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0069"
-       d="m 60.488675,269.73442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0070"
-       d="m 60.488675,269.73442 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0071"
-       d="m 60.488675,266.33442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0072"
-       d="m 67.888675,266.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0073"
-       d="m 67.888675,265.33442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0074"
-       d="m 70.188675,266.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0075"
-       d="m 70.188675,266.33442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0076"
-       d="m 77.788675,265.13442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0077"
-       d="m 77.788675,270.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0078"
-       d="m 77.788675,265.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0079"
-       d="m 80.788675,265.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0080"
-       d="m 76.182816,246.45657 a 7,7 0 0 1 4.60588,6.57785"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0081"
-       d="M 76.182816,246.45657 15.102796,224.22526"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0082"
-       d="m 80.788675,253.03442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0083"
-       d="M 15.102796,224.22526 46.226629,138.71323"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0084"
-       d="m 77.788675,253.03442 v 1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0085"
-       d="m 46.226629,138.71323 9.396926,3.42021"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0086"
-       d="m 57.989899,128.71323 a 6.91873,6.91873 0 1 1 -2.366303,13.42019"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0087"
-       d="M 57.989899,128.71323 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0088"
-       d="m 77.788675,254.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0091"
-       d="m 5.1027961,138.95338 0,-3.3999"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-    <path
-       id="Shape2DView_nwe0105"
-       d="m 5.1027961,138.95338 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0106"
-       d="m 5.1027961,140.15338 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0107"
-       d="m 2.1027961,150.35338 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0108"
-       d="m 5.1027961,150.35338 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0109"
-       d="m 5.1027961,150.35338 v 4.8803"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0110"
-       d="m 5.1027961,155.23368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0111"
-       d="m 2.1027961,165.43368 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0112"
-       d="m 5.1027961,165.43368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0113"
-       d="m 5.1027961,165.43368 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0114"
-       d="M 12.702796,166.63368 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0115"
-       d="m 12.702796,166.63368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0116"
-       d="m 15.002796,165.63368 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0117"
-       d="m 15.002796,166.63368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0118"
-       d="m 22.402796,166.63368 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0119"
-       d="m 22.402796,170.03368 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0120"
-       d="m 22.402796,170.03368 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0121"
-       d="m 15.002796,171.03368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0122"
-       d="m 15.002796,171.03368 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0123"
-       d="m 12.702796,171.03368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0124"
-       d="M 12.702796,170.03368 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0125"
-       d="m 5.1027961,170.03368 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0126"
-       d="m 5.1027961,171.23368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0127"
-       d="m 2.1027961,181.43368 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0128"
-       d="m 5.1027961,181.43368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0129"
-       d="m 5.1027961,181.43368 v 4.8803"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0130"
-       d="m 5.1027961,186.31398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0131"
-       d="m 2.1027961,196.51398 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0132"
-       d="m 5.1027961,196.51398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0133"
-       d="m 5.1027961,196.51398 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0139"
-       d="m 5.1027961,201.11398 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0145"
-       d="m 5.1027961,201.11398 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0146"
-       d="m 5.1027961,202.31398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0147"
-       d="m 2.1027961,212.51398 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0148"
-       d="m 5.1027961,212.51398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0149"
-       d="m 5.1027961,212.51398 v 4.88029"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0150"
-       d="m 5.1027961,217.39427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0151"
-       d="m 2.1027961,227.59427 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0152"
-       d="m 5.1027961,227.59427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0153"
-       d="m 5.1027961,227.59427 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0159"
-       d="m 5.1027961,232.19427 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0165"
-       d="m 5.1027961,232.19427 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0166"
-       d="m 5.1027961,233.39427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0167"
-       d="m 2.1027961,243.59427 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0168"
-       d="m 5.1027961,243.59427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0169"
-       d="m 5.1027961,243.59427 v 11.34015"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 5.1027961,254.93442 H 47.102797 v 3 H 2.1027961"
-       id="path2066"
-       sodipodi:nodetypes="cccc" />
-    <path
-       id="rect2076-6"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       d="M 5.1027966,132.79174 H 30.864464 v 2.76166 m 0,0 H 5.1027966"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="m 5.1027964,132.79174 -5e-7,-4.07851"
-       id="path7496" />
-  </g>
-  <g
-     id="g7831-6"
-     transform="rotate(180,42.811188,176.84087)">
-    <path
-       id="Shape2DView_nwe0001-7"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2.1027961,257.93442 v 7.2" />
-    <path
-       id="Shape2DView_nwe0002-5"
-       d="m 5.1027961,266.33442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0003-3"
-       d="M 12.702796,266.33442 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0004-5"
-       d="m 12.702796,265.33442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0005-6"
-       d="m 15.002796,265.33442 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0006-2"
-       d="m 15.002796,265.33442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0007-9"
-       d="m 22.402796,266.33442 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0008-1"
-       d="m 22.402796,266.33442 v 3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0009-2"
-       d="m 22.402796,269.73442 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0010-7"
-       d="m 15.002796,269.73442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0011-0"
-       d="m 15.002796,270.73442 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0012-9"
-       d="m 12.702796,269.73442 v 1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0013-3"
-       d="M 12.702796,269.73442 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0014-6"
-       d="m 5.1027961,270.93442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0015-0"
-       d="m 5.1027961,265.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0016-6"
-       d="m 5.1027961,270.93442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0017-2"
-       d="m 2.1027961,270.93442 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0018-6"
-       d="m 5.1027961,284.93442 v -3.8"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0019-1"
-       d="m 5.1027961,281.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0020-8"
-       d="m 5.1027961,284.93442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0021-7"
-       d="m 2.1027961,284.93442 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0022-9"
-       d="m 5.1027961,296.33442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0028-2"
-       d="m 5.1027961,296.33442 v 3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0034-0"
-       d="m 5.1027961,300.93442 v -1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0035-2"
-       d="m 5.1027961,295.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0036-3"
-       d="m 5.1027961,300.93442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0037-7"
-       d="m 2.1027961,300.93442 v 10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0038-5"
-       d="m 5.1027961,313.03442 v -1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0039-9"
-       d="M 77.788675,313.03442 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0040-2"
-       d="m 77.788675,311.13442 v 1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0041-2"
-       d="m 5.1027961,311.13442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0042-8"
-       d="m 77.788675,311.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0043-9"
-       d="m 80.788675,311.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0044-7"
-       d="m 77.788675,299.73442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0045-3"
-       d="m 70.188675,299.73442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0046-6"
-       d="m 70.188675,300.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0047-1"
-       d="m 67.888675,300.73442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0048-2"
-       d="m 67.888675,300.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0049-9"
-       d="m 60.488675,299.73442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0050-3"
-       d="m 60.488675,299.73442 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0051-1"
-       d="m 60.488675,296.33442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0052-9"
-       d="m 67.888675,296.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0053-4"
-       d="m 67.888675,295.33442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0054-7"
-       d="m 70.188675,296.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0055-8"
-       d="m 70.188675,296.33442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0056-4"
-       d="m 77.788675,295.13442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0057-5"
-       d="m 77.788675,300.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0058-0"
-       d="m 77.788675,295.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0059-3"
-       d="m 80.788675,295.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0060-6"
-       d="m 77.788675,281.13442 v 3.8"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0061-1"
-       d="m 77.788675,284.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0062-0"
-       d="m 77.788675,281.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0063-6"
-       d="m 80.788675,281.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0064-3"
-       d="m 77.788675,269.73442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0065-2"
-       d="m 70.188675,269.73442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0066-0"
-       d="m 70.188675,270.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0067-6"
-       d="m 67.888675,270.73442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0068-1"
-       d="m 67.888675,270.73442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0069-5"
-       d="m 60.488675,269.73442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0070-5"
-       d="m 60.488675,269.73442 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0071-4"
-       d="m 60.488675,266.33442 h 7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0072-7"
-       d="m 67.888675,266.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0073-6"
-       d="m 67.888675,265.33442 h 2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0074-5"
-       d="m 70.188675,266.33442 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0075-6"
-       d="m 70.188675,266.33442 h 7.6"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0076-9"
-       d="m 77.788675,265.13442 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0077-3"
-       d="m 77.788675,270.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0078-7"
-       d="m 77.788675,265.13442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0079-4"
-       d="m 80.788675,265.13442 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0080-5"
-       d="m 76.182816,246.45657 a 7,7 0 0 1 4.60588,6.57785"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0081-2"
-       d="M 76.182816,246.45657 15.102796,224.22526"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0082-5"
-       d="m 80.788675,253.03442 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0083-4"
-       d="M 15.102796,224.22526 46.226629,138.71323"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0084-7"
-       d="m 77.788675,253.03442 v 1.9"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0085-4"
-       d="m 46.226629,138.71323 9.396926,3.42021"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0086-4"
-       d="m 57.989899,128.71323 a 6.91873,6.91873 0 1 1 -2.366303,13.42019"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0087-3"
-       d="M 57.989899,128.71323 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0088-0"
-       d="m 77.788675,254.93442 h 3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0091-7"
-       d="m 5.1027961,138.95338 v -3.3999"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-    <path
-       id="Shape2DView_nwe0105-8"
-       d="m 5.1027961,138.95338 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0106-6"
-       d="m 5.1027961,140.15338 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0107-8"
-       d="m 2.1027961,150.35338 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0108-8"
-       d="m 5.1027961,150.35338 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0109-4"
-       d="m 5.1027961,150.35338 v 4.8803"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0110-3"
-       d="m 5.1027961,155.23368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0111-1"
-       d="m 2.1027961,165.43368 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0112-4"
-       d="m 5.1027961,165.43368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0113-9"
-       d="m 5.1027961,165.43368 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0114-2"
-       d="M 12.702796,166.63368 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0115-0"
-       d="m 12.702796,166.63368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0116-6"
-       d="m 15.002796,165.63368 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0117-8"
-       d="m 15.002796,166.63368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0118-9"
-       d="m 22.402796,166.63368 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0119-2"
-       d="m 22.402796,170.03368 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0120-6"
-       d="m 22.402796,170.03368 h -7.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0121-6"
-       d="m 15.002796,171.03368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0122-4"
-       d="m 15.002796,171.03368 h -2.3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0123-9"
-       d="m 12.702796,171.03368 v -1"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0124-5"
-       d="M 12.702796,170.03368 H 5.1027961"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0125-0"
-       d="m 5.1027961,170.03368 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0126-4"
-       d="m 5.1027961,171.23368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0127-8"
-       d="m 2.1027961,181.43368 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0128-7"
-       d="m 5.1027961,181.43368 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0129-1"
-       d="m 5.1027961,181.43368 v 4.8803"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0130-7"
-       d="m 5.1027961,186.31398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0131-2"
-       d="m 2.1027961,196.51398 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0132-7"
-       d="m 5.1027961,196.51398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0133-2"
-       d="m 5.1027961,196.51398 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0139-2"
-       d="m 5.1027961,201.11398 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0145-6"
-       d="m 5.1027961,201.11398 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0146-1"
-       d="m 5.1027961,202.31398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0147-0"
-       d="m 2.1027961,212.51398 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0148-6"
-       d="m 5.1027961,212.51398 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0149-1"
-       d="m 5.1027961,212.51398 v 4.88029"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0150-5"
-       d="m 5.1027961,217.39427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0151-9"
-       d="m 2.1027961,227.59427 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0152-4"
-       d="m 5.1027961,227.59427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0153-9"
-       d="m 5.1027961,227.59427 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0159-0"
-       d="m 5.1027961,232.19427 v -3.4"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0165-9"
-       d="m 5.1027961,232.19427 v 1.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0166-1"
-       d="m 5.1027961,233.39427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0167-7"
-       d="m 2.1027961,243.59427 v -10.2"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0168-7"
-       d="m 5.1027961,243.59427 h -3"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="Shape2DView_nwe0169-1"
-       d="m 5.1027961,243.59427 v 11.34015"
-       stroke="#191919"
-       stroke-width="0.35 px"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 5.1027961,254.93442 H 47.102797 v 3 H 2.1027961"
-       id="path2066-1"
-       sodipodi:nodetypes="cccc" />
-    <path
-       id="rect2076-6-5"
-       style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       d="M 5.1027966,132.79174 H 30.864464 v 2.76166 m 0,0 H 5.1027966"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="m 5.1027964,132.79174 -5e-7,-4.07851"
-       id="path7496-9" />
-  </g>
+  <path
+     id="Shape2DView_nwe0001"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2.1027961,257.93442 v 7.2" />
+  <path
+     id="Shape2DView_nwe0002"
+     d="m 5.1027961,266.33442 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0003"
+     d="M 12.702796,266.33442 H 5.1027961"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0004"
+     d="m 12.702796,265.33442 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0005"
+     d="m 15.002796,265.33442 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0006"
+     d="m 15.002796,265.33442 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0007"
+     d="m 22.402796,266.33442 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0008"
+     d="m 22.402796,266.33442 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0009"
+     d="m 22.402796,269.73442 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0010"
+     d="m 15.002796,269.73442 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0011"
+     d="m 15.002796,270.73442 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0012"
+     d="m 12.702796,269.73442 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0013"
+     d="M 12.702796,269.73442 H 5.1027961"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0014"
+     d="m 5.1027961,270.93442 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0015"
+     d="m 5.1027961,265.13442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0016"
+     d="m 5.1027961,270.93442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0017"
+     d="m 2.1027961,270.93442 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0018"
+     d="m 5.1027961,284.93442 v -3.8"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0019"
+     d="m 5.1027961,281.13442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0020"
+     d="m 5.1027961,284.93442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0021"
+     d="m 2.1027961,284.93442 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0022"
+     d="m 5.1027961,296.33442 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0028"
+     d="m 5.1027961,296.33442 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0034"
+     d="m 5.1027961,300.93442 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0035"
+     d="m 5.1027961,295.13442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0036"
+     d="m 5.1027961,300.93442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0037"
+     d="m 2.1027961,300.93442 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0038"
+     d="m 5.1027961,313.03442 v -1.9"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0039"
+     d="M 77.788675,313.03442 H 5.1027961"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0040"
+     d="m 77.788675,311.13442 v 1.9"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0041"
+     d="m 5.1027961,311.13442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0042"
+     d="m 77.788675,311.13442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0043"
+     d="m 80.788675,311.13442 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0044"
+     d="m 77.788675,299.73442 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0045"
+     d="m 70.188675,299.73442 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0046"
+     d="m 70.188675,300.73442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0047"
+     d="m 67.888675,300.73442 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0048"
+     d="m 67.888675,300.73442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0049"
+     d="m 60.488675,299.73442 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0050"
+     d="m 60.488675,299.73442 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0051"
+     d="m 60.488675,296.33442 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0052"
+     d="m 67.888675,296.33442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0053"
+     d="m 67.888675,295.33442 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0054"
+     d="m 70.188675,296.33442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0055"
+     d="m 70.188675,296.33442 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0056"
+     d="m 77.788675,295.13442 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0057"
+     d="m 77.788675,300.93442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0058"
+     d="m 77.788675,295.13442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0059"
+     d="m 80.788675,295.13442 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0060"
+     d="m 77.788675,281.13442 v 3.8"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0061"
+     d="m 77.788675,284.93442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0062"
+     d="m 77.788675,281.13442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0063"
+     d="m 80.788675,281.13442 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0064"
+     d="m 77.788675,269.73442 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0065"
+     d="m 70.188675,269.73442 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0066"
+     d="m 70.188675,270.73442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0067"
+     d="m 67.888675,270.73442 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0068"
+     d="m 67.888675,270.73442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0069"
+     d="m 60.488675,269.73442 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0070"
+     d="m 60.488675,269.73442 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0071"
+     d="m 60.488675,266.33442 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0072"
+     d="m 67.888675,266.33442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0073"
+     d="m 67.888675,265.33442 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0074"
+     d="m 70.188675,266.33442 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0075"
+     d="m 70.188675,266.33442 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0076"
+     d="m 77.788675,265.13442 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0077"
+     d="m 77.788675,270.93442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0078"
+     d="m 77.788675,265.13442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0079"
+     d="m 80.788675,265.13442 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0080"
+     d="m 76.182816,246.45657 a 7,7 0 0 1 4.60588,6.57785"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0081"
+     d="m 76.182816,246.45657 c 0,0 -56.900189,-20.72682 -58.000393,-21.08424 -1.100204,-0.35742 -2.755266,0.26637 -3.230119,-1.38508 -0.474854,-1.65146 0.956063,-2.02403 1.360269,-3.10086 0.362978,-0.967 28.60915,-78.5508 29.055245,-79.81309 0.446095,-1.26229 -0.596408,-2.47177 0.734788,-2.93058 1.331195,-0.45881 1.174088,1.00046 2.480359,1.42815 1.306271,0.42769 7.04059,2.56257 7.04059,2.56257"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     sodipodi:nodetypes="czzszzzc" />
+  <path
+     id="Shape2DView_nwe0082"
+     d="m 80.788675,253.03442 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0084"
+     d="m 77.788675,253.03442 v 1.9"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0086"
+     d="m 57.989899,128.71323 a 6.91873,6.91873 0 1 1 -2.366303,13.42019"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0087"
+     d="M 57.989899,128.71323 H 5.1027961"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0088"
+     d="m 77.788675,254.93442 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0091"
+     d="m 5.1027961,138.95338 v -3.3999"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="Shape2DView_nwe0105"
+     d="m 5.1027961,138.95338 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0106"
+     d="m 5.1027961,140.15338 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0107"
+     d="m 2.1027961,150.35338 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0108"
+     d="m 5.1027961,150.35338 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0109"
+     d="m 5.1027961,150.35338 v 4.8803"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0110"
+     d="m 5.1027961,155.23368 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0111"
+     d="m 2.1027961,165.43368 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0112"
+     d="m 5.1027961,165.43368 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0113"
+     d="m 5.1027961,165.43368 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0114"
+     d="M 12.702796,166.63368 H 5.1027961"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0115"
+     d="m 12.702796,166.63368 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0116"
+     d="m 15.002796,165.63368 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0117"
+     d="m 15.002796,166.63368 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0118"
+     d="m 22.402796,166.63368 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0119"
+     d="m 22.402796,170.03368 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0120"
+     d="m 22.402796,170.03368 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0121"
+     d="m 15.002796,171.03368 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0122"
+     d="m 15.002796,171.03368 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0123"
+     d="m 12.702796,171.03368 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0124"
+     d="M 12.702796,170.03368 H 5.1027961"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0125"
+     d="m 5.1027961,170.03368 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0126"
+     d="m 5.1027961,171.23368 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0127"
+     d="m 2.1027961,181.43368 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0128"
+     d="m 5.1027961,181.43368 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0129"
+     d="m 5.1027961,181.43368 v 4.8803"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0130"
+     d="m 5.1027961,186.31398 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0131"
+     d="m 2.1027961,196.51398 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0132"
+     d="m 5.1027961,196.51398 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0133"
+     d="m 5.1027961,196.51398 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0139"
+     d="m 5.1027961,201.11398 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0145"
+     d="m 5.1027961,201.11398 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0146"
+     d="m 5.1027961,202.31398 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0147"
+     d="m 2.1027961,212.51398 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0148"
+     d="m 5.1027961,212.51398 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0149"
+     d="m 5.1027961,212.51398 v 4.88029"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0150"
+     d="m 5.1027961,217.39427 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0151"
+     d="m 2.1027961,227.59427 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0152"
+     d="m 5.1027961,227.59427 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0153"
+     d="m 5.1027961,227.59427 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0159"
+     d="m 5.1027961,232.19427 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0165"
+     d="m 5.1027961,232.19427 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0166"
+     d="m 5.1027961,233.39427 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0167"
+     d="m 2.1027961,243.59427 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0168"
+     d="m 5.1027961,243.59427 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0169"
+     d="m 5.1027961,243.59427 v 11.34015"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 5.1027961,254.93442 H 47.102797 v 3 H 2.1027961"
+     id="path2066"
+     sodipodi:nodetypes="cccc" />
+  <path
+     id="rect2076-6"
+     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+     d="M 5.1027966,132.79174 H 30.864464 v 2.76166 m 0,0 H 5.1027966"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+     d="m 5.1027964,132.79174 -5e-7,-4.07851"
+     id="path7496" />
+  <path
+     id="Shape2DView_nwe0001-7"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 83.51958,95.74732 v -7.2" />
+  <path
+     id="Shape2DView_nwe0002-5"
+     d="m 80.51958,87.34732 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0003-3"
+     d="m 72.91958,87.34732 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0004-5"
+     d="m 72.91958,88.34732 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0005-6"
+     d="m 70.61958,88.34732 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0006-2"
+     d="m 70.61958,88.34732 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0007-9"
+     d="m 63.21958,87.34732 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0008-1"
+     d="m 63.21958,87.34732 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0009-2"
+     d="m 63.21958,83.94732 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0010-7"
+     d="m 70.61958,83.94732 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0011-0"
+     d="m 70.61958,82.94732 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0012-9"
+     d="m 72.91958,83.94732 v -1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0013-3"
+     d="m 72.91958,83.94732 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0014-6"
+     d="m 80.51958,82.74732 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0015-0"
+     d="m 80.51958,88.54732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0016-6"
+     d="m 80.51958,82.74732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0017-2"
+     d="m 83.51958,82.74732 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0018-6"
+     d="m 80.51958,68.74732 v 3.8"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0019-1"
+     d="m 80.51958,72.54732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0020-8"
+     d="m 80.51958,68.74732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0021-7"
+     d="m 83.51958,68.74732 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0022-9"
+     d="m 80.51958,57.34732 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0028-2"
+     d="m 80.51958,57.34732 v -3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0034-0"
+     d="m 80.51958,52.74732 v 1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0035-2"
+     d="m 80.51958,58.54732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0036-3"
+     d="m 80.51958,52.74732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0037-7"
+     d="m 83.51958,52.74732 v -10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0038-5"
+     d="m 80.51958,40.64732 v 1.9"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0039-9"
+     d="M 7.833701,40.64732 H 80.51958"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0040-2"
+     d="m 7.833701,42.54732 v -1.9"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0041-2"
+     d="m 80.51958,42.54732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0042-8"
+     d="m 7.833701,42.54732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0043-9"
+     d="m 4.833701,42.54732 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0044-7"
+     d="m 7.833701,53.94732 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0045-3"
+     d="m 15.433701,53.94732 h -7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0046-6"
+     d="m 15.433701,52.94732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0047-1"
+     d="m 17.733701,52.94732 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0048-2"
+     d="m 17.733701,52.94732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0049-9"
+     d="m 25.133701,53.94732 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0050-3"
+     d="m 25.133701,53.94732 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0051-1"
+     d="m 25.133701,57.34732 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0052-9"
+     d="m 17.733701,57.34732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0053-4"
+     d="m 17.733701,58.34732 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0054-7"
+     d="m 15.433701,57.34732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0055-8"
+     d="m 15.433701,57.34732 h -7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0056-4"
+     d="m 7.833701,58.54732 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0057-5"
+     d="m 7.833701,52.74732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0058-0"
+     d="m 7.833701,58.54732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0059-3"
+     d="m 4.833701,58.54732 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0060-6"
+     d="m 7.833701,72.54732 v -3.8"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0061-1"
+     d="m 7.833701,68.74732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0062-0"
+     d="m 7.833701,72.54732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0063-6"
+     d="m 4.833701,72.54732 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0064-3"
+     d="m 7.833701,83.94732 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0065-2"
+     d="m 15.433701,83.94732 h -7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0066-0"
+     d="m 15.433701,82.94732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0067-6"
+     d="m 17.733701,82.94732 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0068-1"
+     d="m 17.733701,82.94732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0069-5"
+     d="m 25.133701,83.94732 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0070-5"
+     d="m 25.133701,83.94732 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0071-4"
+     d="m 25.133701,87.34732 h -7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0072-7"
+     d="m 17.733701,87.34732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0073-6"
+     d="m 17.733701,88.34732 h -2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0074-5"
+     d="m 15.433701,87.34732 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0075-6"
+     d="m 15.433701,87.34732 h -7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0076-9"
+     d="m 7.833701,88.54732 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0077-3"
+     d="m 7.833701,82.74732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0078-7"
+     d="m 7.833701,88.54732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0079-4"
+     d="m 4.833701,88.54732 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0080-5"
+     d="M 9.43956,107.22517 A -7,-7 0 0 1 4.83368,100.64732"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0081-2"
+     d="m 9.43956,107.22517 c 0,0 57.866104,21.06438 58.713131,21.37902 0.847027,0.31464 1.62054,-0.66859 2.359502,0.52172 0.738962,1.19031 -0.41374,1.85779 -0.863604,2.68889 -0.412802,0.92914 -29.013404,79.75315 -29.404264,80.81502 -0.39086,1.06187 0.606263,2.49632 -0.550922,3.08283 -1.157185,0.58651 -1.587675,-1.21051 -2.690808,-1.61518 -1.103133,-0.40467 -7.003774,-2.54917 -7.003774,-2.54917"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     sodipodi:nodetypes="czzczzzc" />
+  <path
+     id="Shape2DView_nwe0082-5"
+     d="m 4.833701,100.64732 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0084-7"
+     d="m 7.833701,100.64732 v -1.9"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0086-4"
+     d="M 27.632477,224.96851 A -6.91873,-6.91873 0 1 1 29.99878,211.54832"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0087-3"
+     d="M 27.632477,224.96851 H 80.51958"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0088-0"
+     d="m 7.833701,98.74732 h -3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0091-7"
+     d="m 80.51958,214.72836 v 3.3999"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="Shape2DView_nwe0105-8"
+     d="m 80.51958,214.72836 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0106-6"
+     d="m 80.51958,213.52836 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0107-8"
+     d="m 83.51958,203.32836 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0108-8"
+     d="m 80.51958,203.32836 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0109-4"
+     d="m 80.51958,203.32836 v -4.8803"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0110-3"
+     d="m 80.51958,198.44806 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0111-1"
+     d="m 83.51958,188.24806 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0112-4"
+     d="m 80.51958,188.24806 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0113-9"
+     d="m 80.51958,188.24806 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0114-2"
+     d="m 72.91958,187.04806 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0115-0"
+     d="m 72.91958,187.04806 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0116-6"
+     d="m 70.61958,188.04806 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0117-8"
+     d="m 70.61958,187.04806 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0118-9"
+     d="m 63.21958,187.04806 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0119-2"
+     d="m 63.21958,183.64806 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0120-6"
+     d="m 63.21958,183.64806 h 7.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0121-6"
+     d="m 70.61958,182.64806 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0122-4"
+     d="m 70.61958,182.64806 h 2.3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0123-9"
+     d="m 72.91958,182.64806 v 1"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0124-5"
+     d="m 72.91958,183.64806 h 7.6"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0125-0"
+     d="m 80.51958,183.64806 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0126-4"
+     d="m 80.51958,182.44806 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0127-8"
+     d="m 83.51958,172.24806 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0128-7"
+     d="m 80.51958,172.24806 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0129-1"
+     d="m 80.51958,172.24806 v -4.8803"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0130-7"
+     d="m 80.51958,167.36776 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0131-2"
+     d="m 83.51958,157.16776 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0132-7"
+     d="m 80.51958,157.16776 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0133-2"
+     d="m 80.51958,157.16776 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0139-2"
+     d="m 80.51958,152.56776 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0145-6"
+     d="m 80.51958,152.56776 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0146-1"
+     d="m 80.51958,151.36776 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0147-0"
+     d="m 83.51958,141.16776 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0148-6"
+     d="m 80.51958,141.16776 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0149-1"
+     d="m 80.51958,141.16776 v -4.88029"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0150-5"
+     d="m 80.51958,136.28747 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0151-9"
+     d="m 83.51958,126.08747 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0152-4"
+     d="m 80.51958,126.08747 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0153-9"
+     d="m 80.51958,126.08747 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0159-0"
+     d="m 80.51958,121.48747 v 3.4"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0165-9"
+     d="m 80.51958,121.48747 v -1.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0166-1"
+     d="m 80.51958,120.28747 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0167-7"
+     d="m 83.51958,110.08747 v 10.2"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0168-7"
+     d="m 80.51958,110.08747 h 3"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="Shape2DView_nwe0169-1"
+     d="M 80.51958,110.08747 V 98.74732"
+     stroke="#191919"
+     stroke-width="0.35 px"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 80.51958,98.74732 H 38.519579 v -3 H 83.51958"
+     id="path2066-1"
+     sodipodi:nodetypes="cccc" />
+  <path
+     id="rect2076-6-5"
+     style="fill:none;stroke:#fe0000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+     d="M 80.519579,220.89 H 54.757912 v -2.76166 m 0,0 h 25.761667"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#fe0000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+     d="m 80.51958,220.89 0,4.07851"
+     id="path7496-9" />
 </svg>
