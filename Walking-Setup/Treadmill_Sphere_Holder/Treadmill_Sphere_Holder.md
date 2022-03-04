@@ -27,7 +27,7 @@ All versions of the "Treadmill Sphere Holder" need to be printed on a high densi
 {:.clear}
 
 ![Sphere holder with 90° inlet and smaller footprint]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Sphere_Holder_9mm-ball_90deg_small-footprint.png){: .ifr .pop}
-`Treadmill_Sphere_Holder-9mm.FCStd`:  A small treadmill sphere holder for 9mm spheres with a smaller footprint. This one is designed in FreeCAD.
+`Treadmill_Sphere_Holder_9mm-ball_90deg_small-footprint.FCStd`:  A small treadmill sphere holder for 9mm spheres with a smaller footprint. This one is designed in FreeCAD.
 {:.clear}
 
 ![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Camera-base_Sphere-Holder_9mm-ball.png){: .ifr .pop}
