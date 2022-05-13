@@ -20,7 +20,6 @@ For a teaching course, we prototyped a 3D printed version of the sarcophagus to 
 `Sarcophagus_platform_15.FCStd`: We printed this design on with different materials (including ABS and resins) and with different material densities. We then immobilized flies by placing their vials in a container of ice until they stopped moving and positioned individual flies in the different printouts. The flies in the low-density prints were the first ones able to climb out of their groove in less than two minutes. Independent of the material, the flies in the high-density prints stayed in place considerably longer, up to 10 minutes. This gives enough time to tether a fly and we were able to use the 3D printed platforms for the teaching course.
 
 ## Machined Brass Sarcophagus
-{:.clear}
 
 [![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Tethering/Sarcophagus_machined){:.ifr}
 Original design by Tanya Tabachnik <tt2564@columbia.edu> around June 2011. She was Lead Mechanical Engineer at Janelia by the time. In August 2020, Melanie Basnak sent us a version in a more accessible file format (STEP and STL), that also solved some discrepancies between model and technical drawing.
@@ -30,11 +29,11 @@ During the tethering process, flies are held in place by a groove, or sarcophagu
 {:.clear}
 
 ![Machined Sarcophagus body]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Cooling_Plate-body.png){:.ifr .pop}
-The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part (Part number JF-MR-FS0006). `Cooling_Plate-*.stp` are minor updates, solving discrepencies between drawing and model.
+The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part (Part number JF-MR-FS0006). `Cooling_Plate-*.stp` are minor updates, solving discrepancies between drawing and model.
 {:.clear}
 
 ![Machined Sarcophagus inlay]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Cooling_Plate-inlay.png){:.ifr .pop}
-The inner part is within a bounding box of 0.8×0.7×2.9cm³ (width×height×depth). The sarcophagus in the files `Cooling_Plate-inlay.*` (Part number JF-MR-FS0007) have little holes on the bottom of the groove. These holes are connected to a bigger intake which can be used to create an underpressure below the animal. Purely for tethering, this is usually not necessary the shape of the sarcophagus is constraining the immobilized animal good enough. The additional fixation through vacuum is helpful if additional manipulations with higher precision are conducted.
+The inner part is within a bounding box of 0.8×0.7×2.9cm³ (width×height×depth). The sarcophagus in the files `Cooling_Plate-inlay.*` (Part number JF-MR-FS0007) have little holes on the bottom of the groove. These holes are connected to a bigger intake which can be used to create an negative pressure below the animal. Purely for tethering, this is usually not necessary --- the shape of the sarcophagus is constraining the immobilized animal good enough. The additional fixation through vacuum is helpful if additional manipulations with higher precision are conducted.
 {:.clear}
 
 ### Source

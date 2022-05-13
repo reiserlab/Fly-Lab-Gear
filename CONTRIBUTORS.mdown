@@ -9,4 +9,5 @@
 * Igor Negrashov
 * [Melanie Basnak](https://github.com/mbasnak)
 * [Michael Reiser](https://www.janelia.org/lab/reiser-lab)
+* [Tanya Tabachnik](https://zuckermaninstitute.columbia.edu/tabachnik)
 * [Zhengchang Lei](https://www.janelia.org/people/zhengchang-lei)
