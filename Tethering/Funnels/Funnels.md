@@ -26,8 +26,6 @@ Funnels that help moving flies from one vial to another.
 `Funnel_fly-vial-to-12mm-tube.FCStd`: Redesign of Funnel 3, fly rearing bottle to 12mm test tube.
 {:.clear}
 
-
 ## Origin
-{:.clear}
 
 Funnel 1-3 `.stl` files received from Michael Reiser; design files unknown
