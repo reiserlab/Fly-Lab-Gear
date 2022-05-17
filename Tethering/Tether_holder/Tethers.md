@@ -49,3 +49,13 @@ The hypodermic tubing needs to be cut to smaller pieces of 1" length. This requi
 The first image above shows a little contraption where the bottom clamp holds the same type of socket crimp that is used in the flight arenas at the end of the brass rods. In the picture it holds a contact pin and the top clamp holds the hypodermic tubing in a straight line while I am soldering both parts together. After this step inspect that the connection is straight and sturdy. Since it is soldered, you can correct it by reheating the connection.
 
 In the second image the hypodermic tubing is exposed above the top clamp and the tungsten wire is already inserted into the tubing as far as possible. In the image I apply some solder to keep it in place. Finally, cut the tungsten wire to the length required in your setup.
+
+### Alternative contraptions
+
+![]({{site.baseurl}}/assets/img/Tethering/Tether_mount/Classic-tether_horizontal-contraption.jpg){:.ifr .pop}
+Alternatively to the contraption shown in the images above, we have used other tools in the past. The purpose of all these devices is to center the hypodermic tube inside the pin crimp. The one shown here on the right has horizontal mounts for the tubing (on the left) and the pin (a crimp socket mounted to a brass rod). This is the traditional type that has been around for a long time. It has the disadvantage that the heated solder flows towards one side of the solder joint, creating an off-center weight. Both mounts are moved on a rail.
+
+![]({{site.baseurl}}/assets/img/Tethering/Tether_mount/Classic-tether_vertical-contraption.jpg){:.ifr .pop}
+This second alternative uses similar components, but places them in vertical line. This has the advantage of the solder flowing towards the pin, creating a more balanced pin. Furthermore soldering is easier done in this type of setup. Finally, this version uses a socket crimp glued inside a luer lock holder and can therefore double as an aid to solder tungsten wires to blunt tip dispensing needles.
+
+The small contraption used in the images above uses the same principle as the vertical version, but uses two clamps to center the hypodermic tubing inside the pin. All three versions are meant as an inspiration of what you can build from the parts you have lying around. Please [send us your pictures]({{site.baseurl}}/about) if you have any other ideas.
