@@ -43,7 +43,7 @@ The tether is made from three parts that are soldered together. Using solder ins
 - Stainless Steel 316 Hypodermic Tubing: 19 Gauge, 0.042" OD, 0.032" ID, 0.005" Wall, 12" Length [(MicroGroup #304H19TW)](https://www.microgroup.com/product-category/hypodermic_tubing/)
 - Tungston wire 127µm diameter, 3" length, 100pc [(A-M Systems #716000)](https://www.a-msystems.com/p-728-tungsten-rod.aspx)
 
-The hypodermic tubing needs to be cut to smaller pieces of 1" length. This requires a precision cutting instrument, otherwise the tubing might get bent and is unusable at the cut end. In that case only two tethers can be made from one hypodermic tubing, the center 10" will be waste. Water jet cutter and possibly some laser cutters are capable of producing clean cuts.
+The hypodermic tubing needs to be cut to smaller pieces of 1" length. This requires a precision chop saw or miter saw, otherwise the tubing might get bent and is unusable at the cut end. In that case only two tethers can be made from one hypodermic tubing, the center 10" will be waste.
 
 ![Soldering the Tungsten wire to the hypodermic tubing]({{site.baseurl}}/assets/img/Tethering/Tether_mount/Classic-tether_solder-wire.jpg){:.ifr .pop}
 The first image above shows a little contraption where the bottom clamp holds the same type of socket crimp that is used in the flight arenas at the end of the brass rods. In the picture it holds a contact pin and the top clamp holds the hypodermic tubing in a straight line while I am soldering both parts together. After this step inspect that the connection is straight and sturdy. Since it is soldered, you can correct it by reheating the connection.
