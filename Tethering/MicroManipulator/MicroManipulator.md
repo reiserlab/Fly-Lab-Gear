@@ -2,7 +2,7 @@
 title: Micromanipulator
 parent: Tethering
 permalink: /tether/micromanipulator
-nav_order: 4
+nav_order: 5
 ---
 
 # Micromanipulator
