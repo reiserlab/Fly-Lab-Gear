@@ -12,11 +12,11 @@ The classic tether initially developed at the [Dickinson lab](https://dickinsonl
 
 For flight experiments, the tether is usually mounted to a brass rod. Depending on your setup, you can cut [0.25" diameter 464 brass rods](https://www.mcmaster.com/8970K52) to the length you require. Attach a [Socket Contact Gold Crimp 20-24 AWG (Digi-Key #A2161-ND)](https://www.digikey.com/short/7p098n9q) to the rod which will act as an adapter to the tether.
 
-The tether is made from three parts that are soldered together. Using solder instead of glue allows for easier repairs and corrections by applying some heat, but in general glue should work, too. In order from the adapter on the brass rod to the location where the fly will be glued, the parts are:
+The tether is made from three parts that are soldered together. Using solder instead of glue allows for easier repairs and corrections by applying some heat, but in general glue should work, too. Some colleagues have apparently used Loctide 4305 (Part number 303389, Legacy part number 32268) in the past. Following the orientation from the adapter on the brass rod to the location where the fly will be tethered, the parts are:
 
 - Pin Contact Gold Crimp 20-24 AWG Machined [(Digi-Key #A2160-ND)](https://www.digikey.com/short/db4bz91d)
 - Stainless Steel 316 Hypodermic Tubing: 19 Gauge, 0.042" OD, 0.032" ID, 0.005" Wall, 12" Length [(MicroGroup #304H19TW)](https://www.microgroup.com/product-category/hypodermic_tubing/)
-- Tungston wire 127µm diameter, 3" length, 100pc [(A-M Systems #716000)](https://www.a-msystems.com/p-728-tungsten-rod.aspx)
+- Tungsten wire 127µm diameter, 3" length, 100pc [(A-M Systems #716000)](https://www.a-msystems.com/p-728-tungsten-rod.aspx)
 
 The hypodermic tubing needs to be cut to smaller pieces of 1" length. This requires a precision chop saw or miter saw, otherwise the tubing might get bent and is unusable at the cut end. In that case only two tethers can be made from one hypodermic tubing, the center 10" will be waste.
 
