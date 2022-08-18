@@ -13,7 +13,7 @@ has_children: true
 
 ## Software
 
-To show stimuli inside a webbrowser, we developed the software [FlyFlix](https://github.com/floesche/FlyFlix). FlyFlix is a server-client web application. The server component is written in >python-3.7, the client runs in most web browsers and is written in javascript.
+To show stimuli inside a web browser, we developed the software [FlyFlix](https://github.com/floesche/FlyFlix). FlyFlix is a server-client web application. The server component is written in >python-3.7, the client runs in most web browsers and is written in javascript.
 
 ## Fly Handling
 
@@ -36,9 +36,9 @@ We use chill coma to immobilize flies during body-fixation. For the inexpensive 
 [![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr}]({{site.baseurl}}/tether/sarcophagus)
 Flies are held upright during tethering by the cylindrical shape of a "sarcophagus." Our present cooling plate design accommodates 15 different sarcophagi for various insect body sizes, with more or less 3D printed material between the Peltier element and the insect.
 
-### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
+### [Micro Manipulator for tethering]({{site.baseurl}}/tether/micromanipulator)
 
-[![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
+[![MicroManipulator]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
 The blunt tip dispensing needle, also known as the tether, must be precisely placed on the fly's thorax. Using a 3-axis micro manipulator, we achieve fine-grained translational manipulation of the tether in three dimensions.
 
 ### [Hand rest]({{site.baseurl}}/tether/station)
@@ -70,9 +70,9 @@ The camera-based rotation tracking with the software [FicTrac](https://github.co
 [![Set of lamps]({{site.baseurl}}/assets/img/Walking-Setup/Lamp_LED_5mm/illumination-lamps.png){:.ifr}]({{site.baseurl}}/walking/illumination)
 We use 5mm LEDs in the NIR spectrum. To avoid light pollution and improve light placement, we 3D printed light shades.
 
-### [Micro Manipulator]({{site.baseurl}}/tether/micromanipulator)
+### [Micro Manipulator for experiment]({{site.baseurl}}/tether/micromanipulator)
 
-[![MicroManipualtor]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
+[![MicroManipulator]({{site.baseurl}}/assets/img/Tethering/MicroManipulator/MicroManipulator_Assembly_Figure2.png){:.ifr}]({{site.baseurl}}/tether/micromanipulator)
 To position the tethered fly on the spherical treadmill, we use the same type of micro manipulator as for the tethering procedure.
 
 ### [Display]({{site.baseurl}}/miscellaneous/tablet)
@@ -87,7 +87,7 @@ With a circular heat pad we control the environment of the experiment, namely th
 
 ## Ordering Components
 
-### Tethering Station
+### Components for Tethering Station
 
 Download tethering station table as .csv file [here]({{site.baseurl}}/assets/data/tethering_order.csv).
 
@@ -118,8 +118,7 @@ space after duplicate headings in the user-friendly section of the csv files-->
   {% endfor %}
 </table>
 
-
-### Walking Setup
+### Components for Walking Setup
 
 Download walking setup table as .csv file [here]({{site.baseurl}}/assets/data/walkingsetup_order.csv).
 
