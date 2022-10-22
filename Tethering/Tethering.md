@@ -12,7 +12,7 @@ These components aid in the body fixation or head fixation of flies and possibly
 
 ## [Tethering station]({{site.baseurl}}/tether/station)
 
-[![Machined Sarcophagus assembly]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr}]({{site.baseurl}}/tether/station)
+[![Machined Sarcophagus assembly]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station-v1_acrylic_precut.png){:.ifr}]({{site.baseurl}}/tether/station)
 In our manuscript about an [Inexpensive Treadmill Setup]({{site.baseurl}}/inexpensive-treadmill), we introduce this tethering station. As well as having a mount point on our micromanipulator, the tethering station also incorporates a hand rest to help with the delicate procedure of attaching a fruit fly to a thin rod.
 
 ## [Sarcophagus]({{site.baseurl}}/tether/sarcophagus)

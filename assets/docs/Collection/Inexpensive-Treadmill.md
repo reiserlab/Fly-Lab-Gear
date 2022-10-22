@@ -43,7 +43,7 @@ The blunt tip dispensing needle, also known as the tether, must be precisely pla
 
 ### [Hand rest]({{site.baseurl}}/tether/station)
 
-[![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station_cut_simplified.png){:.ifr}]({{site.baseurl}}/tether/station)
+[![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station-v1_acrylic_precut.png){:.ifr}]({{site.baseurl}}/tether/station)
 All elements of the tethering station are held in place by the hand rest. This part is the fancy version of sloping the heat sink by unscrewing two of the screws. It is optional and laser-cut from an acrylic sheet.
 
 ## Experimental setup
