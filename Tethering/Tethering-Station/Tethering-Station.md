@@ -25,6 +25,8 @@ These three major changes increase the overall price for the Tethering Station, 
 
 The file `Tethering-Station-v2_print_Arm_Light_Mount.FCStd` contains designs to 3D print Luer lock compatible mounts for dispensing needles.
 
+We designed this version at the same time we built the new [integrated Inexpensive Treadmill]({{site.baseurl}}/walking/inexpensive-treadmill).
+
 ## Version 1
 
 ![Tethering Station built from laser cut acrylic plates]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station-v1_acrylic_precut.png){:.ifr .pop}
