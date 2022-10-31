@@ -26,17 +26,13 @@
 
             const startButton = document.getElementById( 'startButton' );
             startButton.addEventListener( 'click', function () {
-                //toggleFullScreen();
                 init();
                 animate();
             } );
 
-            const toggleFullScreen = function() {
-                if (!document.fullscreenELement){
-                    document.getElementById( 'overlay' ).requestFullscreen();
-                }
-            }
-
+            startButton.addEventListener('click', () =>{
+                document.body.requestFullscreen();
+            });
 
             const init = function() {
                 const overlay = document.getElementById( 'overlay' );
