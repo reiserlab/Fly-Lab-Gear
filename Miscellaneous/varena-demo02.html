@@ -26,9 +26,17 @@
 
             const startButton = document.getElementById( 'startButton' );
             startButton.addEventListener( 'click', function () {
+                //toggleFullScreen();
                 init();
                 animate();
             } );
+
+            const toggleFullScreen = function() {
+                if (!document.fullscreenELement){
+                    document.getElementById( 'overlay' ).requestFullscreen();
+                }
+            }
+
 
             const init = function() {
                 const overlay = document.getElementById( 'overlay' );
@@ -64,7 +72,7 @@
                 else if (fullsec <15) {direction = 0;}
                 else if (fullsec <25) {direction = -1;}
                 else { direction = 0; }
-                panels.rotation.y += 0.01 * direction;
+                panels.rotation.y += 0.05 * direction;
                 renderer.render( scene, camera );
             };
 
