@@ -17,5 +17,5 @@ The [Flyplate5](production/Flyplate5.stl) was designed at [Janelia Experimental 
 {:.clear}
 
 ![Fly Plate 5 machined]({{site.baseurl}}/assets/img/Physiology-Setup/Flyplate/Flyplate5_machined_01_2018.jpg){:.ifr .pop}
-Initially the design was machined according to the specification in the design files. The result is very sturdy and can be re-used many times. The following images shows a detail of the machined Fly Plate after having been used many times. We are currently working on a 3D printable version of a flyplate – stay tuned or [get in contact]({{site.baseurl}}/about) for updates.
+Initially the design was machined from PEEK plastic according to the specification in the design files. The result is very sturdy and can be re-used many times. The following image shows a detail of the machined Flyplate after having been used many times. We are currently working on a 3D printable version of a Flyplate – stay tuned or [get in contact]({{site.baseurl}}/about) for updates.
 {:.clear}
