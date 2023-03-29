@@ -1,7 +1,11 @@
 .main-content a{
-	white-space:wrap;
+	white-space:normal;
 }
-kbd{
+a {
+	word-break: break-word;
+}
+kbd,.kbd{
+	font-style: normal;
 	display: inline-block;
 	color: #363636;
 	text-decoration: none;
@@ -41,7 +45,6 @@ kbd{
 	padding: 2px 7px;
 	z-index:-100000;
 }
-
 .clear{
 	clear:both;
 }
@@ -55,10 +58,40 @@ kbd{
 }
 .pop:hover{transform: scale(1.05);}
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,hr{
 	clear:both;
 }
 
-.main-content p a{
-	white-space: normal;
+.error,.warning,.info{
+	padding:20px;
+	margin-bottom:15px;
+}
+.error{
+	background-color:#ffeeee;
+	border-left:15px solid #cc0000;
+}
+.warning{
+	background-color:#ffffee;
+	border-left:15px solid #cccc00;
+}
+.info{
+	background-color:#eeffee;
+	border-left:15px solid #00cc00;
+}
+.ifr figcaption{
+	text-align:left;
+	text-indent:-25px;
+	padding-left:25px;
+	font-style:italic;
+	color:#666666;
+}
+.ifr figcaption::before{
+	content:"Fig: ";
+	font-weight:bold;
+	font-style:normal;
+	color:#666666;
+}
+figure.ifr{	
+	border-bottom:2px solid #eee;
+	margin-bottom:20px;
 }

@@ -9,7 +9,11 @@ layout: table_wrappers
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/zooom.min.js"></script>
 <script>
   window.addEventListener('DOMContentLoaded', function() {
-    new Zooom('pop', { overlay: {color: '#fff',opacity: 80,}});
+    const popImgs = document.querySelectorAll("[data-img-class]");
+    popImgs.forEach(function(e){
+      e.classList.add(e.dataset.imgClass)}
+    );
+    new Zooom('pop', { overlay: "rgba(255,255,255,0.8)"});
   });
 </script>
 <body>
