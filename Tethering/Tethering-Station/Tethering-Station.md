@@ -23,7 +23,7 @@ When we brought our first version of the Tethering Station to different labs and
 
 ![Tethering Station version 2 with AmScope SE120, thermoelectric cooler, and 3-axis stage (Image by Huai-Ti Lin)]({{site.baseurl}}/assets/img/Tethering/Tethering-Station/Tethering-Station-v2_photo_iso.jpg){:standalone .ifr data-img-class="pop"}
 
-Furthermore, the exact size of the [heatsink](https://www.adafruit.com/product/1335) differed between batches that we ordered and slightly bigger ones would add physical stress to the acrylic to a point where it became weak enough to break. For the second version we adapted the tolerances of the Tethering Station to work with all sized of the heatsink we came across. Furthermore we increase the material thickness to around 6mm (or 0.25").
+Furthermore, the exact size of the [heatsink](https://www.adafruit.com/product/1335) (controlled by a [W1209 temperature controller](https://a.co/d/1IKzkeT)) differed between batches that we ordered and slightly bigger ones would add physical stress to the acrylic to a point where it became weak enough to break. For the second version we adapted the tolerances of the Tethering Station to work with all sized of the heatsink we came across. Furthermore we increase the material thickness to around 6mm (or 0.25").
 
 Finally, and while the Tethering Station can allow any type of Micromanipulator, we have used the commercially available [3 axis stage LD40-LM](https://a.co/d/fMeQiEK) with it's metric mount points in our setups.
 
