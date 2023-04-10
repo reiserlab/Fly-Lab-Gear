@@ -1,6 +1,6 @@
 
 
-.PHONY: update localhost
+.PHONY: update-dependencies localhost
 
 localhost:
 	@echo "Starting Jekyll, will try to open browser in 10 seconds"
