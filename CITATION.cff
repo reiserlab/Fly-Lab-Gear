@@ -24,5 +24,21 @@ keywords:
   - scientific-instrumentation 
 license: CERN-OHL-W-2.0
 title: "Component Designs"
-version: 0.3
-date-released: 2021-08-11
+version: 1.0
+type: hardware
+date-released: 2021-07-16
+references:
+  - authors:
+      - family-names: Loesche
+        given-names: Frank
+        orcid: 0000-0002-7780-6438
+      - family-names: Reiser
+        given-names: Michael B.
+        orcid: 0000-0002-4108-4517
+    journal: "Frontiers in Behavioral Neuroscience"
+    volume: 15
+    type: article
+    title: "An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for Drosophila Experiments"
+    doi: 10.3389/fnbeh.2021.689573
+    scope: "Cite this paper if you want to reference the components for the inexpensive treadmill."
+    year: 2021
