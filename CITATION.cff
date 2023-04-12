@@ -3,19 +3,19 @@ message: "Please cite this hardware repository as follows"
 authors:
   - family-names: Loesche
     given-names: Frank
-    orcid: 0000-0002-7780-6438
+    orcid: https://orcid.org/0000-0002-7780-6438
   - family-names: Gruntman
     given-names: Eyal
-    orcid: 0000-0003-1383-7347
+    orcid: https://orcid.org/0000-0003-1383-7347
   - family-names: Talbot
     given-names: Jeff
   - family-names: Nagrashov
     given-names: Igor
-  - famiy-names: Tabachnik
+  - family-names: Tabachnik
     given-names: Tanya
   - family-names: Reiser
     given-names: Michael B.
-    orcid: 0000-0002-4108-4517
+    orcid: https://orcid.org/0000-0002-4108-4517
 abstract: "In this repository, we share a number of hardware designs that we developed for the published article 'An inexpensive, high-precision, modular spherical treadmill setup optimized for Drosophila experiments'. While writing this paper, we also started documenting previously developed components that we would like to share with other labs and researchers. And while we hope to improve these individual designs over time, we will use the repository as a supplementary file collection for other publications. Similarly, we also started a (non-exhaustive) link collection to interesting repositories, projects, and other publications."
 keywords:
   - open-hardware 
@@ -25,16 +25,16 @@ keywords:
 license: CERN-OHL-W-2.0
 title: "Component Designs"
 version: 1.0
-type: hardware
 date-released: 2021-07-16
+url: https://reiserlab.github.io/Component-Designs/
 references:
   - authors:
       - family-names: Loesche
         given-names: Frank
-        orcid: 0000-0002-7780-6438
+        orcid: https://orcid.org/0000-0002-7780-6438
       - family-names: Reiser
         given-names: Michael B.
-        orcid: 0000-0002-4108-4517
+        orcid: https://orcid.org/0000-0002-4108-4517
     journal: "Frontiers in Behavioral Neuroscience"
     volume: 15
     type: article

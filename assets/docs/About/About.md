@@ -17,6 +17,18 @@ If you spot mistakes in this data collection, feel free to blame it on [Frank Lo
 
 Pull requests for improvements are greatly appreciated.
 
+## Citation
+
+```
+@misc{Loesche2021b,
+author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Nagrashov, Igor and Tabachnik, Tanya and Reiser, Michael B.},
+month = {7},
+title = {Component Designs},
+url = {https://reiserlab.github.io/Component-Designs/},
+year = {2021}
+}
+```
+
 # This site
 
 This website is hosted as a [github page](https://pages.github.com/). The layout uses [Just the Docs](https://github.com/pmarsceill/just-the-docs), a documentation theme for Jekyll.
