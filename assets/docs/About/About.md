@@ -22,11 +22,11 @@ Pull requests for improvements are greatly appreciated.
 If you want to cite the repository, here is a bibtext entry for the repository, which will translate to something like:
 
 {: .highlight}
-> Loesche F., Gruntman E., Talbot J., Nagrashov I., Tabachnik T., Reiser M.B. (2021). Component Designs (version 1.0). [![DOI](https://zenodo.org/badge/248803892.svg)](https://zenodo.org/badge/latestdoi/248803892)
+> Loesche F., Gruntman E., Talbot J., Jiang A., Nagrashov I., Tabachnik T., Reiser M.B. (2021). Component Designs (version 1.0). [![DOI](https://zenodo.org/badge/248803892.svg)](https://zenodo.org/badge/latestdoi/248803892)
 
 ```bibtex
 @misc{Loesche2021b,
-author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Nagrashov, Igor and Tabachnik, Tanya and Reiser, Michael B.},
+author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Jiang, Alice and Nagrashov, Igor and Tabachnik, Tanya and Reiser, Michael B.},
 doi = {10.5281/zenodo.7822934},
 month = {7},
 title = {Component Designs},
