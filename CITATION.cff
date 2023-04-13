@@ -26,10 +26,10 @@ keywords:
   - scientific-instrumentation 
 license: CERN-OHL-W-2.0
 title: "Component Designs"
-version: 1.0
+version: 1.1
 date-released: 2021-07-16
 url: https://reiserlab.github.io/Component-Designs/
-doi: 10.5281/zenodo.7822934
+doi: 10.5281/zenodo.7825952
 references:
   - authors:
       - family-names: Loesche

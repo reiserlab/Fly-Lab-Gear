@@ -22,20 +22,19 @@ Pull requests for improvements are greatly appreciated.
 If you want to cite the repository, here is a bibtext entry for the repository, which will translate to something like:
 
 {: .highlight}
-> Loesche F., Gruntman E., Talbot J., Jiang A., Nagrashov I., Tabachnik T., Reiser M.B. (2021). Component Designs (version 1.0). [![DOI](https://zenodo.org/badge/248803892.svg)](https://zenodo.org/badge/latestdoi/248803892)
+> Loesche F., Gruntman E., Talbot J., Jiang A., Nagrashov I., Tabachnik T., Reiser M.B. (2021). Component Designs (version 1.1). DOI: [10.5281/zenodo.7825952](https://doi.org/10.5281/zenodo.7825952) URL: <https://reiserlab.github.io/Component-Designs/>
+
 
 ```bibtex
 @misc{Loesche2021b,
 author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Jiang, Alice and Nagrashov, Igor and Tabachnik, Tanya and Reiser, Michael B.},
-doi = {10.5281/zenodo.7822934},
+doi = {10.5281/zenodo.7825952},
 month = {7},
 title = {Component Designs},
 url = {https://reiserlab.github.io/Component-Designs/},
 year = {2021}
 }
 ```
-
-
 
 # This site
 
