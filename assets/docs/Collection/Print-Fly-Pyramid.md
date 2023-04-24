@@ -15,7 +15,7 @@ In this document I walk you through the process of printing one of our models on
 
 The two different types of models in our collection can be differentiated by the scale of their features. Some parts like the stands and sphere holders operate on a human scale, others like the fly pyramids and tethers directly interface with the fly on a fly scale. The rule of thumb is, that fly scale models need to be printed on high resolution printers (e.g. resin printers), while human scale models can be printed on medium or high resolution printers (Fused Deposition Modeling (FDM) or resin printer).
 
-In this example I will walk you through printing a Fly Pyramid. Originally Fly Pyramids had been milled from PEEK plastic, a difficult and expensive process. Based on our experience with the original Fly Pyramid in the Reiser lab and with the help of [Jeff Talbot](https://www.janelia.org/people/jeff-talbot) from the [Janelia Experimental Technology](https://www.janelia.org/support-team/janelia-experimental-technology) Support team, we developed the Fly Pyramid from the ground up to be optimized towards replicability with widely available tools.
+In this example I will walk you through printing a [Fly Pyramid]({{site.baseurl}}/physiology/flypyramid). Originally Fly Pyramids had been milled from PEEK plastic, a difficult and expensive process. Based on our experience with the original Fly Pyramid in the Reiser lab and with the help of [Jeff Talbot](https://www.janelia.org/people/jeff-talbot) from the [Janelia Experimental Technology](https://www.janelia.org/support-team/janelia-experimental-technology) Support team, we developed the Fly Pyramid from the ground up to be optimized towards replicability with widely available tools.
 
 ## Get a resin printer, resin, and software
 
@@ -53,7 +53,7 @@ This profiles comes with the settings illustrated in the screenshot. These setti
 ## Slice and start printing
 
 ![A single model with three Fly Pyramids on the virtual build plate inside the Lychee slicer software. The model is in red and the 'Repair 3D model' button is highlighted.]({{site.baseurl}}/assets/img/Collection/print-3d/lychee_repair-model.png){:.ifr .pop .clear}
-Once you set up the printer and resin, you can load the model into Lychee. Choose the appropriate model from our main menu on the left and download the associated `*.stl` file.
+Once you set up the printer and resin, you can load the model into Lychee. Choose the appropriate model from our main menu on the left and download the associated `*.stl` file, for example the [Fly-Pyramid_S_mm.stl](https://github.com/reiserlab/Component-Designs/blob/main/Physiology-Setup/Fly-Pyramid/production/Fly-Pyramid_S_mm.stl) for the [Fly Pyramid]({{site.baseurl}}/physiology/flypyramid).
 
 Most of the models we provide will load without issues. If you see that Lychee is complaining about some kind of error, then please let us know although in most cases this is nothing to worry about. Lychee can repair many issues after you click on *Repair 3D model*{:.gui-btn}.
 
