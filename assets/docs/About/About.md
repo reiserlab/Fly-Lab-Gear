@@ -29,7 +29,7 @@ If you want to cite the repository, here is a bibtext entry for the repository, 
 @misc{Loesche2021b,
 author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Jiang, Alice and Nagrashov, Igor and Tabachnik, Tanya and Reiser, Michael B.},
 doi = {10.5281/zenodo.7825952},
-month = {7},
+month = {9},
 title = {Component Designs},
 url = {https://reiserlab.github.io/Component-Designs/},
 year = {2021}
