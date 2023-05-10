@@ -1,0 +1,26 @@
+# Contributions
+
+Treadmill Sphere holder production files. Please refer to the [Holder for Fly Treadmill]({{site.baseurl}}/walking/sphere-holder) page for more details.
+
+
+# Files
+
+> __Note__
+> 
+> Files with the ending `_metric` contain the models in mm, the `_imperial` files are in inches.
+
+
+```
+├── Treadmill_Camera-base_Sphere-Holder_9mm-ball_base.stl       - 
+├── Treadmill_Camera-base_Sphere-Holder_9mm-ball_tip.stl
+├── Treadmill_Sphere_Holder_10mm-ball_90deg_imperial.stl
+├── Treadmill_Sphere_Holder_10mm-ball_90deg_metric.stl
+├── Treadmill_Sphere_Holder_9mm-ball_180deg_1mount_imperial.stl
+├── Treadmill_Sphere_Holder_9mm-ball_180deg_1mount_metric.stl
+├── Treadmill_Sphere_Holder_9mm-ball_180deg_imperial.stl
+├── Treadmill_Sphere_Holder_9mm-ball_180deg_metric.stl
+├── Treadmill_Sphere_Holder_9mm-ball_90deg_imperial.stl
+├── Treadmill_Sphere_Holder_9mm-ball_90deg_metric.stl
+├── Treadmill_Sphere_Holder_9mm_imperial.stl
+└── Treadmill_Sphere_Holder_9mm_metric.stl
+```
