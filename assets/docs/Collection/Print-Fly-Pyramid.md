@@ -19,7 +19,7 @@ In this example I will walk you through printing a [Fly Pyramid]({{site.baseurl}
 
 ## Get a resin printer, resin, and software
 
-We optimized the prints to work well on a commercially widely available printer, the [Phrozen Sonic Mini 8K](https://phrozen3d.com/products/phrozen-sonic-mini-8k-resin-3d-printer). At the time of writing this resin printer is available at many sources for [around $500](https://a.co/d/gY7QIjW). Other printers will work, too. For example, we tested some prints on an Elegoo Mars 3 and they looked good as well.
+We optimized the prints to work well on a commercially widely available printer, the [Phrozen Sonic Mini 8K](https://phrozen3d.com/products/phrozen-sonic-mini-8k-resin-3d-printer). At the time of writing this resin printer is available at many sources for [around $400](https://a.co/d/gY7QIjW). Other printers will work, too. For example, we tested some prints on an [Elegoo Mars 3 (~$250)](https://a.co/d/geXX2O1) and they looked good as well.
 
 ![A bottle of Elegoo Standard Photopolymer Resin Black]({{site.baseurl}}/assets/img/Collection/print-3d/resin.jpg){:.ifr .pop}
 
