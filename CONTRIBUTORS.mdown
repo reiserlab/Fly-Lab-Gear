@@ -5,8 +5,11 @@
 
 # Additional Contributions
 
+* [Alice Jiang](https://github.com/InchoateArtichoke)
 * [Eyal Gruntman](https://www.janelia.org/people/eyal-gruntman)
 * Igor Negrashov
+* [Kevin Cury](https://www.axellab.columbia.edu/kevin-cury)
+* Maya Campbell
 * [Melanie Basnak](https://github.com/mbasnak)
 * [Michael Reiser](https://www.janelia.org/lab/reiser-lab)
 * [Tanya Tabachnik](https://zuckermaninstitute.columbia.edu/tabachnik)
