@@ -29,11 +29,11 @@ During the tethering process, flies are held in place by a groove, or sarcophagu
 {:.clear}
 
 ![Machined Sarcophagus body]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Cooling_Plate-body.png){:.ifr .pop}
-The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part (Part number JF-MR-FS0006). `Cooling_Plate-*.stp` are minor updates, solving discrepancies between drawing and model.
+The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part (Part number JF-MR-FS0006). `Cooling_Plate-*.stp` are minor updates, solving discrepancies between drawing and model. Both, the drawing and the model suggest that 2-56 screws are used to fix the inlay to the body. In this case, set screws like [2-56 with 1/4"](https://www.mcmaster.com/92311A077/) should work. Some of the actual parts we have in the lab have a 4-40 thread and we use screws similar to this [plastic head thumb screw 21/32" long with 4-40 thread](https://www.mcmaster.com/98704A120/).
 {:.clear}
 
 ![Machined Sarcophagus inlay]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Cooling_Plate-inlay.png){:.ifr .pop}
-The inner part is within a bounding box of 0.8×0.7×2.9cm³ (width×height×depth). The sarcophagus in the files `Cooling_Plate-inlay.*` (Part number JF-MR-FS0007) have little holes on the bottom of the groove. These holes are connected to a bigger intake which can be used to create an negative pressure below the animal. Purely for tethering, this is usually not necessary --- the shape of the sarcophagus is constraining the immobilized animal good enough. The additional fixation through vacuum is helpful if additional manipulations with higher precision are conducted.
+The inner part is within a bounding box of 0.8×0.7×2.9cm³ (width×height×depth). The sarcophagus in the files `Cooling_Plate-inlay.*` (Part number JF-MR-FS0007) have little holes on the bottom of the groove. These holes are connected to a bigger intake which can be used to create an negative pressure below the animal. Purely for tethering, this is usually not necessary --- the shape of the sarcophagus is constraining the immobilized animal good enough. The additional fixation through vacuum with a 10-32 thread is helpful if additional manipulations with higher precision are conducted. Tube fittings like [this one](https://www.mcmaster.com/2844K13/) for and ID of 1/8" should fit.
 {:.clear}
 
 ### Source
