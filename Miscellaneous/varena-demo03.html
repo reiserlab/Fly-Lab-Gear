@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inexpensive Treadmill Visual stimulus demo</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body { margin: 0; }
+            #overlay {position: absolute;font-size: 16px;z-index: 2;top: 0;left: 0;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;background: rgba(0,0,0,0.7);}
+            #overlay button {background: transparent;border: 0;border: 1px solid rgb(255, 255, 255);border-radius: 4px;color: #ffffff;padding: 12px 18px;text-transform: uppercase;cursor: pointer;}
+		</style>
+	</head>
+	<body>
+        <div id="overlay">
+			<button id="startButton">Start Virtual Arena</button>
+		</div>
+        <script type="module">
+
+            import * as THREE from 'https://unpkg.com/three@0.146.0/build/three.module.js';
+            import Stats from 'https://unpkg.com/three@0.146.0/examples/jsm/libs/stats.module.js';
+
+            let camera, scene, renderer, controls, panels, stats, timer, fullsec;
+            let counter = 0;
+            let direction = 1;
+            let secs = 0;
+
+            const startButton = document.getElementById( 'startButton' );
+            startButton.addEventListener( 'click', function () {
+                init();
+                animate();
+            } );
+
+            startButton.addEventListener('click', () =>{
+                document.body.requestFullscreen();
+            });
+
+            const init = function() {
+                const overlay = document.getElementById( 'overlay' );
+                overlay.remove();
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 0.01, 2 );
+                renderer = new THREE.WebGLRenderer();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                document.body.appendChild( renderer.domElement );
+                stats = new Stats();
+			    document.body.appendChild( stats.dom );
+                timer = new THREE.Clock();
+
+                const bangle = (20/180)*Math.PI;
+                const geometry = new THREE.CylinderGeometry(0.1525, 0.1525, 0.6, 12, 1, true, 0, bangle);
+                const material = new THREE.MeshBasicMaterial( { color: 0x00ff00, side:THREE.DoubleSide } );
+                panels = new THREE.Group();
+                for (let a = 0; a < 2*Math.PI; a+= bangle*2){
+                    const bar = new THREE.Mesh(geometry, material);
+                    bar.rotation.y = a;
+                    panels.add(bar);
+                }
+                scene.add( panels );
+                window.addEventListener( 'resize', onResize );
+            };
+
+            const animate = function () {
+                counter +=1;
+                fullsec = Math.floor(timer.getElapsedTime()) % 20;
+                requestAnimationFrame( animate );
+                stats.update();
+                if (fullsec < 5){ direction = 1;} 
+                else if (fullsec < 8) {direction = 0;}
+                else if (fullsec <18) {direction = -1;}
+                else { direction = 0; }
+                panels.rotation.y += 0.03 * direction;
+                renderer.render( scene, camera );
+            };
+
+            const onResize = function() {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+            };
+
+
+          </script>
+    </body>
+</html>
