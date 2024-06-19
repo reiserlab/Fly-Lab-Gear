@@ -5,11 +5,22 @@ permalink: /inexpensive-treadmill
 nav_order: 1
 has_children: true
 ---
-
 # Inexpensive Treadmill
 
 [![Title page of published article]({{site.baseurl}}/assets/img/Collection/10.3389_fnbeh.2021.689573.png){:.ifr}](https://doi.org/10.3389/fnbeh.2021.689573)
 ["An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for *Drosophila* Experiments"](https://doi.org/10.3389/fnbeh.2021.689573) is an article Frank Loesche and Michael B. Reiser published in the Research Topic ["Modern Methods in Neuroethology"](https://www.frontiersin.org/research-topics/12605/modern-methods-in-neuroethology) for ["Frontiers in Behavioral Neuroscience"](https://www.frontiersin.org/journals/behavioral-neuroscience) (for an earlier version see [bioRxiv preprint](https://doi.org/10.1101/2021.04.29.442008)). For this "Inexpensive Treadmill" publication, we created a number of additional hardware and software components that turn out to be useful in the lab. The goal of this website and the github repository is to name the components used in the article, point to their detailed pages, and include material that is not appropriate for a scientific publication. Also note the [step-by-step guide]({{site.baseurl}}/how-to-build-inexpensive-treadmill) on how to build an inexpensive treadmill.
+
+{: .highlight}
+
+> ### Correction
+>
+> In section __2.3.3 Treadmill__, we name the "VFA-22 (Dwyer, Michigan City, IN, USA)" as an example for a flow meter. While this device can measure the flow, it does not have a valve to regulate the flow. Instead, you could either use the "VFA-22-SSV" or "VFA-23-SSV" (for higher flow rates) from the same manufacturer, fall back on the "roller-type clamp" mentioned in the same paragraph, or get an additional flow adjustment valve (e.g. [McMaster-Carr 7781K41](https://www.mcmaster.com/7781K41/)).
+
+{: .highlight}
+
+> ### Update
+>
+> In section __2.3.4 Spheres__, we provide a link to the Janelia wiki that has since been retired. The same content is now available at the [FlyFizz project page in the new Janelia wiki](https://wikis.janelia.org/display/flyfizz/Home).
 
 ## Software
 
@@ -144,3 +155,4 @@ Download walking setup table as .csv file [here]({{site.baseurl}}/assets/data/wa
   </tr>
   {% endfor %}
 </table>
+
