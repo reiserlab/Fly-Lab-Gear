@@ -139,5 +139,8 @@ vendor
 # rbenv
 .ruby-version
 
+# bundle
+Gemfile.lock
+
 # Offlie data
 0-offline/*
