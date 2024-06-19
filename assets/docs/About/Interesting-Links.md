@@ -5,11 +5,9 @@ permalink: /interesting-links
 nav_order: 99
 has_toc: true
 ---
-
-
 This is a list of potentially interesting, but not necessarily directly related publications. [Get in contact]({{site.baseurl}}/about) if you think something is missing.
 
-* TOC 
+* TOC
 {:toc}
 
 ---
@@ -20,14 +18,13 @@ This is a list of potentially interesting, but not necessarily directly related 
 
 The development of open hardware for scientific purposes is the subject of several journals. In the list below, the names of the publishers are linked to the relevant wikipedia article to allow for critical reflection on their publishing procedures.
 
-- [Journal of Open Hardware](https://openhardware.metajnl.com/) by [Ubiquity Press](https://en.wikipedia.org/wiki/Ubiquity_Press)
-- [HardwareX](https://www.journals.elsevier.com/hardwarex/) by [Elsevier](https://en.wikipedia.org/wiki/Elsevier)
-- [Instruments](https://www.mdpi.com/journal/instruments) by [MDPI](https://en.wikipedia.org/wiki/MDPI)
-- [Inventions](https://www.mdpi.com/journal/inventions) by [MDPI](https://en.wikipedia.org/wiki/MDPI)
-- [Designs](https://www.mdpi.com/journal/designs) by [MDPI](https://en.wikipedia.org/wiki/MDPI)
-- [Review of Scientific Instruments](https://aip.scitation.org/journal/rsi) by [AIP Publishing](https://en.wikipedia.org/wiki/American_Institute_of_Physics#AIP_Publishing)
-- [PLOS Open Source Toolkit channel](https://collections.plos.org/channel/open-source-toolkit/) by [PLOS](https://en.wikipedia.org/wiki/PLOS)
-
+* [Journal of Open Hardware](https://openhardware.metajnl.com/) by [Ubiquity Press](https://en.wikipedia.org/wiki/Ubiquity_Press)
+* [HardwareX](https://www.journals.elsevier.com/hardwarex/) by [Elsevier](https://en.wikipedia.org/wiki/Elsevier)
+* [Instruments](https://www.mdpi.com/journal/instruments) by [MDPI](https://en.wikipedia.org/wiki/MDPI)
+* [Inventions](https://www.mdpi.com/journal/inventions) by [MDPI](https://en.wikipedia.org/wiki/MDPI)
+* [Designs](https://www.mdpi.com/journal/designs) by [MDPI](https://en.wikipedia.org/wiki/MDPI)
+* [Review of Scientific Instruments](https://aip.scitation.org/journal/rsi) by [AIP Publishing](https://en.wikipedia.org/wiki/American_Institute_of_Physics#AIP_Publishing)
+* [PLOS Open Source Toolkit channel](https://collections.plos.org/channel/open-source-toolkit/) by [PLOS](https://en.wikipedia.org/wiki/PLOS)
 
 ## [Open-Labware](https://open-labware.net/)
 
@@ -53,9 +50,9 @@ by the US-American *National Insitutes of Health (NIH)*
 
 This [repository](https://3dprint.nih.gov/) focuses on "scientifically accurate or medically applicable" 3D-printable models. This includes a significant amount of molecular models for pedagogy and research, but there is also a section of ["Labware & Devices"](https://3dprint.nih.gov/discover?field_model_category_tag_tid[]=93).
 
-# Specific publications
+# Specific publications and tools
 
-The following list of papers is more or less a random sample of what seemed interesting or was sent to us by colleagues. Please keep sending us your interesting publications.
+The following list of papers and online resources is more or less a random sample of what seemed interesting or was sent to us by colleagues. Please keep sending us your interesting publications.
 
 ## [A new type of spherical flexure joint based on tetrahedron elements](https://doi.org/10.1016/j.precisioneng.2021.03.002)
 
@@ -91,3 +88,11 @@ by *A. A. Campbell*, *Robert W. Eifert*, and *Glenn C. Turner*
 Recent progress in intracellular calcium sensors and other fluorophores has promoted the widespread adoption of functional optical imaging in the life sciences. Home-built multiphoton microscopes are easy to build, highly customizable, and cost effective. For many imaging applications a 3-axis motorized stage is critical, but commercially available motorization hardware (motorized translators, controller boxes, etc) are often very expensive. Furthermore, the firmware on commercial motor controllers cannot easily be altered and is not usually designed with a microscope stage in mind. Here we describe an open-source motorization solution that is simple to construct, yet far cheaper and more customizable than commercial offerings. The cost of the controller and motorization hardware are under $1000. Hardware costs are kept low by replacing linear actuators with high quality stepper motors. Electronics are assembled from commonly available hobby components, which are easy to work with. Here we describe assembly of the system and quantify the positioning accuracy of all three axes. We obtain positioning repeatability of the order of 1µm in X/Y and 0.1µm in Z. A hand-held control-pad allows the user to direct stage motion precisely over a wide range of speeds (10<sup>-1</sup> to 10<sup>2</sup>µm s<sup>-1</sup>), rapidly store and return to different locations, and execute "jumps" of a fixed size. In addition, the system can be controlled from a PC serial port. Our "OpenStage" controller is sufficiently flexible that it could be used to drive other devices, such as micro-manipulators, with minimal modifications.
 
 DOI: [10.1371/journal.pone.0088977](https://doi.org/10.1371/journal.pone.0088977)
+
+## Treadmill Ball Grinders
+
+Stephen L Holtz from the Wilson Lab shared his method to [produce the walking spheres](https://github.com/wilson-lab/treadmill-ball-grinders) for Drosophila treadmills in a GitHub repository.
+
+URL: [wilson-lab/treadmill-ball-grinders](https://github.com/wilson-lab/treadmill-ball-grinders)
+
+
