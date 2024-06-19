@@ -134,6 +134,7 @@ vendor
 # Backup
 
 *.FCStd1
+*.FCBak
 
 # rbenv
 .ruby-version
