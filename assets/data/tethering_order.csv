@@ -1,40 +1,41 @@
-Name,Description,Link to Component Page,Link to File,Quantity,Link to Source,Notes
-USB Microscope,USB digital microscope,,,1,https://amazon.com/dp/B00XNYXQHE,
-UV Cure Resin,Glue for tethering flies,,,1,https://amazon.com/dp/B00FL0QYEU,UV light included
-UV Protective Glasses,,,,1,https://www.amazon.com/dp/B01KJ9JKB6,
-Paintbrush,"Fine-tipped, for positioning flies.",,,1,https://www.amazon.com/dp/B083G1B3WS,
-Round Bottom Tube,Fly storage/transfer,,,1,https://www.amazon.com/dp/B073Y11JLB,
-Tether,"Blunt tip dispensing needle, 34G",,,1 per fly,https://www.amazon.com/dp/B01FI9GKL0,
-Temperature Controller,W1209 Temperature Controller,,,1,https://www.amazon.com/dp/B07VDRGK9F,Identical to walking setup temperature controller. Link ships 2-packs.
-Black Wire,22 AWG stranded,,,1,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-08867/6833930,Also used in walking setup.
-Red Wire,22 AWG stranded,,,1,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-08865/6833925,Also used in walking setup.
-DC Power Plug Adaptor,,,,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/368/5629434,Identical to walking setup part. 
-Thermistor,NTC Thermistor 10k Ring Lug,,,1,https://www.digikey.com/short/t70zw8jz,"Optional, easier to mount on Cooler"
-Thermal Tape,For attaching sarcophagus to cooler,,,1,https://www.amazon.com/dp/B085CLXM7J,
-Insect Pin,Pin for pin vise/glue application,,,1 + extra,https://www.amazon.com/dp/B074DBRB48,
-Transfer Pipette,Fly Picker body,,,1,https://amazon.com/dp/B08CMPRNC3,
-Luer Connector,Fly Picker pressure control/tubing connector,,,2 + extra,https://www.mcmaster.com/51525K425/,
-Pipette Tip,Fly picker tip,,,1 + extra,https://www.mcmaster.com/7015T894/,Clear universal pipette tip
-Hollow Body Pin Vise,Glue applicator,,,1,https://www.mcmaster.com/8455A18/,
-"M3 Screws, 6 mm","M3 x 0.5 thread, 6 mm length. Socket head.",,,,https://www.amazon.com/iExcell-M3-P0-5-Stainless-Socket-Assortment/dp/B07HQC1CYF/ref=sr_1_2?dchild=1&keywords=Screws&pd_rd_r=f0fbe043-6887-47a1-906d-1af80e02e983&pd_rd_w=KOyZU&pd_rd_wg=jEsS4&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=E2AQVHN5H9G4JWFFWWP6&pid=eogsvs9&qid=1626199419&refinements=p_n_feature_fourteen_browse-bin%3A11434052011&s=industrial&sr=1-2&th=1,Screw included in set; also can be purchased individually through McMaster-Carr. Also used in tethering setup. 
-"M3 Screws, 10 mm","M3 x 0.5 thread, 10 mm length. Socket head.",,,,https://www.amazon.com/iExcell-M3-P0-5-Stainless-Socket-Assortment/dp/B07HQC1CYF/ref=sr_1_2?dchild=1&keywords=Screws&pd_rd_r=f0fbe043-6887-47a1-906d-1af80e02e983&pd_rd_w=KOyZU&pd_rd_wg=jEsS4&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=E2AQVHN5H9G4JWFFWWP6&pid=eogsvs9&qid=1626199419&refinements=p_n_feature_fourteen_browse-bin%3A11434052011&s=industrial&sr=1-2&th=1,Screw included in set; also can be purchased individually through McMaster-Carr. Also used in tethering setup. 
-"M3 Screws, 16-20 mm","M3 x 0.5 thread, 16-20 mm length. Any head.",,,,https://www.amazon.com/iExcell-M3-P0-5-Stainless-Socket-Assortment/dp/B07HQC1CYF/ref=sr_1_2?dchild=1&keywords=Screws&pd_rd_r=f0fbe043-6887-47a1-906d-1af80e02e983&pd_rd_w=KOyZU&pd_rd_wg=jEsS4&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=E2AQVHN5H9G4JWFFWWP6&pid=eogsvs9&qid=1626199419&refinements=p_n_feature_fourteen_browse-bin%3A11434052011&s=industrial&sr=1-2&th=1,Screw included in set; also can be purchased individually through McMaster-Carr.
-"M3 Screws, 40 mm","M3 x 0.5 thread, 40 mm length. Hex head.",,,,https://www.mcmaster.com/91287A028/,Also used in walking setup.
-M3 Locking nuts,M3 x 0.5 nylock nut,,,,https://www.mcmaster.com/90576A102/,Also used in walking setup.
-M3 Nuts,M3 x 0.5 hex nut,,,,https://www.mcmaster.com/90592A085/,Also used in walking setup.
-M3 Washers,"M3, nylon, black",,,,https://www.mcmaster.com/95610A530/,Also used in walking setup.
-Cooler,12V 5A Peltier Cooler + Heatsink,,,1,https://www.adafruit.com/product/1335,
-Cooler Power Supply,12V 5A power supply,,,1,https://www.adafruit.com/product/352,
-Tethering Station,Laser-cut from 3mm transparent acrylic.,https://reiserlab.github.io/Component-Designs/tether/station,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Tethering-Station/production/Tethering-Station-v1_1x_Acrylic-12x12x0.125-in.svg,1,https://www.ponoko.com/designs,"Set all lines to ""cut"". "
-Funnel,Funnel from bottle to 12mm test tube. ,https://reiserlab.github.io/Component-Designs/tether/funnels,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Funnels/production/Funnel_fly-vial-to-12mm-tube.stl,1,https://craftcloud3d.com/upload,"3D printed, mm scale. Other funnel sizes on ""Funnels"" page."
-Sarcophagus,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/sarcophagus#3d-printed-sarcophagus,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Sarcophagus_print/production/Sarcophagus_platform_15.stl,1,https://craftcloud3d.com/upload,Print in a color contrasting flies.
-Micromanipulator Bottom Rail,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Rail_bottom.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.
-Micromanipulator Center Rail,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Rail_center.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.
-Micromanipulator Top Rail,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Rail_top.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.
-Micromanipulator Top Slider,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Carriage_Hinge_top.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.
-Micromanipulator Handle,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Handle2.stl,3,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.
-Micromanipulator Carriage Bottom/Center,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Carriage_bottom-center.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.
-Micromanipulator Tethering Stand,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/walking/stands#stand-micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Stand_MicroManipulator_Tethering/Production/Stand_MicroManipulator_Tethering.stl,1,https://craftcloud3d.com/upload,NOT identical to walking setup micromanipulator stand
-Micromanipulator Tether Station Arm,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Arm_TetherStation.stl,1,https://craftcloud3d.com/upload,NOT identical to walking setup micromanipulator arm.
-Tube Roller Clamp,"3D printed, mm scale. ",,https://www.thingiverse.com/thing:174398,1,https://craftcloud3d.com/upload,Identical to tethering setup roller clamp.
-Needle Files,For filing 3D printed parts. ,,,1,https://www.amazon.com/Needle-HIGHEST-QUALITY-Hardened-Strength/dp/B07KH8BG1F/ref=sr_1_3?dchild=1&m=ARCUMSX2GLNK4&marketplaceID=ATVPDKIKX0DER&qid=1628980248&s=merchant-items&sr=1-3,Strongly recommended for micromanipulator assembly.
+Name,Description,Link to Component Page,Link to File,Quantity,Link to Source,Notes,
+USB Microscope,USB digital microscope,,,1,https://a.co/d/0eAWiif1,,
+UV Cure Resin,Glue for tethering flies,,,1,https://a.co/d/09S1MzxK,,
+UV Light,Light to cure the Resin,,,1,https://a.co/d/0gJYHpYo,,
+UV Protective Glasses,,,,1,https://a.co/d/0f7oVJxm,,
+Paintbrush,"Fine-tipped, for positioning flies.",,,1,https://a.co/d/06D7mJhc,,
+Round Bottom Tube,Fly storage/transfer,,,1,https://a.co/d/04KsRaeN,,
+Tether,"Blunt tip dispensing needle, 34G",,,1 per fly,https://a.co/d/0hZcxHfC,,
+Temperature Controller,W1209 Temperature Controller,,,1,https://a.co/d/09MLSSTO,Identical to walking setup temperature controller. Link ships 2-packs.,
+Black Wire,22 AWG stranded,,,1,https://octopart.com/prt-08867-sparkfun-76381880,Also used in walking setup.,
+Red Wire,22 AWG stranded,,,1,https://octopart.com/prt-08865-sparkfun-76381878,Also used in walking setup.,
+DC Power Plug Adaptor,,,,1,https://octopart.com/368-adafruit+industries-32978560,Identical to walking setup part. ,
+Thermistor,NTC Thermistor 10k Ring Lug,,,1,https://octopart.com/ntcalug01a103j-vishay-30509960,"Optional, easier to mount on Cooler",
+Thermal Tape,For attaching sarcophagus to cooler,,,1,https://octopart.com/1468-adafruit+industries-61582077,,
+Insect Pin,Pin for pin vise/glue application,,,1 + extra,https://a.co/d/017Fi9ZP,,
+Transfer Pipette,Fly Picker body,,,1,https://a.co/d/0h0E9ihf,,
+Luer Connector,Fly Picker pressure control/tubing connector,,,2 + extra,https://www.mcmaster.com/51525K425/,,
+Pipette Tip,Fly picker tip,,,1 + extra,https://www.mcmaster.com/7015T894/,Clear universal pipette tip,
+Hollow Body Pin Vise,Glue applicator,,,1,https://www.mcmaster.com/8455A18/,,
+"M3 Screws, 6 mm","M3 x 0.5 thread, 6 mm length. Socket head.",,,,https://a.co/d/07OOGLqg,Screw included in set, also can be purchased individually through McMaster-Carr. Also used in tethering setup. 
+"M3 Screws, 10 mm","M3 x 0.5 thread, 10 mm length. Socket head.",,,,https://a.co/d/0jeAcJc2,Screw included in set, also can be purchased individually through McMaster-Carr. Also used in tethering setup. 
+"M3 Screws, 16-20 mm","M3 x 0.5 thread, 16-20 mm length. Any head.",,,,https://a.co/d/08zhT4pM,Screw included in set, also can be purchased individually through McMaster-Carr.
+"M3 Screws, 40 mm","M3 x 0.5 thread, 40 mm length. Hex head.",,,,https://www.mcmaster.com/91287A028/,Also used in walking setup.,
+M3 Locking nuts,M3 x 0.5 nylock nut,,,,https://www.mcmaster.com/90576A102/,Also used in walking setup.,
+M3 Nuts,M3 x 0.5 hex nut,,,,https://www.mcmaster.com/90592A085/,Also used in walking setup.,
+M3 Washers,"M3, nylon, black",,,,https://www.mcmaster.com/95610A530/,Also used in walking setup.,
+Cooler,12V 5A Peltier Cooler + Heatsink,,,1,https://octopart.com/1335-adafruit+industries-32978364,,
+Cooler Power Supply,12V 5A power supply,,,1,https://octopart.com/352-adafruit+industries-32978547,,
+Tethering Station,Laser-cut from 3mm transparent acrylic.,https://reiserlab.github.io/Component-Designs/tether/station,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Tethering-Station/production/Tethering-Station-v1_1x_Acrylic-12x12x0.125-in.svg,1,https://www.ponoko.com/designs,"Set all lines to ""cut"". ",
+Funnel,Funnel from bottle to 12mm test tube. ,https://reiserlab.github.io/Component-Designs/tether/funnels,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Funnels/production/Funnel_fly-vial-to-12mm-tube.stl,1,https://craftcloud3d.com/upload,"3D printed, mm scale. Other funnel sizes on ""Funnels"" page.",
+Sarcophagus,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/sarcophagus#3d-printed-sarcophagus,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Sarcophagus_print/production/Sarcophagus_platform_15.stl,1,https://craftcloud3d.com/upload,Print in a color contrasting flies.,
+Micromanipulator Bottom Rail,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Rail_bottom.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.,
+Micromanipulator Center Rail,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Rail_center.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.,
+Micromanipulator Top Rail,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Rail_top.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.,
+Micromanipulator Top Slider,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Carriage_Hinge_top.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.,
+Micromanipulator Handle,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Handle2.stl,3,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.,
+Micromanipulator Carriage Bottom/Center,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Carriage_bottom-center.stl,1,https://craftcloud3d.com/upload,Identical to walking setup micromanipulator part.,
+Micromanipulator Tethering Stand,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/walking/stands#stand-micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/Stand_MicroManipulator_Tethering/Production/Stand_MicroManipulator_Tethering.stl,1,https://craftcloud3d.com/upload,NOT identical to walking setup micromanipulator stand,
+Micromanipulator Tether Station Arm,"3D printed, mm scale. ",https://reiserlab.github.io/Component-Designs/tether/micromanipulator,https://github.com/reiserlab/Component-Designs/blob/main/Tethering/MicroManipulator/production/MicroManipulator_Arm_TetherStation.stl,1,https://craftcloud3d.com/upload,NOT identical to walking setup micromanipulator arm.,
+Tube Roller Clamp,"3D printed, mm scale. ",,https://www.thingiverse.com/thing:174398,1,https://craftcloud3d.com/upload,Identical to tethering setup roller clamp.,
+Needle Files,For filing 3D printed parts. ,,,1,https://a.co/d/07V42VZ4,Strongly recommended for micromanipulator assembly.,

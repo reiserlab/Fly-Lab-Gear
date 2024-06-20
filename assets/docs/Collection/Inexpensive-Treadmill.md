@@ -123,7 +123,7 @@ space after duplicate headings in the user-friendly section of the csv files-->
     {% if row['Description'] != nil %}<br/>{{ row['Description'] }} {% endif %}
     </td>
     {% assign url_shop = row['Link to Source'] %}
-    <td><a href="{{ url_shop | strip }}">{{ url_shop | remove: 'http://' | remove: 'https://' | remove_first: 'www.' | split: '/' | first | capitalize }}</a></td>
+    <td><a href="{{ url_shop | strip }}">{{ url_shop | remove: 'http://' | remove: 'https://' | remove_first: 'www.' | split: '/' | first | capitalize | replace: "A.co", "Amazon.com"}}</a></td>
     <td>{{ row['Notes'] }}</td>
   </tr>
   {% endfor %}
