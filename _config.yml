@@ -1,7 +1,7 @@
 title: Components
 email: loeschef@janelia.hhmi.org
-description: >- # this means to ignore newlines until "baseurl:"
-  Some 3D printing, laser cutting, PCBs used in the lab.
+description: >-
+  Some 3D printing, laser cutting, PCBs used in the Reiser lab at Janelia.
 
 repository: reiserlab/Component-Designs
 
@@ -13,8 +13,12 @@ color_scheme: "components"
 kramdown:
   toc_levels: "1,2"
 
-# relative_links:
-#   enabled: true
 
 # change location of data directory from /_data to /assets/data
 data_dir: assets/data
+
+gh_edit_link: true
+gh_edit_link_text: "🖊"
+gh_edit_repository: "https://github.com/reiserlab/Component-Designs"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit" 
