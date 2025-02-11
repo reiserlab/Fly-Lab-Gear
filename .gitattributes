@@ -1,2 +1,2 @@
-*.FCStd filter=zippey
-*.FCStd diff=zip
+#*.FCStd filter=zippey
+#*.FCStd diff=zip
