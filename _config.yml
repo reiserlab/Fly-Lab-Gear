@@ -17,6 +17,13 @@ kramdown:
 # change location of data directory from /_data to /assets/data
 data_dir: assets/data
 
+callouts:
+  reference:
+    title: Reference
+    color: red
+
+exclude: ["*.qmd"]
+
 gh_edit_link: true
 gh_edit_link_text: "🖊"
 gh_edit_repository: "https://github.com/reiserlab/Component-Designs"

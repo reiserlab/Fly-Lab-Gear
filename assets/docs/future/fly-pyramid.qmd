@@ -12,7 +12,6 @@ author:
     affiliations: 
       - Janelia Research Campus
       - MCN-NET
-date: last-modified
 bibliography: references.bib 
 biblio-title: References
 csl: apa-6th-edition.csl 
