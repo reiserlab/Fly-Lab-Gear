@@ -1,5 +1,3 @@
-
-
 .PHONY: update-dependencies localhost
 
 localhost:

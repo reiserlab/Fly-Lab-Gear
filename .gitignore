@@ -144,3 +144,7 @@ Gemfile.lock
 
 # Offlie data
 0-offline/*
+
+# pixi environments
+.pixi
+*.egg-info
