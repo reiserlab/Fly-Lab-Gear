@@ -1,8 +1,8 @@
 [![DOI](https://zenodo.org/badge/248803892.svg)](https://zenodo.org/badge/latestdoi/248803892)
 
-For the repository's documentation refer to <https://reiserlab.github.io/Component-Designs/>. 
+For the repository's documentation refer to <https://reiserlab.github.io/Fly-Lab-Gear/>.
 
-Questions and comments? [Get in contact](https://reiserlab.github.io/Component-Designs/about).
+Questions and comments? [Get in contact](https://reiserlab.github.io/Fly-Lab-Gear/about).
 
 The version 1.0, released at the time of the paper "Frank Loesche & Michael B. Reiser (2021). An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for Drosophila Experiments. _Frontiers in Behavioral Neuroscience, 15_. https://doi.org/10.3389/fnbeh.2021.689573" in July 2021 is archived at Zenodo and accessible via [DOI 10.5281/zenodo.7822934](https://doi.org/10.5281/zenodo.7822934).
 

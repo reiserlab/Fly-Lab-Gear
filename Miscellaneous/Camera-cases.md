@@ -7,7 +7,7 @@ nav_order: 9
 
 # Case_Camera_Basler
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Case_Camera_Basler){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Case_Camera_Basler){:.ifr}
 This is the back side of a case for a small board camera. It includes a 90° screw hole.
 
 ![Basler camera case]({{site.baseurl}}/assets/img/Miscellaneous/Case_Camera_Basler/Case_Camera_Basler.png){:.ifr .pop}
@@ -19,7 +19,7 @@ Original design by Igor Nagrashov at [jET](https://www.janelia.org/support-team/
 
 # Holder for MISUMI camera
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Case_Cable-Camera_Misumi){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Case_Cable-Camera_Misumi){:.ifr}
 A simple sketch to mount a cable camera (similar to [SYD-V311M5L8-77A](http://www.misumi.com.tw/PLIST.ASP?PC_ID=09)) by the manufacturer MISUMI.
 
 ![Misumi cable camera case]({{site.baseurl}}/assets/img/Miscellaneous/Case_Cable-Camera_Misumi/Case_Cable-Camera.png){:.ifr .pop}

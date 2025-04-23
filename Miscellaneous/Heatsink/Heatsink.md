@@ -7,7 +7,7 @@ nav_order: 5
 
 # Heatsink
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Heatsink){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Heatsink){:.ifr}
 For the tethering stage we use a [readily available](https://www.adafruit.com/product/1335) combination of a heatsink with a fan and Peltier element. The files here are preliminary models of these components and might get used in 3D assemblies.
 
 ![Model of the Fan casing]({{site.baseurl}}/assets/img/Miscellaneous/Heatsink/Fan.png){: .ifr .pop}
@@ -19,7 +19,7 @@ For the tethering stage we use a [readily available](https://www.adafruit.com/pr
 {:.clear}
 
 ![Model of the fan protector]({{site.baseurl}}/assets/img/Miscellaneous/Heatsink/FanProtector.png){: .ifr .pop}
-`FanProtector.FCStd`: The model of a fan protector. Only needed for realistic visualization. The measurments are taken from a real protector, adding this below the heatsink and the fan, would give an realistic estimation of the actual height of the assembly. 
+`FanProtector.FCStd`: The model of a fan protector. Only needed for realistic visualization. The measurments are taken from a real protector, adding this below the heatsink and the fan, would give an realistic estimation of the actual height of the assembly.
 {:.clear}
 
 ![Heatsink model]({{site.baseurl}}/assets/img/Miscellaneous/Heatsink/Heatsink_90x90.png){: .ifr .pop}

@@ -7,7 +7,7 @@ nav_order: 3
 
 # Tethers
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Tethering/Tether_holder){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Tethering/Tether_holder){:.ifr}
 These designs are related to holding a fly in place, for example during an experiment. Here we list ideas to body-fixate a fly. Take a look at the [classical approach to tether]({{site.baseurl}}/tether/classic-tethers) and fly and at [Flyplate]({{site.baseurl}}/physiology/flyplate) if you are looking for head fixation. In addition to the Luer lock holder, we are also using friction mounts on the [micro manipulator]({{site.baseurl}}/tether/micromanipulator) for the [blunt dispensing needles]({{site.baseurl}}/miscellaneous/dispensing-needle).
 
 ## Tether cone

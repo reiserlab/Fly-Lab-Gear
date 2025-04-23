@@ -8,7 +8,7 @@ nav_order: 1
 
 # Flyplate 5
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Physiology-Setup/Flyplate){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Physiology-Setup/Flyplate){:.ifr}
 
 The [Flyplate5](production/Flyplate5.stl) was designed at [Janelia Experimental Technology (jET)](https://www.janelia.org/support-team/janelia-experimental-technology) and is the 5th iteration of the design. For this design, sometimes called "Gelato Spoon Fly Holder", the head of the fly is glued to the tip of the cone on one side of the plate. After glueing the fly, it is possible to dissect parts of the head, i.e. for patch clamping and brain imaging. The inner part of the cone tends to be filled with liquid that provides nutrients to the animal and can be imaged through. The upper part of the cone is big enough for a microscope lens to be lowered into the liquid. The other end of the plate can be fixed to a kinematic base (eg [Thorlabs KBT1X1](https://www.thorlabs.com/thorproduct.cfm?partnumber=KBT1X1)) to easily mount it either at the tethering station, imaging rig, or experimental setup.
 

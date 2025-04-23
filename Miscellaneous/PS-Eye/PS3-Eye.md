@@ -7,7 +7,7 @@ nav_order: 3
 
 # Playstation 3 Eye camera
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/PS-Eye){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/PS-Eye){:.ifr}
 A model of the camera used in the inexpensive treadmill setup. This is for visualization purposes.
 
 ![Model of the PS3 Eye camera]({{site.baseurl}}/assets/img/Miscellaneous/PS3-Eye/PS3-Eye.png){: .ifr .pop}

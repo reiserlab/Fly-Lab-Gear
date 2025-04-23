@@ -7,7 +7,7 @@ nav_order: 7
 
 # Adapter plates
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Adapter_metric-imperial_manipulator){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Adapter_metric-imperial_manipulator){:.ifr}
 These adapter plates were used to mount a metric micromanipulator to an imperically spaced breadboard.
 
 ![Adapter plates]({{site.baseurl}}/assets/img/Miscellaneous/Adapter_metric-imperial_manipulator/Adapter_metric-imperial_micro-manipulator_bottom.png){:.ifr .pop}

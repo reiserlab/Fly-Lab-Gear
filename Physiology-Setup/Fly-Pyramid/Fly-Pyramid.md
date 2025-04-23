@@ -8,7 +8,7 @@ nav_order: 2
 
 # Fly Pyramid Print
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Physiology-Setup/Fly-Pyramid){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Physiology-Setup/Fly-Pyramid){:.ifr}
 
 
 The "Fly Pyramid Print" is an accessory we utilize in preparations for electro physiology experiments with Drosophila melanogaster. This version of the fly holder is [printable on an inexpensive 3D printer]({{site.baseurl}}/how-to-print-a-fly-pyramid) with material costs of <$0.50 per piece. The design is based on a previous iteration machined from PEEK plastic that had been employed in the lab for many years. This edition optimized for the additive manufacturing process version emphasizes the reproducibility and the steadiness of the print.

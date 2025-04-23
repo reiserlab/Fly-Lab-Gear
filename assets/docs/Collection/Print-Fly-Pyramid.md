@@ -53,7 +53,7 @@ This profiles comes with the settings illustrated in the screenshot. These setti
 ## Slice and start printing
 
 ![A single model with three Fly Pyramids on the virtual build plate inside the Lychee slicer software. The model is in red and the 'Repair 3D model' button is highlighted.]({{site.baseurl}}/assets/img/Collection/print-3d/lychee_repair-model.png){:.ifr .pop .clear}
-Once you set up the printer and resin, you can load the model into Lychee. Choose the appropriate model from our main menu on the left and download the associated `*.stl` file, for example the [Fly-Pyramid_S_mm.stl](https://github.com/reiserlab/Component-Designs/blob/main/Physiology-Setup/Fly-Pyramid/production/Fly-Pyramid_S_mm.stl) for the [Fly Pyramid]({{site.baseurl}}/physiology/flypyramid).
+Once you set up the printer and resin, you can load the model into Lychee. Choose the appropriate model from our main menu on the left and download the associated `*.stl` file, for example the [Fly-Pyramid_S_mm.stl](https://github.com/reiserlab/Fly-Lab-Gear/blob/main/Physiology-Setup/Fly-Pyramid/production/Fly-Pyramid_S_mm.stl) for the [Fly Pyramid]({{site.baseurl}}/physiology/flypyramid).
 
 Most of the models we provide will load without issues. If you see that Lychee is complaining about some kind of error, then please let us know although in most cases this is nothing to worry about. Lychee can repair many issues after you click on *Repair 3D model*{:.gui-btn}.
 

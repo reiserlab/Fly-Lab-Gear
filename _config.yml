@@ -3,7 +3,7 @@ email: loeschef@janelia.hhmi.org
 description: >-
   Some 3D printing, laser cutting, PCBs used in the Reiser lab at Janelia.
 
-repository: reiserlab/Component-Designs
+repository: reiserlab/Fly-Lab-Gear
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
@@ -18,6 +18,6 @@ data_dir: assets/data
 
 gh_edit_link: true
 gh_edit_link_text: "🖊"
-gh_edit_repository: "https://github.com/reiserlab/Component-Designs"
+gh_edit_repository: "https://github.com/reiserlab/Fly-Lab-Gear"
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"

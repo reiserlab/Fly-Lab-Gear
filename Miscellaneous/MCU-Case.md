@@ -7,7 +7,7 @@ nav_order: 12
 
 # Raspberry Pi 3 case
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Case_RaspberryPi3){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Case_RaspberryPi3){:.ifr}
 The case we use for our [RPi3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/).
 
 ## Origin and License
@@ -17,7 +17,7 @@ The case we use for our [RPi3](https://www.raspberrypi.org/products/raspberry-pi
 
 # NVIDIA Jetson Nano case
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Miscellaneous/Case_Jetson-Nano){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Case_Jetson-Nano){:.ifr}
 The case we use for our [NVIDIA Jetson Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/).
 
 ## Origin and License

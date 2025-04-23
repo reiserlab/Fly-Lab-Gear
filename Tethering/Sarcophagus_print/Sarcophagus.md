@@ -13,7 +13,7 @@ Flies are immobilized by low temperatures, for example by a cold metal plate und
 
 ## 3D printed sarcophagus
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Tethering/Sarcophagus_print){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Tethering/Sarcophagus_print){:.ifr}
 For a teaching course, we prototyped a 3D printed version of the sarcophagus to explore if it was possible to produce a considerably cheaper version that works good enough for behavioral experiments. As a cooling device we used the readily available [Peltier mounted on a heatsink from Adafruit](https://www.adafruit.com/product/1335). Even in a warm environment of around 30°C the surface was cooled to below freezing. Our design of the [Sarcophagus platform](production/Sarcophagus_platform_15.stl) is small enough to go on top of this Peltier element and still have space for a few immobilized flies on a sorting area shown as well as sarcophagus of different dimensions. We attach the 3D printed sarcophagus to the surface of the Peltier element with [thermal adhesive tape](https://www.adafruit.com/product/1467).
 
 ![cooling plate with 15 differently sized sarcophagi]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Sarcophagus_platform_15.png){:.ifr .pop}
@@ -21,7 +21,7 @@ For a teaching course, we prototyped a 3D printed version of the sarcophagus to 
 
 ## Machined Brass Sarcophagus
 
-[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Component-Designs/tree/main/Tethering/Sarcophagus_machined){:.ifr}
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Tethering/Sarcophagus_machined){:.ifr}
 Original design by Tanya Tabachnik <tt2564@columbia.edu> around June 2011. She was Lead Mechanical Engineer at Janelia by the time. In August 2020, Melanie Basnak sent us a version in a more accessible file format (STEP and STL), that also solved some discrepancies between model and technical drawing.
 
 ![Two versions of the machined sarcophagus]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/machined-sarcophagus-versions.jpg){:.ifr .pop}
@@ -33,7 +33,7 @@ During the tethering process, flies are held in place by a groove, or sarcophagu
 {:.clear}
 
 ![Machined Sarcophagus body]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Cooling_Plate-body.png){:.ifr .pop}
-The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part (Part number JF-MR-FS0006). `Cooling_Plate-*.stp` are minor updates, solving discrepancies between drawing and model. 
+The bounding box of the body is about 3.8×7.0×3.2cm³ (width×height×depth). The files starting with `Cooling_Plate-body.i*` contain the initial technical drawings and CAD files for this part (Part number JF-MR-FS0006). `Cooling_Plate-*.stp` are minor updates, solving discrepancies between drawing and model.
 {:.clear}
 
 ![Machined Sarcophagus inlay]({{site.baseurl}}/assets/img/Tethering/Sarcophagus/Cooling_Plate-inlay.png){:.ifr .pop}
