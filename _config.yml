@@ -1,4 +1,4 @@
-title: Components
+title: Fly Lab Gear
 email: loeschef@janelia.hhmi.org
 description: >-
   Some 3D printing, laser cutting, PCBs used in the Reiser lab at Janelia.
@@ -13,7 +13,6 @@ color_scheme: "components"
 kramdown:
   toc_levels: "1,2"
 
-
 # change location of data directory from /_data to /assets/data
 data_dir: assets/data
 
@@ -21,4 +20,4 @@ gh_edit_link: true
 gh_edit_link_text: "🖊"
 gh_edit_repository: "https://github.com/reiserlab/Component-Designs"
 gh_edit_branch: "main"
-gh_edit_view_mode: "edit" 
+gh_edit_view_mode: "edit"
