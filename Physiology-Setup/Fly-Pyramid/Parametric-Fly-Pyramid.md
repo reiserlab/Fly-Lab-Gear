@@ -1415,24 +1415,23 @@ Measurements from the strenght test of different resins. All the data is
 visualized in
 <a href="#fig-StrengthTest" class="quarto-xref">Figure 16</a>
 
-<div id="tbl-StrengthTest">
 
 Table 1: Measured maximum weight per resin at different print settings
 
-| Resin Type | BottomOfPyramidThickness | TopOfPyramidThickness  | weight |
-|------------|--------------------------|------------------------|--------|
-| Phrozen TR250 | 0.1 | 0.5 | 200 |
-| Phrozen TR250 | 0.1 | 0.5 | 195 |
-| Phrozen TR250 | 0.15 | 0.5 | 414 |
-| Phrozen TR250 | 0.15 | 0.5 | 465 |
-| Phrozen TR250 | 0.2 | 0.5 | 733 |
-| Phrozen TR250 | 0.2 | 0.5 | 764 |
-| Phrozen TR250 | 0.1 | 1 | 255 |
-| Phrozen TR250 | 0.1 | 1 | 276 |
-| Phrozen TR250 | 0.15 | 1 | 548 |
-| Phrozen TR250 | 0.15 | 1 | 546 |
-| Phrozen TR250 | 0.2 | 1 | 966 |
-| Phrozen TR250 | 0.2 | 1 | 995 |
+| Resin Type      | BottomOfPyramidThickness | TopOfPyramidThickness  | weight |
+|:----------------|-------------------------:|-----------------------:|-------:|
+| Phrozen TR250   | 0.1 | 0.5 | 200 |
+| Phrozen TR250   | 0.1 | 0.5 | 195 |
+| Phrozen TR250   | 0.15 | 0.5 | 414 |
+| Phrozen TR250   | 0.15 | 0.5 | 465 |
+| Phrozen TR250   | 0.2 | 0.5 | 733 |
+| Phrozen TR250   | 0.2 | 0.5 | 764 |
+| Phrozen TR250   | 0.1 | 1 | 255 |
+| Phrozen TR250   | 0.1 | 1 | 276 |
+| Phrozen TR250   | 0.15 | 1 | 548 |
+| Phrozen TR250   | 0.15 | 1 | 546 |
+| Phrozen TR250   | 0.2 | 1 | 966 |
+| Phrozen TR250   | 0.2 | 1 | 995 |
 | Elegoo Standard | 0.1 | 0.5 | 90 |
 | Elegoo Standard | 0.1 | 0.5 | 96 |
 | Elegoo Standard | 0.15 | 0.5 | 147 |
@@ -1482,7 +1481,6 @@ Table 1: Measured maximum weight per resin at different print settings
 | Anycubic Rigid 100 | 0.2 | 1 | 1112 |
 | Anycubic Rigid 100 | 0.2 | 1 | 1096 |
 
-</div>
 
 # Document History
 
