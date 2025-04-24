@@ -56,40 +56,27 @@ of parameters and values as shown below. Values on a yellow background
 can be modified, red parameters are “read only” references that are
 calculated by the model and based on the modified parameters.
 
-<div id="fig-SpoonOverview">
-
-<div id="fig-spoon-parameters">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Overview.png" class="lightbox"
-data-ref-parent="fig-SpoonOverview" />
-im
-(a) Overview Fly Spoon Parameters
-
+<div class="image-grid-2" id="fig-SpoonOverview">
+    <figure>
+        <img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Overview.png" class="pop"
+        data-ref-parent="fig-SpoonOverview" id="fig-spoon-parameters" />
+        <figcaption><strong>(a)</strong> Overview Fly Spoon Parameters</figcaption>
+    </figure>
+    <figure>
+        <img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_TopView.png" class="pop"
+            data-ref-parent="fig-SpoonOverview" id="fig-spoon-topview"/>
+        <figcaption><strong>(b)</strong> Top view of the fly spoon with the different parts that are
+        explained in the following sections</figcaption>
+    </figure>
+    <figure>
+        <img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_SideView.png" class="pop"
+            data-ref-parent="fig-SpoonOverview" id="fig-spoon-sideview"/>
+        <figcaption><strong>(c)</strong> Cross-Section through the fly spoon with a stylized objective</figcaption>
+    </figure>
 </div>
 
-<div id="fig-spoon-topview">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_TopView.png" class="lightbox"
-data-ref-parent="fig-SpoonOverview" />
-
-(b) Top view of the fly spoon with the different parts that are
-explained in the following sections
-
-</div>
-
-<div id="fig-spoon-sideview">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_SideView.png" class="lightbox"
-data-ref-parent="fig-SpoonOverview" />
-
-(c) Cross-Section through the fly spoon with a stylized objective
-
-</div>
-
-Figure 1: Example list of parameters for the Fly spoon and different
+**Figure 1**: Example list of parameters for the Fly spoon and different
 views on the CAD model within FreeCAD.
-
-</div>
 
 The Fly Spoon Design and its parameters will be grouped into the
 following sections to make the documentation and labeling easier to
@@ -822,7 +809,7 @@ exposure times and settings of the fly pyramid.
 
 # Document History
 
-1. originally a Word document
+1. originally a Word document by Benjamin Hayworth (Summer intern from Loudoun County High Schools )
 2. converted to private GitHub compatible Markdown
 3. converted to quarto Markdown for MCN-NET documentation
 4. published on Fly-Lab-Gear

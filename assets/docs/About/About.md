@@ -22,12 +22,12 @@ Pull requests for improvements are greatly appreciated.
 If you want to cite the repository, here is a bibtext entry for the repository, which will translate to something like:
 
 {: .highlight}
-> Loesche F., Gruntman E., Talbot J., Jiang A., Nagrashov I., Tabachnik T., Reiser M.B. (2021). Fly Lab Gear (version 1.1). DOI: [10.5281/zenodo.7825952](https://doi.org/10.5281/zenodo.7825952) URL: <https://reiserlab.github.io/Fly-Lab-Gear/>
+> Loesche F., Gruntman E., Talbot J., Jiang A., Nagrashov I., Tabachnik T., Hayworth B., Reiser M.B. (2021). Fly Lab Gear (version 1.1). DOI: [10.5281/zenodo.7825952](https://doi.org/10.5281/zenodo.7825952) URL: <https://reiserlab.github.io/Fly-Lab-Gear/>
 
 
 ```bibtex
 @misc{Loesche2021b,
-author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Jiang, Alice and Nagrashov, Igor and Tabachnik, Tanya and Reiser, Michael B.},
+author = {Loesche, Frank and Gruntman, Eyal and Talbot, Jeff and Jiang, Alice and Nagrashov, Igor and Tabachnik, Tanya and Hayworth, Benjamin and Reiser, Michael B.},
 doi = {10.5281/zenodo.7825952},
 month = {9},
 title = {Fly-Lab-Gear},

@@ -112,3 +112,19 @@ figure.ifr{
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
   object-fit: cover;
 }
+
+.image-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  object-fit: cover;
+}

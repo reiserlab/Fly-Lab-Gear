@@ -1419,8 +1419,8 @@ visualized in
 
 Table 1: Measured maximum weight per resin at different print settings
 
-| Resin Type | BottomOfPyramidThickness | TopOfPyramidThickness | weight |
-|:---|---:|---:|---:|
+| Resin Type | BottomOfPyramidThickness | TopOfPyramidThickness  | weight |
+|------------|--------------------------|------------------------|--------|
 | Phrozen TR250 | 0.1 | 0.5 | 200 |
 | Phrozen TR250 | 0.1 | 0.5 | 195 |
 | Phrozen TR250 | 0.15 | 0.5 | 414 |
@@ -1486,8 +1486,6 @@ Table 1: Measured maximum weight per resin at different print settings
 
 # Document History
 
-1.  originally a Word document
+1.  originally a Word document by Benjamin Hayworth (Summer intern from Loudoun County High Schools )
 2.  converted to private GitHub compatible Markdown
 3.  converted to quarto Markdown for MCN-NET documentation
-
-This document was generated from git commit 9c69fcd
