@@ -2354,7 +2354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 146.05 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +2561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 97.536 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +3304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 105.156 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 154.94 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
