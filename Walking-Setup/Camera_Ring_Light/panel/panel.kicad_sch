@@ -2452,7 +2452,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C48642163"
 			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2816,7 +2816,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C48642163"
 			(at 135.89 50.8 0)
 			(hide yes)
 			(show_name no)

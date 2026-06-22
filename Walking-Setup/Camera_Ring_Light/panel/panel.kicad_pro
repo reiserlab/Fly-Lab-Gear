@@ -714,7 +714,11 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "name": "thtFinal"
+      }
+    ]
   },
   "sheets": [
     [
