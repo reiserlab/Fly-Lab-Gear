@@ -90,6 +90,7 @@ $RECYCLE.BIN/
 *.sch-bak
 *.kicad_pcb-bak
 *~
+~*
 _autosave-*
 *.tmp
 *-save.pro
