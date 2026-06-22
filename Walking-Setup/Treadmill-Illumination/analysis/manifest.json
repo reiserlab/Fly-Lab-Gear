@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "project": "Treadmill-Illumination.kicad_pro",
+  "current": "2026-06-22_1056",
+  "runs": {
+    "2026-06-22_1056": {
+      "source_hashes": {
+        "Treadmill-Illumination.kicad_sch": "sha256:4f62485a681a87526837e23d85e09ee9d25d915f085eb23b8dc739156345d234",
+        "Treadmill-Illumination.kicad_pcb": "sha256:94c8bb8501dbe31b3263751dd92de8a0f423c445a029660af0f3be8d19a39431",
+        "schematic.json": "sha256:28bcf620606a2bac7d1d6948e528c7eaf5b4ef4b7bdc5ea034d92b9e7bc5f615",
+        "pcb.json": "sha256:c0c239bff22e6f679075f9e8231155c344dc703a5e3d5d82f848f8260878a52b"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py Treadmill-Illumination.kicad_sch"
+      },
+      "generated": "2026-06-22T12:22:52-04:00",
+      "pinned": false
+    }
+  }
+}
