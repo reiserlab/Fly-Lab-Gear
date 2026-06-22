@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Treadmill Illumination")
+		(date "2026-06-22")
+		(rev "v1.1")
+		(company "Reiserlab @ Janelia | HHMI")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -6335,8 +6341,19 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Flyball Illumination \nPanel V1.0"
-		(at 73.59 59.06 0)
+	(gr_text "${REVISION} ${ISSUE_DATE}"
+		(at 61.34 58.79 0)
+		(layer "F.SilkS")
+		(uuid "a00c9ab8-c38c-4897-916c-c491ceb28afa")
+		(effects
+			(font
+				(size 1 1.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "${TITLE}"
+		(at 73.59 56.97 0)
 		(layer "F.SilkS")
 		(uuid "4e5dc335-6c92-4ae5-a6a4-ff3ecb27a2a8")
 		(effects
@@ -6345,6 +6362,41 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "${REVISION} ${ISSUE_DATE}"
+		(at 85.77 58.79 0)
+		(layer "B.SilkS")
+		(uuid "83b5b70b-36fe-4097-a791-24ad22b413f4")
+		(effects
+			(font
+				(size 1 1.2)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "https://reiserlab.github.io/Fly-Lab-Gear"
+		(at 85.77 62.66 0)
+		(layer "B.SilkS")
+		(uuid "f632ca45-2ffb-49e4-8e83-3ef62d83bd9f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "${TITLE}"
+		(at 73.63 56.95 0)
+		(layer "B.SilkS")
+		(uuid "25d1961a-c640-4f96-adae-2c7b9404ff38")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(segment

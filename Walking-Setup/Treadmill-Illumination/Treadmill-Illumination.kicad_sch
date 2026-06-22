@@ -5,10 +5,10 @@
 	(uuid "d501dfae-7d1d-4c4d-b2cb-031cca727f60")
 	(paper "USLetter")
 	(title_block
-		(title "LED Panel")
-		(date "2026-06-15")
-		(rev "1")
-		(company "Reiserlab @ Janelia")
+		(title "Treadmill Illumination")
+		(date "2026-06-22")
+		(rev "v1.1")
+		(company "Reiserlab @ Janelia | HHMI")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack"
@@ -1806,7 +1806,7 @@
 			(uuid "a9e3d477-1f92-4ac5-8ffd-cf6db154d91b")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D3")
 					(unit 1)
@@ -1921,7 +1921,7 @@
 			(uuid "95f7f000-247a-40d1-a664-c6f9fe52ef78")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D2")
 					(unit 1)
@@ -2036,7 +2036,7 @@
 			(uuid "748184b0-ee7a-4b5f-a0e0-02101fb8e5c0")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D6")
 					(unit 1)
@@ -2117,7 +2117,7 @@
 			(uuid "a8286e0e-e571-4a7c-8440-a00352b13a7b")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR01")
 					(unit 1)
@@ -2219,7 +2219,7 @@
 			(uuid "d74ad51b-6bcb-417f-badd-0c870f12ef05")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "J1")
 					(unit 1)
@@ -2337,7 +2337,7 @@
 			(uuid "b3969ed1-ffba-4feb-9ccf-38480747bc4f")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D13")
 					(unit 1)
@@ -2473,7 +2473,7 @@
 			(uuid "c5dbe3f9-662a-4aeb-94d3-27d2ff3de865")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV3")
 					(unit 1)
@@ -2583,7 +2583,7 @@
 			(uuid "076b6e8f-0843-4ee4-9a6e-d75db2e5899d")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R2")
 					(unit 1)
@@ -2701,7 +2701,7 @@
 			(uuid "5ddd7f0b-7a1d-4c6c-96ff-1303de7dd106")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D16")
 					(unit 1)
@@ -2837,7 +2837,7 @@
 			(uuid "7c748597-1480-4010-8be2-29f8817af025")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV4")
 					(unit 1)
@@ -2922,7 +2922,7 @@
 			(uuid "c474860d-ece8-43b2-8fa2-bbff7ed7bf32")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR07")
 					(unit 1)
@@ -3034,7 +3034,7 @@
 			(uuid "de724c5c-8242-4d8e-8861-d8b99e30ceeb")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D1")
 					(unit 1)
@@ -3152,7 +3152,7 @@
 			(uuid "b6f1ec26-fc91-4e85-ba1b-ace640a1db80")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D9")
 					(unit 1)
@@ -3237,7 +3237,7 @@
 			(uuid "1cc6e5d9-0c23-430e-a307-ef7948e4f869")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR06")
 					(unit 1)
@@ -3315,7 +3315,7 @@
 			(uuid "2fdd3fee-94d2-41a4-b313-cd1da12220f8")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR03")
 					(unit 1)
@@ -3393,7 +3393,7 @@
 			(uuid "529a84cb-1188-48d4-bed3-97b7d11abbc3")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR08")
 					(unit 1)
@@ -3507,7 +3507,7 @@
 			(uuid "aa9b3091-a88e-49ce-bb4f-64cec67bbc66")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D4")
 					(unit 1)
@@ -3625,7 +3625,7 @@
 			(uuid "5f4f044f-bebb-4f9e-9cab-ac5d28a01ee8")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D15")
 					(unit 1)
@@ -3771,7 +3771,7 @@
 			(uuid "efe5c76c-f4e2-4baf-a705-2b9613659621")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV1")
 					(unit 1)
@@ -3877,7 +3877,7 @@
 			(uuid "c0f2d9d4-73bf-4a2a-a1de-69adc44ebd7f")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R1")
 					(unit 1)
@@ -3958,7 +3958,7 @@
 			(uuid "ca350cae-8b72-4e14-84a7-91ebcbfd10e5")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR05")
 					(unit 1)
@@ -4073,7 +4073,7 @@
 			(uuid "8bc6c862-4693-47e1-8569-13bab559f51a")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D10")
 					(unit 1)
@@ -4194,7 +4194,7 @@
 			(uuid "be6b90dc-c8c4-4b30-882b-81bca05078ce")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D8")
 					(unit 1)
@@ -4309,7 +4309,7 @@
 			(uuid "3778f2eb-44c4-491e-8a05-1e5050756f87")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D5")
 					(unit 1)
@@ -4427,7 +4427,7 @@
 			(uuid "e50ed630-a5ac-49b0-a9c1-497db00f7567")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D11")
 					(unit 1)
@@ -4549,7 +4549,7 @@
 			(uuid "d3e3dcef-25ee-4819-ac0c-29c59530fd6b")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D14")
 					(unit 1)
@@ -4695,7 +4695,7 @@
 			(uuid "f222fc55-1656-4c05-8e58-497711243609")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV2")
 					(unit 1)
@@ -4813,7 +4813,7 @@
 			(uuid "59f1fe3c-3529-4db7-b1fc-c61b36a97856")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D12")
 					(unit 1)
@@ -4932,7 +4932,7 @@
 			(uuid "85cd6a7d-4956-4a9d-a47c-87e2316143a3")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D7")
 					(unit 1)
@@ -5013,7 +5013,7 @@
 			(uuid "e86f12f5-c09c-4832-bc20-ca953b3a4be7")
 		)
 		(instances
-			(project "panel"
+			(project "Treadmill-Illumination"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR02")
 					(unit 1)

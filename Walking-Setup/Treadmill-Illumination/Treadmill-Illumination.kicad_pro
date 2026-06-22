@@ -255,7 +255,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1"
+      "sch_revision": "v1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "panel.kicad_pro",
+    "filename": "Treadmill-Illumination.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -708,8 +708,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "panel.kicad_sch",
-        "name": "Root",
+        "filename": "Treadmill-Illumination.kicad_sch",
+        "name": "Treadmill-Illumination",
         "uuid": "d501dfae-7d1d-4c4d-b2cb-031cca727f60"
       }
     ],
@@ -723,7 +723,7 @@
   "sheets": [
     [
       "d501dfae-7d1d-4c4d-b2cb-031cca727f60",
-      "Root"
+      "Treadmill-Illumination"
     ]
   ],
   "text_variables": {},
