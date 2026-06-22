@@ -538,7 +538,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "panel.net",
+      "netlist": "Treadmill-Illumination.net",
       "plot": "gerbers/",
       "specctra_dsn": "",
       "vrml": ""
