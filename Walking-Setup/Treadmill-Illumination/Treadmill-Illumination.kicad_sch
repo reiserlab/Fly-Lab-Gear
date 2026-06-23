@@ -1386,16 +1386,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166d249b-b8b1-4ba4-af02-dd43381f56cf")
-	)
-	(wire
-		(pts
 			(xy 151.13 76.2) (xy 163.83 76.2)
 		)
 		(stroke
@@ -1826,7 +1816,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 63.5 50.8 270)
+		(at 59.69 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1836,7 +1826,7 @@
 		)
 		(uuid "2d39a8b4-d798-4afd-930a-823ffebcd2d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 57.6557 90)
+			(at 59.69 71.6257 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1840,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 63.5 76.2 0)
+		(at 64.77 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +1850,7 @@
 		)
 		(uuid "925729c7-115b-4f23-8cde-eaa60622b413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3557 76.2 0)
+			(at 71.6257 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1874,7 +1864,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 63.5 86.36 0)
+		(at 64.77 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1884,7 +1874,7 @@
 		)
 		(uuid "c32373ca-3e34-4a80-bffa-3b0f2d943f68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3557 86.36 0)
+			(at 71.6257 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1888,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 63.5 66.04 0)
+		(at 64.77 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1908,7 +1898,7 @@
 		)
 		(uuid "d42de364-a6b9-461f-9792-124cc014b11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3557 66.04 0)
+			(at 71.6257 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +1912,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 71.12 45.72 0)
+		(at 67.31 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1932,7 +1922,7 @@
 		)
 		(uuid "ec66d092-ddd7-40f6-9ec2-106d4b69e5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.9757 45.72 0)
+			(at 74.1657 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1936,7 @@
 	)
 	(global_label "+12V"
 		(shape input)
-		(at 71.12 40.64 0)
+		(at 67.31 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1956,7 +1946,7 @@
 		)
 		(uuid "f3b69439-8def-4651-8280-fd502ca36ba7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.1852 40.64 0)
+			(at 75.3752 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +2964,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 76.2 90)
+		(at 62.23 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2985,7 +2975,7 @@
 		(fields_autoplaced yes)
 		(uuid "477cadd0-da4c-46f8-b10d-48e1c6dbdbff")
 		(property "Reference" "H2"
-			(at 59.69 69.85 90)
+			(at 60.96 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2995,7 +2985,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 59.69 72.39 90)
+			(at 60.96 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3005,7 +2995,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 60.96 76.2 0)
+			(at 62.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +3006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 76.2 0)
+			(at 62.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3017,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 60.96 76.2 0)
+			(at 62.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,84 +3578,6 @@
 							(value "C2900360")
 						)
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "834f3586-b069-4d55-966d-b3d24bed1042")
-		(property "Reference" "#PWR06"
-			(at 142.24 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cc6e5d9-0c23-430e-a307-ef7948e4f869")
-		)
-		(instances
-			(project "Treadmill-Illumination"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "#PWR06")
-					(unit 1)
 				)
 			)
 		)
@@ -4632,7 +4544,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 66.04 90)
+		(at 62.23 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4642,7 +4554,7 @@
 		(dnp no)
 		(uuid "bf1013fb-e9da-49d8-92b9-a4720e98f404")
 		(property "Reference" "H1"
-			(at 58.674 59.944 90)
+			(at 59.944 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4653,7 +4565,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 51.562 62.484 90)
+			(at 52.832 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4664,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 60.96 66.04 0)
+			(at 62.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 66.04 0)
+			(at 62.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4598,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 60.96 66.04 0)
+			(at 62.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5211,7 +5123,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 86.36 90)
+		(at 62.23 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5222,7 +5134,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2057f44-0ee9-4e9e-9423-dbc564edf337")
 		(property "Reference" "H3"
-			(at 59.69 80.01 90)
+			(at 60.96 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5232,7 +5144,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 59.69 82.55 90)
+			(at 60.96 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5242,7 +5154,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 60.96 86.36 0)
+			(at 62.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5253,7 +5165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 86.36 0)
+			(at 62.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5176,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 60.96 86.36 0)
+			(at 62.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,7 +5322,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 63.5 43.18 0)
+		(at 59.69 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5421,7 +5333,7 @@
 		(fields_autoplaced yes)
 		(uuid "d73c7eb4-7946-4abc-a550-0ebe626fbe50")
 		(property "Reference" "J1"
-			(at 63.5 34.29 0)
+			(at 59.69 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5431,7 +5343,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at 63.5 36.83 0)
+			(at 59.69 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5441,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:DC-IN-TH_DC-053D-20A"
-			(at 64.77 44.196 0)
+			(at 60.96 58.166 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5452,7 +5364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 44.196 0)
+			(at 60.96 58.166 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5375,18 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 63.5 43.18 0)
+			(at 59.69 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C707274"
+			(at 59.69 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

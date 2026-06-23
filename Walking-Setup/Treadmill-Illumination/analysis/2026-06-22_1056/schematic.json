@@ -1,0 +1,4868 @@
+{
+  "analyzer_type": "schematic",
+  "schema_version": "1.3.0",
+  "summary": {
+    "total_findings": 31,
+    "by_severity": {
+      "error": 14,
+      "warning": 1,
+      "info": 16
+    }
+  },
+  "trust_summary": {
+    "total_findings": 31,
+    "trust_level": "mixed",
+    "by_confidence": {
+      "deterministic": 19,
+      "heuristic": 12,
+      "datasheet-backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 29,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 2,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 93.5,
+    "bom_coverage": {
+      "total_components": 7,
+      "with_mpn": 0,
+      "with_datasheet": 0,
+      "mpn_pct": 0.0,
+      "datasheet_pct": 0.0
+    }
+  },
+  "file": "/home/loeschef/prj/2019_Janelia_Component-Design/public/Walking-Setup/Treadmill-Illumination/Treadmill-Illumination.kicad_sch",
+  "kicad_version": "10.0",
+  "file_version": "20260306",
+  "title_block": {
+    "title": "Treadmill Illumination",
+    "date": "2026-06-22",
+    "rev": "v1.1",
+    "company": "Reiserlab @ Janelia | HHMI"
+  },
+  "statistics": {
+    "total_components": 28,
+    "unique_parts": 4,
+    "dnp_parts": 12,
+    "total_nets": 12,
+    "total_wires": 49,
+    "total_no_connects": 0,
+    "component_types": {
+      "led": 16,
+      "resistor": 8,
+      "mounting_hole": 3,
+      "connector": 1
+    },
+    "power_rails": [
+      {
+        "name": "+12V",
+        "voltage": 12.0
+      },
+      {
+        "name": "GND",
+        "voltage": null
+      }
+    ],
+    "missing_mpn": [
+      "R3",
+      "D13",
+      "RV3",
+      "D16",
+      "RV4",
+      "R4",
+      "D9",
+      "D15",
+      "D10",
+      "D11",
+      "D14",
+      "D12",
+      "J1"
+    ],
+    "missing_footprint": []
+  },
+  "findings": [
+    {
+      "detector": "audit_datasheet_coverage",
+      "rule_id": "DS-001",
+      "severity": "error",
+      "confidence": "deterministic",
+      "evidence_source": "bom",
+      "category": "verification",
+      "summary": "No datasheets directory found and no BOM parts have MPNs. Review is a consistency check only \u2014 manufacturer specs cannot be verified.",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "datasheets_dir": null,
+      "datasheet_file_count": 0,
+      "bom_size": 13,
+      "mpn_coverage_percent": 0.0,
+      "recommendation": "Before reporting 'verified' findings, (1) populate the MPN field on BOM parts, (2) run the datasheet sync skill (digikey, mouser, lcsc, or element14) to download PDFs into ./datasheets/, then re-run analysis. If datasheets are unreachable, state every pin-level and electrical claim as 'per symbol/library' (consistency), not 'verified against datasheet' (correctness).",
+      "report_context": {
+        "section": "Datasheet Coverage",
+        "impact": "Report wording must avoid 'verified' / 'datasheet-confirmed' language for every BOM part \u2014 none have manufacturer evidence attached.",
+        "standard_ref": ""
+      },
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D1 (LED) [resistor_limited]",
+      "description": "LED audit: D1 using resistor_limited drive method.",
+      "components": [
+        "D1",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D1"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D10",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D10 (LED) [resistor_limited]",
+      "description": "LED audit: D10 using resistor_limited drive method.",
+      "components": [
+        "D10",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D10"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D11",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D11 (LED) [resistor_limited]",
+      "description": "LED audit: D11 using resistor_limited drive method.",
+      "components": [
+        "D11",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D11"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D12",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D12 (LED) [resistor_limited]",
+      "description": "LED audit: D12 using resistor_limited drive method.",
+      "components": [
+        "D12",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D12"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D13",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D13 (LED) [resistor_limited]",
+      "description": "LED audit: D13 using resistor_limited drive method.",
+      "components": [
+        "D13",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D13"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D14",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D14 (LED) [resistor_limited]",
+      "description": "LED audit: D14 using resistor_limited drive method.",
+      "components": [
+        "D14",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D14"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D15",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D15 (LED) [resistor_limited]",
+      "description": "LED audit: D15 using resistor_limited drive method.",
+      "components": [
+        "D15",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D15"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D16",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D16 (LED) [resistor_limited]",
+      "description": "LED audit: D16 using resistor_limited drive method.",
+      "components": [
+        "D16",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D16"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D2",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D2 (LED) [resistor_limited]",
+      "description": "LED audit: D2 using resistor_limited drive method.",
+      "components": [
+        "D2",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D2"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D3",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D3 (LED) [resistor_limited]",
+      "description": "LED audit: D3 using resistor_limited drive method.",
+      "components": [
+        "D3",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D3"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D4",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D4 (LED) [resistor_limited]",
+      "description": "LED audit: D4 using resistor_limited drive method.",
+      "components": [
+        "D4",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D4"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D5",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D5 (LED) [resistor_limited]",
+      "description": "LED audit: D5 using resistor_limited drive method.",
+      "components": [
+        "D5",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D5"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D6",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D6 (LED) [resistor_limited]",
+      "description": "LED audit: D6 using resistor_limited drive method.",
+      "components": [
+        "D6",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D6"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D7",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D7 (LED) [resistor_limited]",
+      "description": "LED audit: D7 using resistor_limited drive method.",
+      "components": [
+        "D7",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D7"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D8",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D8 (LED) [resistor_limited]",
+      "description": "LED audit: D8 using resistor_limited drive method.",
+      "components": [
+        "D8",
+        "R2"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R2",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D8"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "ref": "D9",
+      "value": "LED",
+      "type": "indicator_led",
+      "drive_method": "resistor_limited",
+      "detector": "audit_led_circuits",
+      "rule_id": "LA-AUD",
+      "category": "led_control",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LED D9 (LED) [resistor_limited]",
+      "description": "LED audit: D9 using resistor_limited drive method.",
+      "components": [
+        "D9",
+        "R1"
+      ],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "LED Audit",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "series_resistor": {
+        "ref": "R1",
+        "ohms": 1000.0
+      },
+      "supply_net": "+12V",
+      "estimated_current_mA": 10.0,
+      "provenance": {
+        "evidence": "led_audit",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "D9"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D10: no current-limiting resistor found",
+      "description": "LED D10 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D10"
+      ],
+      "nets": [
+        "__unnamed_1",
+        "__unnamed_2"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_1",
+            "net_to": "__unnamed_2"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:e12c96ea4e97",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D11: no current-limiting resistor found",
+      "description": "LED D11 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D11"
+      ],
+      "nets": [
+        "__unnamed_0",
+        "__unnamed_1"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_0",
+            "net_to": "__unnamed_1"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:5f50b2ca12f4",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D12: no current-limiting resistor found",
+      "description": "LED D12 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D12"
+      ],
+      "nets": [
+        "GND",
+        "__unnamed_0"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "GND",
+            "net_to": "__unnamed_0"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:4ea5d473846b",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D14: no current-limiting resistor found",
+      "description": "LED D14 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D14"
+      ],
+      "nets": [
+        "__unnamed_3",
+        "__unnamed_4"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_3",
+            "net_to": "__unnamed_4"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:bfc9be9c8c96",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D15: no current-limiting resistor found",
+      "description": "LED D15 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D15"
+      ],
+      "nets": [
+        "__unnamed_3",
+        "__unnamed_8"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_8",
+            "net_to": "__unnamed_3"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:789969ddb50f",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D16: no current-limiting resistor found",
+      "description": "LED D16 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D16"
+      ],
+      "nets": [
+        "GND",
+        "__unnamed_8"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "GND",
+            "net_to": "__unnamed_8"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:e61037eafa5e",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D2: no current-limiting resistor found",
+      "description": "LED D2 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D2"
+      ],
+      "nets": [
+        "__unnamed_1",
+        "__unnamed_2"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_1",
+            "net_to": "__unnamed_2"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:715c89a70bb8",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D3: no current-limiting resistor found",
+      "description": "LED D3 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D3"
+      ],
+      "nets": [
+        "__unnamed_0",
+        "__unnamed_1"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_0",
+            "net_to": "__unnamed_1"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:02bc87f23395",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D4: no current-limiting resistor found",
+      "description": "LED D4 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D4"
+      ],
+      "nets": [
+        "GND",
+        "__unnamed_0"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "GND",
+            "net_to": "__unnamed_0"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:f79db48e250a",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D6: no current-limiting resistor found",
+      "description": "LED D6 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D6"
+      ],
+      "nets": [
+        "__unnamed_3",
+        "__unnamed_4"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_3",
+            "net_to": "__unnamed_4"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:360d21b031d6",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D7: no current-limiting resistor found",
+      "description": "LED D7 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D7"
+      ],
+      "nets": [
+        "__unnamed_3",
+        "__unnamed_8"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "__unnamed_8",
+            "net_to": "__unnamed_3"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:66f2213c756f",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "validate_led_resistors",
+      "rule_id": "LR-001",
+      "category": "component_integrity",
+      "summary": "LED D8: no current-limiting resistor found",
+      "description": "LED D8 (LED) has no series current-limiting resistor.",
+      "components": [
+        "D8"
+      ],
+      "nets": [
+        "GND",
+        "__unnamed_8"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "resistor",
+            "value": "330",
+            "net_from": "GND",
+            "net_to": "__unnamed_8"
+          }
+        ],
+        "basis": "LED requires series current limiting"
+      },
+      "report_context": {
+        "section": "Component Integrity",
+        "impact": "LED overcurrent causes failure",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lr_resistor_check",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "validation_findings:cf5fda5fde1b",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "audit_rail_sources",
+      "rule_id": "RS-001",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "category": "power",
+      "summary": "+12V has no declared source",
+      "description": "Net +12V carries power_in pins but has no power_out pin, no PWR_FLAG, no regulator output mapping, and no bridged solder jumper path to a sourced net.",
+      "components": [],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [
+        "#PWR02.1"
+      ],
+      "source_path": "none",
+      "recommendation": "Add a PWR_FLAG to declare the rail as externally powered (e.g. from a connector) or trace the rail back to a regulator output. If the source lives on another sheet, promote the net name to a global label.",
+      "report_context": {
+        "section": "Power \u2014 Rail Sources",
+        "impact": "Rail has no source visible to the analyser; likely a wiring gap or missing PWR_FLAG.",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "rs_rail_audit",
+        "confidence": "deterministic",
+        "claimed_components": [],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "",
+      "stages": [
+        "schematic"
+      ]
+    },
+    {
+      "detector": "audit_sourcing_gate",
+      "rule_id": "SS-001",
+      "severity": "error",
+      "confidence": "deterministic",
+      "evidence_source": "bom",
+      "category": "sourcing",
+      "summary": "Sourcing blocker: BOM has <50% MPN coverage (0/4 unique parts). Board is not pre-fab ready.",
+      "description": "Sourcing audit: 0 of 4 unique BOM lines (grouped by value + footprint) carry a manufacturer part number (0.0%). Pre-fab readiness requires 100% coverage; production assembly requires all parts sourceable via one of the supported distributors.",
+      "components": [
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D9",
+        "J1",
+        "R3",
+        "R4",
+        "RV3",
+        "RV4"
+      ],
+      "nets": [],
+      "pins": [],
+      "mpn_coverage_percent": 0.0,
+      "missing_mpn_lines": 4,
+      "missing_mpn_refs": 13,
+      "total_bom_lines": 4,
+      "recommendation": "Populate the MPN field on the listed refs (use the digikey / mouser / lcsc / element14 skill to search by value/footprint when the MPN isn't already known).",
+      "report_context": {
+        "section": "Sourcing",
+        "impact": "Pre-fab gate: board cannot be ordered until MPN coverage reaches 100%.",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ]
+    }
+  ],
+  "bom": [
+    {
+      "value": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "references": [
+        "D13",
+        "D16",
+        "D9",
+        "D15",
+        "D10",
+        "D11",
+        "D14",
+        "D12"
+      ],
+      "quantity": 8,
+      "dnp": false,
+      "type": "led"
+    },
+    {
+      "value": "LED",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "references": [
+        "D3",
+        "D2",
+        "D6",
+        "D1",
+        "D4",
+        "D8",
+        "D5",
+        "D7"
+      ],
+      "quantity": 8,
+      "dnp": true,
+      "type": "led"
+    },
+    {
+      "value": "Barrel_Jack_MountingPin",
+      "footprint": "Connector_BarrelJack:DC-IN-TH_DC-053D-20A",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "DC Barrel Jack with a mounting pin",
+      "references": [
+        "J1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector"
+    },
+    {
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C2907440",
+      "element14": "",
+      "datasheet": "",
+      "description": "Resistor",
+      "references": [
+        "R2",
+        "R1"
+      ],
+      "quantity": 2,
+      "dnp": true,
+      "type": "resistor"
+    },
+    {
+      "value": "120",
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C37394495",
+      "element14": "",
+      "datasheet": "",
+      "description": "Resistor",
+      "references": [
+        "R3",
+        "R4"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "resistor"
+    },
+    {
+      "value": "R_Potentiometer",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C6384342",
+      "element14": "",
+      "datasheet": "",
+      "description": "Potentiometer",
+      "references": [
+        "RV1",
+        "RV2"
+      ],
+      "quantity": 2,
+      "dnp": true,
+      "type": "resistor"
+    },
+    {
+      "value": "R_Potentiometer",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C48642166",
+      "element14": "",
+      "datasheet": "",
+      "description": "Potentiometer",
+      "references": [
+        "RV3",
+        "RV4"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "resistor"
+    }
+  ],
+  "components": [
+    {
+      "reference": "D3",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 125.73,
+      "y": 105.41,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "0222ea1e-1f1b-482a-b387-dea34dca2804",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "59a0a2cb-99b9-43aa-a9fd-5799b48972d6",
+        "1": "a9e3d477-1f92-4ac5-8ffd-cf6db154d91b"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_0",
+        "2": "__unnamed_1"
+      }
+    },
+    {
+      "reference": "D2",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 125.73,
+      "y": 92.71,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "0e6d8df5-dac2-47ff-8302-720adf432781",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "39d464a3-5a8a-45cd-ac63-8c32e527f3bd",
+        "2": "95f7f000-247a-40d1-a664-c6f9fe52ef78"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_1",
+        "2": "__unnamed_2"
+      }
+    },
+    {
+      "reference": "D6",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 151.13,
+      "y": 92.71,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "1090e53e-6dc9-452a-be9c-89331d3d078f",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "7e02ee3b-9b78-4308-8ac9-32b6269793be",
+        "1": "748184b0-ee7a-4b5f-a0e0-02101fb8e5c0"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_3",
+        "2": "__unnamed_4"
+      }
+    },
+    {
+      "reference": "R3",
+      "value": "120",
+      "lib_id": "Device:R",
+      "lib_name": "",
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "datasheet": "",
+      "description": "Resistor",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C37394495",
+      "element14": "",
+      "x": 109.22,
+      "y": 54.61,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "1a77a613-70c2-400c-b97a-1adcd8c1587f",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "d37a614a-1ea3-4ff8-b88d-9d9c3edc7c17",
+        "1": "ce9e2f8b-00ab-4893-b3f2-1374d84c2464"
+      },
+      "type": "resistor",
+      "keywords": "R res resistor",
+      "_sheet": 0,
+      "category": "resistor",
+      "parsed_value": 120.0,
+      "pin_nets": {
+        "1": "+12V",
+        "2": "__unnamed_5"
+      }
+    },
+    {
+      "reference": "D13",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 163.83,
+      "y": 80.01,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "251477a3-4623-463a-90d4-be3965ae4b3d",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "d8be4f05-9c91-48fc-9ace-2579742d414b",
+        "2": "b3969ed1-ffba-4feb-9ccf-38480747bc4f"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_4",
+        "2": "__unnamed_6"
+      }
+    },
+    {
+      "reference": "RV3",
+      "value": "R_Potentiometer",
+      "lib_id": "Device:R_Potentiometer",
+      "lib_name": "",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "datasheet": "",
+      "description": "Potentiometer",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C48642166",
+      "element14": "",
+      "x": 109.22,
+      "y": 63.5,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "2b4dae9a-7216-44c9-925d-00d0acb93b5a",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "3": "f5035d08-ed0d-4060-9896-4a05c1e9cfff",
+        "2": "42bfa946-8b41-40c2-8d37-68817eab5d50",
+        "1": "c5dbe3f9-662a-4aeb-94d3-27d2ff3de865"
+      },
+      "type": "resistor",
+      "keywords": "resistor variable",
+      "_sheet": 0,
+      "category": "resistor",
+      "pin_nets": {
+        "3": "GND",
+        "1": "__unnamed_5",
+        "2": "__unnamed_7"
+      }
+    },
+    {
+      "reference": "R2",
+      "value": "1k",
+      "lib_id": "Device:R",
+      "lib_name": "",
+      "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Resistor",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C2907440",
+      "element14": "",
+      "x": 143.51,
+      "y": 54.61,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "2df50c09-b533-4150-94f1-2925a1ccde56",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "9afdc342-91b9-4fe9-9fdd-b0066ed0d1ad",
+        "1": "076b6e8f-0843-4ee4-9a6e-d75db2e5899d"
+      },
+      "type": "resistor",
+      "keywords": "R res resistor",
+      "_sheet": 0,
+      "category": "resistor",
+      "parsed_value": 1000.0,
+      "pin_nets": {
+        "1": "+12V",
+        "2": "__unnamed_6"
+      }
+    },
+    {
+      "reference": "D16",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 163.83,
+      "y": 118.11,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "40ee465e-2231-4a92-890d-c1c2f6f31161",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "43082aa8-1ae0-4a84-be87-7f01d7bfa22a",
+        "2": "5ddd7f0b-7a1d-4c6c-96ff-1303de7dd106"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "GND",
+        "2": "__unnamed_8"
+      }
+    },
+    {
+      "reference": "H2",
+      "value": "MountingHole_Pad",
+      "lib_id": "Mechanical:MountingHole_Pad",
+      "lib_name": "",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "datasheet": "",
+      "description": "Mounting Hole with connection",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "x": 60.96,
+      "y": 76.2,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "477cadd0-da4c-46f8-b10d-48e1c6dbdbff",
+      "in_bom": false,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "d8945fe5-4c85-44cb-bd05-401f7faa05ec"
+      },
+      "type": "mounting_hole",
+      "keywords": "mounting hole",
+      "_sheet": 0,
+      "category": "mounting_hole",
+      "pin_nets": {
+        "1": "GND"
+      }
+    },
+    {
+      "reference": "RV4",
+      "value": "R_Potentiometer",
+      "lib_id": "Device:R_Potentiometer",
+      "lib_name": "",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "datasheet": "",
+      "description": "Potentiometer",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C48642166",
+      "element14": "",
+      "x": 168.91,
+      "y": 63.5,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "4a06741b-2df3-43e6-ab37-985c44d22df2",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "3": "e164541c-7e4d-44f1-be82-857c76f51853",
+        "2": "bb33b3c5-0b7e-434f-a612-e96cd44f35b2",
+        "1": "7c748597-1480-4010-8be2-29f8817af025"
+      },
+      "type": "resistor",
+      "keywords": "resistor variable",
+      "_sheet": 0,
+      "category": "resistor",
+      "pin_nets": {
+        "3": "GND",
+        "2": "__unnamed_6",
+        "1": "__unnamed_9"
+      }
+    },
+    {
+      "reference": "R4",
+      "value": "120",
+      "lib_id": "Device:R",
+      "lib_name": "",
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "datasheet": "",
+      "description": "Resistor",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C37394495",
+      "element14": "",
+      "x": 168.91,
+      "y": 54.61,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "5b533479-a47a-408d-8fe2-7d95fc275eb5",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "b35725f7-bb18-48bb-a9a6-871253698c68",
+        "2": "12f40bb6-1514-4d2a-9efb-95e8560103b7"
+      },
+      "type": "resistor",
+      "keywords": "R res resistor",
+      "_sheet": 0,
+      "category": "resistor",
+      "parsed_value": 120.0,
+      "pin_nets": {
+        "1": "+12V",
+        "2": "__unnamed_9"
+      }
+    },
+    {
+      "reference": "D1",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 125.73,
+      "y": 80.01,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "77cd584a-3ca1-422d-8963-70256c303ae2",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "ded16a1c-b05f-4acb-8af6-8489eb3fdd62",
+        "2": "de724c5c-8242-4d8e-8861-d8b99e30ceeb"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_2",
+        "2": "__unnamed_7"
+      }
+    },
+    {
+      "reference": "D9",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 113.03,
+      "y": 80.01,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "7ee4ceba-51f7-4662-9fa1-505f5dbc4af2",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "2817ea0e-d665-4b39-8d7b-ca612b65ba27",
+        "2": "b6f1ec26-fc91-4e85-ba1b-ace640a1db80"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_2",
+        "2": "__unnamed_7"
+      }
+    },
+    {
+      "reference": "D4",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 125.73,
+      "y": 118.11,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "9730a7ed-ea25-4804-abef-3b04fdc925ce",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "349cc90e-c9f2-4c49-ac08-ede3ef33d1c6",
+        "1": "aa9b3091-a88e-49ce-bb4f-64cec67bbc66"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "2": "__unnamed_0",
+        "1": "GND"
+      }
+    },
+    {
+      "reference": "D15",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 163.83,
+      "y": 105.41,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "99419922-442a-4e45-af44-be9f508e8b4d",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "b3c75960-6003-4391-9dda-a302a7d3ac03",
+        "2": "5f4f044f-bebb-4f9e-9cab-ac5d28a01ee8"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "2": "__unnamed_3",
+        "1": "__unnamed_8"
+      }
+    },
+    {
+      "reference": "RV1",
+      "value": "R_Potentiometer",
+      "lib_id": "Device:R_Potentiometer",
+      "lib_name": "",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "datasheet": "",
+      "description": "Potentiometer",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C6384342",
+      "element14": "",
+      "x": 129.54,
+      "y": 54.61,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "a086e871-445a-40e3-bbb6-5778385c62c7",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "a3debf3e-0ac6-4ecf-b81b-d9c071390f78",
+        "3": "93b7c76a-8434-41a3-9ad7-063dcd3be104",
+        "2": "efe5c76c-f4e2-4baf-a705-2b9613659621"
+      },
+      "type": "resistor",
+      "keywords": "resistor variable",
+      "_sheet": 0,
+      "category": "resistor",
+      "pin_nets": {
+        "3": "GND",
+        "1": "+12V",
+        "2": "__unnamed_7"
+      }
+    },
+    {
+      "reference": "R1",
+      "value": "1k",
+      "lib_id": "Device:R",
+      "lib_name": "",
+      "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Resistor",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C2907440",
+      "element14": "",
+      "x": 119.38,
+      "y": 54.61,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "a89b5a3f-5aef-4a29-86a0-d11a62efc53c",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "a8907641-bb7b-4784-97bc-58b6cf353731",
+        "2": "c0f2d9d4-73bf-4a2a-a1de-69adc44ebd7f"
+      },
+      "type": "resistor",
+      "keywords": "R res resistor",
+      "_sheet": 0,
+      "category": "resistor",
+      "parsed_value": 1000.0,
+      "pin_nets": {
+        "1": "+12V",
+        "2": "__unnamed_7"
+      }
+    },
+    {
+      "reference": "D10",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 113.03,
+      "y": 92.71,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "b713dfb6-5850-4282-88d1-dc185910c301",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "48b1c41c-52e3-4fa4-95d4-6d41c3e070d8",
+        "2": "8bc6c862-4693-47e1-8569-13bab559f51a"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_1",
+        "2": "__unnamed_2"
+      }
+    },
+    {
+      "reference": "D8",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 151.13,
+      "y": 118.11,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "ba41d3ce-7b4d-4580-9b34-0378e429d318",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "ab0dca30-cbdc-4dc4-8f31-f1e9e9a31e93",
+        "1": "be6b90dc-c8c4-4b30-882b-81bca05078ce"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "GND",
+        "2": "__unnamed_8"
+      }
+    },
+    {
+      "reference": "H1",
+      "value": "MountingHole_Pad",
+      "lib_id": "Mechanical:MountingHole_Pad",
+      "lib_name": "",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "datasheet": "",
+      "description": "Mounting Hole with connection",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "x": 60.96,
+      "y": 66.04,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "bf1013fb-e9da-49d8-92b9-a4720e98f404",
+      "in_bom": false,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "5a74710b-471d-4a7a-895a-4e8e31e3a905"
+      },
+      "type": "mounting_hole",
+      "keywords": "mounting hole",
+      "_sheet": 0,
+      "category": "mounting_hole",
+      "pin_nets": {
+        "1": "GND"
+      }
+    },
+    {
+      "reference": "D5",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 151.13,
+      "y": 80.01,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "c1319615-50d3-4d0d-99b1-28707f831115",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "38eeebda-3e9a-44d5-a67f-a371b9b9be8c",
+        "2": "3778f2eb-44c4-491e-8a05-1e5050756f87"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_4",
+        "2": "__unnamed_6"
+      }
+    },
+    {
+      "reference": "D11",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 113.03,
+      "y": 105.41,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "c934e9d2-82f1-4628-8aaf-3ae236249a09",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "920e98bb-4a2a-4e39-ab52-b846385bc292",
+        "2": "e50ed630-a5ac-49b0-a9c1-497db00f7567"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_0",
+        "2": "__unnamed_1"
+      }
+    },
+    {
+      "reference": "D14",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 163.83,
+      "y": 92.71,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "cca7fcc8-19a4-4360-b598-154bc8526eb7",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "ad670b13-f36f-4802-992e-6980eb738938",
+        "2": "d3e3dcef-25ee-4819-ac0c-29c59530fd6b"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "1": "__unnamed_3",
+        "2": "__unnamed_4"
+      }
+    },
+    {
+      "reference": "RV2",
+      "value": "R_Potentiometer",
+      "lib_id": "Device:R_Potentiometer",
+      "lib_name": "",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "datasheet": "",
+      "description": "Potentiometer",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C6384342",
+      "element14": "",
+      "x": 154.94,
+      "y": 54.61,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "cf7e6ebf-5c6a-49c8-8a83-ea2feb168689",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "bb1c1eaa-6f7c-4c95-b1cf-7c70f0a4b98a",
+        "2": "d8804bda-7c07-4ac3-9bc4-4f437651fcf6",
+        "3": "f222fc55-1656-4c05-8e58-497711243609"
+      },
+      "type": "resistor",
+      "keywords": "resistor variable",
+      "_sheet": 0,
+      "category": "resistor",
+      "pin_nets": {
+        "3": "GND",
+        "1": "+12V",
+        "2": "__unnamed_6"
+      }
+    },
+    {
+      "reference": "H3",
+      "value": "MountingHole_Pad",
+      "lib_id": "Mechanical:MountingHole_Pad",
+      "lib_name": "",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "datasheet": "",
+      "description": "Mounting Hole with connection",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "x": 60.96,
+      "y": 86.36,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "d2057f44-0ee9-4e9e-9423-dbc564edf337",
+      "in_bom": false,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "369bb268-c35d-4230-af99-d21301688903"
+      },
+      "type": "mounting_hole",
+      "keywords": "mounting hole",
+      "_sheet": 0,
+      "category": "mounting_hole",
+      "pin_nets": {
+        "1": "GND"
+      }
+    },
+    {
+      "reference": "D12",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "516-4446-ND",
+      "mouser": "",
+      "lcsc": "C7470730",
+      "element14": "",
+      "x": 113.03,
+      "y": 118.11,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "d28951bc-1913-407e-9381-7e2d17b768e5",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "1": "b24f53b5-058e-441b-b981-f3ffdcdf4edd",
+        "2": "59f1fe3c-3529-4db7-b1fc-c61b36a97856"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "2": "__unnamed_0",
+        "1": "GND"
+      }
+    },
+    {
+      "reference": "J1",
+      "value": "Barrel_Jack_MountingPin",
+      "lib_id": "Connector:Barrel_Jack_MountingPin",
+      "lib_name": "",
+      "footprint": "Connector_BarrelJack:DC-IN-TH_DC-053D-20A",
+      "datasheet": "",
+      "description": "DC Barrel Jack with a mounting pin",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "x": 63.5,
+      "y": 43.18,
+      "angle": 0.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "d73c7eb4-7946-4abc-a550-0ebe626fbe50",
+      "in_bom": true,
+      "dnp": false,
+      "on_board": true,
+      "pin_uuids": {
+        "MP": "423e7717-5256-4ad0-a007-5996aa18020b",
+        "2": "7df0f6b5-ecc7-425d-b1a8-ad5e3a32adf1",
+        "1": "6214039e-30b4-467d-a40e-51e0778b4428"
+      },
+      "type": "connector",
+      "keywords": "DC power barrel jack connector",
+      "is_external_connector": true,
+      "connector_layout": "barrel",
+      "_sheet": 0,
+      "category": "connector",
+      "pin_nets": {
+        "2": "GND",
+        "MP": "GND",
+        "1": "+12V"
+      }
+    },
+    {
+      "reference": "D7",
+      "value": "LED",
+      "lib_id": "Device:LED",
+      "lib_name": "",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "datasheet": "",
+      "description": "Light emitting diode",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C4355011",
+      "element14": "",
+      "x": 151.13,
+      "y": 105.41,
+      "angle": 90.0,
+      "mirror_x": false,
+      "mirror_y": false,
+      "unit": 1,
+      "uuid": "e58d5687-0b47-410e-ad01-601cb506984f",
+      "in_bom": true,
+      "dnp": true,
+      "on_board": true,
+      "pin_uuids": {
+        "2": "0574111e-cfc8-46d3-98fe-ad7b6c0d0aad",
+        "1": "85cd6a7d-4956-4a9d-a47c-87e2316143a3"
+      },
+      "type": "led",
+      "keywords": "LED diode",
+      "_sheet": 0,
+      "category": "led",
+      "pin_nets": {
+        "2": "__unnamed_3",
+        "1": "__unnamed_8"
+      }
+    }
+  ],
+  "nets": {
+    "__unnamed_0": {
+      "name": "__unnamed_0",
+      "pins": [
+        {
+          "component": "D3",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D4",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D11",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D12",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 4,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_1": {
+      "name": "__unnamed_1",
+      "pins": [
+        {
+          "component": "D3",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D2",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D10",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D11",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 4,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_2": {
+      "name": "__unnamed_2",
+      "pins": [
+        {
+          "component": "D2",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D1",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D9",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D10",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 4,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_3": {
+      "name": "__unnamed_3",
+      "pins": [
+        {
+          "component": "D6",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D15",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D14",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D7",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 4,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_4": {
+      "name": "__unnamed_4",
+      "pins": [
+        {
+          "component": "D6",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D13",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D5",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D14",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 4,
+      "no_connect": false,
+      "labels": []
+    },
+    "GND": {
+      "name": "GND",
+      "pins": [
+        {
+          "component": "#PWR01",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        },
+        {
+          "component": "RV3",
+          "pin_number": "3",
+          "pin_name": "3",
+          "pin_type": "passive"
+        },
+        {
+          "component": "#PWR05",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        },
+        {
+          "component": "D16",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "H2",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "input"
+        },
+        {
+          "component": "RV4",
+          "pin_number": "3",
+          "pin_name": "3",
+          "pin_type": "passive"
+        },
+        {
+          "component": "#PWR08",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        },
+        {
+          "component": "#PWR07",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        },
+        {
+          "component": "RV2",
+          "pin_number": "3",
+          "pin_name": "3",
+          "pin_type": "passive"
+        },
+        {
+          "component": "#PWR06",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        },
+        {
+          "component": "#PWR03",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        },
+        {
+          "component": "RV1",
+          "pin_number": "3",
+          "pin_name": "3",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D4",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D8",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "H1",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "input"
+        },
+        {
+          "component": "H3",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "input"
+        },
+        {
+          "component": "D12",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "J1",
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "J1",
+          "pin_number": "MP",
+          "pin_name": "MountPin",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 19,
+      "no_connect": false,
+      "labels": [
+        {
+          "name": "GND",
+          "type": "global_label"
+        }
+      ]
+    },
+    "+12V": {
+      "name": "+12V",
+      "pins": [
+        {
+          "component": "R3",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "R2",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "R4",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "RV1",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "passive"
+        },
+        {
+          "component": "R1",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "RV2",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "passive"
+        },
+        {
+          "component": "J1",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "#PWR02",
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "power_in"
+        }
+      ],
+      "point_count": 8,
+      "no_connect": false,
+      "labels": [
+        {
+          "name": "+12V",
+          "type": "global_label"
+        }
+      ]
+    },
+    "__unnamed_5": {
+      "name": "__unnamed_5",
+      "pins": [
+        {
+          "component": "R3",
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "RV3",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 2,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_6": {
+      "name": "__unnamed_6",
+      "pins": [
+        {
+          "component": "D13",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "R2",
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive"
+        },
+        {
+          "component": "RV4",
+          "pin_number": "2",
+          "pin_name": "2",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D5",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "RV2",
+          "pin_number": "2",
+          "pin_name": "2",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 9,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_7": {
+      "name": "__unnamed_7",
+      "pins": [
+        {
+          "component": "RV3",
+          "pin_number": "2",
+          "pin_name": "2",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D1",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D9",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "RV1",
+          "pin_number": "2",
+          "pin_name": "2",
+          "pin_type": "passive"
+        },
+        {
+          "component": "R1",
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 9,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_8": {
+      "name": "__unnamed_8",
+      "pins": [
+        {
+          "component": "D16",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D15",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D8",
+          "pin_number": "2",
+          "pin_name": "A",
+          "pin_type": "passive"
+        },
+        {
+          "component": "D7",
+          "pin_number": "1",
+          "pin_name": "K",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 4,
+      "no_connect": false,
+      "labels": []
+    },
+    "__unnamed_9": {
+      "name": "__unnamed_9",
+      "pins": [
+        {
+          "component": "RV4",
+          "pin_number": "1",
+          "pin_name": "1",
+          "pin_type": "passive"
+        },
+        {
+          "component": "R4",
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive"
+        }
+      ],
+      "point_count": 2,
+      "no_connect": false,
+      "labels": []
+    }
+  },
+  "subcircuits": [],
+  "ic_pin_analysis": [
+    {
+      "reference": "J1",
+      "value": "Barrel_Jack_MountingPin",
+      "type": "connector",
+      "lib_id": "Connector:Barrel_Jack_MountingPin",
+      "mpn": "",
+      "description": "DC Barrel Jack with a mounting pin",
+      "datasheet": "",
+      "function": "",
+      "total_pins": 3,
+      "unconnected_pins": 0,
+      "pins": [
+        {
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive",
+          "net": "+12V",
+          "connected_to": [
+            {
+              "ref": "R3",
+              "value": "120",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "R2",
+              "value": "1k",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "R4",
+              "value": "120",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "RV1",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "R1",
+              "value": "1k",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "RV2",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": "1"
+            }
+          ],
+          "has_decoupling_cap": false,
+          "decoupling_caps": []
+        },
+        {
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive",
+          "net": "GND",
+          "connected_to": [
+            {
+              "ref": "RV3",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D16",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H2",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "RV4",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV2",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV1",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D4",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "D8",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H1",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "H3",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "D12",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            }
+          ],
+          "has_decoupling_cap": true,
+          "decoupling_caps": [],
+          "note": "Ground net \u2014 decoupling caps listed on VCC/VDD pins"
+        },
+        {
+          "pin_number": "MP",
+          "pin_name": "MountPin",
+          "pin_type": "passive",
+          "net": "GND",
+          "connected_to": [
+            {
+              "ref": "RV3",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D16",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H2",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "RV4",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV2",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV1",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D4",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "D8",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H1",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "H3",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "D12",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            }
+          ],
+          "has_decoupling_cap": true,
+          "decoupling_caps": [],
+          "note": "Ground net \u2014 decoupling caps listed on VCC/VDD pins"
+        }
+      ],
+      "power_pins": [
+        {
+          "pin_number": "1",
+          "pin_name": "",
+          "pin_type": "passive",
+          "net": "+12V",
+          "connected_to": [
+            {
+              "ref": "R3",
+              "value": "120",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "R2",
+              "value": "1k",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "R4",
+              "value": "120",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "RV1",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "R1",
+              "value": "1k",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": ""
+            },
+            {
+              "ref": "RV2",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "1",
+              "pin_name": "1"
+            }
+          ],
+          "has_decoupling_cap": false,
+          "decoupling_caps": []
+        },
+        {
+          "pin_number": "2",
+          "pin_name": "",
+          "pin_type": "passive",
+          "net": "GND",
+          "connected_to": [
+            {
+              "ref": "RV3",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D16",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H2",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "RV4",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV2",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV1",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D4",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "D8",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H1",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "H3",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "D12",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            }
+          ],
+          "has_decoupling_cap": true,
+          "decoupling_caps": [],
+          "note": "Ground net \u2014 decoupling caps listed on VCC/VDD pins"
+        },
+        {
+          "pin_number": "MP",
+          "pin_name": "MountPin",
+          "pin_type": "passive",
+          "net": "GND",
+          "connected_to": [
+            {
+              "ref": "RV3",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D16",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H2",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "RV4",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV2",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "RV1",
+              "value": "R_Potentiometer",
+              "type": "resistor",
+              "pin": "3",
+              "pin_name": "3"
+            },
+            {
+              "ref": "D4",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "D8",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            },
+            {
+              "ref": "H1",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "H3",
+              "value": "MountingHole_Pad",
+              "type": "mounting_hole",
+              "pin": "1",
+              "pin_name": "1"
+            },
+            {
+              "ref": "D12",
+              "value": "LED",
+              "type": "led",
+              "pin": "1",
+              "pin_name": "K"
+            }
+          ],
+          "has_decoupling_cap": true,
+          "decoupling_caps": [],
+          "note": "Ground net \u2014 decoupling caps listed on VCC/VDD pins"
+        }
+      ],
+      "signal_pins": [],
+      "decoupling_caps_by_rail": {}
+    }
+  ],
+  "design_analysis": {
+    "net_classification": {
+      "__unnamed_0": "signal",
+      "__unnamed_1": "signal",
+      "__unnamed_2": "signal",
+      "__unnamed_3": "signal",
+      "__unnamed_4": "signal",
+      "GND": "ground",
+      "+12V": "power",
+      "__unnamed_5": "signal",
+      "__unnamed_6": "signal",
+      "__unnamed_7": "signal",
+      "__unnamed_8": "signal",
+      "__unnamed_9": "signal"
+    },
+    "power_domains": {
+      "ic_power_rails": {},
+      "domain_groups": {}
+    },
+    "cross_domain_signals": [],
+    "bus_analysis": {
+      "i2c": [],
+      "spi": [],
+      "uart": [],
+      "can": []
+    },
+    "differential_pairs": [],
+    "erc_warnings": [],
+    "passive_warnings": []
+  },
+  "connectivity_issues": {
+    "unconnected_pins": [],
+    "single_pin_nets": [],
+    "single_pin_net_findings": [],
+    "multi_driver_nets": [],
+    "power_net_summary": {
+      "GND": {
+        "pin_count": 13,
+        "components": [
+          "D12",
+          "D16",
+          "D4",
+          "D8",
+          "H1",
+          "H2",
+          "H3",
+          "J1",
+          "RV1",
+          "RV2",
+          "RV3",
+          "RV4"
+        ]
+      },
+      "+12V": {
+        "pin_count": 7,
+        "components": [
+          "J1",
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "RV1",
+          "RV2"
+        ]
+      }
+    }
+  },
+  "labels": [
+    {
+      "name": "GND",
+      "type": "global_label",
+      "x": 63.5,
+      "y": 50.8,
+      "angle": 270.0,
+      "shape": "input",
+      "_sheet": 0
+    },
+    {
+      "name": "GND",
+      "type": "global_label",
+      "x": 63.5,
+      "y": 76.2,
+      "angle": 0.0,
+      "shape": "input",
+      "_sheet": 0
+    },
+    {
+      "name": "GND",
+      "type": "global_label",
+      "x": 63.5,
+      "y": 86.36,
+      "angle": 0.0,
+      "shape": "input",
+      "_sheet": 0
+    },
+    {
+      "name": "GND",
+      "type": "global_label",
+      "x": 63.5,
+      "y": 66.04,
+      "angle": 0.0,
+      "shape": "input",
+      "_sheet": 0
+    },
+    {
+      "name": "GND",
+      "type": "global_label",
+      "x": 71.12,
+      "y": 45.72,
+      "angle": 0.0,
+      "shape": "input",
+      "_sheet": 0
+    },
+    {
+      "name": "+12V",
+      "type": "global_label",
+      "x": 71.12,
+      "y": 40.64,
+      "angle": 0.0,
+      "shape": "input",
+      "_sheet": 0
+    }
+  ],
+  "no_connects": [],
+  "power_symbols": [
+    {
+      "net_name": "GND",
+      "x": 138.43,
+      "y": 127.0,
+      "lib_id": "power:GND",
+      "_sheet": 0,
+      "_power_scope": "global"
+    },
+    {
+      "net_name": "GND",
+      "x": 154.94,
+      "y": 58.42,
+      "lib_id": "power:GND",
+      "_sheet": 0,
+      "_power_scope": "global"
+    },
+    {
+      "net_name": "GND",
+      "x": 142.24,
+      "y": 81.28,
+      "lib_id": "power:GND",
+      "_sheet": 0,
+      "_power_scope": "global"
+    },
+    {
+      "net_name": "GND",
+      "x": 129.54,
+      "y": 58.42,
+      "lib_id": "power:GND",
+      "_sheet": 0,
+      "_power_scope": "global"
+    },
+    {
+      "net_name": "GND",
+      "x": 168.91,
+      "y": 67.31,
+      "lib_id": "power:GND",
+      "_sheet": 0,
+      "_power_scope": "global"
+    },
+    {
+      "net_name": "GND",
+      "x": 109.22,
+      "y": 67.31,
+      "lib_id": "power:GND",
+      "_sheet": 0,
+      "_power_scope": "global"
+    },
+    {
+      "net_name": "+12V",
+      "x": 138.43,
+      "y": 50.8,
+      "lib_id": "power:+12V",
+      "_sheet": 0,
+      "_power_scope": "global"
+    }
+  ],
+  "annotation_issues": {},
+  "label_shape_warnings": [
+    {
+      "type": "undriven_input_label",
+      "net": "GND",
+      "message": "Net 'GND' has input-shaped label(s) but no driver pins on the net"
+    },
+    {
+      "type": "undriven_input_label",
+      "net": "+12V",
+      "message": "Net '+12V' has input-shaped label(s) but no driver pins on the net"
+    }
+  ],
+  "pwr_flag_warnings": [
+    {
+      "net": "GND",
+      "message": "Power rail 'GND' has power_in pins but no power_out or PWR_FLAG \u2014 ERC will flag this",
+      "pin_types": [
+        "input",
+        "passive",
+        "power_in"
+      ]
+    },
+    {
+      "net": "+12V",
+      "message": "Power rail '+12V' has power_in pins but no power_out or PWR_FLAG \u2014 ERC will flag this",
+      "pin_types": [
+        "passive",
+        "power_in"
+      ]
+    }
+  ],
+  "footprint_filter_warnings": [
+    {
+      "component": "J1",
+      "footprint": "Connector_BarrelJack:DC-IN-TH_DC-053D-20A",
+      "filters": [
+        "BarrelJack*"
+      ],
+      "custom_library": true,
+      "message": "J1: footprint 'DC-IN-TH_DC-053D-20A' doesn't match any filter pattern ['BarrelJack*']"
+    }
+  ],
+  "sourcing_audit": {
+    "total_bom_components": 13,
+    "mpn_coverage": "0/13",
+    "missing_mpn": [
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D9",
+      "J1",
+      "R3",
+      "R4",
+      "RV3",
+      "RV4"
+    ],
+    "missing_digikey": [
+      "J1",
+      "R3",
+      "R4",
+      "RV3",
+      "RV4"
+    ],
+    "missing_lcsc": [
+      "J1"
+    ],
+    "mpn_percent": 0.0
+  },
+  "ground_domains": {
+    "ground_nets": {
+      "GND": {
+        "domain": "signal",
+        "connections": 13,
+        "components": [
+          "D12",
+          "D16",
+          "D4",
+          "D8",
+          "H1",
+          "H2",
+          "H3",
+          "J1",
+          "RV1",
+          "RV2",
+          "RV3",
+          "RV4"
+        ]
+      }
+    },
+    "multiple_domains": false
+  },
+  "bus_topology": {
+    "bus_wire_count": 0,
+    "bus_entry_count": 0
+  },
+  "wire_geometry": {
+    "total_wires": 49,
+    "total_length_mm": 433.1,
+    "avg_length_mm": 8.8
+  },
+  "simulation_readiness": {
+    "total_components": 25,
+    "likely_simulatable": 24,
+    "needs_model": 1,
+    "components_without_model": [
+      "J1"
+    ],
+    "simulatable_percent": 96.0
+  },
+  "property_issues": {},
+  "placement_analysis": {
+    "bounding_box": {
+      "x_min": 61.0,
+      "y_min": 43.2,
+      "x_max": 168.9,
+      "y_max": 118.1,
+      "width_mm": 107.9,
+      "height_mm": 74.9
+    },
+    "clusters": [
+      {
+        "region": "row0_col0",
+        "component_count": 6,
+        "types": {
+          "resistor": 2,
+          "mounting_hole": 2,
+          "led": 1,
+          "connector": 1
+        },
+        "references": [
+          "D9",
+          "H1",
+          "H2",
+          "J1",
+          "R3",
+          "RV3"
+        ]
+      },
+      {
+        "region": "row0_col1",
+        "component_count": 9,
+        "types": {
+          "led": 3,
+          "resistor": 6
+        },
+        "references": [
+          "D1",
+          "D13",
+          "D5",
+          "R1",
+          "R2",
+          "R4",
+          "RV1",
+          "RV2",
+          "RV4"
+        ]
+      },
+      {
+        "region": "row1_col0",
+        "component_count": 4,
+        "types": {
+          "led": 3,
+          "mounting_hole": 1
+        },
+        "references": [
+          "D10",
+          "D11",
+          "D12",
+          "H3"
+        ]
+      },
+      {
+        "region": "row1_col1",
+        "component_count": 9,
+        "types": {
+          "led": 9
+        },
+        "references": [
+          "D14",
+          "D15",
+          "D16",
+          "D2",
+          "D3",
+          "D4",
+          "D6",
+          "D7",
+          "D8"
+        ]
+      }
+    ],
+    "grid_size": "2x2"
+  },
+  "hierarchical_labels": {
+    "hierarchical_label_count": 0,
+    "global_label_count": 6,
+    "single_use_global_labels": [
+      "+12V"
+    ]
+  },
+  "rail_voltages": {
+    "GND": 0,
+    "+12V": 12.0
+  },
+  "power_sequencing_validation": {
+    "power_tree": [],
+    "provenance": {
+      "evidence": "pseq_enable_chain",
+      "confidence": "heuristic",
+      "claimed_components": [],
+      "excluded_by": [],
+      "suppressed_candidates": []
+    }
+  },
+  "sleep_current_audit": {
+    "rails": {
+      "+12V": {
+        "current_paths": [
+          {
+            "ref": "R3",
+            "value": "120",
+            "type": "pull_up",
+            "resistance_ohm": 120.0,
+            "rail_voltage": 12.0,
+            "current_uA": 100000.0,
+            "note": "worst-case (signal driven low)",
+            "likely_state": "worst-case (signal driven low)",
+            "realistic_uA": 100000.0
+          },
+          {
+            "ref": "R4",
+            "value": "120",
+            "type": "pull_up",
+            "resistance_ohm": 120.0,
+            "rail_voltage": 12.0,
+            "current_uA": 100000.0,
+            "note": "worst-case (signal driven low)",
+            "likely_state": "worst-case (signal driven low)",
+            "realistic_uA": 100000.0
+          },
+          {
+            "ref": "D13",
+            "value": "LED",
+            "type": "led_indicator",
+            "series_resistor": "R2",
+            "resistance_ohm": 1000.0,
+            "rail_voltage": 12.0,
+            "current_uA": 10000.0,
+            "note": "assuming ~2V forward drop, always-on if no switch",
+            "likely_state": "GPIO off during sleep",
+            "realistic_uA": 0.0
+          },
+          {
+            "ref": "D1",
+            "value": "LED",
+            "type": "led_indicator",
+            "series_resistor": "R1",
+            "resistance_ohm": 1000.0,
+            "rail_voltage": 12.0,
+            "current_uA": 10000.0,
+            "note": "assuming ~2V forward drop, always-on if no switch",
+            "likely_state": "GPIO off during sleep",
+            "realistic_uA": 0.0
+          },
+          {
+            "ref": "D9",
+            "value": "LED",
+            "type": "led_indicator",
+            "series_resistor": "R1",
+            "resistance_ohm": 1000.0,
+            "rail_voltage": 12.0,
+            "current_uA": 10000.0,
+            "note": "assuming ~2V forward drop, always-on if no switch",
+            "likely_state": "GPIO off during sleep",
+            "realistic_uA": 0.0
+          },
+          {
+            "ref": "D5",
+            "value": "LED",
+            "type": "led_indicator",
+            "series_resistor": "R2",
+            "resistance_ohm": 1000.0,
+            "rail_voltage": 12.0,
+            "current_uA": 10000.0,
+            "note": "assuming ~2V forward drop, always-on if no switch",
+            "likely_state": "GPIO off during sleep",
+            "realistic_uA": 0.0
+          }
+        ],
+        "total_uA": 240000.0,
+        "always_on_uA": 40000.0,
+        "conditional_uA": 200000.0,
+        "realistic_uA": 200000.0
+      }
+    },
+    "total_estimated_sleep_uA": 40000.0,
+    "conditional_pull_up_uA": 200000.0,
+    "realistic_total_uA": 200000.0,
+    "observations": [
+      "Always-on current: 40000.0 uA (40.00 mA)",
+      "Conditional current (pull-ups, worst-case): 200000.0 uA (200.00 mA)",
+      "Realistic sleep estimate: 200000.0 uA (200.00 mA)"
+    ]
+  },
+  "bom_optimization": {
+    "unique_value_counts": {
+      "resistor": 2,
+      "capacitor": 0
+    },
+    "total_unique_footprints": 8,
+    "single_use_passive_values": 0
+  },
+  "test_coverage": {
+    "test_points": [],
+    "test_point_count": 0,
+    "covered_nets": [],
+    "uncovered_key_nets": [
+      {
+        "net": "+12V",
+        "category": "power_rail"
+      }
+    ],
+    "observations": [
+      "No test points found in design",
+      "No debug connectors (SWD/JTAG/UART) identified",
+      "Key nets without test points: 1 power_rail"
+    ]
+  },
+  "assembly_complexity": {
+    "total_components": 28,
+    "smd_count": 14,
+    "tht_count": 14,
+    "complexity_score": 14,
+    "difficulty_breakdown": {
+      "hard": 0,
+      "medium": 4,
+      "easy": 24
+    },
+    "package_breakdown": {
+      "THT": 14,
+      "1206": 10,
+      "other_SMD": 4
+    },
+    "unique_footprints": 3,
+    "observations": [
+      "Low assembly complexity (score 14/100) \u2014 hand assembly feasible"
+    ]
+  },
+  "missing_info": {
+    "missing_mpn": [
+      "R3",
+      "D13",
+      "RV3",
+      "D16",
+      "RV4",
+      "R4",
+      "D9",
+      "D15",
+      "D10",
+      "D11",
+      "D14",
+      "D12",
+      "J1"
+    ]
+  },
+  "bom_lock": {
+    "total_bom_components": 13,
+    "components_with_mpn": 0,
+    "missing_mpn": [
+      "R3",
+      "D13",
+      "RV3",
+      "D16",
+      "RV4",
+      "R4",
+      "D9",
+      "D15",
+      "D10",
+      "D11",
+      "D14",
+      "D12",
+      "J1"
+    ],
+    "missing_mpn_count": 13,
+    "generic_values": [],
+    "lock_pct": 0,
+    "status": "fail"
+  },
+  "design_intent": {
+    "product_class": "prototype",
+    "ipc_class": 2,
+    "target_market": "hobby",
+    "expected_lifetime_years": 5,
+    "operating_temp_range": [
+      -10,
+      70
+    ],
+    "preferred_passive_size": "0603",
+    "test_coverage_target": 0.85,
+    "approved_manufacturers": [],
+    "confidence": 0.3,
+    "detection_signals": [],
+    "source": {
+      "ipc_class": "auto",
+      "product_class": "auto",
+      "target_market": "auto",
+      "expected_lifetime_years": "auto",
+      "operating_temp_range": "auto",
+      "preferred_passive_size": "auto",
+      "test_coverage_target": "auto",
+      "approved_manufacturers": "auto"
+    }
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 31,
+      "by_severity": {
+        "error": 14,
+        "warning": 1,
+        "info": 16
+      },
+      "by_category": {
+        "verification": 1,
+        "led_control": 16,
+        "component_integrity": 12,
+        "power": 1,
+        "sourcing": 1
+      },
+      "top_issues": [
+        {
+          "detector": "audit_datasheet_coverage",
+          "rule_id": "DS-001",
+          "severity": "error",
+          "confidence": "deterministic",
+          "evidence_source": "bom",
+          "category": "verification",
+          "summary": "No datasheets directory found and no BOM parts have MPNs. Review is a consistency check only \u2014 manufacturer specs cannot be verified.",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "datasheets_dir": null,
+          "datasheet_file_count": 0,
+          "bom_size": 13,
+          "mpn_coverage_percent": 0.0,
+          "recommendation": "Before reporting 'verified' findings, (1) populate the MPN field on BOM parts, (2) run the datasheet sync skill (digikey, mouser, lcsc, or element14) to download PDFs into ./datasheets/, then re-run analysis. If datasheets are unreachable, state every pin-level and electrical claim as 'per symbol/library' (consistency), not 'verified against datasheet' (correctness).",
+          "report_context": {
+            "section": "Datasheet Coverage",
+            "impact": "Report wording must avoid 'verified' / 'datasheet-confirmed' language for every BOM part \u2014 none have manufacturer evidence attached.",
+            "standard_ref": ""
+          },
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D10: no current-limiting resistor found",
+          "description": "LED D10 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D10"
+          ],
+          "nets": [
+            "__unnamed_1",
+            "__unnamed_2"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "__unnamed_1",
+                "net_to": "__unnamed_2"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:e12c96ea4e97",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D11: no current-limiting resistor found",
+          "description": "LED D11 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D11"
+          ],
+          "nets": [
+            "__unnamed_0",
+            "__unnamed_1"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "__unnamed_0",
+                "net_to": "__unnamed_1"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:5f50b2ca12f4",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D12: no current-limiting resistor found",
+          "description": "LED D12 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D12"
+          ],
+          "nets": [
+            "GND",
+            "__unnamed_0"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "GND",
+                "net_to": "__unnamed_0"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:4ea5d473846b",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D14: no current-limiting resistor found",
+          "description": "LED D14 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D14"
+          ],
+          "nets": [
+            "__unnamed_3",
+            "__unnamed_4"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "__unnamed_3",
+                "net_to": "__unnamed_4"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:bfc9be9c8c96",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D15: no current-limiting resistor found",
+          "description": "LED D15 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D15"
+          ],
+          "nets": [
+            "__unnamed_3",
+            "__unnamed_8"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "__unnamed_8",
+                "net_to": "__unnamed_3"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:789969ddb50f",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D16: no current-limiting resistor found",
+          "description": "LED D16 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D16"
+          ],
+          "nets": [
+            "GND",
+            "__unnamed_8"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "GND",
+                "net_to": "__unnamed_8"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:e61037eafa5e",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D2: no current-limiting resistor found",
+          "description": "LED D2 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D2"
+          ],
+          "nets": [
+            "__unnamed_1",
+            "__unnamed_2"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "__unnamed_1",
+                "net_to": "__unnamed_2"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:715c89a70bb8",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D3: no current-limiting resistor found",
+          "description": "LED D3 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D3"
+          ],
+          "nets": [
+            "__unnamed_0",
+            "__unnamed_1"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "__unnamed_0",
+                "net_to": "__unnamed_1"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:02bc87f23395",
+          "stages": [
+            "schematic"
+          ]
+        },
+        {
+          "detector": "validate_led_resistors",
+          "rule_id": "LR-001",
+          "category": "component_integrity",
+          "summary": "LED D4: no current-limiting resistor found",
+          "description": "LED D4 (LED) has no series current-limiting resistor.",
+          "components": [
+            "D4"
+          ],
+          "nets": [
+            "GND",
+            "__unnamed_0"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "fix_params": {
+            "type": "add_component",
+            "components": [
+              {
+                "type": "resistor",
+                "value": "330",
+                "net_from": "GND",
+                "net_to": "__unnamed_0"
+              }
+            ],
+            "basis": "LED requires series current limiting"
+          },
+          "report_context": {
+            "section": "Component Integrity",
+            "impact": "LED overcurrent causes failure",
+            "standard_ref": ""
+          },
+          "provenance": {
+            "evidence": "lr_resistor_check",
+            "confidence": "deterministic",
+            "claimed_components": [],
+            "excluded_by": [],
+            "suppressed_candidates": []
+          },
+          "detection_id": "validation_findings:f79db48e250a",
+          "stages": [
+            "schematic"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 15,
+      "by_category": {
+        "verification": 1,
+        "component_integrity": 12,
+        "power": 1,
+        "sourcing": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "DS-001",
+          "severity": "error",
+          "summary": "No datasheets directory found and no BOM parts have MPNs. Review is a consistency check only \u2014 manufacturer specs cannot be verified.",
+          "recommendation": "Before reporting 'verified' findings, (1) populate the MPN field on BOM parts, (2) run the datasheet sync skill (digikey, mouser, lcsc, or element14) to download PDFs into ./datasheets/, then re-run analysis. If datasheets are unreachable, state every pin-level and electrical claim as 'per symbol/library' (consistency), not 'verified against datasheet' (correctness).",
+          "category": "verification"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D10: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D11: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D12: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D14: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D15: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D16: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D2: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D3: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D4: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D6: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D7: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "LR-001",
+          "severity": "error",
+          "summary": "LED D8: no current-limiting resistor found",
+          "recommendation": "Add a current-limiting resistor (typically 330R-1k for 3.3V).",
+          "category": "component_integrity"
+        },
+        {
+          "rule_id": "SS-001",
+          "severity": "error",
+          "summary": "Sourcing blocker: BOM has <50% MPN coverage (0/4 unique parts). Board is not pre-fab ready.",
+          "recommendation": "Populate the MPN field on the listed refs (use the digikey / mouser / lcsc / element14 skill to search by value/footprint when the MPN isn't already known).",
+          "category": "sourcing"
+        },
+        {
+          "rule_id": "RS-001",
+          "severity": "warning",
+          "summary": "+12V has no declared source",
+          "recommendation": "Add a PWR_FLAG to declare the rail as externally powered (e.g. from a connector) or trace the rail back to a regulator output. If the source lives on another sheet, promote the net name to a global label.",
+          "category": "power"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "high",
+      "blocker_count": 14,
+      "warning_count": 1,
+      "stage_readiness": {
+        "schematic": "needs_work",
+        "layout": "pass",
+        "pre_fab": "needs_work",
+        "bring_up": "pass"
+      },
+      "one_liner": "14 errors, 1 warning across 4 categories. Schematic, pre-fab stages have blockers."
+    }
+  }
+}

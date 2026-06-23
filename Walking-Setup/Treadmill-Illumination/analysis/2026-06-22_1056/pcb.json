@@ -1,0 +1,6163 @@
+{
+  "analyzer_type": "pcb",
+  "schema_version": "1.3.0",
+  "file": "/home/loeschef/prj/2019_Janelia_Component-Design/public/Walking-Setup/Treadmill-Illumination/Treadmill-Illumination.kicad_pcb",
+  "kicad_version": "10.0",
+  "file_version": "20260206",
+  "statistics": {
+    "footprint_count": 28,
+    "front_side": 28,
+    "back_side": 0,
+    "smd_count": 10,
+    "tht_count": 15,
+    "copper_layers_used": 2,
+    "copper_layer_names": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "track_segments": 129,
+    "via_count": 0,
+    "zone_count": 2,
+    "total_track_length_mm": 699.24,
+    "board_width_mm": 61.0,
+    "board_height_mm": 52.0,
+    "board_area_mm2": 3172.0,
+    "net_count": 12,
+    "routing_complete": true,
+    "unrouted_net_count": 0
+  },
+  "layers": [
+    {
+      "number": 0,
+      "name": "F.Cu",
+      "type": "signal",
+      "alias": null
+    },
+    {
+      "number": 2,
+      "name": "B.Cu",
+      "type": "signal",
+      "alias": null
+    },
+    {
+      "number": 9,
+      "name": "F.Adhes",
+      "type": "user",
+      "alias": "F.Adhesive"
+    },
+    {
+      "number": 11,
+      "name": "B.Adhes",
+      "type": "user",
+      "alias": "B.Adhesive"
+    },
+    {
+      "number": 13,
+      "name": "F.Paste",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 15,
+      "name": "B.Paste",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 5,
+      "name": "F.SilkS",
+      "type": "user",
+      "alias": "F.Silkscreen"
+    },
+    {
+      "number": 7,
+      "name": "B.SilkS",
+      "type": "user",
+      "alias": "B.Silkscreen"
+    },
+    {
+      "number": 1,
+      "name": "F.Mask",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 3,
+      "name": "B.Mask",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 17,
+      "name": "Dwgs.User",
+      "type": "user",
+      "alias": "User.Drawings"
+    },
+    {
+      "number": 19,
+      "name": "Cmts.User",
+      "type": "user",
+      "alias": "User.Comments"
+    },
+    {
+      "number": 21,
+      "name": "Eco1.User",
+      "type": "user",
+      "alias": "User.Eco1"
+    },
+    {
+      "number": 23,
+      "name": "Eco2.User",
+      "type": "user",
+      "alias": "User.Eco2"
+    },
+    {
+      "number": 25,
+      "name": "Edge.Cuts",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 27,
+      "name": "Margin",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 31,
+      "name": "F.CrtYd",
+      "type": "user",
+      "alias": "F.Courtyard"
+    },
+    {
+      "number": 29,
+      "name": "B.CrtYd",
+      "type": "user",
+      "alias": "B.Courtyard"
+    },
+    {
+      "number": 35,
+      "name": "F.Fab",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 33,
+      "name": "B.Fab",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 39,
+      "name": "User.1",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 41,
+      "name": "User.2",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 43,
+      "name": "User.3",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 45,
+      "name": "User.4",
+      "type": "user",
+      "alias": null
+    }
+  ],
+  "setup": {
+    "board_thickness_mm": 1.6,
+    "pad_to_mask_clearance": 0.0,
+    "legacy_teardrops": "no",
+    "allow_soldermask_bridges": "no"
+  },
+  "nets": {
+    "1": "+12V",
+    "2": "GND",
+    "3": "Net-(D1-A)",
+    "4": "Net-(D1-K)",
+    "5": "Net-(D10-K)",
+    "6": "Net-(D11-K)",
+    "7": "Net-(D13-A)",
+    "8": "Net-(D13-K)",
+    "9": "Net-(D14-K)",
+    "10": "Net-(D15-K)",
+    "11": "Net-(R3-Pad2)",
+    "12": "Net-(R4-Pad2)"
+  },
+  "net_name_to_id": {
+    "+12V": 1,
+    "GND": 2,
+    "Net-(D1-A)": 3,
+    "Net-(D1-K)": 4,
+    "Net-(D10-K)": 5,
+    "Net-(D11-K)": 6,
+    "Net-(D13-A)": 7,
+    "Net-(D13-K)": 8,
+    "Net-(D14-K)": 9,
+    "Net-(D15-K)": 10,
+    "Net-(R3-Pad2)": 11,
+    "Net-(R4-Pad2)": 12
+  },
+  "board_outline": {
+    "edge_count": 12,
+    "edges": [
+      {
+        "type": "line",
+        "start": [
+          119.0,
+          76.0
+        ],
+        "end": [
+          119.0,
+          128.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          119.0,
+          76.0
+        ],
+        "end": [
+          180.0,
+          76.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          119.0,
+          128.0
+        ],
+        "end": [
+          131.0,
+          128.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          131.0,
+          123.0
+        ],
+        "end": [
+          131.0,
+          128.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          134.0,
+          103.0
+        ],
+        "end": [
+          166.0,
+          103.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          134.0,
+          123.0
+        ],
+        "end": [
+          131.0,
+          123.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          134.0,
+          123.0
+        ],
+        "end": [
+          134.0,
+          103.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          166.0,
+          103.0
+        ],
+        "end": [
+          166.0,
+          123.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          166.0,
+          123.0
+        ],
+        "end": [
+          169.0,
+          123.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          169.0,
+          123.0
+        ],
+        "end": [
+          169.0,
+          128.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          180.0,
+          128.0
+        ],
+        "end": [
+          169.0,
+          128.0
+        ]
+      },
+      {
+        "type": "line",
+        "start": [
+          180.0,
+          128.0
+        ],
+        "end": [
+          180.0,
+          76.0
+        ]
+      }
+    ],
+    "bounding_box": {
+      "min_x": 119.0,
+      "min_y": 76.0,
+      "max_x": 180.0,
+      "max_y": 128.0,
+      "width": 61.0,
+      "height": 52.0
+    }
+  },
+  "component_groups": {
+    "D": {
+      "count": 16,
+      "references": [
+        "D1",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9"
+      ]
+    },
+    "H": {
+      "count": 3,
+      "references": [
+        "H1",
+        "H2",
+        "H3"
+      ]
+    },
+    "J": {
+      "count": 1,
+      "references": [
+        "J1"
+      ]
+    },
+    "R": {
+      "count": 4,
+      "references": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    "RV": {
+      "count": 4,
+      "references": [
+        "RV1",
+        "RV2",
+        "RV3",
+        "RV4"
+      ]
+    }
+  },
+  "footprints": [
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D1",
+      "value": "LED",
+      "mpn": "",
+      "x": 169.4875,
+      "y": 113.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/77cd584a-3ca1-422d-8963-70256c303ae2",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 167.038,
+        "min_y": 111.87,
+        "max_x": 171.938,
+        "max_y": 114.13
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D1-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D1-A)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D1-A)",
+        "Net-(D1-K)"
+      ]
+    },
+    {
+      "library": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "reference": "RV3",
+      "value": "R_Potentiometer",
+      "mpn": "",
+      "x": 174.235,
+      "y": 94.605,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 3,
+      "sch_path": "/2b4dae9a-7216-44c9-925d-00d0acb93b5a",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Potentiometer",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3005_Horizontal.step"
+      ],
+      "courtyard": {
+        "min_x": 173.075,
+        "min_y": 76.835,
+        "max_x": 177.925,
+        "max_y": 98.165
+      },
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(R3-Pad2)",
+          "pin": "1_1"
+        },
+        "2": {
+          "net": "Net-(D1-A)",
+          "pin": "2_2"
+        },
+        "3": {
+          "net": "GND",
+          "pin": "3_3"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(D1-A)",
+        "Net-(R3-Pad2)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D12",
+      "value": "LED",
+      "mpn": "",
+      "x": 122.46,
+      "y": 125.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/d28951bc-1913-407e-9381-7e2d17b768e5",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 121.31,
+        "min_y": 122.79,
+        "max_x": 126.15,
+        "max_y": 127.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D11-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(D11-K)"
+      ]
+    },
+    {
+      "library": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "reference": "R3",
+      "value": "120",
+      "mpn": "",
+      "x": 147.38,
+      "y": 88.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/1a77a613-70c2-400c-b97a-1adcd8c1587f",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step"
+      ],
+      "courtyard": {
+        "min_x": 145.93,
+        "min_y": 85.5,
+        "max_x": 164.07,
+        "max_y": 90.5
+      },
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "pad_nets": {
+        "1": {
+          "net": "+12V"
+        },
+        "2": {
+          "net": "Net-(R3-Pad2)"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "Net-(R3-Pad2)"
+      ]
+    },
+    {
+      "library": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "reference": "H2",
+      "value": "MountingHole_Pad",
+      "mpn": "",
+      "x": 131.0,
+      "y": 119.425,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "exclude_from_bom",
+      "pad_count": 1,
+      "exclude_from_bom": true,
+      "sch_path": "/477cadd0-da4c-46f8-b10d-48e1c6dbdbff",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Mounting Hole with connection",
+      "courtyard": {
+        "min_x": 131.0,
+        "min_y": 119.425,
+        "max_x": 133.45,
+        "max_y": 119.425
+      },
+      "footprint": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "1_1"
+        }
+      },
+      "connected_nets": [
+        "GND"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D3",
+      "value": "LED",
+      "mpn": "",
+      "x": 130.5125,
+      "y": 102.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/0222ea1e-1f1b-482a-b387-dea34dca2804",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 128.062,
+        "min_y": 100.87,
+        "max_x": 132.962,
+        "max_y": 103.13
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D11-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D10-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D10-K)",
+        "Net-(D11-K)"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D7",
+      "value": "LED",
+      "mpn": "",
+      "x": 143.5125,
+      "y": 99.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/e58d5687-0b47-410e-ad01-601cb506984f",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 141.062,
+        "min_y": 97.87,
+        "max_x": 145.962,
+        "max_y": 100.13
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D15-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D14-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D14-K)",
+        "Net-(D15-K)"
+      ]
+    },
+    {
+      "library": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "reference": "RV1",
+      "value": "R_Potentiometer",
+      "mpn": "",
+      "x": 149.54,
+      "y": 81.0,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 3,
+      "dnp": true,
+      "sch_path": "/a086e871-445a-40e3-bbb6-5778385c62c7",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Potentiometer",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386C_Horizontal.step",
+        "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Potentiometer_THT.3dshapes/3310c-001-102l.stp"
+      ],
+      "courtyard": {
+        "min_x": 141.98,
+        "min_y": 78.33,
+        "max_x": 152.02,
+        "max_y": 83.67
+      },
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "pad_nets": {
+        "1": {
+          "net": "+12V",
+          "pin": "1_1"
+        },
+        "2": {
+          "net": "Net-(D1-A)",
+          "pin": "2_2"
+        },
+        "3": {
+          "net": "GND",
+          "pin": "3_3"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "GND",
+        "Net-(D1-A)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D15",
+      "value": "LED",
+      "mpn": "",
+      "x": 135.96,
+      "y": 99.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/99419922-442a-4e45-af44-be9f508e8b4d",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 134.81,
+        "min_y": 96.79,
+        "max_x": 139.65,
+        "max_y": 101.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D15-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D14-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D14-K)",
+        "Net-(D15-K)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D11",
+      "value": "LED",
+      "mpn": "",
+      "x": 122.46,
+      "y": 102.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/c934e9d2-82f1-4628-8aaf-3ae236249a09",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 121.31,
+        "min_y": 99.79,
+        "max_x": 126.15,
+        "max_y": 104.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D11-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D10-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D10-K)",
+        "Net-(D11-K)"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "reference": "R1",
+      "value": "1k",
+      "mpn": "",
+      "x": 137.5,
+      "y": 81.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/a89b5a3f-5aef-4a29-86a0-d11a62efc53c",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 135.05,
+        "min_y": 79.87,
+        "max_x": 139.95,
+        "max_y": 82.13
+      },
+      "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "+12V"
+        },
+        "2": {
+          "net": "Net-(D1-A)"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "Net-(D1-A)"
+      ]
+    },
+    {
+      "library": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "reference": "H3",
+      "value": "MountingHole_Pad",
+      "mpn": "",
+      "x": 169.0,
+      "y": 119.5,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "exclude_from_bom",
+      "pad_count": 1,
+      "exclude_from_bom": true,
+      "sch_path": "/d2057f44-0ee9-4e9e-9423-dbc564edf337",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Mounting Hole with connection",
+      "courtyard": {
+        "min_x": 169.0,
+        "min_y": 119.5,
+        "max_x": 171.45,
+        "max_y": 119.5
+      },
+      "footprint": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "1_1"
+        }
+      },
+      "connected_nets": [
+        "GND"
+      ]
+    },
+    {
+      "library": "Connector_BarrelJack:DC-IN-TH_DC-053D-20A",
+      "reference": "J1",
+      "value": "Barrel_Jack_MountingPin",
+      "mpn": "",
+      "x": 126.0,
+      "y": 87.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 6,
+      "sch_path": "/d73c7eb4-7946-4abc-a550-0ebe626fbe50",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "DC Barrel Jack with a mounting pin",
+      "courtyard": {
+        "min_x": 120.25,
+        "min_y": 77.975,
+        "max_x": 131.75,
+        "max_y": 91.755
+      },
+      "footprint": "Connector_BarrelJack:DC-IN-TH_DC-053D-20A",
+      "pad_nets": {
+        "1": {
+          "net": "+12V"
+        },
+        "2": {
+          "net": "GND"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "GND"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D13",
+      "value": "LED",
+      "mpn": "",
+      "x": 173.96,
+      "y": 125.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/251477a3-4623-463a-90d4-be3965ae4b3d",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 172.81,
+        "min_y": 122.79,
+        "max_x": 177.65,
+        "max_y": 127.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D13-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D13-A)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D13-A)",
+        "Net-(D13-K)"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D5",
+      "value": "LED",
+      "mpn": "",
+      "x": 171.0,
+      "y": 125.0,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/c1319615-50d3-4d0d-99b1-28707f831115",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 169.87,
+        "min_y": 122.55,
+        "max_x": 172.13,
+        "max_y": 127.45
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D13-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D13-A)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D13-A)",
+        "Net-(D13-K)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D16",
+      "value": "LED",
+      "mpn": "",
+      "x": 122.5,
+      "y": 112.5,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/40ee465e-2231-4a92-890d-c1c2f6f31161",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 121.35,
+        "min_y": 110.29,
+        "max_x": 126.19,
+        "max_y": 114.71
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D15-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(D15-K)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D10",
+      "value": "LED",
+      "mpn": "",
+      "x": 161.46,
+      "y": 99.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/b713dfb6-5850-4282-88d1-dc185910c301",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 160.31,
+        "min_y": 96.79,
+        "max_x": 165.15,
+        "max_y": 101.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D10-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D1-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D1-K)",
+        "Net-(D10-K)"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D4",
+      "value": "LED",
+      "mpn": "",
+      "x": 128.0,
+      "y": 125.0,
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/9730a7ed-ea25-4804-abef-3b04fdc925ce",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 126.87,
+        "min_y": 122.55,
+        "max_x": 129.13,
+        "max_y": 127.45
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D11-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(D11-K)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D9",
+      "value": "LED",
+      "mpn": "",
+      "x": 174.0,
+      "y": 113.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/7ee4ceba-51f7-4662-9fa1-505f5dbc4af2",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 172.85,
+        "min_y": 110.79,
+        "max_x": 177.69,
+        "max_y": 115.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D1-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D1-A)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D1-A)",
+        "Net-(D1-K)"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D6",
+      "value": "LED",
+      "mpn": "",
+      "x": 169.4875,
+      "y": 102.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/1090e53e-6dc9-452a-be9c-89331d3d078f",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 167.038,
+        "min_y": 100.87,
+        "max_x": 171.938,
+        "max_y": 103.13
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D14-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D13-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D13-K)",
+        "Net-(D14-K)"
+      ]
+    },
+    {
+      "library": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "reference": "R4",
+      "value": "120",
+      "mpn": "",
+      "x": 147.38,
+      "y": 94.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/5b533479-a47a-408d-8fe2-7d95fc275eb5",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step"
+      ],
+      "courtyard": {
+        "min_x": 145.93,
+        "min_y": 91.5,
+        "max_x": 164.07,
+        "max_y": 96.5
+      },
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "pad_nets": {
+        "1": {
+          "net": "+12V"
+        },
+        "2": {
+          "net": "Net-(R4-Pad2)"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "Net-(R4-Pad2)"
+      ]
+    },
+    {
+      "library": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "reference": "H1",
+      "value": "MountingHole_Pad",
+      "mpn": "",
+      "x": 150.0,
+      "y": 100.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "exclude_from_bom",
+      "pad_count": 1,
+      "exclude_from_bom": true,
+      "sch_path": "/bf1013fb-e9da-49d8-92b9-a4720e98f404",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Mounting Hole with connection",
+      "courtyard": {
+        "min_x": 150.0,
+        "min_y": 100.0,
+        "max_x": 152.45,
+        "max_y": 100.0
+      },
+      "footprint": "MountingHole:MountingHole_2.2mm_M2_Pad",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "1_1"
+        }
+      },
+      "connected_nets": [
+        "GND"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D2",
+      "value": "LED",
+      "mpn": "",
+      "x": 156.4875,
+      "y": 99.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/0e6d8df5-dac2-47ff-8302-720adf432781",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 154.038,
+        "min_y": 97.87,
+        "max_x": 158.938,
+        "max_y": 100.13
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D10-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D1-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D1-K)",
+        "Net-(D10-K)"
+      ]
+    },
+    {
+      "library": "LED_THT:LED_D3.0mm",
+      "reference": "D14",
+      "value": "LED",
+      "mpn": "",
+      "x": 174.46,
+      "y": 102.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/cca7fcc8-19a4-4360-b598-154bc8526eb7",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+      ],
+      "courtyard": {
+        "min_x": 173.31,
+        "min_y": 99.79,
+        "max_x": 178.15,
+        "max_y": 104.21
+      },
+      "footprint": "LED_THT:LED_D3.0mm",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(D14-K)",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D13-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "Net-(D13-K)",
+        "Net-(D14-K)"
+      ]
+    },
+    {
+      "library": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "reference": "RV4",
+      "value": "R_Potentiometer",
+      "mpn": "",
+      "x": 167.235,
+      "y": 94.605,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 3,
+      "sch_path": "/4a06741b-2df3-43e6-ab37-985c44d22df2",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Potentiometer",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3005_Horizontal.step"
+      ],
+      "courtyard": {
+        "min_x": 166.075,
+        "min_y": 76.835,
+        "max_x": 170.925,
+        "max_y": 98.165
+      },
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(R4-Pad2)",
+          "pin": "1_1"
+        },
+        "2": {
+          "net": "Net-(D13-A)",
+          "pin": "2_2"
+        },
+        "3": {
+          "net": "GND",
+          "pin": "3_3"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(D13-A)",
+        "Net-(R4-Pad2)"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "reference": "R2",
+      "value": "1k",
+      "mpn": "",
+      "x": 137.5,
+      "y": 85.0,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/2df50c09-b533-4150-94f1-2925a1ccde56",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 135.05,
+        "min_y": 83.87,
+        "max_x": 139.95,
+        "max_y": 86.13
+      },
+      "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "+12V"
+        },
+        "2": {
+          "net": "Net-(D13-A)"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "Net-(D13-A)"
+      ]
+    },
+    {
+      "library": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "D8",
+      "value": "LED",
+      "mpn": "",
+      "x": 130.5,
+      "y": 112.5,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "dnp": true,
+      "sch_path": "/ba41d3ce-7b4d-4580-9b34-0378e429d318",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Light emitting diode",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 128.05,
+        "min_y": 111.37,
+        "max_x": 132.95,
+        "max_y": 113.63
+      },
+      "footprint": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "K_1"
+        },
+        "2": {
+          "net": "Net-(D15-K)",
+          "pin": "A_2"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(D15-K)"
+      ]
+    },
+    {
+      "library": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "reference": "RV2",
+      "value": "R_Potentiometer",
+      "mpn": "",
+      "x": 160.58,
+      "y": 81.0,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 3,
+      "dnp": true,
+      "sch_path": "/cf7e6ebf-5c6a-49c8-8a83-ea2feb168689",
+      "sheetname": "/",
+      "sheetfile": "Treadmill-Illumination.kicad_sch",
+      "description": "Potentiometer",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386C_Horizontal.step",
+        "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Potentiometer_THT.3dshapes/3310c-001-102l.stp"
+      ],
+      "courtyard": {
+        "min_x": 153.02,
+        "min_y": 78.33,
+        "max_x": 163.06,
+        "max_y": 83.67
+      },
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal",
+      "pad_nets": {
+        "1": {
+          "net": "+12V",
+          "pin": "1_1"
+        },
+        "2": {
+          "net": "Net-(D13-A)",
+          "pin": "2_2"
+        },
+        "3": {
+          "net": "GND",
+          "pin": "3_3"
+        }
+      },
+      "connected_nets": [
+        "+12V",
+        "GND",
+        "Net-(D13-A)"
+      ]
+    }
+  ],
+  "tracks": {
+    "segment_count": 129,
+    "arc_count": 0,
+    "width_distribution": {
+      "0.5": 129
+    },
+    "layer_distribution": {
+      "F.Cu": 107,
+      "B.Cu": 22
+    },
+    "segments": [
+      {
+        "x1": 174.0,
+        "y1": 113.0,
+        "x2": 172.675,
+        "y2": 114.325,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 159.325,
+        "y1": 100.35,
+        "x2": 162.65,
+        "y2": 100.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 172.675,
+        "y1": 114.325,
+        "x2": 169.325,
+        "y2": 114.325,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 169.325,
+        "y1": 114.325,
+        "x2": 168.0,
+        "y2": 113.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 166.75,
+        "y1": 111.75,
+        "x2": 168.0,
+        "y2": 113.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 166.75,
+        "y1": 101.75,
+        "x2": 166.75,
+        "y2": 111.75,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 157.975,
+        "y1": 99.0,
+        "x2": 159.325,
+        "y2": 100.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 162.65,
+        "y1": 100.35,
+        "x2": 164.0,
+        "y2": 99.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 164.0,
+        "y1": 99.0,
+        "x2": 166.75,
+        "y2": 101.75,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 139.05,
+        "y1": 81.0,
+        "x2": 140.22,
+        "y2": 79.83,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 148.87,
+        "y1": 79.13,
+        "x2": 147.0,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 140.22,
+        "y1": 79.83,
+        "x2": 145.83,
+        "y2": 79.83,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 176.54,
+        "y1": 113.0,
+        "x2": 175.19,
+        "y2": 111.65,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 172.325,
+        "y1": 111.65,
+        "x2": 170.975,
+        "y2": 113.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 168.92,
+        "y1": 79.13,
+        "x2": 148.87,
+        "y2": 79.13,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 175.19,
+        "y1": 111.65,
+        "x2": 172.325,
+        "y2": 111.65,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 145.83,
+        "y1": 79.83,
+        "x2": 147.0,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 176.775,
+        "y1": 86.985,
+        "x2": 168.92,
+        "y2": 79.13,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 178.35,
+        "y1": 111.19,
+        "x2": 176.54,
+        "y2": 113.0,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 3
+      },
+      {
+        "x1": 178.35,
+        "y1": 88.56,
+        "x2": 178.35,
+        "y2": 111.19,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 3
+      },
+      {
+        "x1": 176.775,
+        "y1": 86.985,
+        "x2": 178.35,
+        "y2": 88.56,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 3
+      },
+      {
+        "x1": 167.63,
+        "y1": 88.0,
+        "x2": 174.235,
+        "y2": 94.605,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 11
+      },
+      {
+        "x1": 162.62,
+        "y1": 88.0,
+        "x2": 167.63,
+        "y2": 88.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 11
+      },
+      {
+        "x1": 123.85,
+        "y1": 113.85,
+        "x2": 122.5,
+        "y2": 112.5,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 122.5,
+        "y1": 112.5,
+        "x2": 120.41,
+        "y2": 110.41,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 127.6625,
+        "y1": 113.85,
+        "x2": 123.85,
+        "y2": 113.85,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 129.0125,
+        "y1": 112.5,
+        "x2": 127.6625,
+        "y2": 113.85,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 120.41,
+        "y1": 110.41,
+        "x2": 120.41,
+        "y2": 91.516346,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 128.0,
+        "y1": 126.5,
+        "x2": 123.96,
+        "y2": 126.5,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 122.46,
+        "y1": 112.54,
+        "x2": 122.5,
+        "y2": 112.5,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 122.46,
+        "y1": 125.0,
+        "x2": 122.46,
+        "y2": 112.54,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 120.41,
+        "y1": 91.516346,
+        "x2": 126.0,
+        "y2": 85.926346,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 126.0,
+        "y1": 85.926346,
+        "x2": 126.0,
+        "y2": 84.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 123.96,
+        "y1": 126.5,
+        "x2": 122.46,
+        "y2": 125.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 131.0,
+        "y1": 119.425,
+        "x2": 128.800001,
+        "y2": 117.225001,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 152.25,
+        "y1": 102.25,
+        "x2": 150.0,
+        "y2": 100.0,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 154.33,
+        "y1": 82.17,
+        "x2": 145.63,
+        "y2": 82.17,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 128.325,
+        "y1": 86.675,
+        "x2": 126.0,
+        "y2": 84.35,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 166.31066,
+        "y1": 102.25,
+        "x2": 152.25,
+        "y2": 102.25,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 169.0,
+        "y1": 104.93934,
+        "x2": 166.31066,
+        "y2": 102.25,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 155.5,
+        "y1": 81.0,
+        "x2": 154.33,
+        "y2": 82.17,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 166.97,
+        "y1": 82.17,
+        "x2": 156.67,
+        "y2": 82.17,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 156.67,
+        "y1": 82.17,
+        "x2": 155.5,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 128.800001,
+        "y1": 87.150001,
+        "x2": 126.0,
+        "y2": 84.35,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 128.800001,
+        "y1": 117.225001,
+        "x2": 128.800001,
+        "y2": 87.150001,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 126.0,
+        "y1": 84.35,
+        "x2": 129.35,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 169.0,
+        "y1": 119.5,
+        "x2": 169.0,
+        "y2": 104.93934,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 150.0,
+        "y1": 100.0,
+        "x2": 136.675,
+        "y2": 86.675,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 136.675,
+        "y1": 86.675,
+        "x2": 128.325,
+        "y2": 86.675,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 167.235,
+        "y1": 81.905,
+        "x2": 166.97,
+        "y2": 82.17,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 129.35,
+        "y1": 81.0,
+        "x2": 144.46,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 145.63,
+        "y1": 82.17,
+        "x2": 144.46,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 174.235,
+        "y1": 81.905,
+        "x2": 167.235,
+        "y2": 81.905,
+        "width": 0.5,
+        "layer": "B.Cu",
+        "net": 2
+      },
+      {
+        "x1": 128.0,
+        "y1": 123.5125,
+        "x2": 128.0,
+        "y2": 118.571878,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 127.65,
+        "y1": 103.35,
+        "x2": 123.81,
+        "y2": 103.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 133.15,
+        "y1": 106.125,
+        "x2": 133.15,
+        "y2": 113.421878,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 126.5125,
+        "y1": 125.0,
+        "x2": 128.0,
+        "y2": 123.5125,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 125.0,
+        "y1": 125.0,
+        "x2": 126.5125,
+        "y2": 125.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 133.15,
+        "y1": 113.421878,
+        "x2": 128.0,
+        "y2": 118.571878,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 133.15,
+        "y1": 106.125,
+        "x2": 129.025,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 129.0,
+        "y1": 102.0,
+        "x2": 127.65,
+        "y2": 103.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 129.025,
+        "y1": 102.0,
+        "x2": 129.0,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 123.81,
+        "y1": 103.35,
+        "x2": 122.46,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 142.925,
+        "y1": 86.325,
+        "x2": 139.0,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 135.95,
+        "y1": 90.2,
+        "x2": 136.0,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 135.95,
+        "y1": 85.0,
+        "x2": 135.95,
+        "y2": 90.2,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 149.54,
+        "y1": 81.0,
+        "x2": 148.0525,
+        "y2": 82.4875,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 148.0525,
+        "y1": 82.4875,
+        "x2": 135.95,
+        "y2": 82.4875,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 135.95,
+        "y1": 82.0,
+        "x2": 135.95,
+        "y2": 85.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 145.13,
+        "y1": 90.25,
+        "x2": 143.63,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 126.0,
+        "y1": 90.25,
+        "x2": 136.0,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 160.58,
+        "y1": 81.0,
+        "x2": 155.255,
+        "y2": 86.325,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 155.255,
+        "y1": 86.325,
+        "x2": 142.925,
+        "y2": 86.325,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 147.38,
+        "y1": 88.0,
+        "x2": 145.13,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 139.0,
+        "y1": 90.25,
+        "x2": 143.63,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 135.95,
+        "y1": 81.0,
+        "x2": 135.95,
+        "y2": 82.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 143.63,
+        "y1": 90.25,
+        "x2": 147.38,
+        "y2": 94.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 135.95,
+        "y1": 82.0,
+        "x2": 135.95,
+        "y2": 82.4875,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 136.0,
+        "y1": 90.25,
+        "x2": 139.0,
+        "y2": 90.25,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 125.0,
+        "y1": 102.0,
+        "x2": 126.325,
+        "y2": 100.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 130.675,
+        "y1": 100.675,
+        "x2": 132.0,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 161.46,
+        "y1": 99.0,
+        "x2": 160.135,
+        "y2": 97.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 148.734378,
+        "y1": 97.35,
+        "x2": 144.084378,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 156.325,
+        "y1": 97.675,
+        "x2": 155.0,
+        "y2": 99.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 153.35,
+        "y1": 97.35,
+        "x2": 148.734378,
+        "y2": 97.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 160.135,
+        "y1": 97.675,
+        "x2": 156.325,
+        "y2": 97.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 144.084378,
+        "y1": 102.0,
+        "x2": 132.0,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 126.325,
+        "y1": 100.675,
+        "x2": 130.675,
+        "y2": 100.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 155.0,
+        "y1": 99.0,
+        "x2": 153.35,
+        "y2": 97.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 122.76,
+        "y1": 99.0,
+        "x2": 121.11,
+        "y2": 100.65,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 130.6625,
+        "y1": 111.175,
+        "x2": 131.9875,
+        "y2": 112.5,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 142.025,
+        "y1": 99.0,
+        "x2": 140.675,
+        "y2": 100.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 125.04,
+        "y1": 112.5,
+        "x2": 126.365,
+        "y2": 111.175,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 121.11,
+        "y1": 100.65,
+        "x2": 121.11,
+        "y2": 108.57,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 135.96,
+        "y1": 99.0,
+        "x2": 122.76,
+        "y2": 99.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 140.675,
+        "y1": 100.35,
+        "x2": 137.31,
+        "y2": 100.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 137.31,
+        "y1": 100.35,
+        "x2": 135.96,
+        "y2": 99.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 126.365,
+        "y1": 111.175,
+        "x2": 130.6625,
+        "y2": 111.175,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 121.11,
+        "y1": 108.57,
+        "x2": 125.04,
+        "y2": 112.5,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 169.325,
+        "y1": 100.675,
+        "x2": 168.0,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 143.675,
+        "y1": 97.675,
+        "x2": 145.0,
+        "y2": 99.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 174.46,
+        "y1": 102.0,
+        "x2": 173.135,
+        "y2": 100.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 145.0,
+        "y1": 99.0,
+        "x2": 147.35,
+        "y2": 96.65,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 173.135,
+        "y1": 100.675,
+        "x2": 169.325,
+        "y2": 100.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 168.0,
+        "y1": 101.090811,
+        "x2": 168.0,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 139.825,
+        "y1": 97.675,
+        "x2": 143.675,
+        "y2": 97.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 138.5,
+        "y1": 99.0,
+        "x2": 139.825,
+        "y2": 97.675,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 147.35,
+        "y1": 96.65,
+        "x2": 163.559189,
+        "y2": 96.65,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 163.559189,
+        "y1": 96.65,
+        "x2": 168.0,
+        "y2": 101.090811,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 172.4725,
+        "y1": 123.5125,
+        "x2": 173.96,
+        "y2": 125.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 172.325,
+        "y1": 103.35,
+        "x2": 170.975,
+        "y2": 102.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.0,
+        "y1": 102.0,
+        "x2": 177.9,
+        "y2": 102.9,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.9,
+        "y1": 102.9,
+        "x2": 177.9,
+        "y2": 121.06,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 175.65,
+        "y1": 103.35,
+        "x2": 172.325,
+        "y2": 103.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.0,
+        "y1": 102.0,
+        "x2": 175.65,
+        "y2": 103.35,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 171.0,
+        "y1": 123.5125,
+        "x2": 172.4725,
+        "y2": 123.5125,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.9,
+        "y1": 121.06,
+        "x2": 173.96,
+        "y2": 125.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 159.21,
+        "y1": 79.83,
+        "x2": 158.04,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 175.0,
+        "y1": 126.5,
+        "x2": 176.5,
+        "y2": 125.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 169.775,
+        "y1": 86.985,
+        "x2": 162.62,
+        "y2": 79.83,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 162.62,
+        "y1": 79.83,
+        "x2": 159.21,
+        "y2": 79.83,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 176.5,
+        "y1": 125.0,
+        "x2": 178.6,
+        "y2": 122.9,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 171.0,
+        "y1": 126.5,
+        "x2": 175.0,
+        "y2": 126.5,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 178.6,
+        "y1": 122.9,
+        "x2": 178.6,
+        "y2": 95.81,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 178.6,
+        "y1": 95.81,
+        "x2": 169.775,
+        "y2": 86.985,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 154.04,
+        "y1": 85.0,
+        "x2": 158.04,
+        "y2": 81.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 139.05,
+        "y1": 85.0,
+        "x2": 154.04,
+        "y2": 85.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 167.235,
+        "y1": 94.605,
+        "x2": 163.225,
+        "y2": 94.605,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 12
+      },
+      {
+        "x1": 163.225,
+        "y1": 94.605,
+        "x2": 162.62,
+        "y2": 94.0,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 12
+      }
+    ],
+    "arcs": []
+  },
+  "vias": {
+    "count": 0,
+    "size_distribution": {},
+    "vias": []
+  },
+  "zones": [
+    {
+      "net": 1,
+      "net_name": "+12V",
+      "layers": [
+        "F.Cu"
+      ],
+      "clearance": 0.5,
+      "min_thickness": 0.25,
+      "thermal_gap": 0.5,
+      "thermal_bridge_width": 0.5,
+      "outline_points": 14,
+      "outline_area_mm2": 2342.0,
+      "is_filled": true,
+      "outline_bbox": [
+        119.0,
+        76.0,
+        180.0,
+        128.0
+      ],
+      "filled_area_mm2": 940.83,
+      "fill_region_count": 1,
+      "filled_bbox": [
+        119.501,
+        76.501,
+        179.5,
+        101.015
+      ],
+      "fill_ratio": 0.402
+    },
+    {
+      "net": 2,
+      "net_name": "GND",
+      "layers": [
+        "B.Cu"
+      ],
+      "clearance": 0.5,
+      "min_thickness": 0.25,
+      "thermal_gap": 0.5,
+      "thermal_bridge_width": 0.5,
+      "outline_points": 14,
+      "outline_area_mm2": 2342.0,
+      "is_filled": true,
+      "outline_bbox": [
+        119.0,
+        76.0,
+        180.0,
+        128.0
+      ],
+      "priority": 1,
+      "filled_area_mm2": 1916.01,
+      "fill_region_count": 1,
+      "filled_bbox": [
+        119.501,
+        76.501,
+        179.5,
+        127.499
+      ],
+      "fill_ratio": 0.818
+    }
+  ],
+  "keepout_zones": [],
+  "connectivity": {
+    "total_nets_with_pads": 12,
+    "routed_nets": 12,
+    "unrouted_count": 0,
+    "routing_complete": true
+  },
+  "net_lengths": [
+    {
+      "net": "GND",
+      "net_number": 2,
+      "total_length_mm": 212.061,
+      "segment_count": 30,
+      "via_count": 0,
+      "layers": {
+        "B.Cu": {
+          "length_mm": 154.421,
+          "segments": 19
+        },
+        "F.Cu": {
+          "length_mm": 57.64,
+          "segments": 11
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.956,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.812,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 18.894,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.04,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.057,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 12.46,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.905,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.576,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.121,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 3.111,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 3.182,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 8.7,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 3.288,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 14.061,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 3.803,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 1.655,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 10.3,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 1.655,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 3.96,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 30.075,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 4.738,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 14.561,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 18.844,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 8.35,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 0.375,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 15.11,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 1.655,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 7.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D13-A)",
+      "net_number": 7,
+      "total_length_mm": 84.492,
+      "segment_count": 10,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 84.492,
+          "segments": 10
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.655,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.121,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 10.119,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.41,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.97,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 27.09,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 12.48,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.657,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 14.99,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "+12V",
+      "net_number": 1,
+      "total_length_mm": 76.991,
+      "segment_count": 16,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 76.991,
+          "segments": 16
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.551,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.071,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.2,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.104,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 12.103,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.5,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 10.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.531,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 12.33,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.182,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.63,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.303,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.487,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D1-A)",
+      "net_number": 3,
+      "total_length_mm": 76.823,
+      "segment_count": 12,
+      "via_count": 0,
+      "layers": {
+        "B.Cu": {
+          "length_mm": 27.417,
+          "segments": 3
+        },
+        "F.Cu": {
+          "length_mm": 49.406,
+          "segments": 9
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.655,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.645,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.61,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 20.05,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.865,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.655,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 11.109,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 2.56,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 22.63,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "B.Cu",
+          "length_mm": 2.227,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D15-K)",
+      "net_number": 10,
+      "total_length_mm": 44.24,
+      "segment_count": 10,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 44.24,
+          "segments": 10
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.333,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.92,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 13.2,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.365,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.297,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.558,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D14-K)",
+      "net_number": 9,
+      "total_length_mm": 41.877,
+      "segment_count": 10,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 41.877,
+          "segments": 10
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.323,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.81,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.85,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 16.209,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 6.28,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D10-K)",
+      "net_number": 5,
+      "total_length_mm": 41.265,
+      "segment_count": 10,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 41.265,
+          "segments": 10
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 6.576,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.616,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.81,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 12.084,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.35,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.333,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D11-K)",
+      "net_number": 6,
+      "total_length_mm": 36.654,
+      "segment_count": 10,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 36.654,
+          "segments": 10
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.941,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.84,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.297,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.104,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.513,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.283,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.834,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.025,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D13-K)",
+      "net_number": 8,
+      "total_length_mm": 35.724,
+      "segment_count": 8,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 35.724,
+          "segments": 8
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.104,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.273,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 18.16,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.325,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.472,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.572,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(D1-K)",
+      "net_number": 4,
+      "total_length_mm": 29.898,
+      "segment_count": 9,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 29.898,
+          "segments": 9
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.325,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.35,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.874,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.768,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 10.0,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.909,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.889,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(R3-Pad2)",
+      "net_number": 11,
+      "total_length_mm": 14.351,
+      "segment_count": 2,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 14.351,
+          "segments": 2
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 9.341,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.01,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "Net-(R4-Pad2)",
+      "net_number": 12,
+      "total_length_mm": 4.866,
+      "segment_count": 2,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 4.866,
+          "segments": 2
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.01,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.856,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    }
+  ],
+  "pad_to_pad_distances": {
+    "D1.1-D10.2": {
+      "net": "Net-(D1-K)",
+      "routed_distance_mm": 15.657,
+      "euclidean_distance_mm": 14.56,
+      "ratio": 1.08,
+      "min_width_mm": 0.5
+    },
+    "D1.1-D9.1": {
+      "net": "Net-(D1-K)",
+      "routed_distance_mm": 7.098,
+      "euclidean_distance_mm": 6.0,
+      "ratio": 1.18,
+      "min_width_mm": 0.5
+    },
+    "D1.1-D2.2": {
+      "net": "Net-(D1-K)",
+      "routed_distance_mm": 22.8,
+      "euclidean_distance_mm": 17.219,
+      "ratio": 1.32,
+      "min_width_mm": 0.5
+    },
+    "D10.2-D9.1": {
+      "net": "Net-(D1-K)",
+      "routed_distance_mm": 22.755,
+      "euclidean_distance_mm": 17.205,
+      "ratio": 1.32,
+      "min_width_mm": 0.5
+    },
+    "D10.2-D2.2": {
+      "net": "Net-(D1-K)",
+      "routed_distance_mm": 7.143,
+      "euclidean_distance_mm": 6.025,
+      "ratio": 1.19,
+      "min_width_mm": 0.5
+    },
+    "D9.1-D2.2": {
+      "net": "Net-(D1-K)",
+      "routed_distance_mm": 29.898,
+      "euclidean_distance_mm": 21.279,
+      "ratio": 1.41,
+      "min_width_mm": 0.5
+    },
+    "D1.2-RV3.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 34.1,
+      "euclidean_distance_mm": 26.654,
+      "ratio": 1.28,
+      "min_width_mm": 0.5
+    },
+    "D1.2-RV1.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 67.904,
+      "euclidean_distance_mm": 39.985,
+      "ratio": 1.7,
+      "min_width_mm": 0.5
+    },
+    "D1.2-R1.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 76.823,
+      "euclidean_distance_mm": 45.202,
+      "ratio": 1.7,
+      "min_width_mm": 0.5
+    },
+    "D1.2-D9.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 6.683,
+      "euclidean_distance_mm": 5.565,
+      "ratio": 1.2,
+      "min_width_mm": 0.5
+    },
+    "RV3.2-RV1.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 33.803,
+      "euclidean_distance_mm": 30.371,
+      "ratio": 1.11,
+      "min_width_mm": 0.5
+    },
+    "RV3.2-R1.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 42.722,
+      "euclidean_distance_mm": 38.197,
+      "ratio": 1.12,
+      "min_width_mm": 0.5
+    },
+    "RV3.2-D9.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 27.417,
+      "euclidean_distance_mm": 26.016,
+      "ratio": 1.05,
+      "min_width_mm": 0.5
+    },
+    "RV1.2-R1.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 8.919,
+      "euclidean_distance_mm": 7.95,
+      "ratio": 1.12,
+      "min_width_mm": 0.5
+    },
+    "RV1.2-D9.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 61.22,
+      "euclidean_distance_mm": 43.55,
+      "ratio": 1.41,
+      "min_width_mm": 0.5
+    },
+    "R1.2-D9.2": {
+      "net": "Net-(D1-A)",
+      "routed_distance_mm": 70.14,
+      "euclidean_distance_mm": 49.29,
+      "ratio": 1.42,
+      "min_width_mm": 0.5
+    },
+    "RV3.1-R3.2": {
+      "net": "Net-(R3-Pad2)",
+      "routed_distance_mm": 14.351,
+      "euclidean_distance_mm": 13.362,
+      "ratio": 1.07,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-D12.1": {
+      "net": "GND",
+      "routed_distance_mm": 95.034,
+      "euclidean_distance_mm": 67.363,
+      "ratio": 1.41,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-H2.1": {
+      "net": "GND",
+      "routed_distance_mm": 88.332,
+      "euclidean_distance_mm": 57.245,
+      "ratio": 1.54,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-RV1.3": {
+      "net": "GND",
+      "routed_distance_mm": 31.339,
+      "euclidean_distance_mm": 29.789,
+      "ratio": 1.05,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-H3.1": {
+      "net": "GND",
+      "routed_distance_mm": 117.275,
+      "euclidean_distance_mm": 37.958,
+      "ratio": 3.09,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-J1.2": {
+      "net": "GND",
+      "routed_distance_mm": 51.186,
+      "euclidean_distance_mm": 48.297,
+      "ratio": 1.06,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-D16.1": {
+      "net": "GND",
+      "routed_distance_mm": 82.517,
+      "euclidean_distance_mm": 60.105,
+      "ratio": 1.37,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 81.669,
+      "euclidean_distance_mm": 30.245,
+      "ratio": 2.7,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 7.0,
+      "euclidean_distance_mm": 7.0,
+      "ratio": 1.0,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 90.148,
+      "euclidean_distance_mm": 54.6,
+      "ratio": 1.65,
+      "min_width_mm": 0.5
+    },
+    "RV3.3-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 19.329,
+      "euclidean_distance_mm": 18.757,
+      "ratio": 1.03,
+      "min_width_mm": 0.5
+    },
+    "D12.1-H2.1": {
+      "net": "GND",
+      "routed_distance_mm": 80.994,
+      "euclidean_distance_mm": 10.199,
+      "ratio": 7.94,
+      "min_width_mm": 0.5
+    },
+    "D12.1-RV1.3": {
+      "net": "GND",
+      "routed_distance_mm": 63.695,
+      "euclidean_distance_mm": 49.193,
+      "ratio": 1.29,
+      "min_width_mm": 0.5
+    },
+    "D12.1-H3.1": {
+      "net": "GND",
+      "routed_distance_mm": 109.937,
+      "euclidean_distance_mm": 46.864,
+      "ratio": 2.35,
+      "min_width_mm": 0.5
+    },
+    "D12.1-J1.2": {
+      "net": "GND",
+      "routed_distance_mm": 43.848,
+      "euclidean_distance_mm": 40.804,
+      "ratio": 1.07,
+      "min_width_mm": 0.5
+    },
+    "D12.1-D16.1": {
+      "net": "GND",
+      "routed_distance_mm": 12.517,
+      "euclidean_distance_mm": 12.5,
+      "ratio": 1.0,
+      "min_width_mm": 0.5
+    },
+    "D12.1-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 74.33,
+      "euclidean_distance_mm": 37.195,
+      "ratio": 2.0,
+      "min_width_mm": 0.5
+    },
+    "D12.1-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 88.034,
+      "euclidean_distance_mm": 62.145,
+      "ratio": 1.42,
+      "min_width_mm": 0.5
+    },
+    "D12.1-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 20.147,
+      "euclidean_distance_mm": 14.113,
+      "ratio": 1.43,
+      "min_width_mm": 0.5
+    },
+    "D12.1-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 75.705,
+      "euclidean_distance_mm": 55.024,
+      "ratio": 1.38,
+      "min_width_mm": 0.5
+    },
+    "H2.1-RV1.3": {
+      "net": "GND",
+      "routed_distance_mm": 56.994,
+      "euclidean_distance_mm": 40.714,
+      "ratio": 1.4,
+      "min_width_mm": 0.5
+    },
+    "H2.1-H3.1": {
+      "net": "GND",
+      "routed_distance_mm": 103.235,
+      "euclidean_distance_mm": 38.0,
+      "ratio": 2.72,
+      "min_width_mm": 0.5
+    },
+    "H2.1-J1.2": {
+      "net": "GND",
+      "routed_distance_mm": 37.146,
+      "euclidean_distance_mm": 35.43,
+      "ratio": 1.05,
+      "min_width_mm": 0.5
+    },
+    "H2.1-D16.1": {
+      "net": "GND",
+      "routed_distance_mm": 68.477,
+      "euclidean_distance_mm": 10.964,
+      "ratio": 6.25,
+      "min_width_mm": 0.5
+    },
+    "H2.1-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 67.629,
+      "euclidean_distance_mm": 27.172,
+      "ratio": 2.49,
+      "min_width_mm": 0.5
+    },
+    "H2.1-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 81.332,
+      "euclidean_distance_mm": 52.161,
+      "ratio": 1.56,
+      "min_width_mm": 0.5
+    },
+    "H2.1-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 76.108,
+      "euclidean_distance_mm": 7.205,
+      "ratio": 10.56,
+      "min_width_mm": 0.5
+    },
+    "H2.1-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 69.003,
+      "euclidean_distance_mm": 45.571,
+      "ratio": 1.51,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-H3.1": {
+      "net": "GND",
+      "routed_distance_mm": 85.937,
+      "euclidean_distance_mm": 45.656,
+      "ratio": 1.88,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-J1.2": {
+      "net": "GND",
+      "routed_distance_mm": 19.848,
+      "euclidean_distance_mm": 18.762,
+      "ratio": 1.06,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-D16.1": {
+      "net": "GND",
+      "routed_distance_mm": 51.179,
+      "euclidean_distance_mm": 38.399,
+      "ratio": 1.33,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 50.33,
+      "euclidean_distance_mm": 19.791,
+      "ratio": 2.54,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 24.339,
+      "euclidean_distance_mm": 22.793,
+      "ratio": 1.07,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 58.81,
+      "euclidean_distance_mm": 35.084,
+      "ratio": 1.68,
+      "min_width_mm": 0.5
+    },
+    "RV1.3-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 12.009,
+      "euclidean_distance_mm": 11.04,
+      "ratio": 1.09,
+      "min_width_mm": 0.5
+    },
+    "H3.1-J1.2": {
+      "net": "GND",
+      "routed_distance_mm": 66.089,
+      "euclidean_distance_mm": 55.538,
+      "ratio": 1.19,
+      "min_width_mm": 0.5
+    },
+    "H3.1-D16.1": {
+      "net": "GND",
+      "routed_distance_mm": 97.42,
+      "euclidean_distance_mm": 47.024,
+      "ratio": 2.07,
+      "min_width_mm": 0.5
+    },
+    "H3.1-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 35.607,
+      "euclidean_distance_mm": 27.226,
+      "ratio": 1.31,
+      "min_width_mm": 0.5
+    },
+    "H3.1-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 110.275,
+      "euclidean_distance_mm": 37.636,
+      "ratio": 2.93,
+      "min_width_mm": 0.5
+    },
+    "H3.1-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 105.051,
+      "euclidean_distance_mm": 40.596,
+      "ratio": 2.59,
+      "min_width_mm": 0.5
+    },
+    "H3.1-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 97.946,
+      "euclidean_distance_mm": 40.798,
+      "ratio": 2.4,
+      "min_width_mm": 0.5
+    },
+    "J1.2-D16.1": {
+      "net": "GND",
+      "routed_distance_mm": 31.331,
+      "euclidean_distance_mm": 28.367,
+      "ratio": 1.1,
+      "min_width_mm": 0.5
+    },
+    "J1.2-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 30.482,
+      "euclidean_distance_mm": 28.652,
+      "ratio": 1.06,
+      "min_width_mm": 0.5
+    },
+    "J1.2-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 44.186,
+      "euclidean_distance_mm": 41.307,
+      "ratio": 1.07,
+      "min_width_mm": 0.5
+    },
+    "J1.2-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 38.962,
+      "euclidean_distance_mm": 28.311,
+      "ratio": 1.38,
+      "min_width_mm": 0.5
+    },
+    "J1.2-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 31.857,
+      "euclidean_distance_mm": 29.69,
+      "ratio": 1.07,
+      "min_width_mm": 0.5
+    },
+    "D16.1-H1.1": {
+      "net": "GND",
+      "routed_distance_mm": 61.814,
+      "euclidean_distance_mm": 30.208,
+      "ratio": 2.05,
+      "min_width_mm": 0.5
+    },
+    "D16.1-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 75.517,
+      "euclidean_distance_mm": 54.197,
+      "ratio": 1.39,
+      "min_width_mm": 0.5
+    },
+    "D16.1-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 7.631,
+      "euclidean_distance_mm": 6.512,
+      "ratio": 1.17,
+      "min_width_mm": 0.5
+    },
+    "D16.1-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 63.188,
+      "euclidean_distance_mm": 45.621,
+      "ratio": 1.39,
+      "min_width_mm": 0.5
+    },
+    "H1.1-RV4.3": {
+      "net": "GND",
+      "routed_distance_mm": 74.669,
+      "euclidean_distance_mm": 24.989,
+      "ratio": 2.99,
+      "min_width_mm": 0.5
+    },
+    "H1.1-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 69.444,
+      "euclidean_distance_mm": 24.428,
+      "ratio": 2.84,
+      "min_width_mm": 0.5
+    },
+    "H1.1-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 62.339,
+      "euclidean_distance_mm": 19.78,
+      "ratio": 3.15,
+      "min_width_mm": 0.5
+    },
+    "RV4.3-D8.1": {
+      "net": "GND",
+      "routed_distance_mm": 83.148,
+      "euclidean_distance_mm": 48.959,
+      "ratio": 1.7,
+      "min_width_mm": 0.5
+    },
+    "RV4.3-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 12.329,
+      "euclidean_distance_mm": 11.77,
+      "ratio": 1.05,
+      "min_width_mm": 0.5
+    },
+    "D8.1-RV2.3": {
+      "net": "GND",
+      "routed_distance_mm": 70.819,
+      "euclidean_distance_mm": 41.156,
+      "ratio": 1.72,
+      "min_width_mm": 0.5
+    },
+    "D12.2-D3.1": {
+      "net": "Net-(D11-K)",
+      "routed_distance_mm": 28.97,
+      "euclidean_distance_mm": 23.35,
+      "ratio": 1.24,
+      "min_width_mm": 0.5
+    },
+    "D12.2-D11.1": {
+      "net": "Net-(D11-K)",
+      "routed_distance_mm": 36.654,
+      "euclidean_distance_mm": 23.14,
+      "ratio": 1.58,
+      "min_width_mm": 0.5
+    },
+    "D12.2-D4.2": {
+      "net": "Net-(D11-K)",
+      "routed_distance_mm": 3.616,
+      "euclidean_distance_mm": 3.349,
+      "ratio": 1.08,
+      "min_width_mm": 0.5
+    },
+    "D3.1-D11.1": {
+      "net": "Net-(D11-K)",
+      "routed_distance_mm": 7.683,
+      "euclidean_distance_mm": 6.565,
+      "ratio": 1.17,
+      "min_width_mm": 0.5
+    },
+    "D3.1-D4.2": {
+      "net": "Net-(D11-K)",
+      "routed_distance_mm": 25.354,
+      "euclidean_distance_mm": 21.537,
+      "ratio": 1.18,
+      "min_width_mm": 0.5
+    },
+    "D11.1-D4.2": {
+      "net": "Net-(D11-K)",
+      "routed_distance_mm": 33.038,
+      "euclidean_distance_mm": 22.214,
+      "ratio": 1.49,
+      "min_width_mm": 0.5
+    },
+    "R3.1-RV1.1": {
+      "net": "+12V",
+      "routed_distance_mm": 35.276,
+      "euclidean_distance_mm": 7.326,
+      "ratio": 4.82,
+      "min_width_mm": 0.5
+    },
+    "R3.1-R1.1": {
+      "net": "+12V",
+      "routed_distance_mm": 21.583,
+      "euclidean_distance_mm": 13.403,
+      "ratio": 1.61,
+      "min_width_mm": 0.5
+    },
+    "R3.1-J1.1": {
+      "net": "+12V",
+      "routed_distance_mm": 22.312,
+      "euclidean_distance_mm": 21.498,
+      "ratio": 1.04,
+      "min_width_mm": 0.5
+    },
+    "R3.1-R4.1": {
+      "net": "+12V",
+      "routed_distance_mm": 9.985,
+      "euclidean_distance_mm": 6.0,
+      "ratio": 1.66,
+      "min_width_mm": 0.5
+    },
+    "R3.1-R2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 17.583,
+      "euclidean_distance_mm": 11.817,
+      "ratio": 1.49,
+      "min_width_mm": 0.5
+    },
+    "R3.1-RV2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 34.723,
+      "euclidean_distance_mm": 14.941,
+      "ratio": 2.32,
+      "min_width_mm": 0.5
+    },
+    "RV1.1-R1.1": {
+      "net": "+12V",
+      "routed_distance_mm": 15.694,
+      "euclidean_distance_mm": 13.59,
+      "ratio": 1.15,
+      "min_width_mm": 0.5
+    },
+    "RV1.1-J1.1": {
+      "net": "+12V",
+      "routed_distance_mm": 32.964,
+      "euclidean_distance_mm": 25.292,
+      "ratio": 1.3,
+      "min_width_mm": 0.5
+    },
+    "RV1.1-R4.1": {
+      "net": "+12V",
+      "routed_distance_mm": 35.898,
+      "euclidean_distance_mm": 13.178,
+      "ratio": 2.72,
+      "min_width_mm": 0.5
+    },
+    "RV1.1-R2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 17.694,
+      "euclidean_distance_mm": 14.166,
+      "ratio": 1.25,
+      "min_width_mm": 0.5
+    },
+    "RV1.1-RV2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 51.376,
+      "euclidean_distance_mm": 11.04,
+      "ratio": 4.65,
+      "min_width_mm": 0.5
+    },
+    "R1.1-J1.1": {
+      "net": "+12V",
+      "routed_distance_mm": 19.271,
+      "euclidean_distance_mm": 13.585,
+      "ratio": 1.42,
+      "min_width_mm": 0.5
+    },
+    "R1.1-R4.1": {
+      "net": "+12V",
+      "routed_distance_mm": 22.204,
+      "euclidean_distance_mm": 17.31,
+      "ratio": 1.28,
+      "min_width_mm": 0.5
+    },
+    "R1.1-R2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 4.0,
+      "euclidean_distance_mm": 4.0,
+      "ratio": 1.0,
+      "min_width_mm": 0.5
+    },
+    "R1.1-RV2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 37.682,
+      "euclidean_distance_mm": 24.63,
+      "ratio": 1.53,
+      "min_width_mm": 0.5
+    },
+    "J1.1-R4.1": {
+      "net": "+12V",
+      "routed_distance_mm": 22.933,
+      "euclidean_distance_mm": 21.706,
+      "ratio": 1.06,
+      "min_width_mm": 0.5
+    },
+    "J1.1-R2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 15.271,
+      "euclidean_distance_mm": 11.25,
+      "ratio": 1.36,
+      "min_width_mm": 0.5
+    },
+    "J1.1-RV2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 38.411,
+      "euclidean_distance_mm": 35.796,
+      "ratio": 1.07,
+      "min_width_mm": 0.5
+    },
+    "R4.1-R2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 18.204,
+      "euclidean_distance_mm": 14.548,
+      "ratio": 1.25,
+      "min_width_mm": 0.5
+    },
+    "R4.1-RV2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 35.345,
+      "euclidean_distance_mm": 18.527,
+      "ratio": 1.91,
+      "min_width_mm": 0.5
+    },
+    "R2.1-RV2.1": {
+      "net": "+12V",
+      "routed_distance_mm": 33.682,
+      "euclidean_distance_mm": 24.953,
+      "ratio": 1.35,
+      "min_width_mm": 0.5
+    },
+    "D3.2-D11.2": {
+      "net": "Net-(D10-K)",
+      "routed_distance_mm": 8.098,
+      "euclidean_distance_mm": 7.0,
+      "ratio": 1.16,
+      "min_width_mm": 0.5
+    },
+    "D3.2-D10.1": {
+      "net": "Net-(D10-K)",
+      "routed_distance_mm": 33.167,
+      "euclidean_distance_mm": 29.612,
+      "ratio": 1.12,
+      "min_width_mm": 0.5
+    },
+    "D3.2-D2.1": {
+      "net": "Net-(D10-K)",
+      "routed_distance_mm": 25.61,
+      "euclidean_distance_mm": 23.195,
+      "ratio": 1.1,
+      "min_width_mm": 0.5
+    },
+    "D11.2-D10.1": {
+      "net": "Net-(D10-K)",
+      "routed_distance_mm": 41.265,
+      "euclidean_distance_mm": 36.583,
+      "ratio": 1.13,
+      "min_width_mm": 0.5
+    },
+    "D11.2-D2.1": {
+      "net": "Net-(D10-K)",
+      "routed_distance_mm": 33.707,
+      "euclidean_distance_mm": 30.15,
+      "ratio": 1.12,
+      "min_width_mm": 0.5
+    },
+    "D10.1-D2.1": {
+      "net": "Net-(D10-K)",
+      "routed_distance_mm": 7.558,
+      "euclidean_distance_mm": 6.46,
+      "ratio": 1.17,
+      "min_width_mm": 0.5
+    },
+    "D7.1-D15.1": {
+      "net": "Net-(D15-K)",
+      "routed_distance_mm": 7.183,
+      "euclidean_distance_mm": 6.065,
+      "ratio": 1.18,
+      "min_width_mm": 0.5
+    },
+    "D7.1-D16.2": {
+      "net": "Net-(D15-K)",
+      "routed_distance_mm": 36.195,
+      "euclidean_distance_mm": 21.697,
+      "ratio": 1.67,
+      "min_width_mm": 0.5
+    },
+    "D7.1-D8.2": {
+      "net": "Net-(D15-K)",
+      "routed_distance_mm": 44.24,
+      "euclidean_distance_mm": 16.823,
+      "ratio": 2.63,
+      "min_width_mm": 0.5
+    },
+    "D15.1-D16.2": {
+      "net": "Net-(D15-K)",
+      "routed_distance_mm": 29.011,
+      "euclidean_distance_mm": 17.364,
+      "ratio": 1.67,
+      "min_width_mm": 0.5
+    },
+    "D15.1-D8.2": {
+      "net": "Net-(D15-K)",
+      "routed_distance_mm": 37.056,
+      "euclidean_distance_mm": 14.072,
+      "ratio": 2.63,
+      "min_width_mm": 0.5
+    },
+    "D16.2-D8.2": {
+      "net": "Net-(D15-K)",
+      "routed_distance_mm": 8.045,
+      "euclidean_distance_mm": 6.948,
+      "ratio": 1.16,
+      "min_width_mm": 0.5
+    },
+    "D7.2-D15.2": {
+      "net": "Net-(D14-K)",
+      "routed_distance_mm": 7.598,
+      "euclidean_distance_mm": 6.5,
+      "ratio": 1.17,
+      "min_width_mm": 0.5
+    },
+    "D7.2-D6.1": {
+      "net": "Net-(D14-K)",
+      "routed_distance_mm": 26.722,
+      "euclidean_distance_mm": 23.195,
+      "ratio": 1.15,
+      "min_width_mm": 0.5
+    },
+    "D7.2-D14.1": {
+      "net": "Net-(D14-K)",
+      "routed_distance_mm": 34.28,
+      "euclidean_distance_mm": 29.612,
+      "ratio": 1.16,
+      "min_width_mm": 0.5
+    },
+    "D15.2-D6.1": {
+      "net": "Net-(D14-K)",
+      "routed_distance_mm": 34.32,
+      "euclidean_distance_mm": 29.652,
+      "ratio": 1.16,
+      "min_width_mm": 0.5
+    },
+    "D15.2-D14.1": {
+      "net": "Net-(D14-K)",
+      "routed_distance_mm": 41.877,
+      "euclidean_distance_mm": 36.085,
+      "ratio": 1.16,
+      "min_width_mm": 0.5
+    },
+    "D6.1-D14.1": {
+      "net": "Net-(D14-K)",
+      "routed_distance_mm": 7.558,
+      "euclidean_distance_mm": 6.46,
+      "ratio": 1.17,
+      "min_width_mm": 0.5
+    },
+    "D13.1-D5.1": {
+      "net": "Net-(D13-K)",
+      "routed_distance_mm": 3.576,
+      "euclidean_distance_mm": 3.313,
+      "ratio": 1.08,
+      "min_width_mm": 0.5
+    },
+    "D13.1-D6.2": {
+      "net": "Net-(D13-K)",
+      "routed_distance_mm": 32.148,
+      "euclidean_distance_mm": 23.193,
+      "ratio": 1.39,
+      "min_width_mm": 0.5
+    },
+    "D13.1-D14.2": {
+      "net": "Net-(D13-K)",
+      "routed_distance_mm": 25.005,
+      "euclidean_distance_mm": 23.2,
+      "ratio": 1.08,
+      "min_width_mm": 0.5
+    },
+    "D5.1-D6.2": {
+      "net": "Net-(D13-K)",
+      "routed_distance_mm": 35.724,
+      "euclidean_distance_mm": 21.513,
+      "ratio": 1.66,
+      "min_width_mm": 0.5
+    },
+    "D5.1-D14.2": {
+      "net": "Net-(D13-K)",
+      "routed_distance_mm": 28.581,
+      "euclidean_distance_mm": 22.334,
+      "ratio": 1.28,
+      "min_width_mm": 0.5
+    },
+    "D6.2-D14.2": {
+      "net": "Net-(D13-K)",
+      "routed_distance_mm": 7.143,
+      "euclidean_distance_mm": 6.025,
+      "ratio": 1.19,
+      "min_width_mm": 0.5
+    },
+    "D13.2-RV4.2": {
+      "net": "Net-(D13-A)",
+      "routed_distance_mm": 42.54,
+      "euclidean_distance_mm": 38.605,
+      "ratio": 1.1,
+      "min_width_mm": 0.5
+    },
+    "D13.2-R2.2": {
+      "net": "Net-(D13-A)",
+      "routed_distance_mm": 78.37,
+      "euclidean_distance_mm": 54.795,
+      "ratio": 1.43,
+      "min_width_mm": 0.5
+    },
+    "D13.2-RV2.2": {
+      "net": "Net-(D13-A)",
+      "routed_distance_mm": 57.724,
+      "euclidean_distance_mm": 47.716,
+      "ratio": 1.21,
+      "min_width_mm": 0.5
+    },
+    "RV4.2-R2.2": {
+      "net": "Net-(D13-A)",
+      "routed_distance_mm": 35.83,
+      "euclidean_distance_mm": 30.789,
+      "ratio": 1.16,
+      "min_width_mm": 0.5
+    },
+    "RV4.2-RV2.2": {
+      "net": "Net-(D13-A)",
+      "routed_distance_mm": 15.183,
+      "euclidean_distance_mm": 13.173,
+      "ratio": 1.15,
+      "min_width_mm": 0.5
+    },
+    "R2.2-RV2.2": {
+      "net": "Net-(D13-A)",
+      "routed_distance_mm": 20.647,
+      "euclidean_distance_mm": 19.407,
+      "ratio": 1.06,
+      "min_width_mm": 0.5
+    },
+    "R4.2-RV4.1": {
+      "net": "Net-(R4-Pad2)",
+      "routed_distance_mm": 4.866,
+      "euclidean_distance_mm": 4.654,
+      "ratio": 1.05,
+      "min_width_mm": 0.5
+    }
+  },
+  "power_net_routing": [
+    {
+      "net": "+12V",
+      "track_count": 16,
+      "total_length_mm": 76.99,
+      "min_width_mm": 0.5,
+      "max_width_mm": 0.5,
+      "widths_used": [
+        0.5
+      ]
+    },
+    {
+      "net": "GND",
+      "track_count": 30,
+      "total_length_mm": 212.06,
+      "min_width_mm": 0.5,
+      "max_width_mm": 0.5,
+      "widths_used": [
+        0.5
+      ]
+    }
+  ],
+  "ground_domains": {
+    "domain_count": 1,
+    "domains": [
+      {
+        "net": "GND",
+        "net_number": 2,
+        "component_count": 12,
+        "components": [
+          "D12",
+          "D16",
+          "D4",
+          "D8",
+          "H1",
+          "H2",
+          "H3",
+          "J1",
+          "RV1",
+          "RV2",
+          "RV3",
+          "RV4"
+        ],
+        "has_zone": true,
+        "zone_layers": [
+          "B.Cu"
+        ]
+      }
+    ],
+    "multi_domain_components": []
+  },
+  "layer_transitions": [
+    {
+      "net": "Net-(D1-A)",
+      "net_number": 3,
+      "copper_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "layer_count": 2,
+      "via_count": 0
+    }
+  ],
+  "silkscreen": {
+    "board_text_count": 8,
+    "refs_visible_on_silk": 28,
+    "refs_hidden_on_silk": 0,
+    "board_texts": [
+      {
+        "text": "${REVISION} ${ISSUE_DATE}",
+        "layer": "F.SilkS",
+        "x": 121.0,
+        "y": 97.5
+      },
+      {
+        "text": "+12V",
+        "layer": "F.SilkS",
+        "x": 125.0,
+        "y": 77.5
+      },
+      {
+        "text": "SMD Adjustment",
+        "layer": "F.SilkS",
+        "x": 146.5,
+        "y": 85.0
+      },
+      {
+        "text": "Thru Adjustment",
+        "layer": "F.SilkS",
+        "x": 165.81,
+        "y": 93.59
+      },
+      {
+        "text": "${TITLE}",
+        "layer": "F.SilkS",
+        "x": 133.25,
+        "y": 95.68
+      },
+      {
+        "text": "${REVISION} ${ISSUE_DATE}",
+        "layer": "B.SilkS",
+        "x": 159.77,
+        "y": 87.0
+      },
+      {
+        "text": "https://reiserlab.github.io/Fly-Lab-Gear",
+        "layer": "B.SilkS",
+        "x": 159.77,
+        "y": 97.0
+      },
+      {
+        "text": "${TITLE}",
+        "layer": "B.SilkS",
+        "x": 147.63,
+        "y": 85.16
+      }
+    ],
+    "documentation_warnings": [
+      {
+        "type": "missing_connector_labels",
+        "severity": "suggestion",
+        "components": [
+          "J1"
+        ],
+        "message": "Connectors (3+ pins) without silkscreen labels: ['J1']. Consider adding pin names, signal names, or connector function labels."
+      },
+      {
+        "type": "polarity_reminder",
+        "severity": "info",
+        "components": [
+          "D1",
+          "D12",
+          "D3",
+          "D7",
+          "D15",
+          "D11",
+          "D13",
+          "D5",
+          "D16",
+          "D10",
+          "D4",
+          "D9",
+          "D6",
+          "D2",
+          "D14",
+          "D8"
+        ],
+        "message": "16 polarized components (LEDs, diodes, batteries, electrolytic caps). Verify polarity markers are visible on silkscreen."
+      }
+    ],
+    "fab_notes_completeness": {
+      "checks": {
+        "ipc_class": false,
+        "surface_finish": false,
+        "board_thickness": false,
+        "copper_weight": false,
+        "solder_mask": false,
+        "material": false
+      },
+      "missing": [
+        "ipc class",
+        "surface finish",
+        "board thickness",
+        "copper weight",
+        "solder mask",
+        "material"
+      ],
+      "completeness_pct": 0,
+      "status": "warning"
+    },
+    "silkscreen_completeness": {
+      "checks": {
+        "revision_marking": true,
+        "board_name": true,
+        "ref_designators_visible": true,
+        "connector_labels": false,
+        "polarity_markers": false
+      },
+      "missing": [
+        "connector labels",
+        "polarity markers"
+      ],
+      "completeness_pct": 60,
+      "status": "warning"
+    }
+  },
+  "board_metadata": {
+    "paper": "A4",
+    "title": "Treadmill Illumination",
+    "date": "2026-06-22",
+    "rev": "v1.1",
+    "company": "Reiserlab @ Janelia | HHMI"
+  },
+  "net_classes": [
+    {
+      "name": "Default",
+      "clearance": 0.2,
+      "track_width": 0.2,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "diff_pair_width": 0.2,
+      "diff_pair_gap": 0.25
+    }
+  ],
+  "project_settings": {
+    "source": "Treadmill-Illumination.kicad_pro",
+    "net_classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25
+      }
+    ],
+    "design_rules": {
+      "min_clearance": 0.0,
+      "min_connection": 0.0,
+      "min_copper_edge_clearance": 0.5,
+      "min_groove_width": 0.0,
+      "min_hole_clearance": 0.25,
+      "min_hole_to_hole": 0.25,
+      "min_microvia_diameter": 0.2,
+      "min_microvia_drill": 0.1,
+      "min_resolved_spokes": 2,
+      "min_silk_clearance": 0.0,
+      "min_text_height": 0.8,
+      "min_text_thickness": 0.08,
+      "min_through_hole_diameter": 0.3,
+      "min_track_width": 0.2,
+      "min_via_annular_width": 0.1,
+      "min_via_diameter": 0.5
+    }
+  },
+  "design_rule_compliance": {
+    "compliant": true,
+    "rules_checked": 1,
+    "rules_source": "Treadmill-Illumination.kicad_pro"
+  },
+  "return_path_continuity": [
+    {
+      "net": "Net-(R4-Pad2)",
+      "total_trace_mm": 4.9,
+      "samples_checked": 5,
+      "samples_with_reference_plane": 1,
+      "reference_plane_coverage_pct": 20.0,
+      "gap_note": "4 of 5 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(R3-Pad2)",
+      "total_trace_mm": 14.4,
+      "samples_checked": 8,
+      "samples_with_reference_plane": 6,
+      "reference_plane_coverage_pct": 75.0,
+      "gap_note": "2 of 8 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D13-K)",
+      "total_trace_mm": 35.7,
+      "samples_checked": 25,
+      "samples_with_reference_plane": 21,
+      "reference_plane_coverage_pct": 84.0,
+      "gap_note": "4 of 25 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D15-K)",
+      "total_trace_mm": 44.2,
+      "samples_checked": 29,
+      "samples_with_reference_plane": 25,
+      "reference_plane_coverage_pct": 86.2,
+      "gap_note": "4 of 29 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D1-K)",
+      "total_trace_mm": 29.9,
+      "samples_checked": 22,
+      "samples_with_reference_plane": 19,
+      "reference_plane_coverage_pct": 86.4,
+      "gap_note": "3 of 22 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D13-A)",
+      "total_trace_mm": 84.5,
+      "samples_checked": 49,
+      "samples_with_reference_plane": 43,
+      "reference_plane_coverage_pct": 87.8,
+      "gap_note": "6 of 49 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D11-K)",
+      "total_trace_mm": 36.7,
+      "samples_checked": 24,
+      "samples_with_reference_plane": 22,
+      "reference_plane_coverage_pct": 91.7,
+      "gap_note": "2 of 24 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D10-K)",
+      "total_trace_mm": 41.3,
+      "samples_checked": 29,
+      "samples_with_reference_plane": 27,
+      "reference_plane_coverage_pct": 93.1,
+      "gap_note": "2 of 29 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(D14-K)",
+      "total_trace_mm": 41.9,
+      "samples_checked": 29,
+      "samples_with_reference_plane": 27,
+      "reference_plane_coverage_pct": 93.1,
+      "gap_note": "2 of 29 sample points lack reference plane on opposite layer"
+    }
+  ],
+  "connectivity_graph": {
+    "Net-(D1-K)": {
+      "islands": 1,
+      "components": {
+        "D10:2": 0,
+        "D1:1": 0,
+        "D2:2": 0,
+        "D9:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D1-A)": {
+      "islands": 1,
+      "components": {
+        "D1:2": 0,
+        "D9:2": 0,
+        "R1:2": 0,
+        "RV1:2": 0,
+        "RV3:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(R3-Pad2)": {
+      "islands": 1,
+      "components": {
+        "R3:2": 0,
+        "RV3:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "GND": {
+      "islands": 1,
+      "components": {
+        "D12:1": 0,
+        "D16:1": 0,
+        "D4:1": 0,
+        "D8:1": 0,
+        "H1:1": 0,
+        "H2:1": 0,
+        "H3:1": 0,
+        "J1:2": 0,
+        "RV1:3": 0,
+        "RV2:3": 0,
+        "RV3:3": 0,
+        "RV4:3": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D11-K)": {
+      "islands": 1,
+      "components": {
+        "D11:1": 0,
+        "D12:2": 0,
+        "D3:1": 0,
+        "D4:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "+12V": {
+      "islands": 1,
+      "components": {
+        "J1:1": 0,
+        "R1:1": 0,
+        "R2:1": 0,
+        "R3:1": 0,
+        "R4:1": 0,
+        "RV1:1": 0,
+        "RV2:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D10-K)": {
+      "islands": 1,
+      "components": {
+        "D10:1": 0,
+        "D11:2": 0,
+        "D2:1": 0,
+        "D3:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D15-K)": {
+      "islands": 1,
+      "components": {
+        "D15:1": 0,
+        "D16:2": 0,
+        "D7:1": 0,
+        "D8:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D14-K)": {
+      "islands": 1,
+      "components": {
+        "D14:1": 0,
+        "D15:2": 0,
+        "D6:1": 0,
+        "D7:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D13-K)": {
+      "islands": 1,
+      "components": {
+        "D13:1": 0,
+        "D14:2": 0,
+        "D5:1": 0,
+        "D6:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(D13-A)": {
+      "islands": 1,
+      "components": {
+        "D13:2": 0,
+        "D5:2": 0,
+        "R2:2": 0,
+        "RV2:2": 0,
+        "RV4:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(R4-Pad2)": {
+      "islands": 1,
+      "components": {
+        "R4:2": 0,
+        "RV4:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    }
+  },
+  "dfm_summary": {
+    "dfm_tier": "standard",
+    "metrics": {
+      "min_track_width_mm": 0.5,
+      "approx_min_spacing_mm": 0.9837,
+      "board_width_mm": 61.0,
+      "board_height_mm": 52.0
+    },
+    "violation_count": 0
+  },
+  "placement_density": {
+    "board_area_cm2": 31.72,
+    "front_density_per_cm2": 0.9
+  },
+  "board_thickness_mm": 1.6,
+  "copper_presence_summary": [
+    {
+      "opposite_layer_nets": "GND",
+      "component_count": 13,
+      "components": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "H1",
+        "H2",
+        "H3",
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "net": "+12V",
+      "net_number": 1,
+      "min_track_width_mm": 0.5,
+      "max_track_width_mm": 0.5,
+      "track_widths_used": [
+        0.5
+      ],
+      "copper_layers": [
+        "F.Cu"
+      ],
+      "segment_count": 16,
+      "via_count": 0,
+      "zones": [
+        {
+          "layers": [
+            "F.Cu"
+          ],
+          "filled_area_mm2": 940.83,
+          "min_thickness": 0.25
+        }
+      ],
+      "detector": "analyze_current_capacity",
+      "rule_id": "CC-DET",
+      "category": "current_capacity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Power net +12V: 0.5mm min trace",
+      "description": "Power/ground net +12V: min trace 0.5mm, max 0.5mm, 16 segments.",
+      "components": [],
+      "nets": [
+        "+12V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Current Capacity",
+        "impact": "Power delivery",
+        "standard_ref": "IPC-2221"
+      },
+      "stages": [
+        "layout",
+        "pre_fab"
+      ]
+    },
+    {
+      "net": "GND",
+      "net_number": 2,
+      "min_track_width_mm": 0.5,
+      "max_track_width_mm": 0.5,
+      "track_widths_used": [
+        0.5
+      ],
+      "copper_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "segment_count": 30,
+      "via_count": 0,
+      "zones": [
+        {
+          "layers": [
+            "B.Cu"
+          ],
+          "filled_area_mm2": 1916.01,
+          "min_thickness": 0.25
+        }
+      ],
+      "detector": "analyze_current_capacity",
+      "rule_id": "CC-DET",
+      "category": "current_capacity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Power net GND: 0.5mm min trace",
+      "description": "Power/ground net GND: min trace 0.5mm, max 0.5mm, 30 segments.",
+      "components": [],
+      "nets": [
+        "GND"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Current Capacity",
+        "impact": "Power delivery",
+        "standard_ref": "IPC-2221"
+      },
+      "stages": [
+        "layout",
+        "pre_fab"
+      ]
+    },
+    {
+      "component": "D10",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D10",
+      "description": "Component D10 has no copper zone on the opposite layer.",
+      "components": [
+        "D10"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D11",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D11",
+      "description": "Component D11 has no copper zone on the opposite layer.",
+      "components": [
+        "D11"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D12",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D12",
+      "description": "Component D12 has no copper zone on the opposite layer.",
+      "components": [
+        "D12"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D13",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D13",
+      "description": "Component D13 has no copper zone on the opposite layer.",
+      "components": [
+        "D13"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D14",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D14",
+      "description": "Component D14 has no copper zone on the opposite layer.",
+      "components": [
+        "D14"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D15",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D15",
+      "description": "Component D15 has no copper zone on the opposite layer.",
+      "components": [
+        "D15"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D16",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D16",
+      "description": "Component D16 has no copper zone on the opposite layer.",
+      "components": [
+        "D16"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D9",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under D9",
+      "description": "Component D9 has no copper zone on the opposite layer.",
+      "components": [
+        "D9"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "J1",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under J1",
+      "description": "Component J1 has no copper zone on the opposite layer.",
+      "components": [
+        "J1"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "R3",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under R3",
+      "description": "Component R3 has no copper zone on the opposite layer.",
+      "components": [
+        "R3"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "R4",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under R4",
+      "description": "Component R4 has no copper zone on the opposite layer.",
+      "components": [
+        "R4"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "RV1",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under RV1",
+      "description": "Component RV1 has no copper zone on the opposite layer.",
+      "components": [
+        "RV1"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "RV2",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under RV2",
+      "description": "Component RV2 has no copper zone on the opposite layer.",
+      "components": [
+        "RV2"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "RV3",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under RV3",
+      "description": "Component RV3 has no copper zone on the opposite layer.",
+      "components": [
+        "RV3"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "RV4",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under RV4",
+      "description": "Component RV4 has no copper zone on the opposite layer.",
+      "components": [
+        "RV4"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "side": "F.Cu",
+      "fiducial_count": 0,
+      "fiducial_refs": [],
+      "smd_component_count": 10,
+      "finest_smd_pad_dim_mm": 1.3,
+      "detector": "analyze_fiducials",
+      "rule_id": "FD-001",
+      "category": "assembly",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "No fiducials on F.Cu (10 SMD components) (finest pad dim 1.30mm \u2014 coarse pitch only)",
+      "description": "F.Cu has 0 fiducial(s) but 10 SMD components. Assembly machines need >= 3 fiducials for accurate placement.",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Add fiducial markers for pick-and-place alignment (3 per side with SMD).",
+      "report_context": {
+        "section": "Assembly",
+        "impact": "Pick-and-place alignment",
+        "standard_ref": "IPC-7351"
+      },
+      "stages": [
+        "pre_fab"
+      ]
+    },
+    {
+      "component": "D12",
+      "layer": "F.Cu",
+      "edge_clearance_mm": 0.79,
+      "detector": "analyze_placement",
+      "rule_id": "PM-002",
+      "category": "placement",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "D12 is 0.79mm from board edge",
+      "description": "Component D12 on F.Cu is only 0.79mm from the board edge, risking damage during depaneling or handling.",
+      "components": [
+        "D12"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Move D12 further from board edge (currently 0.79mm, recommend >= 1.0mm)",
+      "report_context": {
+        "section": "Placement",
+        "impact": "manufacturability",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D13",
+      "layer": "F.Cu",
+      "edge_clearance_mm": 0.79,
+      "detector": "analyze_placement",
+      "rule_id": "PM-002",
+      "category": "placement",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "D13 is 0.79mm from board edge",
+      "description": "Component D13 on F.Cu is only 0.79mm from the board edge, risking damage during depaneling or handling.",
+      "components": [
+        "D13"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Move D13 further from board edge (currently 0.79mm, recommend >= 1.0mm)",
+      "report_context": {
+        "section": "Placement",
+        "impact": "manufacturability",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D4",
+      "layer": "F.Cu",
+      "edge_clearance_mm": 0.55,
+      "detector": "analyze_placement",
+      "rule_id": "PM-002",
+      "category": "placement",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "D4 is 0.55mm from board edge",
+      "description": "Component D4 on F.Cu is only 0.55mm from the board edge, risking damage during depaneling or handling.",
+      "components": [
+        "D4"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Move D4 further from board edge (currently 0.55mm, recommend >= 1.0mm)",
+      "report_context": {
+        "section": "Placement",
+        "impact": "manufacturability",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "D5",
+      "layer": "F.Cu",
+      "edge_clearance_mm": 0.55,
+      "detector": "analyze_placement",
+      "rule_id": "PM-002",
+      "category": "placement",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "D5 is 0.55mm from board edge",
+      "description": "Component D5 on F.Cu is only 0.55mm from the board edge, risking damage during depaneling or handling.",
+      "components": [
+        "D5"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Move D5 further from board edge (currently 0.55mm, recommend >= 1.0mm)",
+      "report_context": {
+        "section": "Placement",
+        "impact": "manufacturability",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "RV3",
+      "layer": "F.Cu",
+      "edge_clearance_mm": 0.83,
+      "detector": "analyze_placement",
+      "rule_id": "PM-002",
+      "category": "placement",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "RV3 is 0.83mm from board edge",
+      "description": "Component RV3 on F.Cu is only 0.83mm from the board edge, risking damage during depaneling or handling.",
+      "components": [
+        "RV3"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Move RV3 further from board edge (currently 0.83mm, recommend >= 1.0mm)",
+      "report_context": {
+        "section": "Placement",
+        "impact": "manufacturability",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "component": "RV4",
+      "layer": "F.Cu",
+      "edge_clearance_mm": 0.83,
+      "detector": "analyze_placement",
+      "rule_id": "PM-002",
+      "category": "placement",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "RV4 is 0.83mm from board edge",
+      "description": "Component RV4 on F.Cu is only 0.83mm from the board edge, risking damage during depaneling or handling.",
+      "components": [
+        "RV4"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Move RV4 further from board edge (currently 0.83mm, recommend >= 1.0mm)",
+      "report_context": {
+        "section": "Placement",
+        "impact": "manufacturability",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "total_signal_nets": 10,
+      "nets_with_test_points": 0,
+      "coverage_pct": 0.0,
+      "test_point_count": 0,
+      "detector": "analyze_test_point_coverage",
+      "rule_id": "TE-001",
+      "category": "testability",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Test point coverage: 0/10 nets (0%)",
+      "description": "0 of 10 signal nets have test points (0% coverage).",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Add test points to improve ICT/flying probe coverage.",
+      "report_context": {
+        "section": "Testability",
+        "impact": "ICT accessibility",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ]
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 25,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 25,
+      "heuristic": 0,
+      "datasheet-backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 10,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 15,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "summary": {
+    "total_findings": 25,
+    "by_severity": {
+      "error": 0,
+      "warning": 7,
+      "info": 18
+    }
+  },
+  "design_intent": {
+    "product_class": "prototype",
+    "ipc_class": 2,
+    "target_market": "hobby",
+    "expected_lifetime_years": 5,
+    "operating_temp_range": [
+      -10,
+      70
+    ],
+    "preferred_passive_size": "0603",
+    "test_coverage_target": 0.85,
+    "approved_manufacturers": [],
+    "confidence": 0.3,
+    "detection_signals": [],
+    "source": {
+      "ipc_class": "auto",
+      "product_class": "auto",
+      "target_market": "auto",
+      "expected_lifetime_years": "auto",
+      "operating_temp_range": "auto",
+      "preferred_passive_size": "auto",
+      "test_coverage_target": "auto",
+      "approved_manufacturers": "auto"
+    }
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 25,
+      "by_severity": {
+        "error": 0,
+        "warning": 7,
+        "info": 18
+      },
+      "by_category": {
+        "current_capacity": 2,
+        "copper_integrity": 15,
+        "assembly": 1,
+        "placement": 6,
+        "testability": 1
+      },
+      "top_issues": [
+        {
+          "component": "D12",
+          "layer": "F.Cu",
+          "edge_clearance_mm": 0.79,
+          "detector": "analyze_placement",
+          "rule_id": "PM-002",
+          "category": "placement",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "D12 is 0.79mm from board edge",
+          "description": "Component D12 on F.Cu is only 0.79mm from the board edge, risking damage during depaneling or handling.",
+          "components": [
+            "D12"
+          ],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Move D12 further from board edge (currently 0.79mm, recommend >= 1.0mm)",
+          "report_context": {
+            "section": "Placement",
+            "impact": "manufacturability",
+            "standard_ref": ""
+          },
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "component": "D13",
+          "layer": "F.Cu",
+          "edge_clearance_mm": 0.79,
+          "detector": "analyze_placement",
+          "rule_id": "PM-002",
+          "category": "placement",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "D13 is 0.79mm from board edge",
+          "description": "Component D13 on F.Cu is only 0.79mm from the board edge, risking damage during depaneling or handling.",
+          "components": [
+            "D13"
+          ],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Move D13 further from board edge (currently 0.79mm, recommend >= 1.0mm)",
+          "report_context": {
+            "section": "Placement",
+            "impact": "manufacturability",
+            "standard_ref": ""
+          },
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "component": "D4",
+          "layer": "F.Cu",
+          "edge_clearance_mm": 0.55,
+          "detector": "analyze_placement",
+          "rule_id": "PM-002",
+          "category": "placement",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "D4 is 0.55mm from board edge",
+          "description": "Component D4 on F.Cu is only 0.55mm from the board edge, risking damage during depaneling or handling.",
+          "components": [
+            "D4"
+          ],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Move D4 further from board edge (currently 0.55mm, recommend >= 1.0mm)",
+          "report_context": {
+            "section": "Placement",
+            "impact": "manufacturability",
+            "standard_ref": ""
+          },
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "component": "D5",
+          "layer": "F.Cu",
+          "edge_clearance_mm": 0.55,
+          "detector": "analyze_placement",
+          "rule_id": "PM-002",
+          "category": "placement",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "D5 is 0.55mm from board edge",
+          "description": "Component D5 on F.Cu is only 0.55mm from the board edge, risking damage during depaneling or handling.",
+          "components": [
+            "D5"
+          ],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Move D5 further from board edge (currently 0.55mm, recommend >= 1.0mm)",
+          "report_context": {
+            "section": "Placement",
+            "impact": "manufacturability",
+            "standard_ref": ""
+          },
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "component": "RV3",
+          "layer": "F.Cu",
+          "edge_clearance_mm": 0.83,
+          "detector": "analyze_placement",
+          "rule_id": "PM-002",
+          "category": "placement",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "RV3 is 0.83mm from board edge",
+          "description": "Component RV3 on F.Cu is only 0.83mm from the board edge, risking damage during depaneling or handling.",
+          "components": [
+            "RV3"
+          ],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Move RV3 further from board edge (currently 0.83mm, recommend >= 1.0mm)",
+          "report_context": {
+            "section": "Placement",
+            "impact": "manufacturability",
+            "standard_ref": ""
+          },
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "component": "RV4",
+          "layer": "F.Cu",
+          "edge_clearance_mm": 0.83,
+          "detector": "analyze_placement",
+          "rule_id": "PM-002",
+          "category": "placement",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "RV4 is 0.83mm from board edge",
+          "description": "Component RV4 on F.Cu is only 0.83mm from the board edge, risking damage during depaneling or handling.",
+          "components": [
+            "RV4"
+          ],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Move RV4 further from board edge (currently 0.83mm, recommend >= 1.0mm)",
+          "report_context": {
+            "section": "Placement",
+            "impact": "manufacturability",
+            "standard_ref": ""
+          },
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "total_signal_nets": 10,
+          "nets_with_test_points": 0,
+          "coverage_pct": 0.0,
+          "test_point_count": 0,
+          "detector": "analyze_test_point_coverage",
+          "rule_id": "TE-001",
+          "category": "testability",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "Test point coverage: 0/10 nets (0%)",
+          "description": "0 of 10 signal nets have test points (0% coverage).",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Add test points to improve ICT/flying probe coverage.",
+          "report_context": {
+            "section": "Testability",
+            "impact": "ICT accessibility",
+            "standard_ref": ""
+          },
+          "stages": [
+            "pre_fab"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 7,
+      "by_category": {
+        "placement": 6,
+        "testability": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "PM-002",
+          "severity": "warning",
+          "summary": "D12 is 0.79mm from board edge",
+          "recommendation": "Move D12 further from board edge (currently 0.79mm, recommend >= 1.0mm)",
+          "category": "placement"
+        },
+        {
+          "rule_id": "PM-002",
+          "severity": "warning",
+          "summary": "D13 is 0.79mm from board edge",
+          "recommendation": "Move D13 further from board edge (currently 0.79mm, recommend >= 1.0mm)",
+          "category": "placement"
+        },
+        {
+          "rule_id": "PM-002",
+          "severity": "warning",
+          "summary": "D4 is 0.55mm from board edge",
+          "recommendation": "Move D4 further from board edge (currently 0.55mm, recommend >= 1.0mm)",
+          "category": "placement"
+        },
+        {
+          "rule_id": "PM-002",
+          "severity": "warning",
+          "summary": "D5 is 0.55mm from board edge",
+          "recommendation": "Move D5 further from board edge (currently 0.55mm, recommend >= 1.0mm)",
+          "category": "placement"
+        },
+        {
+          "rule_id": "PM-002",
+          "severity": "warning",
+          "summary": "RV3 is 0.83mm from board edge",
+          "recommendation": "Move RV3 further from board edge (currently 0.83mm, recommend >= 1.0mm)",
+          "category": "placement"
+        },
+        {
+          "rule_id": "PM-002",
+          "severity": "warning",
+          "summary": "RV4 is 0.83mm from board edge",
+          "recommendation": "Move RV4 further from board edge (currently 0.83mm, recommend >= 1.0mm)",
+          "category": "placement"
+        },
+        {
+          "rule_id": "TE-001",
+          "severity": "warning",
+          "summary": "Test point coverage: 0/10 nets (0%)",
+          "recommendation": "Add test points to improve ICT/flying probe coverage.",
+          "category": "testability"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 7,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "needs_review",
+        "pre_fab": "needs_review",
+        "bring_up": "pass"
+      },
+      "one_liner": "7 warnings across 2 categories."
+    }
+  }
+}
