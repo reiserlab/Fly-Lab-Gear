@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 2.0,
+          "height": 1.4,
+          "width": 2.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -538,7 +538,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "panel.net",
+      "netlist": "Treadmill-Illumination.net",
       "plot": "gerbers/",
       "specctra_dsn": "",
       "vrml": ""
@@ -713,7 +713,7 @@
         "uuid": "d501dfae-7d1d-4c4d-b2cb-031cca727f60"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,H1-3",
     "variants": [
       {
         "name": "thtFinal"
