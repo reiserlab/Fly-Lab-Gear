@@ -713,7 +713,7 @@
         "uuid": "d501dfae-7d1d-4c4d-b2cb-031cca727f60"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,H1-3",
     "variants": [
       {
         "name": "thtFinal"
