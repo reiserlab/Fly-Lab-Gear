@@ -33,6 +33,15 @@ Several arm geometries are provided for different use cases:
 | `Arm_110mm-20degree.stl` | 110 mm arm at +20°; longer reach with slight upward angle |
 | `Arm_110mm--20degree.stl` | 110 mm arm at −20°; longer reach with slight downward angle |
 
-## Inspirationa and Alternatives
+## Inspiration and Alternatives
 
 Design developed from experience with the [Open-Labware Micromanipulator]({{site.baseurl}}/miscellaneous/openlabware-manipulator) (BadenLab, [Thingiverse thing:239105](https://www.thingiverse.com/thing:239105)). The commercial [3-axis stage LD40-LM](https://a.co/d/fMeQiEK) is an alternative with metric mount points, used in the [Tethering Station v2]({{site.baseurl}}/tether/station).
+
+## Stand for the Tethering Station
+
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Tethering/Stand_MicroManipulator_Tethering){:.ifr}
+A 3D-printed stand that positions the micromanipulator at the correct height and angle to reach the fly in the sarcophagus on the [tethering station]({{site.baseurl}}/tether/station). The stand keeps the manipulator stable during the delicate procedure of placing a tether on the fly's thorax.
+
+A comparable stand for the experimental setup is described under [Stands]({{site.baseurl}}/walking/stands) in the Walking Setup section. The two stands differ in height and geometry to suit the different working positions of the tethering station versus the arena.
+
+`Stand_MicroManipulator_Tethering.FCStd` is the FreeCAD source file. The print-ready STL is in `Production/Stand_MicroManipulator_Tethering.stl`.

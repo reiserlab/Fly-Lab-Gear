@@ -104,3 +104,15 @@ Wells or small arenas are confined areas, usually used for single-fly behavioral
 {:.clear}
 
 3D-printable adapters that connect a rotary (aquarium) pump outlet to the tubing of the [sphere holder]({{site.baseurl}}/walking/sphere-holder). Three diameters are provided to fit different pump models.
+
+## [Wingbeat Analyzer masks]({{site.baseurl}}/miscellaneous/wba-masks)
+{:.clear}
+
+[![Wingbeat Analyzer sensor masks]({{site.baseurl}}/assets/img/Flight-Setup/Wingbeat-Analyzer_sensor-masks/Wingbeat-Analyzer_sensor-masks.png){:.ifr}]({{site.baseurl}}/miscellaneous/wba-masks)
+Laser-cut acrylic masks for the optical sensor of the Wingbeat Analyzer, plus a 3D-printed cover for the sensor housing.
+
+## [Robotic Arm Magnet holder]({{site.baseurl}}/miscellaneous/magnet-holder)
+{:.clear}
+
+[![Magnet holder]({{site.baseurl}}/assets/img/Flight-Setup/Robot_Arm_Magnet-Holder/Robot_Arm_Magnet-Holder.png){:.ifr}]({{site.baseurl}}/miscellaneous/magnet-holder)
+Early-stage sketch for an electromagnet end-effector on a robotic arm, intended for automated fly placement in flight arenas.

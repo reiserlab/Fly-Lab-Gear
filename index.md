@@ -43,7 +43,7 @@ In this repository, [we]({{site.baseurl}}/about) share a number of hardware desi
 ## Navigation
 Consequently we offer two different ways to navigate the components: On the one hand and in the [Collection]({{site.baseurl}}/collections) menu we describe how several components can be combined. Most notably we have a description of the components of the ["Inexpensive Treadmill"]({{site.baseurl}}/inexpensive-treadmill), a living document supplementing the published article. Our [step-by-step guide]({{site.baseurl}}/how-to-build-inexpensive-treadmill) provides a different view on the same setup: here we explain in great detail how to assemble such a system.
 
-The other way of navigating the website is by browsing the different categories of components. This would be the parts we used in [walking setups]({{site.baseurl}}/walking) and for [body fixing flies (tethering)]({{site.baseurl}}/tether), but we also started collecting parts for [flight setups]({{site.baseurl}}/flight) and for [physiology setups]({{site.baseurl}}/physiology). In addition, the ["Miscellaneous menu"]({{site.baseurl}}/miscellaneous) contains files that might be useful for visualization of the setups, but are not meant to be produced.
+The other way of navigating the website is by browsing the different categories of components. This would be the parts we used in [walking setups]({{site.baseurl}}/walking) and for [body fixing flies (tethering)]({{site.baseurl}}/tether), but we also started collecting parts for [physiology setups]({{site.baseurl}}/physiology). In addition, the ["Miscellaneous menu"]({{site.baseurl}}/miscellaneous) contains files that might be useful for visualization of the setups, but are not meant to be produced.
 
 ## Additional Support
 
