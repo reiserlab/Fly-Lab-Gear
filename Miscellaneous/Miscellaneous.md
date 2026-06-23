@@ -99,3 +99,8 @@ Model of a tablet holder, used for visualization.
 
 [![Square Wells]({{site.baseurl}}/assets/img/Miscellaneous/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr}]({{site.baseurl}}/miscellaneous/wells)
 Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking.
+
+## [Airflow Adapters]({{site.baseurl}}/miscellaneous/airflow)
+{:.clear}
+
+3D-printable adapters that connect a rotary (aquarium) pump outlet to the tubing of the [sphere holder]({{site.baseurl}}/walking/sphere-holder). Three diameters are provided to fit different pump models.
