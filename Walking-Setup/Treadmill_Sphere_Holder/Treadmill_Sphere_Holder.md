@@ -39,5 +39,5 @@ All versions of the "Treadmill Sphere Holder" need to be printed on a high densi
 ## Integrated Inexpensive Treadmill
 
 [![Integrated Inexpensive Treadmill]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Integrated-Inexpensive-Treadmill.png){: .ifr .pop}]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill)
-The [Integrated Inexpensive Treadmill]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill) merges the sphere holder for a 9 mm ball together with a camera holder, NIR LED mount points, and a heating pad mount into a single 3D-printable body. Rather than a standalone sphere holder, this is the approach to choose when building a complete, self-contained setup from a single print.
+The [Integrated Inexpensive Treadmill]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill) merges the sphere holder for a 9 mm ball together with a camera holder, mount points for NIR LEDs or [NIR Treadmill Illumination PCB]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/Treadmill-Illumination.html), and a heating pad mount into a single 3D-printable body. Rather than a standalone sphere holder, this is the approach to choose when building a complete, self-contained setup from a single print.
 {:.clear}
