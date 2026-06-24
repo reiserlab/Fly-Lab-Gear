@@ -116,3 +116,9 @@ Laser-cut acrylic masks for the optical sensor of the Wingbeat Analyzer, plus a 
 
 [![Magnet holder]({{site.baseurl}}/assets/img/Flight-Setup/Robot_Arm_Magnet-Holder/Robot_Arm_Magnet-Holder.png){:.ifr}]({{site.baseurl}}/miscellaneous/magnet-holder)
 Early-stage sketch for an electromagnet end-effector on a robotic arm, intended for automated fly placement in flight arenas.
+
+## [Magnetic Arena]({{site.baseurl}}/miscellaneous/magnetic-arena)
+{:.clear}
+
+[![Magnetic Arena top view]({{site.baseurl}}/assets/img/Miscellaneous/Magnetic-Arena/Magnetic-Arena_top.png){:.ifr}]({{site.baseurl}}/miscellaneous/magnetic-arena)
+Single-fly behavioral arena laser-cut from acrylic. Three stacked layers held together by friction-fit disc magnets at each corner, with a circular walking area in the arena plate.
