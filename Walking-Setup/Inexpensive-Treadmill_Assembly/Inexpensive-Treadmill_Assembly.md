@@ -8,11 +8,31 @@ nav_order: 1
 # Inexpensive Treadmill Assembly
 
 [![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Walking-Setup/Inexpensive-Treadmill_Assembly){:.ifr}
-This project folder contains an assembly of components. It uses the [Assembly4 workbench](https://wiki.freecadweb.org/Assembly4_Workbench) in FreeCAD.
+This project folder contains two types of treadmill design: a modular reference assembly that combines all separate components, and the Integrated Inexpensive Treadmill, which merges those components into a single 3D-printable body. Both use the [Assembly4 workbench](https://wiki.freecadweb.org/Assembly4_Workbench) in FreeCAD.
 
+## Modular assembly
 
-![Baseplate model]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.png){: .ifr .pop}
-`Inexpensive-Treadmill_Assembly.FCStd`: This file contains all the different parts that we either build for the experimental setup, or that were acquired elsewhere. The `Figures.cam` contains the locations of the camera for generating the images used in the [manuscript about the Inexpensive Treadmill]({{site.baseurl}}/inexpensive-treadmill).
+![Modular assembly model]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.png){: .ifr .pop}
+`Inexpensive-Treadmill_Assembly.FCStd`: A reference assembly that combines the individual components described in the [Inexpensive Treadmill publication]({{site.baseurl}}/inexpensive-treadmill) — sphere holder, baseplate, lamp posts, micromanipulator, camera, and tablet — as separate parts positioned relative to each other. The `Figures.cam` file stores the camera positions used to generate the publication figures.
 
-![Integrated Inexpensive Treadmill]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Integrated-Inexpensive-Treadmill.png){: .ifr .pop .clear}
-`Integrated-Inexpensive-Treadmill.FCStd`: In this design we integrated a camera holder for a [FLIR Firefly](https://www.flir.com/products/firefly-s/?model=FFY-U3-04S2M-S&vertical=machine%20vision&segment=iis), the sphere holder for a 9mm ball, three mount points for 3mm through-hole LEDs as illumination, and a mount point for a 70mm circular heater into one single, 3D printable design. The primary goal for this design is the tighter integration of all theses parts, not so much meeting the lowest possible price point. We used this setup in our lab, but also in teaching courses. Once printed, it is easy to deploy and a reliable tool for data collection. We designed this at the same time we built the improved [Tethering Station v2]({{site.baseurl}}/tether/station).
+This assembly is useful for planning experiments and checking spatial relationships between components, but each part is still sourced, printed, and mounted individually.
+
+## Integrated Inexpensive Treadmill
+{:.clear}
+
+![Integrated Inexpensive Treadmill]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Integrated-Inexpensive-Treadmill.png){: .ifr .pop}
+`Integrated-Inexpensive-Treadmill.FCStd`: A single 3D-printable body that consolidates the components that would otherwise be assembled separately from the baseplate:
+
+- Camera holder for a [FLIR Firefly](https://www.flir.com/products/firefly-s/?model=FFY-U3-04S2M-S&vertical=machine%20vision&segment=iis) (USB3, global shutter)
+- Sphere holder for a 9 mm ball
+- Three mount points for 3 mm through-hole NIR LEDs
+- Mount point for a 70 mm circular heating pad
+
+By combining these into one print the setup becomes significantly easier to use: there are fewer parts to source and the relative positions of camera, sphere, and illumination are fixed and repeatable. The tradeoff is less flexibility: changing camera model or lens requires a new print. We used this version in the lab and in teaching courses where we target a single camera type and prioritize reliabililty . It was designed at the same time as [Tethering Station v2]({{site.baseurl}}/tether/station).
+
+`Integrated-Inexpensive-Treadmill-Centered.FCStd` is a variant of the same design with the sphere holder positioned at the geometric center of the body, useful for symmetric visualizations.
+
+### Variant A
+{:.clear}
+
+`Integrated-Inexpensive-Treadmill_variant-A.FCStd`: A newer iteration of the integrated design. The production STL for printing is `production/Integrated-Inexpensive-Treadmill_variant.stl`.

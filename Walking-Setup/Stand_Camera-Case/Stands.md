@@ -2,7 +2,7 @@
 title: Stands
 parent: Walking Setup
 permalink: /walking/stands
-nav_order: 4
+nav_order: 5
 ---
 
 ## Stand Camera case

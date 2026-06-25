@@ -33,3 +33,11 @@ All versions of the "Treadmill Sphere Holder" need to be printed on a high densi
 ![Sphere holder with 90° inlet]({{site.baseurl}}/assets/img/Walking-Setup/Treadmill_Sphere_Holder/Treadmill_Camera-base_Sphere-Holder_9mm-ball.png){: .ifr .pop}
 `Treadmill_Camera-base_Sphere-Holder_9mm-ball.FCStd`: A two-part sphere holder that can sit on top of the camera. The camera is facing up in this component, and the sphere holder's "base" section surrounds the lens. The pressurized air intake can be fitted by drilling a hole into the base. The tip (top section with the cup for the 9mm sphere) also features a large enough opening for FicTrac (or other software) to track the sphere rotation from below. This design is ideal for constraint spaces and was contributed by [Zhengchang Lei](https://www.janelia.org/people/zhengchang-lei).
 {:.clear}
+
+`Treadmill_Sphere_on-sided-Holder_9mm.FCStd`: A one-sided holder for a 9mm sphere, produced for Chuntao Dan in 2023. The single mounting arm gives more open access around the sphere than the standard two-armed designs, which was the primary requirement for this version. The print-ready STL is `production/Treadmill_Sphere_on-sided-Holder_9mm_v0.1.stl`.
+
+## Integrated Inexpensive Treadmill
+
+[![Integrated Inexpensive Treadmill]({{site.baseurl}}/assets/img/Walking-Setup/Inexpensive-Treadmill_Assembly/Integrated-Inexpensive-Treadmill.png){: .ifr .pop}]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill)
+The [Integrated Inexpensive Treadmill]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill) merges the sphere holder for a 9 mm ball together with a camera holder, mount points for NIR LEDs or [NIR Treadmill Illumination PCB]({{site.baseurl}}/walking/illumination-pcb), and a heating pad mount into a single 3D-printable body. Rather than a standalone sphere holder, this is the approach to choose when building a complete, self-contained setup from a single print.
+{:.clear}

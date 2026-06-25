@@ -8,7 +8,7 @@ permalink: /tether
 
 # Tethering
 
-These components aid in the body fixation or head fixation of flies and possibly other insects. While the list below includes components that we use in the lab – for [walking]({{site.baseurl}}/walking) as well as [flight]({{site.baseurl}}/flight) studies – others have been developed exclusively for the ["Inexpensive Treadmill."]({{site.baseurl}}/inexpensive-treadmill)
+These components aid in the body fixation or head fixation of flies and possibly other insects. While the list below includes components that we use in the lab – for [walking]({{site.baseurl}}/walking) as well as flight studies – others have been developed exclusively for the ["Inexpensive Treadmill."]({{site.baseurl}}/inexpensive-treadmill)
 
 ## [Tethering station]({{site.baseurl}}/tether/station)
 
@@ -34,3 +34,4 @@ Both the experimental setup and the tethering station make use of a three-axis l
 
 [![Funnel redesign]({{site.baseurl}}/assets/img/Tethering/Funnels/Funnel_fly-vial-to-12mm-tube.png){:.ifr}]({{site.baseurl}}/tether/funnels)
 Using funnels, flies can be moved between bottles, vials, and test tubes.
+

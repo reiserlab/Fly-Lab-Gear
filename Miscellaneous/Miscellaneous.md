@@ -99,3 +99,26 @@ Model of a tablet holder, used for visualization.
 
 [![Square Wells]({{site.baseurl}}/assets/img/Miscellaneous/Square_wells_90mm/Wells_3x3_optogenetics.png){: .ifr}]({{site.baseurl}}/miscellaneous/wells)
 Wells or small arenas are confined areas, usually used for single-fly behavioral experiments sometimes with optogentic stimulation. Responses are typically filmed and analyzed through video tracking.
+
+## [Airflow Adapters]({{site.baseurl}}/miscellaneous/airflow)
+{:.clear}
+
+3D-printable adapters that connect a rotary (aquarium) pump outlet to the tubing of the [sphere holder]({{site.baseurl}}/walking/sphere-holder). Three diameters are provided to fit different pump models.
+
+## [Wingbeat Analyzer masks]({{site.baseurl}}/miscellaneous/wba-masks)
+{:.clear}
+
+[![Wingbeat Analyzer sensor masks]({{site.baseurl}}/assets/img/Flight-Setup/Wingbeat-Analyzer_sensor-masks/Wingbeat-Analyzer_sensor-masks.png){:.ifr}]({{site.baseurl}}/miscellaneous/wba-masks)
+Laser-cut acrylic masks for the optical sensor of the Wingbeat Analyzer, plus a 3D-printed cover for the sensor housing.
+
+## [Robotic Arm Magnet holder]({{site.baseurl}}/miscellaneous/magnet-holder)
+{:.clear}
+
+[![Magnet holder]({{site.baseurl}}/assets/img/Flight-Setup/Robot_Arm_Magnet-Holder/Robot_Arm_Magnet-Holder.png){:.ifr}]({{site.baseurl}}/miscellaneous/magnet-holder)
+Early-stage sketch for an electromagnet end-effector on a robotic arm, intended for automated fly placement in flight arenas.
+
+## [Magnetic Arena]({{site.baseurl}}/miscellaneous/magnetic-arena)
+{:.clear}
+
+[![Magnetic Arena top view]({{site.baseurl}}/assets/img/Miscellaneous/Magnetic-Arena/Magnetic-Arena_top.png){:.ifr}]({{site.baseurl}}/miscellaneous/magnetic-arena)
+Single-fly behavioral arena laser-cut from acrylic. Three stacked layers held together by friction-fit disc magnets at each corner, with a circular walking area in the arena plate.

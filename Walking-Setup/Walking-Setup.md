@@ -8,7 +8,7 @@ permalink: /walking
 
 # Walking Setup
 
-The following components can be used on an experimental setup for walking flies, sometimes known as a "treadmill setup." The majority of the components were created for the ["Inexpensive Treadmill"]({{site.baseurl}}/inexpensive-treadmill) paper. We've also begun collecting pieces for [flight]({{site.baseurl}}/flight) and [physiological]({{site.baseurl}}/physiology) configurations, and there may be some overlap. Fly-tethering related components are listed under the [Tethering]({{site.baseurl}}/tether) menu, while additional components and 3D models are presented under [Miscellaneous]({{site.baseurl}}/miscellaneous).
+The following components can be used on an experimental setup for walking flies, sometimes known as a "treadmill setup." The majority of the components were created for the ["Inexpensive Treadmill"]({{site.baseurl}}/inexpensive-treadmill) paper. We've also begun collecting pieces for [physiological]({{site.baseurl}}/physiology) configurations, and there may be some overlap. Fly-tethering related components are listed under the [Tethering]({{site.baseurl}}/tether) menu, while additional components and 3D models are presented under [Miscellaneous]({{site.baseurl}}/miscellaneous).
 
 ## [Inexpensive Treadmill Assembly]({{site.baseurl}}/walking/inexpensive-treadmill)
 
@@ -24,6 +24,11 @@ Spherical insect treadmills are essentially small spheres floating in air. A sph
 
 [![Set of lamps]({{site.baseurl}}/assets/img/Walking-Setup/Lamp_LED_5mm/illumination-lamps.png){:.ifr}]({{site.baseurl}}/walking/illumination)
 Optical tracking of spherical treadmills, for example through [FicTrac](https://github.com/rjdmoore/fictrac), requires good illumination.
+
+## [Illumination PCB]({{site.baseurl}}/walking/illumination-pcb)
+
+[![Set of lamps]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination_font.png){:.ifr}]({{site.baseurl}}/walking/illumination-pcb)
+A two-channel LED driver board that powers the NIR lamp shades above the sphere. Each channel drives four LEDs in series from a 12 V supply and has an independent trimmer for brightness adjustment.
 
 ## [Stands]({{site.baseurl}}/walking/stands)
 
