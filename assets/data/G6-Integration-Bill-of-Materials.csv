@@ -1,14 +1,6 @@
-﻿Name,G6 Fly on Ball Walking Setup,,,,,,,,,
-Revision,2,,,,,,,,,
-Engineer,Isabel Lehenbauer,,,,,,,,,
-Approval date,,,,,,,,,,
-Part count,104.5,,,,,,,,,
-Total cost, $588.54 ,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-Category,Subassembly,Part No.,Part Name,Supplier,Qty,Units, Unit Cost , Cost ,Link,Note
-,,MB12,"12"" x 12"" Breadboard",Thorlabs,1,each, $184.47 , $184.47 ,https://www.thorlabs.com/item/MB12,
-,G6 Arena,,G6 Arena,,1,each,, $-   ,https://reiserlab.github.io/Modular-LED-Display/G6/,
+﻿Category,Subassembly,Part No.,Part Name,Supplier,Qty,Units, Unit Cost , Cost ,Link,Note
+,,MB12,"12"" x 12"" Breadboard",Thorlabs,1,each, $184.47 , $184.47 ,https://www.thorlabs.com/item/MB12,at least 10×12
+,G6 Arena,,G6 Arena,,1,each,, $-   ,https://reiserlab.github.io/Modular-LED-Display/G6/,Involved
 ,G6 Arena,TR1,"1"" post",Thorlabs,4,each, $5.76 , $23.04 ,https://www.thorlabs.com/item/TR1,
 Hardware,G6 Arena,92311A197,"#8-32 set screw 3/4""",McMaster Carr,4,each, $0.14 , $0.58 ,https://www.mcmaster.com/92311A197/,
 Hardware,G6 Arena,90480A009,#8-32 nuts,McMaster Carr,8,each, $0.02 , $0.16 ,https://www.mcmaster.com/90480A009/,
