@@ -37,5 +37,5 @@ To assemble different components at specific locations, we use different stands.
 
 ## [G6 Arena Integration]({{site.baseurl}}/g6)
 
-[![G6 arena integration]({{site.baseurl}}/assets/img/G6-Arena-Integration/Overview/G6-Arena-Integration.png){: .ifr}]({{site.baseurl}}/g6)
+[![G6 arena integration]({{site.baseurl}}/assets/img/G6-Arena-Integration/Overview/G6-Arena-Integration.jpeg){: .ifr}]({{site.baseurl}}/g6)
 Components we designed to place this walking setup inside a [G6 modular LED arena](https://reiserlab.github.io/Modular-LED-Display/G6/) for closed-loop visual stimulation: a taller fly holder and integrated treadmill, a PCB-mounted optostimulation rail, load-bearing panel posts, and a combined 12 V control box.

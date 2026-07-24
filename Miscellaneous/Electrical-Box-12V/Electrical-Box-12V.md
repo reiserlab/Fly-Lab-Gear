@@ -11,7 +11,7 @@ nav_order: 5
 
 The [G6 integration]({{site.baseurl}}/g6) has several loads that all run from 12 V: the heating pad, the optogenetic stimulation light, and the illumination panel. Rather than run a separate wall supply and loose wiring for each, we combine their 12 V power into a single laser-cut enclosure. The box gives every subsystem a common supply and keeps the wiring on the bench tidy and repeatable.
 
-![12 V electrical control box]({{site.baseurl}}/assets/img/G6-Arena-Integration/Electrical-Box-12V/Electrical-Box-12V.png){:.ifr .pop}
+![12 V electrical control box]({{site.baseurl}}/assets/img/G6-Arena-Integration/Electrical-Box-12V/Electrical-Box-12V.jpeg){:.ifr .pop}
 The front panel carries the connectors and controls for the shared supply: an on/off switch for the optogenetic stimulation, barrel-jack-to-screw-terminal adapters for the incoming and outgoing 12 V, a lever power splitter that fans the supply out to the individual loads, and a BNC-to-screw-terminal breakout for the stimulation trigger signal. The box is cut from acrylic; the only source files are the vector cut layouts.
 {:.clear}
 

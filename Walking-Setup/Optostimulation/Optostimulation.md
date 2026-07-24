@@ -11,7 +11,7 @@ nav_order: 3
 
 To deliver optogenetic stimulation to the walking fly, we added a light that can be aimed at the animal from above. The mount is a small rail system built from FDM-printed parts that attaches directly to the top G6 PCB, so the stimulation light is positioned relative to the fly and the rest of the [G6 arena]({{site.baseurl}}/g6) hardware. A carriage slides along the rail to set the position, and a light-guide holder aims the beam at the fly.
 
-![Optostimulation rail]({{site.baseurl}}/assets/img/G6-Arena-Integration/Optostimulation/Optostimulation.png){:.ifr .pop}
+![Optostimulation rail]({{site.baseurl}}/assets/img/G6-Arena-Integration/Optostimulation/Optostimulation.jpeg){:.ifr .pop}
 The light source is a Cree XLamp XP-E2 high-power LED on a star board, focused with a Carclo 20 mm tight-spot lens and driven at constant current by a LEDsupply BuckPuck driver. The printed rail holder, slider, and light guide let us aim this optic at the fly and lock it in place using thumb screws. See the [bill of materials]({{site.baseurl}}/g6) for the full electronics list.
 {:.clear}
 
