@@ -19,4 +19,4 @@ The posts are sized to the gap of the two-panel stack so the top panel rests on 
 
 Printed on an FDM printer; provided as an `.stl` for printing and an `.stp` (STEP) for editing, with no FreeCAD source ([file types]({{site.baseurl}}/file-types)).
 
-- `production/Panel-Spacer-2Panels.stl` / `.stp`: support post sized for the two-panel gap.
+- [`production/Panel-Spacer-2Panels.stl`]({{site.baseurl}}/Miscellaneous/G6-Spacer/production/Panel-Spacer-2Panels.stl) / [`.stp`]({{site.baseurl}}/Miscellaneous/G6-Spacer/production/Panel-Spacer-2Panels.stp): support post sized for the two-panel gap.

@@ -20,7 +20,33 @@ The holder is a friction-fit assembly: the arm slides into the stand and is held
 All parts are printed on an FDM printer. Each is provided as an `.stl` for slicing and printing and an `.stp` (STEP) for editing in CAD; there is no FreeCAD source ([file types]({{site.baseurl}}/file-types)).
 
 | File | Component |
-|------|-----------|
-| `production/Friction-Mount-Stand.stl` / `.stp` | Base stand that sets the mounting height |
-| `production/Friction-Mount-Arm-L.stl` / `.stp` | Left arm that reaches over the sphere |
-| `production/Friction-Mount-Arm-R.stl` / `.stp` | Right arm (mirror of the left) |
+| ---- | --------- |
+| [`production/Friction-Mount-Stand.stl`]({{site.baseurl}}/Walking-Setup/Fly-Holder/production/Friction-Mount-Stand.stl) / [`.stp`]({{site.baseurl}}/Walking-Setup/Fly-Holder/production/Friction-Mount-Stand.stp) | Base stand that sets the mounting height |
+| [`production/Friction-Mount-Arm-L.stl`]({{site.baseurl}}/Walking-Setup/Fly-Holder/production/Friction-Mount-Arm-L.stl) / [`.stp`]({{site.baseurl}}/Walking-Setup/Fly-Holder/production/Friction-Mount-Arm-L.stp) | Left arm that reaches over the sphere |
+| [`production/Friction-Mount-Arm-R.stl`]({{site.baseurl}}/Walking-Setup/Fly-Holder/production/Friction-Mount-Arm-R.stl) / [`.stp`]({{site.baseurl}}/Walking-Setup/Fly-Holder/production/Friction-Mount-Arm-R.stp) | Right arm (mirror of the left) |
+
+## Bill of Materials
+
+<table>
+  <tr>
+    <th width="10%">Quantity</th>
+    <th width="50%">Name + Description</th>
+    <th width="20%">Vendor</th>
+    <th width="20%">Note</th>
+  </tr>
+  {% assign g6_bom_rows = site.data["G6-Integration-Bill-of-Materials"] | where: "Subassembly", "Fly Holder" %}
+  {% for row in g6_bom_rows %}
+  <tr>
+    <td>{{row['Qty'] | strip }}</td>
+    {% assign url_component = row['Link to Component Page'] %}
+    <td>{% if url_component != nil %}<a href="{{ url_component | strip }}"> {% endif %}
+    <strong>{{ row['Part Name'] }}</strong>
+    {% if url_component != nil %}</a>{% endif %}
+    {% if row['Description'] != nil %}<br/>{{ row['Description'] }} {% endif %}
+    </td>
+    {% assign url_shop = row['Link'] %}
+    <td><a href="{{ url_shop | strip }}">{{ url_shop | remove: 'http://' | remove: 'https://' | remove_first: 'www.' | split: '/' | first | capitalize }}</a></td>
+    <td>{{ row['Note'] }}</td>
+  </tr>
+  {% endfor %}
+</table>

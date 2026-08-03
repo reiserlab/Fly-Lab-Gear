@@ -19,4 +19,58 @@ The taller body raises the fly and sphere so they sit at the center of the surro
 
 Provided as an `.stl` for printing and an `.stp` (STEP) for editing; this version has no FreeCAD source ([file types]({{site.baseurl}}/file-types)). The base and centered variants of the integrated treadmill, with their FreeCAD sources, are documented on the [Inexpensive Treadmill Assembly]({{site.baseurl}}/walking/inexpensive-treadmill) page.
 
-- `production/G6-Integrated-Inexpensive-Treadmill.stl` / `.stp`: the taller, resin-printed integrated body for the G6 arena.
+- [`production/G6-Integrated-Inexpensive-Treadmill.stl`]({{site.baseurl}}/Walking-Setup/Inexpensive-Treadmill_Assembly/production/G6-Integrated-Inexpensive-Treadmill.stl) / [`.stp`]({{site.baseurl}}/Walking-Setup/Inexpensive-Treadmill_Assembly/production/G6-Integrated-Inexpensive-Treadmill.stp): the taller, resin-printed integrated body for the G6 arena.
+
+## Bill of Materials
+
+### Treadmill
+
+<table>
+  <tr>
+    <th width="10%">Quantity</th>
+    <th width="50%">Name + Description</th>
+    <th width="20%">Vendor</th>
+    <th width="20%">Note</th>
+  </tr>
+  {% assign g6_bom_rows = site.data["G6-Integration-Bill-of-Materials"] | where: "Subassembly", "Treadmill" %}
+  {% for row in g6_bom_rows %}
+  <tr>
+    <td>{{row['Qty'] | strip }}</td>
+    {% assign url_component = row['Link to Component Page'] %}
+    <td>{% if url_component != nil %}<a href="{{ url_component | strip }}"> {% endif %}
+    <strong>{{ row['Part Name'] }}</strong>
+    {% if url_component != nil %}</a>{% endif %}
+    {% if row['Description'] != nil %}<br/>{{ row['Description'] }} {% endif %}
+    </td>
+    {% assign url_shop = row['Link'] %}
+    <td><a href="{{ url_shop | strip }}">{{ url_shop | remove: 'http://' | remove: 'https://' | remove_first: 'www.' | split: '/' | first | capitalize }}</a></td>
+    <td>{{ row['Note'] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+### Heater
+
+<table>
+  <tr>
+    <th width="10%">Quantity</th>
+    <th width="50%">Name + Description</th>
+    <th width="20%">Vendor</th>
+    <th width="20%">Note</th>
+  </tr>
+  {% assign g6_bom_rows = site.data["G6-Integration-Bill-of-Materials"] | where: "Subassembly", "Heater" %}
+  {% for row in g6_bom_rows %}
+  <tr>
+    <td>{{row['Qty'] | strip }}</td>
+    {% assign url_component = row['Link to Component Page'] %}
+    <td>{% if url_component != nil %}<a href="{{ url_component | strip }}"> {% endif %}
+    <strong>{{ row['Part Name'] }}</strong>
+    {% if url_component != nil %}</a>{% endif %}
+    {% if row['Description'] != nil %}<br/>{{ row['Description'] }} {% endif %}
+    </td>
+    {% assign url_shop = row['Link'] %}
+    <td><a href="{{ url_shop | strip }}">{{ url_shop | remove: 'http://' | remove: 'https://' | remove_first: 'www.' | split: '/' | first | capitalize }}</a></td>
+    <td>{{ row['Note'] }}</td>
+  </tr>
+  {% endfor %}
+</table>
