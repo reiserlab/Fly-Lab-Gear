@@ -5,13 +5,14 @@ permalink: /physiology/parametric-flyplate
 nav_order: 3
 ---
 
-
 # Fly Spoon: A reference of the parametrically designed fly holder
+
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Physiology-Setup/Flyplate){:.ifr}
 
 # Introduction
 
 The fly spoon is an accessory model used in imaging experiments with
-Drosophila melanogaster. This version of the fly holder is meant to be
+_Drosophila melanogaster_. This version of the fly holder is meant to be
 printed with a resin printer with the provided model supports. This
 edition of the fly spoon is optimized for customizability and
 parameterization for resin 3d printing. Drosophila, microscopes, and
@@ -19,19 +20,20 @@ mounting equipment vary in size and shape, and will often cause
 necessary changes in the fly holder design. This model allows for a wide
 range of customization in design and accessibility.
 
-The [current model of the Fly Spoon]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Fly_Spoon_Model.FCStd) was
-designed in a free, open source 3d modeling software called FreeCAD,
+The [current model of the Fly
+Spoon]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Fly_Spoon_Model.FCStd)
+was designed in a free, open source 3d modeling software called FreeCAD,
 which is available for all major platforms (Linux, Windows, and Mac).
 FreeCAD can be downloaded here: https://www.freecad.org/downloads.php
 This design was created in FreeCAD version 0.21.2, and made in the
 weekly version of FreeCAD, found here: Release weekly-builds ·
 FreeCAD/FreeCAD-Bundle · GitHub To properly parameterize the model, any
-latest weekly version after version “38314” will work. However, due to
-unknown complications the parameterization of this model so far only
-works on Windows (Linux does not work with it).
+latest weekly version after version “38314” will work.
+
+![Overview Fly Spoon Parameters]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Overview.png){: .ifr .pop}
 
 A tutorial to print the model and the best settings are shown at the end
-of the document. The FreeCAD file(.FCstd), which can be used to
+of the document. The FreeCAD file (.FCstd), which can be used to
 parameterize the model, cannot be directly printed. Instead, the FreeCAD
 model needs to be exported either as an OBJ or as an STL, which will be
 shown at the end of the document. Furthermore, the default OBJ and STL
@@ -43,10 +45,10 @@ format led to erroneous rendering in the Lychee slicer software.
 Switching to the OBJ file format solved this problem. In GitHub, both
 formats are provided to work around similar issues.
 
-GitHub Link: Component-Designs/Physiology-Setup/Flyplate at main ·
-reiserlab/Component-Designs · GitHub
 
 # Overview
+
+![Top view of the fly spoon with the different parts that are explained in the following sections]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_TopView.png){: .ifr .pop}
 
 The following documentation describes the parameters and customization
 of the Fly Spoon Model for application in various experiments. To change
@@ -56,27 +58,7 @@ of parameters and values as shown below. Values on a yellow background
 can be modified, red parameters are “read only” references that are
 calculated by the model and based on the modified parameters.
 
-<div class="image-grid-2" id="fig-SpoonOverview">
-    <figure>
-        <img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Overview.png" class="pop"
-        data-ref-parent="fig-SpoonOverview" id="fig-spoon-parameters" />
-        <figcaption><strong>(a)</strong> Overview Fly Spoon Parameters</figcaption>
-    </figure>
-    <figure>
-        <img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_TopView.png" class="pop"
-            data-ref-parent="fig-SpoonOverview" id="fig-spoon-topview"/>
-        <figcaption><strong>(b)</strong> Top view of the fly spoon with the different parts that are
-        explained in the following sections</figcaption>
-    </figure>
-    <figure>
-        <img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_SideView.png" class="pop"
-            data-ref-parent="fig-SpoonOverview" id="fig-spoon-sideview"/>
-        <figcaption><strong>(c)</strong> Cross-Section through the fly spoon with a stylized objective</figcaption>
-    </figure>
-</div>
-
-**Figure 1**: Example list of parameters for the Fly spoon and different
-views on the CAD model within FreeCAD.
+![Cross-Section through the fly spoon with a stylized objective]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_SideView.png){: .ifr .pop}
 
 The Fly Spoon Design and its parameters will be grouped into the
 following sections to make the documentation and labeling easier to
@@ -84,41 +66,9 @@ follow. The image below displays the sections and names of each.
 
 ## Hole
 
-<div id="fig-hole-parameters">
+![BottomThickness]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BottomThickness.png){: width="48%" .pop}
+![HoleDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_HoleDiameter.png){: width="48%" .pop}
 
-<div id="fig-BottomThickness">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BottomThickness.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(a) BottomThickness
-(<a href="#sec-BottomThickness" class="quarto-xref">Section 2.1.1</a>)
-
-</div>
-
-<div id="fig-HoleDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_HoleDiameter.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(b) HoleDiameter
-(<a href="#sec-HoleDiameter" class="quarto-xref">Section 2.1.2</a>)
-
-</div>
-
-<div id="fig-ThoraxDistance">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_ThoraxDistance.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(c) ThoraxDistance
-(<a href="#sec-ThoraxDistance" class="quarto-xref">Section 2.1.3</a>)
-
-</div>
-
-Figure 2: Hole parameters
-
-</div>
 
 ### BottomThickness
 
@@ -142,6 +92,8 @@ This parameter, along with the *ThoraxDistance*
 (<a href="#fig-ThoraxDistance" class="quarto-xref">Figure 2 (c)</a>)
 parameter determines the space to mount a fly.
 
+![ThoraxDistance]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_ThoraxDistance.png){: width="48%" .pop}
+
 ### ThoraxDistance
 
 *ThoraxDistance* (default: 0.4mm) determines the overall vertical
@@ -153,73 +105,12 @@ This parameter, along with the \*HoleDiameter
 parameter determines how much space the area where the fly is mounted
 will have.
 
+
 ## Cone Area
 
-<div id="fig-cone-area">
+![TotalDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TotalDepth.png){: width="48%" .pop}
+![ReferenceDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_ReferenceDepth.png){: width="48%" .pop}
 
-<div id="fig-TotalDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TotalDepth.png" class="lightbox"
-data-ref-parent="fig-cone-area" />
-
-(a) TotalDepth
-(<a href="#sec-TotalDepth" class="quarto-xref">Section 2.2.1</a>)
-
-</div>
-
-<div id="fig-ReferenceDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_ReferenceDepth.png" class="lightbox"
-data-ref-parent="fig-cone-area" />
-
-(b) ReferenceDepth
-(<a href="#sec-ReferenceDepth" class="quarto-xref">Section 2.2.2</a>)
-
-</div>
-
-<div id="fig-TopThickness">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopThickness.png" class="lightbox"
-data-ref-parent="fig-cone-area" />
-
-(c) TopThickness
-(<a href="#sec-TopThickness" class="quarto-xref">Section 2.2.4</a>)
-
-</div>
-
-<div id="fig-TopCircleDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopCircleDiameter.png" class="lightbox"
-data-ref-parent="fig-cone-area" />
-
-(d) TopCircleDiameter
-(<a href="#sec-TopCircleDiameter" class="quarto-xref">Section 2.2.5</a>)
-
-</div>
-
-<div id="fig-BackWallDistanceToCenter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackWallDistanceToCenter.png"
-class="lightbox" data-ref-parent="fig-cone-area" />
-
-(e) BackWallDistanceToCenter (<a href="#sec-BackWallDistanceToCenter"
-class="quarto-xref">Section 2.2.6</a>)
-
-</div>
-
-<div id="fig-TopLength">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopLength.png" class="lightbox"
-data-ref-parent="fig-cone-area" />
-
-(f) TopLength
-(<a href="#sec-TopLength" class="quarto-xref">Section 2.2.7</a>)
-
-</div>
-
-Figure 3: Cone Area parameters
-
-</div>
 
 ### TotalDepth
 
@@ -233,10 +124,7 @@ measures the entire depth of the model.
 
 ### ReferenceDepth
 
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter is only used as reference and cannot be changed
 
 *ReferenceDepth* (default: 2.5mm) determines the overall depth from the
@@ -256,6 +144,9 @@ hollowed-out top section of the cone, as shown by the red arrow.
 This parameter, along with *TopLength*
 (<a href="#fig-TopLength" class="quarto-xref">Figure 3 (f)</a>)
 determines the overall width of the cone and the entire model.
+
+![TopThickness]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopThickness.png){: width="48%" .pop}
+![TopCircleDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopCircleDiameter.png){: width="48%" .pop}
 
 ### TopThickness
 
@@ -283,6 +174,9 @@ This parameter, along with the *TotalDepth*
 parameter, defines the overall room for the microscope objective and
 lens, and is centered around the middle of the hole at the bottom.
 
+![BackWallDistanceToCenter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackWallDistanceToCenter.png){: width="48%" .pop}
+![TopLength]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopLength.png){: width="48%" .pop}
+
 ### BackWallDistanceToCenter
 
 *BackWallDistanceToCenter* (default: 0.3mm) defines the overall distance
@@ -291,17 +185,15 @@ red arrow.
 
 This parameter defines the wall angle and can allow for better
 visibility of the fly. If this parameter is set higher than half the
-*TopCircleDiameter*
-(<a href="#fig-TopCircleDiameter" class="quarto-xref">Figure 3 (d)</a>)
-parameter, it will revert to its maximum extent.
+*TopHoleDiameter* (**?@fig-TopHoleDiameter**) parameter, it will revert
+to its maximum extent.
 
 ### TopLength
 
 *TopLength* (default: 0.5mm) defines the length of the extra area around
 the top section of the cone area, as shown by the red arrow.
 
-This parameter, along with the *TotalConeDiameter*
-(<a href="#sec-TotalConeDiameter" class="quarto-xref">Section 2.2.3</a>)
+This parameter, along with the *TopDiameter* (**?@fig-TopDiameter**)
 parameter defines the overall width of the entire model.
 
 ## Fly Field of View Reference Angles
@@ -312,14 +204,7 @@ that particular setup.
 
 ### FlyFieldOfViewAngle
 
-<div>
-
-</div>
-
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter cannot be changed and is only used as a reference
 
 *FlyFieldOfViewAngle* (default: 12°) defines the angle starting from the
@@ -331,51 +216,8 @@ situated at the very front of the hole, around the entire cone.
 
 ## Back
 
-<div id="fig-Back">
-
-<div id="fig-BackPlateLength">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackPlateLength.png" class="lightbox"
-data-ref-parent="fig-Back" />
-
-(a) BackPlateLength
-(<a href="#sec-BackPlateLength" class="quarto-xref">Section 2.4.1</a>)
-
-</div>
-
-<div id="fig-BackPlateDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackPlateDepth.png" class="lightbox"
-data-ref-parent="fig-Back" />
-
-(b) BackPlateDepth
-(<a href="#sec-BackPlateDepth" class="quarto-xref">Section 2.4.2</a>)
-
-</div>
-
-<div id="fig-TopLoftCircleDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopLoftCircleDiameter.png" class="lightbox"
-data-ref-parent="fig-Back" />
-
-(c) TopLoftCircleDiameter (<a href="#sec-TopLoftCircleDiameter"
-class="quarto-xref">Section 2.4.3</a>)
-
-</div>
-
-<div id="fig-BackPlateFillet">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackPlateFillet.png" class="lightbox"
-data-ref-parent="fig-Back" />
-
-(d) BackPlateFillet
-(<a href="#sec-BackPlateFillet" class="quarto-xref">Section 2.4.4</a>)
-
-</div>
-
-Figure 5: Back Parameters
-
-</div>
+![BackPlateLength]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackPlateLength.png){: width="48%" .pop}
+![BackPlateDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackPlateDepth.png){: width="48%" .pop}
 
 ### BackPlateLength
 
@@ -401,6 +243,9 @@ and *BackPlateFillet*
 (<a href="#fig-BackPlateFillet" class="quarto-xref">Figure 6 (d)</a>)
 parameter define the overall shape of the back section of the model.
 
+![TopLoftCircleDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_TopLoftCircleDiameter.png){: width="48%" .pop}
+![BackPlateFillet]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackPlateFillet.png){: width="48%" .pop}
+
 ### TopLoftCircleDiameter
 
 *TopLoftCircleDiameter* (default: 20mm) defines the overall width of the
@@ -423,61 +268,8 @@ model.
 
 ## Back Plate Hole
 
-<div id="fig-Back">
-
-<div id="fig-BackHoleDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackHoleDiameter.png" class="lightbox"
-data-ref-parent="fig-Back" />
-
-(a) BackHoleDiameter
-(<a href="#sec-BackHoleDiameter" class="quarto-xref">Section 2.5.1</a>)
-
-</div>
-
-<div id="fig-BackHoleDistanceToCenter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackHoleDistanceToCenter.png"
-class="lightbox" data-ref-parent="fig-Back" />
-
-(b) BackHoleDistanceToCenter (<a href="#sec-BackHoleDistanceToCenter"
-class="quarto-xref">Section 2.5.2</a>)
-
-</div>
-
-<div id="fig-SideHoleDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_SideHoleDiameter.png" class="lightbox"
-data-ref-parent="fig-Back" />
-
-(c) SideHoleDiameter
-(<a href="#sec-SideHoleDiameter" class="quarto-xref">Section 2.5.3</a>)
-
-</div>
-
-<div id="fig-SideHoleDistanceToCenter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_SideHoleDistanceToCenter.png"
-class="lightbox" data-ref-parent="fig-Back" />
-
-(d) SideHoleDistanceToCenter (<a href="#sec-SideHoleDistanceToCenter"
-class="quarto-xref">Section 2.5.4</a>)
-
-</div>
-
-<div id="fig-SideHoleMiddleDistance">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_SideHoleMiddleDistance.png"
-class="lightbox" data-ref-parent="fig-Back" />
-
-(e) SideHoleMiddleDistance (<a href="#sec-SideHoleMiddleDistance"
-class="quarto-xref">Section 2.5.5</a>)
-
-</div>
-
-Figure 6: Back Plate Hole Parameters
-
-</div>
+![BackHoleDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackHoleDiameter.png){: width="48%" .pop}
+![BackHoleDistanceToCenter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_BackHoleDistanceToCenter.png){: width="48%" .pop}
 
 ### BackHoleDiameter
 
@@ -500,6 +292,8 @@ This parameter, along with the *BackHoleDiameter*
 parameter, defines the position and shape of the hole in the back plate
 of the model, which can be used to clamp the fly spoon.
 
+![SideHoleDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_SideHoleDiameter.png){: width="48%" .pop}
+
 ### SideHoleDiameter
 
 *SideHoleDiameter* (default: 1.5mm) defines the total diameter of the
@@ -512,6 +306,9 @@ This parameter, along with the *SideHoleDistanceToCenter*
 (<a href="#fig-SideHoleMiddleDistance" class="quarto-xref">Figure 6
 (e)</a>) parameter defines the position and shape of the two symmetric
 holes, which can be used for mounting.
+
+![SideHoleDistanceToCenter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_SideHoleDistanceToCenter.png){: width="48%" .pop}
+![SideHoleMiddleDistance]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Param_SideHoleMiddleDistance.png){: width="48%" .pop}
 
 ### SideHoleDistanceToCenter
 
@@ -540,29 +337,8 @@ and *SideHoleDistanceToCenter*
 
 ## Supports
 
-<div id="fig-Support">
-
-<div id="fig-Spoon_Support_TopView">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Support_TopView.png" class="lightbox"
-data-ref-parent="fig-Support" />
-
-(a) Spoon_Support_TopView
-
-</div>
-
-<div id="fig-Spoon_Support_Isometric">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Support_Isometric.png" class="lightbox"
-data-ref-parent="fig-Support" />
-
-(b) Spoon_Support_Isometric
-
-</div>
-
-Figure 7: Supports
-
-</div>
+![SpoonSupport - Top View]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Support_TopView.png){: width="48%" .pop}
+![SpoonSupport - Isometric View]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Support_Isometric.png){: width="48%" .pop}
 
 ### SupportDiameter
 
@@ -648,13 +424,7 @@ image of how the microscope would look with the fly spoon and the
 possibility of its “intersecting” into the fly spoon with a particular
 working distance.
 
-<div id="fig-Spoon_Microscope">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Microscope.png" class="lightbox" />
-
-Figure 8: Microscope
-
-</div>
+![Spoon Microscope]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Microscope.png){: width="48%" .pop}
 
 ### LensDiameter
 
@@ -703,40 +473,7 @@ difference between each.
 
 ### FreeCAD export instructions
 
-<div id="fig-Support">
-
-<div id="fig-Spoon_FreeCAD_export01">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_FreeCAD_export01.png" class="lightbox"
-data-ref-parent="fig-Support" />
-
-(a) Switch to the *Mesh* workspace
-
-</div>
-
-<div id="fig-Spoon_FreeCAD_export02">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_FreeCAD_export02.png"
-id="fig-Spoon_FreeCAD_export02" class="lightbox"
-data-ref-parent="fig-Support" />
-
-(b)
-
-</div>
-
-<div id="fig-Spoon_FreeCAD_export03">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_FreeCAD_export03.png"
-id="fig-Spoon_FreeCAD_export03" class="lightbox"
-data-ref-parent="fig-Support" />
-
-(c)
-
-</div>
-
-Figure 9: FreeCAD export
-
-</div>
+![Switch to Mesh Workspace]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_FreeCAD_export01.png){: .ifr .pop}
 
 This can be skipped if FreeCAD is not being used to parameterize the
 model, and the default 3d files are being used.
@@ -748,12 +485,14 @@ the dropdown menu to *Mesh*, as shown below in
 <a href="#fig-Spoon_FreeCAD_export01" class="quarto-xref">Figure 9
 (a)</a>.
 
+![Select Fly Spoon Body and Supports]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_FreeCAD_export02.png){: .ifr .pop .clear}
 After this, select the *Fly Spoon Body* and *Supports* folders on the
 left, as seen below, and click on the *Create Mesh From Shape* option
 (see <a href="#fig-Spoon_FreeCAD_export02" class="quarto-xref">Figure 9
 (b)</a>), and select the *Ok* button with the default settings (default
 settings were shown to work very well).
 
+![Merge Meshes]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_FreeCAD_export03.png){: .ifr .pop .clear}
 After this, select all the new meshes and click the merge button, on the
 top toolbar, as shown in
 <a href="#fig-Spoon_FreeCAD_export03" class="quarto-xref">Figure 9
@@ -766,15 +505,10 @@ right click on the final singular mesh and select *Export Mesh…* as a
 
 ## Slicer Setup Tutorial
 
-The slicer software being used is called [Lychee Slicer](https://mango3d.io/resin-sla-msla-3d-printers).
+The slicer software being used is called [Lychee
+Slicer](https://mango3d.io/resin-sla-msla-3d-printers).
 
-<div id="fig-Spoon_Slicer">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Slicer.png" class="lightbox" />
-
-Figure 10: Fly Spoon in the Lychee Slicer
-
-</div>
+![Fly Spoon in the Lychee Slicer]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flyplate/Spoon_Slicer.png){: .ifr .pop}
 
 After setting up the settings of the printer in the software and
 importing the fly spoon (`*.stl` or `*.obj` file) model into the slicer.
@@ -787,7 +521,10 @@ After this, export the model and print it.
 
 ## Build Plate Removal
 
-After the prints are finished being printed, carefully remove the build plate from the printer, and lay it flat on the table. After this, use a small razor blade to scrape under the bottom supports near the back of the model, until the bottom supports are loose.
+After the prints are finished being printed, carefully remove the build
+plate from the printer, and lay it flat on the table. After this, use a
+small razor blade to scrape under the bottom supports near the back of
+the model, until the bottom supports are loose.
 
 After this, you can wash each of the prints, with either IPA or water
 (depending on the resin being used), and then cure it for around 5-10
@@ -802,14 +539,7 @@ resins, bottom thicknesses, and top thicknesses, were conducted on a
 similar fly holder model, known as the Fly Pyramid. The information on
 the strength of these models, which were 3D printed for similar
 applications and in a similar fashion, can be found under the [Fly
-Pyramid Documentation](fly-pyramid.qmd).
+Pyramid Documentation](parametric-fly-pyramid).
 
 This documentation also includes information found on the specific
 exposure times and settings of the fly pyramid.
-
-# Document History
-
-1. originally a Word document by Benjamin Hayworth (Summer intern from Loudoun County High Schools )
-2. converted to private GitHub compatible Markdown
-3. converted to quarto Markdown for MCN-NET documentation
-4. published on Fly-Lab-Gear
