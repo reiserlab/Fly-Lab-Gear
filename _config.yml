@@ -13,6 +13,11 @@ color_scheme: "components"
 kramdown:
   toc_levels: "1,2"
 
+callouts:
+  reference:
+    title: Reference
+    color: red
+
 # change location of data directory from /_data to /assets/data
 data_dir: assets/data
 

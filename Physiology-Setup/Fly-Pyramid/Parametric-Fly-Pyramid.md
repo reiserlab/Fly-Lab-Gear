@@ -5,10 +5,13 @@ permalink: /physiology/parametric-flypyramid
 nav_order: 4
 ---
 
-
 # Fly Pyramid: A reference of the parametrically designed fly holder
 
+[![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Physiology-Setup/Fly-Pyramid){:.ifr}
+
 ![]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Title.png)
+
+
 
 # Introduction
 
@@ -19,7 +22,8 @@ parameterization for resin 3d printing. Drosophila, microscopes, and
 mounting equipment vary in size and shape, and will often cause
 necessary changes in the fly holder design.
 
-The [current model of the Fly Pyramid]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Fly_Pyramid_Model.FCStd)
+The parametric model of the Fly
+Pyramid
 was designed in a free, open source 3d modeling software called
 [FreeCAD](https://www.freecad.org/), which is [available for all major
 platforms (Linux, Windows, and
@@ -27,8 +31,7 @@ Mac)](https://www.freecad.org/downloads.php). This design was created in
 FreeCAD version 0.21.2, and made in the [weekly version of
 FreeCAD](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 To properly parameterize the model, any latest weekly version after
-version “38314” will work. However, due to unknown complications, the
-final version of the model only works in Windows.
+version “38314” will work.
 
 Altering these parameters, which are explained and documented in this
 reference, allows for a large range of fly holders to be customized. To
@@ -47,6 +50,7 @@ preferable STL format led to erroneous rendering in the Lychee slicer
 software. Switching to the OBJ file format solved this problem. In
 GitHub, both formats are provided to work around similar issues.
 
+
 # Overview
 
 The following documentation describes the parameters and customization
@@ -61,66 +65,15 @@ The Fly Pyramid Design and its parameters will be grouped into the
 following sections to make the documentation and labeling easier to
 follow. The image below displays the sections and names of each.
 
-<div id="fig-component-names">
+![**Pyramid overview (top)** Naming scheme used in this documentation for the component of the pyramid as seen from the top.]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Pyramid-Components_top.png){: width="48%" .pop #fig-component-names}
+![**Pyramid overview (bottom)** Component name as seen from the bottom.]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Pyramid-Components_bottom.png){: width="48%" .pop}
 
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Pyramid-Components_top.png" class="lightbox" />
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Pyramid-Components_bottom.png" class="lightbox" />
-
-Figure 1: **(a) Pyramid overview (top)** Naming scheme used in this
-documentation for the component of the pyramid as seen from the top.
-**(b) Pyramid overview (bottom)** Component name as seen from the
-bottom.
-
-</div>
 
 ## Pyramid
 
-<div id="fig-pyramid">
+![RectLength]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RectLength.png){: width="48%" .pop}
+![RectWidth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RectWidth.png){: width="48%" .pop}
 
-<div id="fig-RectLength">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RectLength.png" class="lightbox"
-data-ref-parent="fig-pyramid" />
-
-(a) RectLength
-(<a href="#sec-RectLength" class="quarto-xref">Section 2.1.1</a>)
-
-</div>
-
-<div id="fig-RectWidth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RectWidth.png" class="lightbox"
-data-ref-parent="fig-pyramid" />
-
-(b) RectWidth
-(<a href="#sec-RectWidth" class="quarto-xref">Section 2.1.2</a>)
-
-</div>
-
-<div id="fig-PyramidDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_PyramidDepth.png" class="lightbox"
-data-ref-parent="fig-pyramid" />
-
-(c) PyramidDepth
-(<a href="#sec-PyramidDepth" class="quarto-xref">Section 2.1.3</a>)
-
-</div>
-
-<div id="fig-PyramidBackAngle">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_PyramidBackAngle.png" class="lightbox"
-data-ref-parent="fig-pyramid" />
-
-(d) PyramidBackAngle
-(<a href="#sec-PyramidBackAngle" class="quarto-xref">Section 2.1.4</a>)
-
-</div>
-
-Figure 2: Pyramid parameters
-
-</div>
 
 ### RectLength
 
@@ -133,6 +86,7 @@ This parameter is closely associated with the *RectWidth* parameter
 (<a href="#sec-RectWidth" class="quarto-xref">Section 2.1.2</a>) in
 defining the shape of the top portion of the pyramid.
 
+
 ### RectWidth
 
 *RectWidth* (default: 25mm) describes the distance between the beginning
@@ -143,6 +97,11 @@ side (see
 This parameter is closely associated with the *RectLength*
 (<a href="#sec-RectLength" class="quarto-xref">Section 2.1.1</a>)
 parameter in defining the shape of the top portion of the pyramid.
+
+
+![PyramidDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_PyramidDepth.png){: width="48%" .pop}
+![PyramidBackAngle]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_PyramidBackAngle.png){: width="48%" .pop}
+
 
 ### PyramidDepth
 
@@ -157,6 +116,7 @@ This parameter, along with *PyramidBackAngle*
 is crucial in determining the shape of the inside of the pyramid, which
 is hollow.
 
+
 ### PyramidBackAngle
 
 *PyramidBackAngle* (default: 3mm, 45° \< *PyramidBackAngle* \< 90°)
@@ -170,31 +130,10 @@ This parameter, along with *PyramidDepth*
 crucial in defining the shape of the inner portion of the pyramid, which
 is hollow.
 
-<div id="fig-pyramid-thickness">
 
-<div id="fig-TopOfPyramidThickness">
+![TopOfPyramidThickness]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_TopOfPyramidThickness.png){: width="48%" .pop}
+![BottomOfPyramidThickness]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BottomOfPyramidThickness.png){: width="48%" .pop}
 
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_TopOfPyramidThickness.png" class="lightbox"
-data-ref-parent="fig-pyramid-thickness" />
-
-(a) TopOfPyramidThickness (<a href="#sec-TopOfPyramidThickness"
-class="quarto-xref">Section 2.1.5</a>)
-
-</div>
-
-<div id="fig-BottomOfPyramidThickness">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BottomOfPyramidThickness.png" class="lightbox"
-data-ref-parent="fig-pyramid-thickness" />
-
-(b) BottomOfPyramidThickness (<a href="#sec-BottomOfPyramidThickness"
-class="quarto-xref">Section 2.1.6</a>)
-
-</div>
-
-Figure 3: Pyramid material parameters
-
-</div>
 
 ### TopOfPyramidThickness
 
@@ -210,6 +149,7 @@ This parameter, along with *BottomOfPyramidThickness*
 (<a href="#sec-BottomOfPyramidThickness"
 class="quarto-xref">Section 2.1.6</a>) play a crucial role in the
 overall structural stability of the pyramid.
+
 
 ### BottomOfPyramidThickness
 
@@ -229,72 +169,8 @@ the microscope.
 
 ## Fly Hole and Underside Space
 
-<div id="fig-hole-parameters">
-
-<div id="fig-HoleWidth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_HoleWidth.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(a) HoleWidth
-(<a href="#sec-HoleWidth" class="quarto-xref">Section 2.2.1</a>)
-
-</div>
-
-<div id="fig-HoleLength">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_HoleLength.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(b) HoleLength
-(<a href="#sec-HoleLength" class="quarto-xref">Section 2.2.2</a>)
-
-</div>
-
-<div id="fig-ReferenceHoleDistanceToRect">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ReferenceHoleDistanceToRect.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(c) ReferenceHoleDistanceToRect
-(<a href="#sec-ReferenceHoleDistanceToRect"
-class="quarto-xref">Section 2.2.3</a>)
-
-</div>
-
-<div id="fig-ThoraxSpace">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ThoraxSpace.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(d) ThoraxSpace
-(<a href="#sec-ThoraxSpace" class="quarto-xref">Section 2.2.4</a>)
-
-</div>
-
-<div id="fig-FlySpaceDistance">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FlySpaceDistance.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(e) FlySpaceDistance
-(<a href="#sec-FlySpaceDistance" class="quarto-xref">Section 2.2.5</a>)
-
-</div>
-
-<div id="fig-DistanceSplineUp">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_DistanceSplineUp.png" class="lightbox"
-data-ref-parent="fig-hole-parameters" />
-
-(f) DistanceSplineUp and DistanceSplineLength
-(<a href="#sec-DistanceSplineUp" class="quarto-xref">Section 2.2.6</a>)
-
-</div>
-
-Figure 4: Hole parameters
-
-</div>
+![HoleWidth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_HoleWidth.png){: width="48%" .pop}
+![HoleLength]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_HoleLength.png){: width="48%" .pop}
 
 ### HoleWidth
 
@@ -323,12 +199,12 @@ This parameter, along with *HoleWidth*
 define the hole in which the fly will be mounted into and is determined
 on how big the fly is.
 
+![ReferenceHoleDistanceToRect]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ReferenceHoleDistanceToRect.png){: width="48%" .pop}
+![ThoraxSpace]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ThoraxSpace.png){: width="48%" .pop}
+
 ### ReferenceHoleDistanceToRect
 
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter cannot be changed and is only used as a reference
 
 *ReferenceHoleDistanceToRect* (default: 0.8mm) defines the overall
@@ -347,6 +223,9 @@ pyramid, as shown by the solid red arrow in
 
 This cutout helps determine the extra room for the thorax of the fly,
 which can be altered to more easily mount and position the fly.
+
+![FlySpaceDistance]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FlySpaceDistance.png){: width="48%" .pop}
+![DistanceSplineUp]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_DistanceSplineUp.png){: width="48%" .pop}
 
 ### FlySpaceDistance
 
@@ -393,41 +272,7 @@ parameters, but the left parameters are the same and are under the Left
 parameters section in the spreadsheet. The name in brackets denotes the
 parameter name for the left side.
 
-<div id="fig-right-left-edge">
-
-<div id="fig-RightHeight">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightHeight.png" class="lightbox"
-data-ref-parent="fig-right-left-edge" />
-
-(a) RightHeight
-(<a href="#sec-RightHeight" class="quarto-xref">Section 2.3.1</a>)
-
-</div>
-
-<div id="fig-RightWallThickness">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightWallThickness.png" class="lightbox"
-data-ref-parent="fig-right-left-edge" />
-
-(b) RightWallThickness
-(<a href="#sec-RightWallThickness" class="quarto-xref">Section 2.3.2</a>)
-
-</div>
-
-<div id="fig-RightWallDistanceFromRect">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightWallDistanceFromRect.png" class="lightbox"
-data-ref-parent="fig-right-left-edge" />
-
-(c) RightWallDistanceFromRect (<a href="#sec-RightWallDistanceFromRect"
-class="quarto-xref">Section 2.3.3</a>)
-
-</div>
-
-Figure 5: Right and Left Edge parameters
-
-</div>
+![RightHeight]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightHeight.png){: width="48%" .pop}
 
 ### RightHeight (LeftHeight)
 
@@ -444,6 +289,9 @@ so setting it to 0 reverts to the area surrounding the pyramid’s height.
 If this height needs to be set to the surrounding edges, setting it high
 will do so.
 
+![RightWallThickness]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightWallThickness.png){: width="48%" .pop}
+![RightWallDistanceFromRect]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightWallDistanceFromRect.png){: width="48%" .pop}
+
 ### RightWallThickness (LeftWallThickness)
 
 *RightWallThickness* (*LeftWallThickness*, default: 2mm) determines the
@@ -455,6 +303,7 @@ This parameter, along with *RightWallDistanceFromRect*
 (*LeftWallDistanceFromRect*) defines the extra distance of the model
 from the sides of the pyramid and increases the overall stability of the
 design.
+
 
 ### RightWallDistanceFromRect (LeftWallDistanceFromRect)
 
@@ -470,51 +319,8 @@ and increases the overall stability of the design.
 
 ## Upper Section
 
-<div id="fig-upper-section">
-
-<div id="fig-UpperBackDistanceToRect">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_UpperBackDistanceToRect.png" class="lightbox"
-data-ref-parent="fig-upper-section" />
-
-(a) UpperBackDistanceToRect (<a href="#sec-UpperBackDistanceToRect"
-class="quarto-xref">Section 2.4.1</a>)
-
-</div>
-
-<div id="fig-ExtraDistanceForEdge">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ExtraDistanceForEdge.png" class="lightbox"
-data-ref-parent="fig-upper-section" />
-
-(b) ExtraDistanceForEdge (<a href="#sec-ExtraDistanceForEdge"
-class="quarto-xref">Section 2.4.2</a>)
-
-</div>
-
-<div id="fig-UpperDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_UpperDepth.png" class="lightbox"
-data-ref-parent="fig-upper-section" />
-
-(c) UpperDepth
-(<a href="#sec-UpperDepth" class="quarto-xref">Section 2.4.3</a>)
-
-</div>
-
-<div id="fig-UpperBackFillet">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_UpperBackFillet.png" class="lightbox"
-data-ref-parent="fig-upper-section" />
-
-(d) UpperBackFillet
-(<a href="#sec-UpperBackFillet" class="quarto-xref">Section 2.4.4</a>)
-
-</div>
-
-Figure 6: Upper Section parameters
-
-</div>
+![UpperBackDistanceToRect]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_UpperBackDistanceToRect.png){: width="48%" .pop}
+![ExtraDistanceForEdge]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ExtraDistanceForEdge.png){: width="48%" .pop}
 
 ### UpperBackDistanceToRect
 
@@ -532,15 +338,18 @@ microscope lens.
 ### ExtraDistanceForEdge
 
 *ExtraDistanceForEdge* (default: 2mm, 0 \< *ExtraDistanceForEdge* \<
-*[UpperBackDistanceToRect](#sec-UpperBackDistanceToRect)*) defines the
-start of the right and left sections of the edge, starting from the back
-of the pyramid (see
+*[UpperDistanceToRect](#sec-UpperDistanceToRect)*) defines the start of
+the right and left sections of the edge, starting from the back of the
+pyramid (see
 <a href="#fig-ExtraDistanceForEdge" class="quarto-xref">Figure 6 (b)</a>).
 
 This parameter, along with the *RightHeight* (*LeftHeight*) parameter
 (<a href="#sec-RightHeight" class="quarto-xref">Section 2.3.1</a>),
 provides potential extra space for entering from the side of the
 pyramid.
+
+![UpperDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_UpperDepth.png){: width="48%" .pop}
+![UpperBackFillet]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_UpperBackFillet.png){: width="48%" .pop}
 
 ### UpperDepth
 
@@ -561,49 +370,15 @@ the back of the pyramid and before the higher section of the back plate
 (see
 <a href="#fig-UpperBackFillet" class="quarto-xref">Figure 6 (d)</a>).
 
-This paramter, along with *UpperBackDistanceToRect*
-(<a href="#sec-UpperBackDistanceToRect"
-class="quarto-xref">Section 2.4.1</a>) and *ExtraDistanceForEdge*
-(<a href="#sec-ExtraDistanceForEdge"
-class="quarto-xref">Section 2.4.2</a>) define the shape of the fillet in
-the behind the pyramid section and will automatically be set lower if it
-is too high.
+This paramter, along with *UpperDistanceToRect*
+(**?@sec-UpperDistanceToRect**) and *ExtraDistanceToEdge*
+(**?@sec-ExtraDistanceToEdge**) define the shape of the fillet in the
+behind the pyramid section and will automatically be set lower if it is
+too high.
 
-<div id="fig-front-section">
+![FrontPieceDistanceToRect]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FrontPieceDistanceToRect.png){: width="48%" .pop}
+![FrontPieceLength]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FrontPieceLength.png){: width="48%" .pop}
 
-<div id="fig-FrontPieceDistanceToRect">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FrontPieceDistanceToRect.png" class="lightbox"
-data-ref-parent="fig-front-section" />
-
-(a) FrontPieceDistanceToRect (<a href="#sec-FrontPieceDistanceToRect"
-class="quarto-xref">Section 2.4.5</a>)
-
-</div>
-
-<div id="fig-FrontPieceLength">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FrontPieceLength.png" class="lightbox"
-data-ref-parent="fig-front-section" />
-
-(b) FrontPieceLength
-(<a href="#sec-FrontPieceLength" class="quarto-xref">Section 2.4.6</a>)
-
-</div>
-
-<div id="fig-OuterFillet">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_OuterFillet.png" class="lightbox"
-data-ref-parent="fig-front-section" />
-
-(c) OuterFillet
-(<a href="#sec-OuterFillet" class="quarto-xref">Section 2.4.7</a>)
-
-</div>
-
-Figure 7: upper front section parameters
-
-</div>
 
 ### FrontPieceDistanceToRect
 
@@ -631,6 +406,8 @@ class="quarto-xref">Section 2.4.5</a>) and *OuterFillet*
 (<a href="#sec-OuterFillet" class="quarto-xref">Section 2.4.7</a>)
 define the overall shape of the front of the model.
 
+![OuterFillet]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_OuterFillet.png){: width="48%" .pop}
+
 ### OuterFillet
 
 *OuterFillet* (default: 1mm) defines the overall radius of both fillets
@@ -647,81 +424,9 @@ high.
 
 ## Back Plate
 
-<div id="fig-back-plate">
+![BackDistance]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackDistance.png){: width="48%" .pop}
+![BackSplineDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackSplineDepth.png){: width="48%" .pop}
 
-<div id="fig-BackDistance">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackDistance.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(a) BackDistance
-(<a href="#sec-BackDistance" class="quarto-xref">Section 2.5.1</a>)
-
-</div>
-
-<div id="fig-BackSplineDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackSplineDepth.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(b) BackSplineDepth
-(<a href="#sec-BackSplineDepth" class="quarto-xref">Section 2.5.2</a>)
-
-</div>
-
-<div id="fig-BackOffset">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackOffset.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(c) BackOffset
-(<a href="#sec-BackOffset" class="quarto-xref">Section 2.5.3</a>)
-
-</div>
-
-<div id="fig-BackWallDepth">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackWallDepth.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(d) BackWallDepth
-(<a href="#sec-BackWallDepth" class="quarto-xref">Section 2.5.4</a>)
-
-</div>
-
-<div id="fig-BackWallHeight">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackWallHeight.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(e) BackWallHeight
-(<a href="#sec-BackWallHeight" class="quarto-xref">Section 2.5.5</a>)
-
-</div>
-
-<div id="fig-BackPlateFillet">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackPlateFillet.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(f) BackPlateFillet
-(<a href="#sec-BackPlateFillet" class="quarto-xref">Section 2.5.6</a>)
-
-</div>
-
-<div id="fig-ReferenceBackDistance">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ReferenceBackDistance.png" class="lightbox"
-data-ref-parent="fig-back-plate" />
-
-(g) ReferenceBackDistance (<a href="#sec-ReferenceBackDistance"
-class="quarto-xref">Section 2.5.7</a>)
-
-</div>
-
-Figure 8: Back Plate parameters
-
-</div>
 
 ### BackDistance
 
@@ -755,6 +460,8 @@ This parameter, along with *BackPlateFillet*
 help define the overall shape of the back of the model and can provide
 easier mounting for the model.
 
+![BackOffset]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackOffset.png){: width="48%" .pop}
+![BackWallDepth]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackWallDepth.png){: width="48%" .pop}
 ### BackOffset
 
 *BackOffset* (default: 10mm) defines the overall distance starting from
@@ -775,6 +482,9 @@ This parameter, along with *BackWallHeight*
 (<a href="#sec-BackWallHeight" class="quarto-xref">Section 2.5.5</a>)
 help to define the overall shape of the back wall of the model, which
 can be used to get better images from the back of the model.
+
+![BackWallHeight]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackWallHeight.png){: width="48%" .pop}
+![BackPlateFillet]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_BackPlateFillet.png){: width="48%" .pop}
 
 ### BackWallHeight
 
@@ -800,12 +510,11 @@ This parameter, along with *BackSplineDepth*
 helps to define the overall shape of the very back of the model and can
 be used for easier mounting or clamping for the model.
 
+![ReferenceBackDistance]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ReferenceBackDistance.png){: width="48%" .pop}
+
 ### ReferenceBackDistance
 
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter cannot be changed and is only used as a reference
 
 *ReferenceBackDistance* (default: 38.6mm) is a reference parameter that
@@ -819,51 +528,8 @@ very back of the model, as shown by the solid red arrow in
 This cutout can be removed by increasing the working distance to higher
 than the depth of the pyramid.
 
-<div id="fig-microscope">
-
-<div id="fig-ObjectiveDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ObjectiveDiameter.png" class="lightbox"
-data-ref-parent="fig-microscope" />
-
-(a) ObjectiveDiameter
-(<a href="#sec-ObjectiveDiameter" class="quarto-xref">Section 2.6.1</a>)
-
-</div>
-
-<div id="fig-LensDiameter">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_LensDiameter.png" class="lightbox"
-data-ref-parent="fig-microscope" />
-
-(b) LensDiameter
-(<a href="#sec-LensDiameter" class="quarto-xref">Section 2.6.2</a>)
-
-</div>
-
-<div id="fig-WorkingDistance">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_WorkingDistance.png" class="lightbox"
-data-ref-parent="fig-microscope" />
-
-(c) WorkingDistance
-(<a href="#sec-WorkingDistance" class="quarto-xref">Section 2.6.3</a>)
-
-</div>
-
-<div id="fig-LensHeight">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_LensHeight.png" class="lightbox"
-data-ref-parent="fig-microscope" />
-
-(d) LensHeight
-(<a href="#sec-LensHeight" class="quarto-xref">Section 2.6.4</a>)
-
-</div>
-
-Figure 9: Back Plate parameters
-
-</div>
+![ObjectiveDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_ObjectiveDiameter.png){: width="48%" .pop}
+![LensDiameter]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_LensDiameter.png){: width="48%" .pop}
 
 ### ObjectiveDiameter
 
@@ -898,6 +564,9 @@ and *ObjectiveDiameter*
 defines the overall shape of the microscope cutout, which can be used to
 judge how well the microscope meshes with the design and to provide more
 space for the microscope.
+
+![WorkingDistance]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_WorkingDistance.png){: width="48%" .pop}
+![LensHeight]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_LensHeight.png){: width="48%" .pop}
 
 ### WorkingDistance
 
@@ -934,13 +603,7 @@ space for the microscope.
 
 ## Bottom Supports
 
-<div id="fig-BottomSupports">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/BottomSupports.png" class="lightbox" />
-
-Figure 10: Bottom Supports
-
-</div>
+![BottomSupports]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/BottomSupports.png){: width="48%" .pop}
 
 ### ConeTopDiameter
 
@@ -1025,29 +688,8 @@ increase the strength of the support plate.
 
 ## Side Supports
 
-<div id="fig-side-support">
-
-<div id="fig-SideSupportTop">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/SideSupport_Top.png" class="lightbox"
-data-ref-parent="fig-side-support" />
-
-(a) Side Suppors as seen from the top
-
-</div>
-
-<div id="fig-SideSupportSide">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/SideSupport_Side.png" class="lightbox"
-data-ref-parent="fig-side-support" />
-
-(b) Side Suppors as seen from the side
-
-</div>
-
-Figure 11: Side Support parameters
-
-</div>
+![SideSupport - Top view]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/SideSupport_Top.png){: width="48%" .pop}
+![SideSupport - Side view]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/SideSupport_Side.png){: width="48%" .pop}
 
 ### SupportLength
 
@@ -1143,48 +785,11 @@ These parameters are shown as reference in the FreeCAD spreadsheet and
 display the possible field of view that the fly would have if mounted in
 that particular setup.
 
-<div id="fig-field-of-view">
-
-<div id="fig-FrontReferenceAngle">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FrontReferenceAngle.png" class="lightbox"
-data-ref-parent="fig-field-of-view" />
-
-(a) FrontReferenceAngle
-(<a href="#sec-FrontReferenceAngle" class="quarto-xref">Section 2.9.1</a>)
-
-</div>
-
-<div id="fig-RightReferenceAngle">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightReferenceAngle.png" class="lightbox"
-data-ref-parent="fig-field-of-view" />
-
-(b) RightReferenceAngle
-(<a href="#sec-RightReferenceAngle" class="quarto-xref">Section 2.9.2</a>)
-
-</div>
-
-<div id="fig-LeftReferenceAngle">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_LeftReferenceAngle.png" class="lightbox"
-data-ref-parent="fig-field-of-view" />
-
-(c) LeftReferenceAngle
-(<a href="#sec-LeftReferenceAngle" class="quarto-xref">Section 2.9.3</a>)
-
-</div>
-
-Figure 12: Field of view
-
-</div>
+![FrontReferenceAngle]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_FrontReferenceAngle.png){: width="48%" .pop}
 
 ### FrontReferenceAngle
 
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter cannot be changed and is only used as a reference
 
 *FrontReferenceAngle* (default: 12°) measures the angle from the very
@@ -1200,12 +805,12 @@ and *RightReferenceAngle*
 show the field of view that the fly can see with a specific pyramid
 model.
 
+![RightReferenceAngle]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_RightReferenceAngle.png){: width="48%" .pop}
+![LeftReferenceAngle]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Param_LeftReferenceAngle.png){: width="48%" .pop}
+
 ### RightReferenceAngle
 
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter cannot be changed and is only used as a reference
 
 *RightReferenceAngle* (default: 9°) measures the angle from the very
@@ -1223,10 +828,7 @@ model.
 
 ### LeftReferenceAngle
 
-> [!TIP]
->
-> ### Reference
->
+{: .reference}
 > This parameter cannot be changed and is only used as a reference
 
 *LeftReferenceAngle* (default: 9°) measures the angle from the very
@@ -1246,47 +848,22 @@ model.
 
 ## FreeCAD export instructions
 
-<div id="fig-freecad-export">
 
-<div id="fig-FreeCAD_export01">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/FreeCAD_export01.png" class="lightbox"
-data-ref-parent="fig-freecad-export" />
-
-(a) Switch to the *Mesh* workspace in FreeCAD
-
-</div>
-
-<div id="fig-FreeCAD_export03">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/FreeCAD_export03.png" class="lightbox"
-data-ref-parent="fig-freecad-export" />
-
-(b) Convert parametrizable FreeCAD bodies to static meshes
-
-</div>
-
-<div id="fig-FreeCAD_export05">
-
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/FreeCAD_export05.png" class="lightbox"
-data-ref-parent="fig-freecad-export" />
-
-(c) Merge several meshes into a single exportable object
-
-</div>
-
-Figure 13: FreeCAD export
-
-</div>
 
 This can be skipped if FreeCAD is not being used to parameterize the
 model, and the default 3D files are being used.
+
+
+![Switch to the MESH workspace in FreeCAD]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/FreeCAD_export01.png){: .ifr .pop}
 
 After editing the parameters of the FreeCAD model, exit out to the main
 menu. Next, click on the dropdown on the top bar of the screen that says
 **Part Design** or **Start** under the **Windows** button, and change
 the dropdown menu to **Mesh** (see
 <a href="#fig-FreeCAD_export01" class="quarto-xref">Figure 13 (a)</a>).
+
+
+![Convert parametrizable FreeCAD bodies to static meshes]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/FreeCAD_export03.png){: .ifr .pop .clear}
 
 After this, select the *Fly Pyramid Body*, *Bottom Supports*, and
 *SideSupports* folders on the left, as seen below, and click on the
@@ -1296,10 +873,13 @@ default settings (see
 This will generate meshes of the selected bodies with the same base name
 and the addition *(Meshed)*.
 
+![Merge several meshes into a single exportable object]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/FreeCAD_export05.png){: .ifr .pop .clear}
+
 After this, select all the new meshes and click the merge button, on the
 top toolbar (see
 <a href="#fig-FreeCAD_export05" class="quarto-xref">Figure 13 (c)</a>).
 This generates a single mesh for all the different bodies.
+
 
 With this final mesh, turn off the visibility of all the other objects
 to make sure that there are no glitches or holes in the design, and then
@@ -1311,6 +891,8 @@ right click on the final singular mesh and select *Export Mesh…* as a
 The slicer software being used is called [Lychee
 Slicer](https://mango3d.io/resin-sla-msla-3d-printers).
 
+![Example of pyramids in the Lychee slicer]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/lychee.png){: .ifr .pop}
+
 After setting up the settings of the printer in the software and
 importing the fly pyramid (stl or obj file) model into the slicer. The
 fly pyramids should be printed individually and not connected to each
@@ -1320,15 +902,14 @@ other, to minimize possible damage from the sloshing of the liquid resin
 (this is not determined to be a big problem, but it is best to be safe).
 After this, export the model and print it.
 
-<div id="fig-lychee">
 
-<img src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/lychee.png" class="lightbox" />
-
-Figure 14: Example of pyramids in the Lychee slicer
-
-</div>
 
 ## Build Plate Removal
+
+<video controls class="ifr">
+  <source src="{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Fly_Pyramid_Removal.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 After the prints are finished being printed, carefully remove the build
 plate from the printer, and lay it flat on the table. After this, use a
@@ -1337,8 +918,6 @@ the model, until the bottom supports are loose. Next, use the razor, or
 even your finger, to apply pressure to the bottom of the side supports,
 until they come loose. All of this is shown in the following short
 video.
-
-[{{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Fly_Pyramid_Removal.mov]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Fly_Pyramid_Removal.mov)
 
 After this, you can wash each of the prints, with either IPA or water
 (depending on the resin being used), and then cure it for around 5-10
@@ -1356,13 +935,9 @@ hole. After this, weight is applied downward on the wire with a small
 bucket and weights inside. This setup is shown in
 <a href="#fig-StrengthTestSetup" class="quarto-xref">Figure 15</a>.
 
-<div id="fig-StrengthTestSetup">
 
-![]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/StrengthTest.png)
+![]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/StrengthTest.png){: .ifr .pop}
 
-Figure 15: Strength test
-
-</div>
 
 A variety of fly pyramids with different resins,
 *BottomOfPyramidThickness*
@@ -1386,19 +961,7 @@ the legend. Furthermore, `x` represent measurements with a
 <a href="#fig-TopOfPyramidThickness" class="quarto-xref">Figure 3
 (a)</a>) and `+` represent ones with a thickness of 1mm.
 
-<div id="fig-StrengthTest">
-
-![](fly-pyramid_files/figure-commonmark/cell-2-output-1.png)
-
-Figure 16: Strength test with 5 different resins, three different
-material thicknesses at the bottom of the pyramid (in color,
-<a href="#sec-BottomOfPyramidThickness"
-class="quarto-xref">Section 2.1.6</a>) and two different thicknesses at
-the top of the pyramid (0.5mm with `x`, 1mm with `+`, also see
-<a href="#sec-TopOfPyramidThickness"
-class="quarto-xref">Section 2.1.5</a>).
-
-</div>
+![Strength test of 5 different resins, 3 material thicknesses at the bottom (BottomOfPyramidThickness) and two at the top (TopOfPyramidThickness)]({{site.baseurl}}/assets/img/Physiology-Setup/Parametric-Flypyramid/Fig_Strength-test_results.png){: .ifr .pop}
 
 Each resin was printed with the following exposure times on the Elegoo
 Mars 3 printer:
@@ -1411,27 +974,27 @@ the print, with the cost of increased printing time.
 
 ## Strength test
 
-Measurements from the strenght test of different resins. All the data is
+Measurements from the strength test of different resins. All the data is
 visualized in
 <a href="#fig-StrengthTest" class="quarto-xref">Figure 16</a>
 
 
 Table 1: Measured maximum weight per resin at different print settings
 
-| Resin Type      | BottomOfPyramidThickness | TopOfPyramidThickness  | weight |
-|:----------------|-------------------------:|-----------------------:|-------:|
-| Phrozen TR250   | 0.1 | 0.5 | 200 |
-| Phrozen TR250   | 0.1 | 0.5 | 195 |
-| Phrozen TR250   | 0.15 | 0.5 | 414 |
-| Phrozen TR250   | 0.15 | 0.5 | 465 |
-| Phrozen TR250   | 0.2 | 0.5 | 733 |
-| Phrozen TR250   | 0.2 | 0.5 | 764 |
-| Phrozen TR250   | 0.1 | 1 | 255 |
-| Phrozen TR250   | 0.1 | 1 | 276 |
-| Phrozen TR250   | 0.15 | 1 | 548 |
-| Phrozen TR250   | 0.15 | 1 | 546 |
-| Phrozen TR250   | 0.2 | 1 | 966 |
-| Phrozen TR250   | 0.2 | 1 | 995 |
+| Resin Type | BottomOfPyramidThickness | TopOfPyramidThickness | weight |
+|---|---|---|---|
+| Phrozen TR250 | 0.1 | 0.5 | 200 |
+| Phrozen TR250 | 0.1 | 0.5 | 195 |
+| Phrozen TR250 | 0.15 | 0.5 | 414 |
+| Phrozen TR250 | 0.15 | 0.5 | 465 |
+| Phrozen TR250 | 0.2 | 0.5 | 733 |
+| Phrozen TR250 | 0.2 | 0.5 | 764 |
+| Phrozen TR250 | 0.1 | 1 | 255 |
+| Phrozen TR250 | 0.1 | 1 | 276 |
+| Phrozen TR250 | 0.15 | 1 | 548 |
+| Phrozen TR250 | 0.15 | 1 | 546 |
+| Phrozen TR250 | 0.2 | 1 | 966 |
+| Phrozen TR250 | 0.2 | 1 | 995 |
 | Elegoo Standard | 0.1 | 0.5 | 90 |
 | Elegoo Standard | 0.1 | 0.5 | 96 |
 | Elegoo Standard | 0.15 | 0.5 | 147 |
@@ -1481,9 +1044,3 @@ Table 1: Measured maximum weight per resin at different print settings
 | Anycubic Rigid 100 | 0.2 | 1 | 1112 |
 | Anycubic Rigid 100 | 0.2 | 1 | 1096 |
 
-
-# Document History
-
-1.  originally a Word document by Benjamin Hayworth (Summer intern from Loudoun County High Schools )
-2.  converted to private GitHub compatible Markdown
-3.  converted to quarto Markdown for MCN-NET documentation
