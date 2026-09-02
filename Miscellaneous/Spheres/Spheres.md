@@ -10,6 +10,8 @@ nav_order: 10
 [![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Miscellaneous/Spheres){:.ifr}
 For the spherical treadmill we experimented with different spheres and sphere helpers.
 
+For an alternative method of producing the spheres, see the [Treadmill Ball Grinders]({{site.baseurl}}/interesting-links#treadmill-ball-grinders) entry on the Interesting Links page.
+
 ![Magnet holder]({{site.baseurl}}/assets/img/Miscellaneous/Spheres/Magnet-Holder_1pc.png){:.ifr .pop}
 `Magnet-Holder_1pc.FCStd`: Holder for a cylindrical magnet that fits inside a 9mm sphere.
 {:.clear}
