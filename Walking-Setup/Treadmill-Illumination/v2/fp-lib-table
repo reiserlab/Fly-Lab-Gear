@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "potentiometer-C48997897") (type "KiCad") (uri "${KIPRJMOD}/potentiometer-C48997897.pretty") (options "") (descr ""))
+	(lib (name "power-terminal") (type "KiCad") (uri "${KIPRJMOD}/power-terminal.pretty") (options "") (descr ""))
+)

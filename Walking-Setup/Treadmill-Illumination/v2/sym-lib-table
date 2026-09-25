@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Potentiometer") (type "KiCad") (uri "${KIPRJMOD}/potentiometer-C48997897.pretty") (options "") (descr ""))
+)
