@@ -9,33 +9,79 @@ nav_order: 4
 
 [![Open GitHub folder]({{site.baseurl}}/assets/img/GitHub-Mark-32px.png) → to GitHub project folder](https://github.com/reiserlab/Fly-Lab-Gear/tree/main/Walking-Setup/Treadmill-Illumination){:.ifr}
 
-A two-channel LED driver board for near-infrared (NIR) illumination of the spherical treadmill in the ["Integrated Inexpensive Treadmill"]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill). Each channel independently drives four NIR LEDs in series from a 12 V supply, with a trimmer potentiometer per channel for brightness control. The circuit contains no ICs and no PWM, brightness is set resistively and therefore flicker free. This also keeps assembly straightforward and the adjustment stable between sessions.
+A two-channel LED driver board for near-infrared (NIR) illumination of the spherical treadmill in the ["Integrated Inexpensive Treadmill"]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill). The current version 2 runs from a regulated 5 V supply and drives two 850 nm LEDs in series per channel, with a trimmer per channel for brightness. The circuit contains no ICs and no PWM: brightness is set resistively, which keeps assembly simple and the adjustment stable between sessions. The earlier 12 V version 1 is described [further down](#version-1-12-v-legacy).
 
 ## Version 2 (5 V)
 
-The v2 board in `v2/` runs from a regulated 5 V supply (for example a USB power adapter) connected to J2, a polarized right-angle JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. Each of the two independent channels drives two NIR LEDs in series. The per-channel chain is +5 V → fixed resistor → trimmer → LED → LED → GND. The trimmer is wired as a variable resistor (rheostat): its wiper and one end terminal are tied together, so a lifted wiper fails to maximum resistance, meaning minimum brightness. Two trimmers let the two sides be balanced against each other at the ball, compensating for LED-to-LED output spread and lamp placement.
+![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v2_render.png){: .ifr .pop}
+
+The v2 board in `v2/` is powered through J2, a polarized right-angle JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND.
+
+The trimmer is wired as a variable resistor (rheostat): its wiper and one end terminal are tied together, so a wiper that loses contact leaves the full track in circuit, and the LEDs dim instead of going bright. Two trimmers let the two sides be balanced against each other at the ball, compensating for LED-to-LED output spread and lamp placement. Two M2 mounting holes (H1, H2) are plated and connected to GND.
 
 | Reference | Component | Value | Part (LCSC) |
 |-----------|-----------|-------|-------------|
 | J2 | JST PH 2-pin, right-angle THT | pin 1 +5 V, pin 2 GND | JST S2B-PH-K-S(LF)(SN) (C173752) |
-| R3, R4 | Resistor, axial THT, metal film ±1%, ¼ W | 100 Ω | YAGEO MFR-25FBF52-100R (C6300650) |
-| RV1, RV2 | Trimmer potentiometer, single-turn, SMD | 500 Ω | JIERR JER33X-1-52 (C52034162) |
-| D10, D11, D14, D15 | NIR LED 850 nm, 0603 | 2 per channel | Xinglight XL-1608HIRC-850 (C965885) |
-| D2, D3, D6, D7 | *Alternative:* NIR LED 855 nm, 1206 with dome lens | DNP | Everlight HIR26-21C/L423/CT (C131273) |
+| R3, R4 | Resistor, axial THT, metal film ±1%, ¼ W | 110 Ω | CCO MF1/4W-110Ω±1% (C119305) |
+| RV1, RV2 | Trimmer potentiometer, single-turn, SMD | 100 Ω | JIERR JER33X-1-12 (C52033642) |
+| D10, D11, D14, D15 | NIR LED 850 nm, 0603, 120° | 2 per channel | Xinglight XL-1608HIRC-850 (C965885) |
+| D2, D3, D6, D7 | *Alternative:* NIR LED 855 nm, 1206 with dome lens, 20° | DNP | Everlight HIR26-21C/L423/CT (C131273) |
 
-Each 1206 footprint is wired in parallel with one 0603 footprint. Populate either the 0603 or the 1206 LEDs, never both: parallel LEDs without their own resistors do not share current evenly. The 1206 part has a lens and a much narrower beam (20° instead of 120°), so it is brighter on axis but less uniform across the ball. Its polarity mark is on the anode side, opposite to most LEDs; the cathode goes to pad 1.
+### Operating limits
 
-The power cable needs a JST PHR-2 housing (LCSC C157955) with SPH-002T-P0.5S crimp contacts (C111515, 24–32 AWG), or a pre-crimped 2-pin PH lead. Pre-made PH leads, for example those sold for LiPo batteries, do not follow a consistent color or polarity convention. Before connecting, check that the positive wire lands on pin 1, which is the square pad marked +5V.
+- **Supply:** regulated 5.0–5.25 V, for example a USB power adapter. **Never connect a 12 V supply** (such as a v1 cable): the LEDs are overdriven and the resistors overheat. The input has no reverse-polarity protection.
+- **Ambient temperature up to 30 °C.** The LED's maximum current falls with temperature (30 mA at 25 °C, about 27.5 mA at 30 °C). The resistor values are chosen so that no combination of parts and supply exceeds that.
+- **Flicker:** there is no PWM, but brightness follows the supply. As a guide, 50 mV of supply ripple changes brightness by about 2%.
 
-With the trimmer at minimum resistance the LED current is about 20 mA (typical), and at most about 28 mA at the worst-case combination of the lowest LED forward-voltage bin (1.2 V at 20 mA), a 5.25 V supply and a −1% resistor. This stays below the 30 mA maximum rating of the 0603 LED. At maximum trimmer resistance the current is about 4 mA. The 100 Ω resistor dissipates below 80 mW, each LED below 40 mW (rated 45 mW). Brightness scales roughly linearly with current; a 50 mV supply ripple changes brightness by about 2%, so use a regulated supply.
+Expected LED current per channel:
 
-## Circuit (v1)
+| | Trimmer at minimum (brightest) | Trimmer at maximum (dimmest) |
+|---|---|---|
+| Typical board (Vf 1.5 V, 5.0 V supply) | 18.4 mA | 10.3 mA |
+| Weakest board (Vf 1.7 V, 4.75 V supply) | 13.2 mA | — |
+| Strongest board (Vf 1.2 V, 5.25 V supply) | 25.4 mA, at most 26.2 mA | — |
+
+Light output scales roughly linearly with current. At the strongest-board worst case, each resistor dissipates at most 75 mW (rated 250 mW) and each LED at most about 36 mW (rated 45 mW). The trimmer carries the full LED current near its bright end; for a 100 Ω, 0.15 W part used as a rheostat, the usual limit is √(P/R), about 35 mA, so there is ample margin. The design trades adjustment range for this safety margin: the trimmer covers about 2:1 in current, which is enough to balance the two sides. For much dimmer light, reduce the camera exposure instead.
+
+### Assembly notes
+
+- **LED polarity.** Both LED types mark the **anode**, the opposite of most LEDs. The XL-1608HIRC-850 has a green mark on its anode end, and the HIR26 has its mark on the anode side as well. On the board, the silkscreen bracket around each LED is closed on the cathode side (pad 1). **Place each LED with its mark at the open end of the bracket.** A reversed LED leaves that channel dark. Check one LED with a multimeter diode test before soldering the rest.
+- **Populate either the 0603 or the 1206 LEDs, never both.** Each 1206 footprint is wired in parallel with one 0603 footprint, and parallel LEDs without their own resistors do not share current evenly. A solder bridge across an unused 1206 footprint shorts out the LED next to it.
+- **1206 alternative (HIR26).** It is brighter on axis but much narrower (20° instead of 120°), so it only helps if the LEDs point at the part of the ball the camera sees. Everlight's datasheets disagree on its maximum current: revision 2 (2016) gives 20 mA, revision 4 (2024) gives 65 mA. Until that is confirmed for the stock you buy, treat it as a 20 mA part and don't turn the trimmer below about the middle of its range.
+- **Stencil.** The top paste layer in `v2/production/` includes the pads of the unfitted 1206 LEDs. For stencil assembly, remove those apertures or order the stencil without them.
+- **Mounting.** Because H1 and H2 are connected to GND, metal screws into a grounded metal frame connect the LED supply ground to the rig ground. Use a plastic mount or nylon screws if that matters for the setup.
+- **Cable.** Use a JST PHR-2 housing (LCSC C157955) with SPH-002T-P0.5S crimp contacts (C111515, **24–30 AWG**, insulation 0.9–1.5 mm), or a pre-crimped 2-pin PH lead. Pre-made PH leads, for example those sold for LiPo batteries, do not follow a consistent color or polarity convention. Before connecting, check that the positive wire lands on pin 1, the square pad marked +5V. J2 is held only by its two solder joints, so tie the cable to the mount instead of letting it hang from the connector.
+
+### Bring-up and bench test
+
+Measure LED current as the voltage across the 110 Ω resistor: **1 V ≈ 9.1 mA**. The through-hole leads are easy to probe.
+
+Before power-up:
+
+1. No short between +5 V and GND at J2.
+2. The resistance from each trimmer's pin 1 to its wiper spans about 0–100 Ω as you turn it (±25%).
+3. With the cable plugged into the supply but not into the board, check that the wire going to pin 1 is positive.
+
+Powered from the regulated 5 V supply, with both trimmers first turned to the dim end:
+
+| Check | Expected | Stop if |
+|-------|----------|---------|
+| Voltage across R3/R4, trimmer at the dim end | about 1.1 V (10 mA) | — |
+| Same, trimmer at the bright end | about 2.0 V (18 mA), up to 2.8 V with low-Vf LEDs | above 2.9 V (26.4 mA): wrong resistor, wrong trimmer or supply above 5.25 V |
+| Brightness changes smoothly over the whole rotation | yes | a large dead zone (suggests a wiring error) |
+| A channel is dark | — | check LED orientation |
+
+Balance the two channels by looking at the ball in the tracking camera, not by matching currents. The LEDs vary in output by up to 10× between bins at the same current, so equal currents do not mean equal brightness. Note which direction of rotation is brighter.
+
+**If a board is too dim for tracking** (for example with high-Vf LEDs), R3/R4 can be swapped for 100 Ω or 91 Ω, because they are through-hole. Do this only on a board you have measured, with the rig at or below 30 °C, and check that the voltage across the new resistor with the trimmer at the bright end stays below **2.5 V for 100 Ω** or **2.28 V for 91 Ω** (both 25 mA). For boards built by others, keep 110 Ω.
+
+## Version 1 (12 V, legacy)
 
 ![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination_font.png){: .ifr .pop}
 
-12 V DC enters through a barrel jack. Each of the two independent channels connects a trimmer and a current-limiting resistor in series with four NIR LEDs. Adjusting the trimmer changes the effective resistance in the chain and therefore the LED current and brightness. Because the two channels share only the supply, each lamp cluster can be set independently. Three M2 mounting holes allow the board to be attached to the newest iteration of the [integrated inexpensive treadmill](({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill)).
+12 V DC enters through a barrel jack. Each of the two independent channels connects a trimmer and a current-limiting resistor in series with four NIR LEDs. Adjusting the trimmer changes the effective resistance in the chain and therefore the LED current and brightness. Because the two channels share only the supply, each lamp cluster can be set independently. Three M2 mounting holes allow the board to be attached to the newest iteration of the [integrated inexpensive treadmill]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill).
 
-## Bill of materials (v1.1 THT build)
+### Bill of materials (v1.1 THT build)
 
 | Reference | Component | Value |
 |-----------|-----------|-------|
@@ -44,7 +90,7 @@ With the trimmer at minimum resistance the LED current is about 20 mA (typical),
 | R3, R4 | Resistor, axial THT | 120 Ω |
 | RV3, RV4 | Trimmer potentiometer | Bourns 3005, 25 turns |
 
-## SMD alternative (DNP in v1.1)
+### SMD alternative (DNP in v1.1)
 
 The PCB also carries footprints for a surface-mount build. In v1.1 these are marked DNP (do not populate). Do not populate both variants on the same channel.
 
@@ -56,8 +102,6 @@ The PCB also carries footprints for a surface-mount build. In v1.1 these are mar
 
 ## Production files
 
-`production/v1.1/` contains the current fabrication package for this revision: Gerber ZIP, BOM CSV, component placement CSV, and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). Ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23.
+`v2/production/` contains the fabrication package for version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled v2 board is `assets/Treadmill-Illumination-v2.step`. The 3D model of the trimmer comes from the EasyEDA/LCSC library.
 
-`production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only.
-
-`v2/production/` contains the Gerber/drill ZIP and IPC netlist for version 2. The 3D model of the assembled v2 board is `assets/Treadmill-Illumination-v2.step`.
+`production/v1.1/` contains the legacy version 1.1 package (Gerber ZIP and IPC netlist), ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23. `production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only.

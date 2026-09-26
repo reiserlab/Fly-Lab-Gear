@@ -589,7 +589,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.81 -2.37 180)
+			(at 10.01 0 180)
 			(layer "F.SilkS")
 			(uuid "0ffcd2ba-35ac-409c-90f3-284ce735ad23")
 			(effects
@@ -599,7 +599,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "110"
 			(at 3.81 2.37 180)
 			(layer "F.Fab")
 			(uuid "b0276f8b-c0bc-4f52-85bc-87d329cd3d37")
@@ -644,7 +644,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6300650"
+		(property "LCSC" "C119305"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -804,10 +804,6 @@
 		)
 		(variant
 			(name "5V")
-			(field
-				(name "LCSC")
-				(value "C2894648")
-			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
@@ -839,7 +835,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "110"
 			(at 3.81 -2.25 0)
 			(layer "F.Fab")
 			(uuid "61d9eef0-bf91-49ca-a805-82263f963aed")
@@ -884,7 +880,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6300650"
+		(property "LCSC" "C119305"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1044,10 +1040,6 @@
 		)
 		(variant
 			(name "5V")
-			(field
-				(name "LCSC")
-				(value "C2894648")
-			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
@@ -1315,7 +1307,7 @@
 		(uuid "78d4e8c9-5a66-43e0-a12c-a183ab6a0118")
 		(at 82 95.4)
 		(property "Reference" "RV2"
-			(at -0.02929 -0.75 0)
+			(at -0.02929 -0.35 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5b122b16-443d-4741-b3b4-14de5f69d007")
@@ -1326,7 +1318,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1403,7 +1395,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52034162"
+		(property "LCSC" "C52033642"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1439,7 +1431,7 @@
 			(uuid "6429e3e1-2a2c-4d97-9893-c362c5f5cfc9")
 		)
 		(fp_line
-			(start -1.7 -1.6)
+			(start -1.7 -1.2)
 			(end -1.7 -6.2)
 			(stroke
 				(width 0.1)
@@ -1450,7 +1442,7 @@
 		)
 		(fp_line
 			(start 1.7 -6.2)
-			(end 1.7 -1.6)
+			(end 1.7 -1.2)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -1459,8 +1451,8 @@
 			(uuid "65910163-d440-40c8-8f2d-6e3a7fa9bfaa")
 		)
 		(fp_line
-			(start 1.7 -1.6)
-			(end -1.7 -1.6)
+			(start 1.7 -1.2)
+			(end -1.7 -1.2)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -1478,6 +1470,17 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "414dc243-aa9e-46f6-a735-7b99fdaf494e")
+		)
+		(fp_rect
+			(start -1.95 -6.45)
+			(end 1.95 -0.95)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9f9dcffe-0628-4222-90a8-ea25d302c3ba")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1 0)
@@ -1571,7 +1574,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D11"
-			(at 0 1.4 0)
+			(at 0 1.75 0)
 			(layer "F.SilkS")
 			(uuid "e45ddf20-28e1-4aa5-856f-fecdc5956fb2")
 			(effects
@@ -2255,7 +2258,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D10"
-			(at 0 -1.4 0)
+			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "7f392a19-6aef-4e04-96db-1b87d0ce5c89")
 			(effects
@@ -2997,7 +3000,7 @@
 		(uuid "e937a6e1-9fcd-449d-9334-45424dd82819")
 		(at 125.77929 95.4)
 		(property "Reference" "RV1"
-			(at -0.02929 -0.75 0)
+			(at 0.47 -0.35 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "87c9d7b9-09c0-431f-a107-fcc04b1f46ce")
@@ -3008,7 +3011,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3085,7 +3088,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52034162"
+		(property "LCSC" "C52033642"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3121,7 +3124,7 @@
 			(uuid "cbf7f28b-c37e-487f-9380-ca1929ce790c")
 		)
 		(fp_line
-			(start -1.7 -1.6)
+			(start -1.7 -1.2)
 			(end -1.7 -6.2)
 			(stroke
 				(width 0.1)
@@ -3132,7 +3135,7 @@
 		)
 		(fp_line
 			(start 1.7 -6.2)
-			(end 1.7 -1.6)
+			(end 1.7 -1.2)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -3141,8 +3144,8 @@
 			(uuid "637c7e10-6884-4baa-844f-97c2bbc0c694")
 		)
 		(fp_line
-			(start 1.7 -1.6)
-			(end -1.7 -1.6)
+			(start 1.7 -1.2)
+			(end -1.7 -1.2)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -3160,6 +3163,17 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "e0985bd9-af1f-41eb-87bf-ea45530cf78d")
+		)
+		(fp_rect
+			(start -1.95 -6.45)
+			(end 1.95 -0.95)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1f24b862-cc01-4388-a40d-fab088f89fc5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1 0)

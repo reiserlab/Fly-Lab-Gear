@@ -1123,6 +1123,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 152.4 101.6)
@@ -2138,7 +2253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "110"
 			(at 106.68 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2297,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6300650"
+		(property "LCSC" "C119305"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2206,14 +2321,6 @@
 					(unit 1)
 					(variant
 						(name "5V")
-						(field
-							(name "LCSC")
-							(value "C2894648")
-						)
-						(field
-							(name "Value")
-							(value "100")
-						)
 					)
 				)
 			)
@@ -2416,7 +2523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "110"
 			(at 144.78 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2567,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6300650"
+		(property "LCSC" "C119305"
 			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2484,14 +2591,6 @@
 					(unit 1)
 					(variant
 						(name "5V")
-						(field
-							(name "LCSC")
-							(value "C2894648")
-						)
-						(field
-							(name "Value")
-							(value "100")
-						)
 					)
 				)
 			)
@@ -2520,7 +2619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 139.7 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2597,7 +2696,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52034162"
+		(property "LCSC" "C52033642"
 			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3205,7 +3304,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 101.6 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3381,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52034162"
+		(property "LCSC" "C52033642"
 			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3425,6 +3524,180 @@
 					(variant
 						(name "5V")
 					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c687ece8-145d-436c-9ab0-cf06779e77b6")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c19a1bd-9e7a-4010-a1ba-143a8b2f9423")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aeff3dbc-c975-4d07-9aa9-10a0d04d6c81")
+		(property "Reference" "#FLG01"
+			(at 116.84 48.894999999999996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05478c9d-7150-4012-a46a-1e3d482b20d2")
+		)
+		(instances
+			(project "Treadmill-Illumination-2"
+				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de913c2c-0b18-4d97-b952-a6e7e5be4ba6")
+		(property "Reference" "#FLG02"
+			(at 129.54 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dd78650-b16c-4b8b-89dd-57b201d8cf76")
+		)
+		(instances
+			(project "Treadmill-Illumination-2"
+				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
+					(reference "#FLG02")
+					(unit 1)
 				)
 			)
 		)
