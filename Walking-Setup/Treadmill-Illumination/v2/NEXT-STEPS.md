@@ -17,6 +17,7 @@ Done in the PR:
 - RV1/RV2 rewired as rheostats (pin 3 tied to the wiper) in the schematic and on the PCB
 - R3/R4 set to 100 Ω and RV1/RV2 to 500 Ω
 - J2 changed from a vertical screw terminal to a right-angle JST PH 2-pin (S2B-PH-K-S, C173752), with the cable exiting at the bottom board edge
+- All 8 board-outline corners rounded with a 2 mm radius, including the 2 inside corners of the notch
 - GND pour refilled, with isolated islands removed
 - Production files regenerated
 - Docs updated
@@ -89,6 +90,10 @@ These numbers came from search summaries; I couldn't open the datasheets themsel
 - [ ] Visually check around RV1 and RV2: the new 0.5 mm trace from pad 3 to pad 2 (wiper), and that the GND pour clears it.
 - [ ] 3D viewer (Alt+3): nothing looks out of place. In particular, check that the J2 opening faces the bottom board edge.
 - [ ] Re-export `../assets/Treadmill-Illumination-v2.step` (File → Export → STEP). It still shows the old screw terminal, because the build container had no 3D models.
+- [ ] Rounded outline, 2 mm radius. Check the fit against the treadmill mount:
+  - The notch's two inside corners now have 2 mm fillets. These add up to about 0.8 mm of board material at each inside corner of the notch.
+  - At the bottom-right corner, J2's plastic front corner overhangs the rounded edge by about 0.24 mm.
+  - The outline is on Edge.Cuts; the dimension annotations on User.Drawings still show the overall sizes.
 - [ ] Expect 6 `silk_edge_clearance` DRC warnings on J2. They come from the connector outline reaching the flush board edge, and the fab clips that silkscreen automatically.
 - [ ] **Version label.** If any boards were ordered from the 2026-09-25 Gerbers, change the silkscreen `v2.0 2026-09-25` (front and back) to `v2.1 <date>`.
 - [ ] Optional: fix the schematic title block, which still says `rev v1.1`, date 2026-06-22.
