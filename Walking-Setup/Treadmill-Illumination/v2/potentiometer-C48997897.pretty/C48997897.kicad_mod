@@ -169,5 +169,16 @@
 			)
 		)
 	)
+	(model "${KIPRJMOD}/potentiometer-C48997897.3dshapes/JER33X.step"
+		(offset
+			(xyz 0 3.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(embedded_fonts no)
 )

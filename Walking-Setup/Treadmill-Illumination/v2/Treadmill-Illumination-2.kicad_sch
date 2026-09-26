@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Treadmill Illumination")
-		(date "2026-06-22")
-		(rev "v1.1")
+		(date "2026-09-26")
+		(rev "v2.0")
 		(company "Reiserlab @ Janelia | HHMI")
 	)
 	(lib_symbols
@@ -2182,7 +2182,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6300650"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2460,7 +2460,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6300650"
 			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2597,7 +2597,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52034162"
 			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3282,7 +3282,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52034162"
 			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)
