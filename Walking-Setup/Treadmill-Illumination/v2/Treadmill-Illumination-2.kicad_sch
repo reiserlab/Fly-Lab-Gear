@@ -1186,6 +1186,58 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 67.31) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b1d8c0-62fa-4475-9c3e-a5ae3ec8b8ec")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b35da03-ff49-4297-a808-d953631e9e77")
+	)
+	(junction
+		(at 107.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74341784-7cd0-47fd-8c5d-f864b52b6307")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4aec6b-27f3-413e-9f3d-98f7baf94fcd")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac256fe5-3db3-4b72-b9fb-33c0ac071c46")
+	)
+	(junction
+		(at 146.05 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f455058-8540-47aa-9867-90bc94a467e0")
+	)
+	(wire
+		(pts
 			(xy 101.6 96.52) (xy 101.6 101.6)
 		)
 		(stroke
@@ -2086,7 +2138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 106.68 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2130,7 +2182,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23587228"
+		(property "LCSC" ""
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2364,7 +2416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 144.78 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2460,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23587228"
+		(property "LCSC" ""
 			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2468,7 +2520,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "500"
 			(at 139.7 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2597,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C48997897"
+		(property "LCSC" ""
 			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2573,84 +2625,6 @@
 					(variant
 						(name "5V")
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bb610de-6483-4b48-b7c3-97a836f45fa8")
-		(property "Reference" "#PWR08"
-			(at 142.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "529a84cb-1188-48d4-bed3-97b7d11abbc3")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "#PWR08")
-					(unit 1)
 				)
 			)
 		)
@@ -2769,84 +2743,6 @@
 					(variant
 						(name "5V")
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b10d5721-7e7d-484a-9006-732cd6aa6739")
-		(property "Reference" "#PWR05"
-			(at 104.14 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca350cae-8b72-4e14-84a7-91ebcbfd10e5")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "#PWR05")
-					(unit 1)
 				)
 			)
 		)
@@ -3309,7 +3205,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "500"
 			(at 101.6 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,7 +3282,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C48997897"
+		(property "LCSC" ""
 			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)

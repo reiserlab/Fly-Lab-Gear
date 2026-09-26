@@ -11,7 +11,23 @@ nav_order: 4
 
 A two-channel LED driver board for near-infrared (NIR) illumination of the spherical treadmill in the ["Integrated Inexpensive Treadmill"]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill). Each channel independently drives four NIR LEDs in series from a 12 V supply, with a trimmer potentiometer per channel for brightness control. The circuit contains no ICs and no PWM, brightness is set resistively and therefore flicker free. This also keeps assembly straightforward and the adjustment stable between sessions.
 
-## Circuit
+## Version 2 (5 V)
+
+The v2 board in `v2/` runs from a regulated 5 V supply (for example a USB power adapter) connected to the screw terminal J2. Each of the two independent channels drives two NIR LEDs in series. The per-channel chain is +5 V → fixed resistor → trimmer → LED → LED → GND. The trimmer is wired as a variable resistor (rheostat): its wiper and one end terminal are tied together, so a lifted wiper fails to maximum resistance, meaning minimum brightness. Two trimmers let the two sides be balanced against each other at the ball, compensating for LED-to-LED output spread and lamp placement.
+
+| Reference | Component | Value |
+|-----------|-----------|-------|
+| J2 | Screw terminal, 2-pin | +5 V / GND |
+| R3, R4 | Resistor, axial THT | 100 Ω |
+| RV1, RV2 | Trimmer potentiometer, single-turn (JIERR JER33X series) | 500 Ω |
+| D10, D11, D14, D15 | NIR LED 850 nm, 0603 (Xinglight XL-1608HIRC-850) | 2 per channel |
+| D2, D3, D6, D7 | *Alternative:* NIR LED 850 nm, 1206 with dome lens (Everlight HIR26-21C/L423/CT) | DNP |
+
+Each 1206 footprint is wired in parallel with one 0603 footprint. Populate either the 0603 or the 1206 LEDs, never both: parallel LEDs without their own resistors do not share current evenly. The 1206 part has a lens and a narrower beam, so it is brighter on axis but less uniform across the ball.
+
+With the trimmer at minimum resistance the LED current is about 20 mA (typical), and at most about 26 mA at the worst-case combination of low LED forward voltage and a 5.25 V supply. This stays below the 30 mA maximum rating of the 0603 LED. At maximum trimmer resistance the current is about 4 mA. The 100 Ω resistor dissipates below 70 mW, each LED below 40 mW. Brightness scales roughly linearly with current; a 50 mV supply ripple changes brightness by about 2%, so use a regulated supply.
+
+## Circuit (v1)
 
 ![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination_font.png){: .ifr .pop}
 
@@ -41,4 +57,6 @@ The PCB also carries footprints for a surface-mount build. In v1.1 these are mar
 `production/v1.1/` contains the current fabrication package for this revision: Gerber ZIP, BOM CSV, component placement CSV, and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). Ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23.
 
 `production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only.
+
+`v2/production/` contains the Gerber/drill ZIP and IPC netlist for version 2.
 Walking-Setup/Inexpensive-Treadmill_Assembly/Inexpensive-Treadmill_Assembly.html
