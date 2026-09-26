@@ -2241,7 +2241,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "S2B-PH-K-S"
 			(at 59.055 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "power-terminal:rect-terminal-C131337"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 58.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2284,7 +2284,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C131337"
+		(property "LCSC" "C173752"
 			(at 58.42 80.01 0)
 			(hide yes)
 			(show_name no)

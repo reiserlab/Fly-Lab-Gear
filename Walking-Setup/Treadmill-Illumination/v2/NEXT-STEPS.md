@@ -16,6 +16,7 @@ Done in the PR:
 
 - RV1/RV2 rewired as rheostats (pin 3 tied to the wiper) in the schematic and on the PCB
 - R3/R4 set to 100 Ω and RV1/RV2 to 500 Ω
+- J2 changed from a vertical screw terminal to a right-angle JST PH 2-pin (S2B-PH-K-S, C173752), with the cable exiting at the bottom board edge
 - GND pour refilled, with isolated islands removed
 - Production files regenerated
 - Docs updated
@@ -58,10 +59,13 @@ These numbers came from search summaries; I couldn't open the datasheets themsel
   - IF(max) ≥ 30 mA? I couldn't verify this. The circuit can deliver up to 26 mA to this part.
   - Viewing angle. It has a dome lens, so expect a narrower beam than the 120° 0603.
   - **Land pattern:** this is a "1.6 mm round subminiature" package placed on a generic `LED_1206_3216Metric` footprint. Check the recommended land pattern in its datasheet, and its polarity marking, against the footprint.
-- [ ] **J2 (C131337) screw terminal**
-  - Current rating: trivial here, under 60 mA total
-  - Wire gauge range suits the supply lead
-  - Pin 1 is +5 V, matching the silkscreen (`+5V` left, `GND` right)
+- [ ] **J2: JST S2B-PH-K-S(LF)(SN), LCSC C173752** (changed from the vertical screw terminal to a right-angle JST PH)
+  - Footprint: KiCad stock `Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal`. Pins are at (127, 115.75) and (129, 115.75) mm, and the mating face is flush with the bottom board edge (y = 122 mm), so the cable exits downward in the board plane.
+  - Confirm this orientation suits how the board is mounted on the treadmill: the plug needs room to insert below the board edge.
+  - The rating (2 A) is far above the ~50 mA load.
+  - Mating parts: PHR-2 housing and SPH-002T-P0.5S crimps (24–32 AWG), or a pre-crimped PH lead. Order a few.
+  - Pin 1 is +5 V: the square pad, labelled `+5V` on the silkscreen. Pin 2 is GND.
+  - The now-unused custom footprint library `power-terminal.pretty` and its `fp-lib-table` entry can be deleted.
 
 ### Enter the part numbers
 
@@ -75,14 +79,17 @@ These numbers came from search summaries; I couldn't open the datasheets themsel
 | RV1, RV2 | 500 Ω | | | [ ] |
 | D10, D11, D14, D15 | XL-1608HIRC-850 | C965885 | | [ ] |
 | D2, D3, D6, D7 (DNP) | HIR26-21C/L423/CT | C131273 | | [ ] |
-| J2 | Terminal | C131337 | | [ ] |
+| J2 | JST PH 2-pin right-angle | C173752 | S2B-PH-K-S(LF)(SN) | [ ] |
+| (cable) | PH housing + crimps | | PHR-2 + SPH-002T-P0.5S | [ ] |
 
 ## 2. Review in KiCad
 
 - [ ] **ERC** in Eeschema. Expected result: no connection errors. Two `power_pin_not_driven` warnings are expected (no PWR_FLAG; these were already there).
 - [ ] In Pcbnew, **Edit → Fill All Zones (B)**, then **DRC** with "Test for parity between PCB and schematic" enabled. Expected result: 0 unconnected, 0 parity issues. Seven silkscreen warnings are expected; they were already there.
 - [ ] Visually check around RV1 and RV2: the new 0.5 mm trace from pad 3 to pad 2 (wiper), and that the GND pour clears it.
-- [ ] 3D viewer (Alt+3): nothing looks out of place.
+- [ ] 3D viewer (Alt+3): nothing looks out of place. In particular, check that the J2 opening faces the bottom board edge.
+- [ ] Re-export `../assets/Treadmill-Illumination-v2.step` (File → Export → STEP). It still shows the old screw terminal, because the build container had no 3D models.
+- [ ] Expect 6 `silk_edge_clearance` DRC warnings on J2. They come from the connector outline reaching the flush board edge, and the fab clips that silkscreen automatically.
 - [ ] **Version label.** If any boards were ordered from the 2026-09-25 Gerbers, change the silkscreen `v2.0 2026-09-25` (front and back) to `v2.1 <date>`.
 - [ ] Optional: fix the schematic title block, which still says `rev v1.1`, date 2026-06-22.
 - [ ] Optional: the +5 V zone on B.Cu is named "12V". This is cosmetic.
@@ -117,6 +124,8 @@ Before power-up:
 
 - [ ] With no LEDs powered, the resistance from RV pin 1 to the wiper should span about 0–500 Ω as you turn it.
 - [ ] No short between +5 V and GND at J2.
+
+- [ ] **Cable polarity:** with the cable plugged into the supply but not into the board, measure that the wire in the housing position that mates with pin 1 (the square pad, `+5V`) is positive. Pre-made PH leads vary in polarity.
 
 Powered from a regulated 5 V supply:
 
