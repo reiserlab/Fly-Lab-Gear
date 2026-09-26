@@ -3,12 +3,23 @@
 Working notes for finishing PR #50 on a local machine. **Delete this file before merging.**
 
 Branch: `claude/treadmill-illumination-design-nbnnwy` (PR #50 → `treadmill-illumination-v2`).
-Needs **KiCad 10** (the files are KiCad 10 format; KiCad 9 and older cannot open them).
 
-```
-git fetch origin
-git checkout claude/treadmill-illumination-design-nbnnwy
-```
+## 0. Local setup (one time)
+
+- [ ] **Install KiCad 10.0.x** from kicad.org, including the standard libraries (the default). The files are KiCad 10 format; KiCad 9 and older cannot open them.
+- [ ] On first launch, if KiCad asks about the global symbol and footprint library tables, choose **"Copy default global table"**. J2, the LEDs and the resistors come from the standard libraries (`Connector_JST`, `LED_SMD`, `Resistor_THT`, `MountingHole`). The trimmer footprint comes from the project-local `potentiometer-C48997897.pretty`.
+- [ ] Check out the branch:
+
+  ```
+  git fetch origin
+  git checkout claude/treadmill-illumination-design-nbnnwy
+  ```
+
+- [ ] Open `Walking-Setup/Treadmill-Illumination/v2/Treadmill-Illumination-2.kicad_pro`.
+- [ ] Where `kicad-cli` lives:
+  - Linux: on the PATH
+  - macOS: `/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli`
+  - Windows: `C:\Program Files\KiCad\10.0\bin\kicad-cli.exe`
 
 ## Status
 
@@ -26,9 +37,10 @@ Still open:
 
 1. Vendor part numbers for four parts (the LCSC fields are blank)
 2. Datasheet checks on the parts that stayed the same
-3. A visual review in KiCad, and a decision on the version label
-4. Regenerating production files if anything changes
-5. A bench test after assembly
+3. A review in KiCad, and a decision on the version label
+4. Re-exporting the STEP model (the committed one is out of date)
+5. Regenerating production files if anything changes
+6. A bench test after assembly
 
 ## 1. Vendor parts: choose and enter
 
@@ -85,19 +97,69 @@ These numbers came from search summaries; I couldn't open the datasheets themsel
 
 ## 2. Review in KiCad
 
-- [ ] **ERC** in Eeschema. Expected result: no connection errors. Two `power_pin_not_driven` warnings are expected (no PWR_FLAG; these were already there).
-- [ ] In Pcbnew, **Edit → Fill All Zones (B)**, then **DRC** with "Test for parity between PCB and schematic" enabled. Expected result: 0 unconnected, 0 parity issues. Seven silkscreen warnings are expected; they were already there.
-- [ ] Visually check around RV1 and RV2: the new 0.5 mm trace from pad 3 to pad 2 (wiper), and that the GND pour clears it.
-- [ ] 3D viewer (Alt+3): nothing looks out of place. In particular, check that the J2 opening faces the bottom board edge.
-- [ ] Re-export `../assets/Treadmill-Illumination-v2.step` (File → Export → STEP). It still shows the old screw terminal, because the build container had no 3D models.
+- [ ] **ERC** in the schematic editor (Inspect → Electrical Rules Checker → Run ERC).
+  - Expected: no connection errors.
+  - Two `power_pin_not_driven` warnings are expected. They were already there; there's no PWR_FLAG.
+  - Library warnings mean the global library tables aren't set up (see section 0).
+- [ ] In the PCB editor, press **B** (Edit → Fill All Zones).
+- [ ] **DRC** (Inspect → Design Rules Checker), with "Test for parity between PCB and schematic" enabled. Expected result:
+  - 0 unconnected items
+  - 0 schematic parity issues
+  - 13 silkscreen warnings:
+    - 3 `silk_overlap` and 4 `silk_over_copper`, which were already in the original board
+    - 6 `silk_edge_clearance` on J2, because its outline reaches the flush board edge. The fab clips that silkscreen automatically.
+  - Anything else is new. Look into it before ordering.
+- [ ] Visually check around RV1 and RV2: the new 0.5 mm trace from pad 3 to pad 2 (the wiper), and that the GND pour clears it.
+- [ ] **3D viewer** (View → 3D Viewer, Alt+3). Check:
+  - J2's opening faces the bottom board edge.
+  - The rounded corners, including the two inside the notch.
+  - The LEDs sit on the 0603 pads.
+  - RV1/RV2 will be missing: their custom footprint has no 3D model (see section 2b).
 - [ ] Rounded outline, 2 mm radius. Check the fit against the treadmill mount:
   - The notch's two inside corners now have 2 mm fillets. These add up to about 0.8 mm of board material at each inside corner of the notch.
   - At the bottom-right corner, J2's plastic front corner overhangs the rounded edge by about 0.24 mm.
   - The outline is on Edge.Cuts; the dimension annotations on User.Drawings still show the overall sizes.
-- [ ] Expect 6 `silk_edge_clearance` DRC warnings on J2. They come from the connector outline reaching the flush board edge, and the fab clips that silkscreen automatically.
 - [ ] **Version label.** If any boards were ordered from the 2026-09-25 Gerbers, change the silkscreen `v2.0 2026-09-25` (front and back) to `v2.1 <date>`.
 - [ ] Optional: fix the schematic title block, which still says `rev v1.1`, date 2026-06-22.
 - [ ] Optional: the +5 V zone on B.Cu is named "12V". This is cosmetic.
+
+## 2b. Re-export the STEP model and view it
+
+The committed `../assets/Treadmill-Illumination-v2.step` is out of date. It predates this PR (it still shows 11.9 mm resistors and the screw terminal). The build container had no 3D models, so I couldn't regenerate it.
+
+- [ ] **GUI:** PCB editor → File → Export → STEP. Settings:
+  - Output: `../assets/Treadmill-Illumination-v2.step`
+  - Tick **Export silkscreen**. The original export had it.
+  - Tick "Substitute similarly named models".
+  - Optional: exclude "Do not populate" components. The old file included the unfitted 1206 LEDs; excluding them shows the board as actually built.
+- [ ] **Or from the command line**, in this `v2/` folder:
+
+  ```
+  kicad-cli pcb export step --subst-models --include-silkscreen --no-dnp --force \
+    -o ../assets/Treadmill-Illumination-v2.step Treadmill-Illumination-2.kicad_pcb
+  ```
+
+  Leave out `--no-dnp` to keep the 1206 alternatives in the model.
+- [ ] Open the STEP in a CAD tool (FreeCAD, Fusion, Onshape) and check the fit against the treadmill assembly. Check J2's plug clearance below the bottom edge, and the notch corners.
+- [ ] Optional: quick rendered pictures, no CAD viewer needed:
+
+  ```
+  kicad-cli pcb render --quality high --side top -o top.png Treadmill-Illumination-2.kicad_pcb
+  kicad-cli pcb render --quality high --rotate "-45,0,45" --perspective -o iso.png Treadmill-Illumination-2.kicad_pcb
+  ```
+
+- [ ] Optional: **3D model for the trimmers.** `potentiometer-C48997897.pretty` has no model, so RV1/RV2 are missing from the viewer and the STEP. The old STEP didn't have them either.
+  1. `pip install easyeda2kicad`
+  2. `easyeda2kicad --3d --lcsc_id=C48997897` fetches the vendor model.
+  3. Attach it in the footprint's Properties → 3D Models, check its alignment in the 3D preview, and save the footprint back into the project library.
+  4. Re-export the STEP.
+- [ ] Commit the new STEP:
+
+  ```
+  git add ../assets/Treadmill-Illumination-v2.step
+  git commit -m "Re-export v2 STEP"
+  git push
+  ```
 
 ## 3. Regenerate production files (only if anything changed in step 1 or 2)
 
@@ -105,9 +167,9 @@ Use the same tool as the original package, the **Fabrication Toolkit** plugin. I
 
 - [ ] Run the plugin. It writes `production/v2.zip` and `production/netlist.ipc`.
 - [ ] If you order assembly from JLCPCB, keep the BOM and CPL CSVs the plugin produces, as for v1.1.
-- [ ] Sanity check: in a Gerber viewer, compare the new `F_Cu` layer against the PR version. Only intended changes should differ.
+- [ ] Sanity check: open the new zip and the PR's `production/v2.zip` in a Gerber viewer (KiCad's GerbView works). Only the layers you intentionally changed should differ.
 
-What I ran (cross-check, not needed if you use the plugin; requires Docker):
+What I ran, as a cross-check; you don't need it if you use the plugin. It uses Docker. With a local KiCad 10, drop the `$RUN` prefix and call `kicad-cli` directly.
 
 ```
 IMG=kicad/kicad:10.0
@@ -129,7 +191,6 @@ Before power-up:
 
 - [ ] With no LEDs powered, the resistance from RV pin 1 to the wiper should span about 0–500 Ω as you turn it.
 - [ ] No short between +5 V and GND at J2.
-
 - [ ] **Cable polarity:** with the cable plugged into the supply but not into the board, measure that the wire in the housing position that mates with pin 1 (the square pad, `+5V`) is positive. Pre-made PH leads vary in polarity.
 
 Powered from a regulated 5 V supply:
