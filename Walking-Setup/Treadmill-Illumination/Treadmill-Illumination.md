@@ -30,10 +30,10 @@ The trimmer is wired as a variable resistor (rheostat): its wiper and one end te
 ### Operating limits
 
 - **Supply:** regulated 5.0–5.25 V, for example a USB power adapter. **Never connect a 12 V supply** (such as a v1 cable): the LEDs are overdriven and the resistors overheat. The input has no reverse-polarity protection.
-- **Ambient temperature up to 30 °C.** The LED's maximum current falls with temperature (30 mA at 25 °C, about 27.5 mA at 30 °C). The resistor values are chosen so that no combination of parts and supply exceeds that.
+- **Ambient temperature up to 30 °C.** The LED's maximum current falls with temperature (30 mA at 25 °C, about 27.5 mA at 30 °C). Using the datasheet's 25 °C forward-voltage limits, no combination of parts and supply exceeds that (at most 26.2 mA). The datasheet gives no forward-voltage limits at 30 °C, so confirm on the rig by measuring current at 5.25 V after warm-up (see the bench test). "Ambient" means the air temperature next to the LEDs, including any heat from the rig.
 - **Flicker:** there is no PWM, but brightness follows the supply. As a guide, 50 mV of supply ripple changes brightness by about 2%.
 
-Expected LED current per channel:
+Expected LED current per channel. These are estimates from a diode model fitted to the datasheet; the 26.2 mA bound uses only the datasheet's minimum forward voltage.
 
 | | Trimmer at minimum (brightest) | Trimmer at maximum (dimmest) |
 |---|---|---|
@@ -41,13 +41,14 @@ Expected LED current per channel:
 | Weakest board (Vf 1.7 V, 4.75 V supply) | 13.2 mA | — |
 | Strongest board (Vf 1.2 V, 5.25 V supply) | 25.4 mA, at most 26.2 mA | — |
 
-Light output scales roughly linearly with current. At the strongest-board worst case, each resistor dissipates at most 75 mW (rated 250 mW) and each LED at most about 36 mW (rated 45 mW). The trimmer carries the full LED current near its bright end; for a 100 Ω, 0.15 W part used as a rheostat, the usual limit is √(P/R), about 35 mA, so there is ample margin. The design trades adjustment range for this safety margin: the trimmer covers about 2:1 in current, which is enough to balance the two sides. For much dimmer light, reduce the camera exposure instead.
+Light output scales roughly linearly with current. At the strongest-board worst case, each resistor dissipates at most 75 mW (rated 250 mW) and each LED at most about 37 mW (rated 45 mW at 25 °C). The trimmer carries the full LED current near its bright end; for a 100 Ω, 0.15 W part used as a rheostat, the usual limit is √(P/R), about 35 mA even at the trimmer's +25% tolerance, so there is ample margin. The design trades adjustment range for this safety margin: the trimmer covers roughly 1.7–1.8:1 in current. That trims brightness and usually balances the two sides, but LED output varies by up to 10× between bins, so check the balance in the camera. If one side stays too bright even at the dim end, raise that side's fixed resistor (for example to 130 or 150 Ω). For much dimmer light overall, reduce the camera exposure.
 
 ### Assembly notes
 
 - **LED polarity.** Both LED types mark the **anode**, the opposite of most LEDs. The XL-1608HIRC-850 has a green mark on its anode end, and the HIR26 has its mark on the anode side as well. On the board, the silkscreen bracket around each LED is closed on the cathode side (pad 1). **Place each LED with its mark at the open end of the bracket.** A reversed LED leaves that channel dark. Check one LED with a multimeter diode test before soldering the rest.
 - **Populate either the 0603 or the 1206 LEDs, never both.** Each 1206 footprint is wired in parallel with one 0603 footprint, and parallel LEDs without their own resistors do not share current evenly. A solder bridge across an unused 1206 footprint shorts out the LED next to it.
-- **1206 alternative (HIR26).** It is brighter on axis but much narrower (20° instead of 120°), so it only helps if the LEDs point at the part of the ball the camera sees. Everlight's datasheets disagree on its maximum current: revision 2 (2016) gives 20 mA, revision 4 (2024) gives 65 mA. Until that is confirmed for the stock you buy, treat it as a 20 mA part and don't turn the trimmer below about the middle of its range.
+- **1206 alternative (HIR26).** It is brighter on axis but much narrower (20° instead of 120°), so it only helps if the LEDs point at the part of the ball the camera sees. Everlight's datasheets disagree on its maximum current: revision 2 (2016) gives 20 mA, revision 4 (2024) gives 65 mA. Until that is confirmed for the stock you buy, treat it as a 20 mA part: with the supply at 5.25 V, set the trimmer so the voltage across R3/R4 stays below **2.15 V** (about 20 mA).
+- **Resistors.** The 110 Ω part's body is 6.5 mm long nominally but can be up to 7.5 mm, on a 7.62 mm lead pitch. If it does not sit flat without bending the leads right at the body, mount it slightly raised.
 - **Stencil.** The top paste layer in `v2/production/` includes the pads of the unfitted 1206 LEDs. For stencil assembly, remove those apertures or order the stencil without them.
 - **Mounting.** Because H1 and H2 are connected to GND, metal screws into a grounded metal frame connect the LED supply ground to the rig ground. Use a plastic mount or nylon screws if that matters for the setup.
 - **Cable.** Use a JST PHR-2 housing (LCSC C157955) with SPH-002T-P0.5S crimp contacts (C111515, **24–30 AWG**, insulation 0.9–1.5 mm), or a pre-crimped 2-pin PH lead. Pre-made PH leads, for example those sold for LiPo batteries, do not follow a consistent color or polarity convention. Before connecting, check that the positive wire lands on pin 1, the square pad marked +5V. J2 is held only by its two solder joints, so tie the cable to the mount instead of letting it hang from the connector.
@@ -59,7 +60,7 @@ Measure LED current as the voltage across the 110 Ω resistor: **1 V ≈ 9.1 mA*
 Before power-up:
 
 1. No short between +5 V and GND at J2.
-2. The resistance from each trimmer's pin 1 to its wiper spans about 0–100 Ω as you turn it (±25%).
+2. The resistance from each trimmer's pin 1 to its wiper spans from about 0 Ω to 75–125 Ω as you turn it (the trimmer's ±25% tolerance).
 3. With the cable plugged into the supply but not into the board, check that the wire going to pin 1 is positive.
 
 Powered from the regulated 5 V supply, with both trimmers first turned to the dim end:
@@ -67,13 +68,13 @@ Powered from the regulated 5 V supply, with both trimmers first turned to the di
 | Check | Expected | Stop if |
 |-------|----------|---------|
 | Voltage across R3/R4, trimmer at the dim end | about 1.1 V (10 mA) | — |
-| Same, trimmer at the bright end | about 2.0 V (18 mA), up to 2.8 V with low-Vf LEDs | above 2.9 V (26.4 mA): wrong resistor, wrong trimmer or supply above 5.25 V |
+| Same, trimmer at the bright end | about 2.0 V (18 mA), up to 2.8 V with low-Vf LEDs | above 2.9 V (26.4 mA): wrong resistor, wrong trimmer, a shorted or bridged LED, or supply above 5.25 V |
 | Brightness changes smoothly over the whole rotation | yes | a large dead zone (suggests a wiring error) |
 | A channel is dark | — | check LED orientation |
 
 Balance the two channels by looking at the ball in the tracking camera, not by matching currents. The LEDs vary in output by up to 10× between bins at the same current, so equal currents do not mean equal brightness. Note which direction of rotation is brighter.
 
-**If a board is too dim for tracking** (for example with high-Vf LEDs), R3/R4 can be swapped for 100 Ω or 91 Ω, because they are through-hole. Do this only on a board you have measured, with the rig at or below 30 °C, and check that the voltage across the new resistor with the trimmer at the bright end stays below **2.5 V for 100 Ω** or **2.28 V for 91 Ω** (both 25 mA). For boards built by others, keep 110 Ω.
+**If a board is too dim for tracking** (for example with high-Vf LEDs), R3/R4 can be swapped for 100 Ω or 91 Ω, because they are through-hole. Do this only on a board you have measured, and check it under worst-case conditions: supply set to **5.25 V** at J2, board warmed up for 10 minutes on the rig at or below 30 °C, trimmer at the bright end. The voltage across the new resistor must stay below **2.475 V for 100 Ω** or **2.25 V for 91 Ω** (25 mA, allowing for the resistor's 1% tolerance). If you can only test at 5.0 V, don't swap: a board that passes at 5.0 V can exceed the limit at 5.25 V. For boards built by others, keep 110 Ω.
 
 ## Version 1 (12 V, legacy)
 
