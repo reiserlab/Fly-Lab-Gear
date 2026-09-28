@@ -6,12 +6,12 @@
 	(paper "USLetter")
 	(title_block
 		(title "Treadmill Illumination")
-		(date "2026-09-26")
-		(rev "v2.0")
+		(date "2026-09-28")
+		(rev "v2.1")
 		(company "Reiserlab @ Janelia | HHMI")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "connector-C295747:S2B-PH-SM4-TB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -22,7 +22,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,8 +31,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "S2B-PH-SM4-TB"
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -41,7 +41,29 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "connector-C295747:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_S2B-PH-SM4-TB-LF-SN_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.html"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -52,7 +74,40 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Manufacturer" "JST"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C295747"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,90 +118,23 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "S2B-PH-SM4-TB_0_1"
 				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+					(start -1.27 3.81)
+					(end 5.08 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(circle
+					(center 0 2.54)
+					(radius 0.38)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -154,9 +142,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -172,9 +160,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -182,6 +170,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 6.35 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,84 +1264,16 @@
 		)
 	)
 	(junction
-		(at 152.4 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cfacf5b-56f7-4b09-b312-9bb11363e1bc")
-	)
-	(junction
-		(at 114.3 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "149dd207-cf2d-48a1-99ae-091bd3c1d254")
-	)
-	(junction
 		(at 127 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1de18c04-71d4-450d-af85-fb89d46543ec")
 	)
 	(junction
-		(at 114.3 114.3)
+		(at 146.05 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38aed7f6-c245-4260-9d46-826a3c595e64")
-	)
-	(junction
-		(at 146.05 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c0fc9ae-8ce3-459b-af2a-d1c86a6013f3")
-	)
-	(junction
-		(at 107.95 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "635b8471-37a3-42e9-8723-e5fba6283ba8")
-	)
-	(junction
-		(at 119.38 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "993c9270-7b10-4f71-aded-665ac4e20717")
-	)
-	(junction
-		(at 101.6 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7f27ae1-a483-42af-9891-0dc2cc8479fe")
-	)
-	(junction
-		(at 139.7 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e63b34ba-1ed8-468d-a90c-c13e87d15813")
-	)
-	(junction
-		(at 139.7 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4569725-8a87-4912-807f-8b58b6ebd830")
-	)
-	(wire
-		(pts
-			(xy 104.14 67.31) (xy 104.14 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0b1d8c0-62fa-4475-9c3e-a5ae3ec8b8ec")
-	)
-	(wire
-		(pts
-			(xy 104.14 69.85) (xy 107.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b35da03-ff49-4297-a808-d953631e9e77")
+		(uuid "3f455058-8540-47aa-9867-90bc94a467e0")
 	)
 	(junction
 		(at 107.95 69.85)
@@ -1325,31 +1281,11 @@
 		(color 0 0 0 0)
 		(uuid "74341784-7cd0-47fd-8c5d-f864b52b6307")
 	)
-	(wire
-		(pts
-			(xy 142.24 67.31) (xy 142.24 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4aec6b-27f3-413e-9f3d-98f7baf94fcd")
-	)
-	(wire
-		(pts
-			(xy 142.24 69.85) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac256fe5-3db3-4b72-b9fb-33c0ac071c46")
-	)
 	(junction
-		(at 146.05 69.85)
+		(at 119.38 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f455058-8540-47aa-9867-90bc94a467e0")
+		(uuid "993c9270-7b10-4f71-aded-665ac4e20717")
 	)
 	(wire
 		(pts
@@ -1360,26 +1296,6 @@
 			(type default)
 		)
 		(uuid "0a17e5ec-0a7b-4b7e-b444-08f029e5105e")
-	)
-	(wire
-		(pts
-			(xy 139.7 109.22) (xy 139.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1735dc-e72b-424c-a05d-69ee151a093b")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 146.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17af4aab-9243-448e-9c5d-d7e955edc103")
 	)
 	(wire
 		(pts
@@ -1413,27 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 114.3 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4fd414-49c8-49a4-b57d-81b73efc1b4b")
-	)
-	(wire
-		(pts
-			(xy 114.3 96.52) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f366fc-0991-4278-9460-6226108f1a2c")
-	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 139.7 114.3)
+			(xy 127 114.3) (xy 129.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1443,13 +1339,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 152.4 114.3)
+			(xy 129.54 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48228e09-c767-47d4-828a-67df33224fd2")
+		(uuid "dfa77927-9c7d-4a11-89b2-dd421778a402")
 	)
 	(wire
 		(pts
@@ -1473,6 +1369,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b35da03-ff49-4297-a808-d953631e9e77")
+	)
+	(wire
+		(pts
 			(xy 101.6 76.2) (xy 101.6 88.9)
 		)
 		(stroke
@@ -1483,43 +1389,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 114.3 114.3)
+			(xy 142.24 67.31) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4aec6b-27f3-413e-9f3d-98f7baf94fcd")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a913961-678d-46a4-9455-41662ea7bc48")
-	)
-	(wire
-		(pts
-			(xy 139.7 96.52) (xy 139.7 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84980df6-ef76-4c56-88da-e97f6d78bbe3")
-	)
-	(wire
-		(pts
-			(xy 114.3 114.3) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a42e0b8-6753-4c2a-ab86-7522f50931a4")
-	)
-	(wire
-		(pts
-			(xy 114.3 76.2) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c5128fc-1405-41ab-ab00-032d62207d08")
 	)
 	(wire
 		(pts
@@ -1543,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 69.85) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac256fe5-3db3-4b72-b9fb-33c0ac071c46")
+	)
+	(wire
+		(pts
 			(xy 152.4 96.52) (xy 152.4 101.6)
 		)
 		(stroke
@@ -1563,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 119.38 50.8)
+			(xy 104.14 50.8) (xy 116.84 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1573,23 +1469,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 114.3 101.6)
+			(xy 116.84 50.8) (xy 119.38 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c15fab14-f6b6-4dc1-826c-014d76cf9e60")
+		(uuid "504a530e-e9a2-430d-89de-caeb39c908b9")
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 114.3 114.3)
+			(xy 104.14 67.31) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce7a0a8c-5190-4d6e-b714-a6462ff59a25")
+		(uuid "d0b1d8c0-62fa-4475-9c3e-a5ae3ec8b8ec")
 	)
 	(wire
 		(pts
@@ -1600,26 +1496,6 @@
 			(type default)
 		)
 		(uuid "dbe909e0-de7a-477b-93f4-8be3f56d1d7f")
-	)
-	(wire
-		(pts
-			(xy 152.4 101.6) (xy 139.7 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7990d8-9796-4982-93fb-fddc0e687ea6")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 139.7 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f04ab8-02d5-46fc-a29b-c5597a8a15a6")
 	)
 	(wire
 		(pts
@@ -1724,353 +1600,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "0222ea1e-1f1b-482a-b387-dea34dca2804")
-		(property "Reference" "D3"
-			(at 117.602 104.902 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 117.602 107.442 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 114.3 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 114.3 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C131273"
-			(at 114.3 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "59a0a2cb-99b9-43aa-a9fd-5799b48972d6")
-		)
-		(pin "1"
-			(uuid "a9e3d477-1f92-4ac5-8ffd-cf6db154d91b")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "D3")
-					(unit 1)
-					(variant
-						(name "5V")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "0e6d8df5-dac2-47ff-8302-720adf432781")
-		(property "Reference" "D2"
-			(at 119.126 91.948 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 119.126 94.488 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 114.3 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C131273"
-			(at 114.3 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39d464a3-5a8a-45cd-ac63-8c32e527f3bd")
-		)
-		(pin "2"
-			(uuid "95f7f000-247a-40d1-a664-c6f9fe52ef78")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "D2")
-					(unit 1)
-					(variant
-						(name "5V")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 139.7 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "1090e53e-6dc9-452a-be9c-89331d3d078f")
-		(property "Reference" "D6"
-			(at 143.51 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 143.51 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 139.7 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 139.7 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 139.7 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C131273"
-			(at 139.7 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7e02ee3b-9b78-4308-8ac9-32b6269793be")
-		)
-		(pin "1"
-			(uuid "748184b0-ee7a-4b5f-a0e0-02101fb8e5c0")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "D6")
-					(unit 1)
-					(variant
-						(name "5V")
-					)
-				)
 			)
 		)
 	)
@@ -2264,7 +1793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 102.362 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -2297,7 +1826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C119305"
+		(property "LCSC" "C2933579"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2319,16 +1848,14 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R3")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 58.42 80.01 0)
+		(lib_id "connector-C295747:S2B-PH-SM4-TB")
+		(at 59.69 81.28 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2336,10 +1863,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3138b413-8061-4ad7-adee-525ccc68c3e9")
 		(property "Reference" "J2"
-			(at 59.055 74.93 0)
+			(at 59.69 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2348,8 +1874,8 @@
 				)
 			)
 		)
-		(property "Value" "S2B-PH-K-S"
-			(at 59.055 77.47 0)
+		(property "Value" "S2B-PH-SM4-TB"
+			(at 67.31 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2358,8 +1884,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 58.42 80.01 0)
+		(property "Footprint" "connector-C295747:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,8 +1895,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 58.42 80.01 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_S2B-PH-SM4-TB-LF-SN_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.html"
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2380,8 +1906,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 80.01 0)
+		(property "Description" ""
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,8 +1917,30 @@
 				)
 			)
 		)
-		(property "LCSC" "C173752"
-			(at 58.42 80.01 0)
+		(property "Manufacturer" "JST"
+			(at 59.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 59.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C295747"
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,14 +1956,17 @@
 		(pin "2"
 			(uuid "16d8d708-6adb-4e35-958a-548a2a39df21")
 		)
+		(pin "3"
+			(uuid "6333910e-3056-4933-a2f3-55548c9de268")
+		)
+		(pin "4"
+			(uuid "8c1ce87e-2dc4-4046-9d29-16b2118b5315")
+		)
 		(instances
 			(project "Treadmill-Illumination-2"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "J2")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -2493,9 +2044,6 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "H2")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -2534,7 +2082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.462 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -2567,7 +2115,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C119305"
+		(property "LCSC" "C2933579"
 			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2589,9 +2137,6 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R4")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -2721,9 +2266,6 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV2")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -2839,9 +2381,83 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D15")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aeff3dbc-c975-4d07-9aa9-10a0d04d6c81")
+		(property "Reference" "#FLG01"
+			(at 116.84 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05478c9d-7150-4012-a46a-1e3d482b20d2")
+		)
+		(instances
+			(project "Treadmill-Illumination-2"
+				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
+					(reference "#FLG01")
+					(unit 1)
 				)
 			)
 		)
@@ -2957,9 +2573,6 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D10")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -3038,9 +2651,6 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "H1")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -3156,9 +2766,6 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D11")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
@@ -3274,9 +2881,83 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D14")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de913c2c-0b18-4d97-b952-a6e7e5be4ba6")
+		(property "Reference" "#FLG02"
+			(at 129.54 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dd78650-b16c-4b8b-89dd-57b201d8cf76")
+		)
+		(instances
+			(project "Treadmill-Illumination-2"
+				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
+					(reference "#FLG02")
+					(unit 1)
 				)
 			)
 		)
@@ -3406,151 +3087,69 @@
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV1")
 					(unit 1)
-					(variant
-						(name "5V")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 139.7 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "e58d5687-0b47-410e-ad01-601cb506984f")
-		(property "Reference" "D7"
-			(at 143.51 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 143.51 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 139.7 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 139.7 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 139.7 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C131273"
-			(at 139.7 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0574111e-cfc8-46d3-98fe-ad7b6c0d0aad")
-		)
-		(pin "1"
-			(uuid "85cd6a7d-4956-4a9d-a47c-87e2316143a3")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "D7")
-					(unit 1)
-					(variant
-						(name "5V")
-					)
 				)
 			)
 		)
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 116.84 50.8)
+			(xy 55.88 87.63) (xy 55.88 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c687ece8-145d-436c-9ab0-cf06779e77b6")
+		(uuid "65af058f-88e9-4de0-a6c6-10adbbfdc445")
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 129.54 114.3)
+			(xy 55.88 74.93) (xy 55.88 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c19a1bd-9e7a-4010-a1ba-143a8b2f9423")
+		(uuid "c7329b5d-e9bd-427e-b775-653277146090")
+	)
+	(wire
+		(pts
+			(xy 55.88 72.39) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7551c0-f928-4c9e-af03-1fcfcc65db74")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5df6a47-3fe8-40b5-8f74-58e764482eb1")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7ac280-dbb0-494a-8afe-4cf799c0b9fc")
+	)
+	(junction
+		(at 55.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "246e4190-3b3d-42ca-a2f5-0eaf679d743c")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 116.84 50.8 0)
+		(lib_id "power:GND")
+		(at 55.88 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3558,9 +3157,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aeff3dbc-c975-4d07-9aa9-10a0d04d6c81")
-		(property "Reference" "#FLG01"
-			(at 116.84 48.894999999999996 0)
+		(fields_autoplaced yes)
+		(uuid "6ddcaf87-2f46-4e24-ae8d-df52457b0384")
+		(property "Reference" "#PWR02"
+			(at 55.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,8 +3170,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 116.84 46.99 0)
+		(property "Value" "GND"
+			(at 55.88 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3581,7 +3181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 50.8 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +3192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 50.8 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,85 +3202,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 116.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05478c9d-7150-4012-a46a-1e3d482b20d2")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 129.54 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de913c2c-0b18-4d97-b952-a6e7e5be4ba6")
-		(property "Reference" "#FLG02"
-			(at 129.54 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 129.54 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 129.54 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,12 +3214,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3dd78650-b16c-4b8b-89dd-57b201d8cf76")
+			(uuid "1c9ec037-619b-4b47-a126-c1e0df0576cf")
 		)
 		(instances
 			(project "Treadmill-Illumination-2"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "#FLG02")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

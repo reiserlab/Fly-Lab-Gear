@@ -15,17 +15,16 @@ A two-channel LED driver board for near-infrared (NIR) illumination of the spher
 
 ![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v2_render.png){: .ifr .pop}
 
-The v2 board in `v2/` is powered through J2, a polarized right-angle JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND.
+The v2 board in `v2/` is powered through J2, a polarized right-angle (side-entry) SMD JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. All parts are surface-mount on the top side. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND.
 
 The trimmer is wired as a variable resistor (rheostat): its wiper and one end terminal are tied together, so a wiper that loses contact leaves the full track in circuit, and the LEDs dim instead of going bright. Two trimmers let the two sides be balanced against each other at the ball, compensating for LED-to-LED output spread and lamp placement. Two M2 mounting holes (H1, H2) are plated and connected to GND.
 
 | Reference | Component | Value | Part (LCSC) |
 |-----------|-----------|-------|-------------|
-| J2 | JST PH 2-pin, right-angle THT | pin 1 +5 V, pin 2 GND | JST S2B-PH-K-S(LF)(SN) (C173752) |
-| R3, R4 | Resistor, axial THT, metal film ±1%, ¼ W | 110 Ω | CCO MF1/4W-110Ω±1% (C119305) |
+| J2 | JST PH 2-pin, right-angle SMD, 2 mounting tabs (to GND) | pin 1 +5 V, pin 2 GND | JST S2B-PH-SM4-TB(LF)(SN) (C295747) |
+| R3, R4 | Resistor, 1206 SMD, thick film ±1%, ±100 ppm/°C, ¼ W at 70 °C | 110 Ω | FOJAN FRC1206F1100TS (C2933579) |
 | RV1, RV2 | Trimmer potentiometer, single-turn, SMD | 100 Ω | JIERR JER33X-1-12 (C52033642) |
 | D10, D11, D14, D15 | NIR LED 850 nm, 0603, 120° | 2 per channel | Xinglight XL-1608HIRC-850 (C965885) |
-| D2, D3, D6, D7 | *Alternative:* NIR LED 855 nm, 1206 with dome lens, 20° | DNP | Everlight HIR26-21C/L423/CT (C131273) |
 
 ### Operating limits
 
@@ -45,17 +44,13 @@ Light output scales roughly linearly with current. At the strongest-board worst 
 
 ### Assembly notes
 
-- **LED polarity.** Both LED types mark the **anode**, the opposite of most LEDs. The XL-1608HIRC-850 has a green mark on its anode end, and the HIR26 has its mark on the anode side as well. On the board, the silkscreen bracket around each LED is closed on the cathode side (pad 1). **Place each LED with its mark at the open end of the bracket.** A reversed LED leaves that channel dark. Check one LED with a multimeter diode test before soldering the rest.
-- **Populate either the 0603 or the 1206 LEDs, never both.** Each 1206 footprint is wired in parallel with one 0603 footprint, and parallel LEDs without their own resistors do not share current evenly. A solder bridge across an unused 1206 footprint shorts out the LED next to it.
-- **1206 alternative (HIR26).** It is brighter on axis but much narrower (20° instead of 120°), so it only helps if the LEDs point at the part of the ball the camera sees. Everlight's datasheets disagree on its maximum current: revision 2 (2016) gives 20 mA, revision 4 (2024) gives 65 mA. Until that is confirmed for the stock you buy, treat it as a 20 mA part: with the supply at 5.25 V, set the trimmer so the voltage across R3/R4 stays below **2.15 V** (about 20 mA).
-- **Resistors.** The 110 Ω part's body is 6.5 mm long nominally but can be up to 7.5 mm, on a 7.62 mm lead pitch. If it does not sit flat without bending the leads right at the body, mount it slightly raised.
-- **Stencil.** The top paste layer in `v2/production/` includes the pads of the unfitted 1206 LEDs. For stencil assembly, remove those apertures or order the stencil without them.
+- **LED polarity.** The XL-1608HIRC-850 marks the **anode**, the opposite of most LEDs: the green mark is on its anode end. On the board, the silkscreen bracket around each LED is closed on the cathode side (pad 1). **Place each LED with its mark at the open end of the bracket.** A reversed LED leaves that channel dark. Check one LED with a multimeter diode test before soldering the rest.
 - **Mounting.** Because H1 and H2 are connected to GND, metal screws into a grounded metal frame connect the LED supply ground to the rig ground. Use a plastic mount or nylon screws if that matters for the setup.
-- **Cable.** Use a JST PHR-2 housing (LCSC C157955) with SPH-002T-P0.5S crimp contacts (C111515, **24–30 AWG**, insulation 0.9–1.5 mm), or a pre-crimped 2-pin PH lead. Pre-made PH leads, for example those sold for LiPo batteries, do not follow a consistent color or polarity convention. Before connecting, check that the positive wire lands on pin 1, the square pad marked +5V. J2 is held only by its two solder joints, so tie the cable to the mount instead of letting it hang from the connector.
+- **Cable.** Use a JST PHR-2 housing (LCSC C157955) with SPH-002T-P0.5S crimp contacts (C111515, **24–30 AWG**, insulation 0.9–1.5 mm), or a pre-crimped 2-pin PH lead. Pre-made PH leads, for example those sold for LiPo batteries, do not follow a consistent color or polarity convention. Before connecting, check that the positive wire lands on pin 1, the pin marked +5V. J2 is a surface-mount part held by its two contact joints and two mounting tabs; tie the cable to the mount instead of letting it hang from the connector.
 
 ### Bring-up and bench test
 
-Measure LED current as the voltage across the 110 Ω resistor: **1 V ≈ 9.1 mA**. The through-hole leads are easy to probe.
+Measure LED current as the voltage across the 110 Ω resistor: **1 V ≈ 9.1 mA**. Probe the two end caps of the 1206 resistor.
 
 Before power-up:
 
@@ -74,7 +69,7 @@ Powered from the regulated 5 V supply, with both trimmers first turned to the di
 
 Balance the two channels by looking at the ball in the tracking camera, not by matching currents. The LEDs vary in output by up to 10× between bins at the same current, so equal currents do not mean equal brightness. Note which direction of rotation is brighter.
 
-**If a board is too dim for tracking** (for example with high-Vf LEDs), R3/R4 can be swapped for 100 Ω or 91 Ω, because they are through-hole. Do this only on a board you have measured, and check it under worst-case conditions: supply set to **5.25 V** at J2, board warmed up for 10 minutes on the rig at or below 30 °C, trimmer at the bright end. The voltage across the new resistor must stay below **2.475 V for 100 Ω** or **2.25 V for 91 Ω** (25 mA, allowing for the resistor's 1% tolerance). If you can only test at 5.0 V, don't swap: a board that passes at 5.0 V can exceed the limit at 5.25 V. For boards built by others, keep 110 Ω.
+**If a board is too dim for tracking** (for example with high-Vf LEDs), R3/R4 can be swapped for 100 Ω or 91 Ω 1206 resistors. Do this only on a board you have measured, and check it under worst-case conditions: supply set to **5.25 V** at J2, board warmed up for 10 minutes on the rig at or below 30 °C, trimmer at the bright end. The voltage across the new resistor must stay below **2.475 V for 100 Ω** or **2.25 V for 91 Ω** (25 mA, allowing for the resistor's 1% tolerance). If you can only test at 5.0 V, don't swap: a board that passes at 5.0 V can exceed the limit at 5.25 V. For boards built by others, keep 110 Ω.
 
 ## Version 1 (12 V, legacy)
 
