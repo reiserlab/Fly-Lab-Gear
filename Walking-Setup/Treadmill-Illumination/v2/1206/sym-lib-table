@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "connector-C295747") (type "KiCad") (uri "${KIPRJMOD}/connector-C295747.kicad_sym") (options "") (descr "JST S2B-PH-SM4-TB, EasyEDA symbol"))
+)
