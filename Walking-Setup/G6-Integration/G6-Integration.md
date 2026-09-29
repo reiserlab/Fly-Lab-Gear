@@ -41,7 +41,7 @@ A laser-cut box that combines the 12 V power supplies for the heater, optostimul
 
 ## [Illumination PCB]({{site.baseurl}}/walking/illumination-pcb)
 
-[![Illumination PCB]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination_font.png){:.ifr}]({{site.baseurl}}/walking/illumination-pcb)
+[![Illumination PCB]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v1_render.png){:.ifr}]({{site.baseurl}}/walking/illumination-pcb)
 Near-infrared illumination of the sphere for optical tracking is provided by our two-channel [Treadmill Illumination PCB]({{site.baseurl}}/walking/illumination-pcb), which mounts to the integrated treadmill and runs from the same 12 V supply as the rest of the setup.
 {:.clear}
 

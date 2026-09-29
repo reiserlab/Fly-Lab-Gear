@@ -27,7 +27,7 @@ Optical tracking of spherical treadmills, for example through [FicTrac](https://
 
 ## [Illumination PCB]({{site.baseurl}}/walking/illumination-pcb)
 
-[![Set of lamps]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination_font.png){:.ifr}]({{site.baseurl}}/walking/illumination-pcb)
+[![Set of lamps]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v1_render.png){:.ifr}]({{site.baseurl}}/walking/illumination-pcb)
 A two-channel LED driver board that powers the NIR lamp shades above the sphere. Each channel drives four LEDs in series from a 12 V supply and has an independent trimmer for brightness adjustment.
 
 ## [Stands]({{site.baseurl}}/walking/stands)

@@ -15,7 +15,7 @@ A two-channel LED driver board for near-infrared (NIR) illumination of the spher
 
 ![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v2-0603_render.png){: .ifr .pop}
 
-The v2 board in `v2/0603-surface-mount/` is powered through J2, a polarized right-angle (side-entry) SMD JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. All parts are surface-mount on the top side. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND. This is the 0603 LED alternate; a 1206 LED alternate lives alongside it in `v2/1206-surface-mount/`, and a through-hole alternate in `v2/through-hole/` is described [below](#through-hole-alternate).
+The v2 board in `Treadmill-Illumination-v2-0603-smd/` is powered through J2, a polarized right-angle (side-entry) SMD JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. All parts are surface-mount on the top side. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND. This is the 0603 LED alternate; the 1206 LED alternate is in `Treadmill-Illumination-v2-1206-smd/`, and a through-hole alternate in `Treadmill-Illumination-v2-tht/` is described [below](#through-hole-alternate).
 
 The trimmer is wired as a variable resistor (rheostat): its wiper and one end terminal are tied together, so a wiper that loses contact leaves the full track in circuit, and the LEDs dim instead of going bright. Two trimmers let the two sides be balanced against each other at the ball, compensating for LED-to-LED output spread and lamp placement. Two M2 mounting holes (H1, H2) are plated and connected to GND.
 
@@ -75,7 +75,7 @@ Balance the two channels by looking at the ball in the tracking camera, not by m
 
 ![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v2-tht_render.png){: .ifr .pop}
 
-`v2/through-hole/` builds the same circuit from through-hole parts, for hand assembly. The sections above describe the surface-mount alternates; this section covers what differs. The channel chain, the rheostat wiring of the trimmers and the GND-connected mounting holes are unchanged, and the LEDs sit at the same positions around H1 and H2.
+`Treadmill-Illumination-v2-tht/` builds the same circuit from through-hole parts, for hand assembly. The sections above describe the surface-mount alternates; this section covers what differs. The channel chain, the rheostat wiring of the trimmers and the GND-connected mounting holes are unchanged, and the LEDs sit at the same positions around H1 and H2.
 
 To fit the larger trimmers, the outer edge of each arm is 2.5 mm further out, so the board is 61 × 34 mm instead of 56 × 34 mm. The mounting holes and the inner cutout are in the same places. J2 sits 3.2 mm further right than on the surface-mount boards. The LEDs stand about 8.7 mm above the board and the trimmers about 5 mm, so check the clearance on the rig.
 
@@ -124,7 +124,7 @@ The remaining checks (smooth adjustment, dark channel) and balancing by camera a
 
 ## Version 1 (12 V, legacy)
 
-![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination_font.png){: .ifr .pop}
+![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v1_render.png){: .ifr .pop}
 
 12 V DC enters through a barrel jack. Each of the two independent channels connects a trimmer and a current-limiting resistor in series with four NIR LEDs. Adjusting the trimmer changes the effective resistance in the chain and therefore the LED current and brightness. Because the two channels share only the supply, each lamp cluster can be set independently. Three M2 mounting holes allow the board to be attached to the newest iteration of the [integrated inexpensive treadmill]({{site.baseurl}}/walking/inexpensive-treadmill#integrated-inexpensive-treadmill).
 
@@ -149,8 +149,10 @@ The PCB also carries footprints for a surface-mount build. In v1.1 these are mar
 
 ## Production files
 
-`v2/0603-surface-mount/production/` contains the fabrication package for the 0603 LED alternate of version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled board is `assets/Treadmill-Illumination-v2-0603.step`. `v2/1206-surface-mount/production/` contains the equivalent package for the 1206 LED alternate, with 3D model `assets/Treadmill-Illumination-v2-1206.step`. The 3D model of the trimmer comes from the EasyEDA/LCSC library.
+`Treadmill-Illumination-v2-0603-smd/production/` contains the fabrication package for the 0603 LED alternate of version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled board is `assets/Treadmill-Illumination-v2-0603.step`. `Treadmill-Illumination-v2-1206-smd/production/` contains the same package for the 1206 LED alternate, with 3D model `assets/Treadmill-Illumination-v2-1206.step`.
 
-`v2/through-hole/production/` contains the package for the through-hole alternate: the Gerber/drill ZIP and IPC netlist, plus a BOM, designator list and placement file (`v2_bom.csv`, `v2_designators.csv`, `v2_positions.csv`). The 3D model of the assembled board is `assets/Treadmill-Illumination-v2-tht.step`. The symbol for J2 and the footprints and 3D models of J2, the LEDs, resistors and trimmers come from the EasyEDA/LCSC library. The pads of the EasyEDA LED footprint are renumbered to KiCad's LED convention (pad 1 = cathode, at the flat) so they match the `Device:LED` symbol; the trimmer's 3D model is offset by 1.12 mm to sit on its footprint.
+`Treadmill-Illumination-v2-tht/production/` contains the same package for the through-hole alternate, with 3D model `assets/Treadmill-Illumination-v2-tht.step`.
 
-`v1/production/v1.1/` contains the legacy version 1.1 package (Gerber ZIP and IPC netlist), ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23. `v1/production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only.
+The v2 projects share the custom KiCad libraries in `libraries/`, with symbols, footprints, and 3D models from the EasyEDA/LCSC library. The surface-mount alternates use the JST connector (LCSC C295747) and the trimmer (LCSC C48997897); the through-hole alternate uses the JST connector (C157932), the LED (C367225), the resistor (C1365973) and the trimmer (C48997948). The pads of the EasyEDA LED footprint are renumbered to KiCad's LED convention (pad 1 = cathode, at the flat) so they match the `Device:LED` symbol, and the through-hole trimmer's 3D model is offset by 1.12 mm to sit on its footprint. KiCad finds the libraries through a path relative to each project, so keep `libraries/` next to the v2 project folders when copying them.
+
+`Treadmill-Illumination-v1/production/v1.1/` contains the legacy version 1.1 package (Gerber ZIP and IPC netlist), ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23. `Treadmill-Illumination-v1/production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only. The 3D model of the assembled v1 board is `assets/Treadmill-Illumination-v1.step`.
