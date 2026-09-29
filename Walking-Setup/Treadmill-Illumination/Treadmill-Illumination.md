@@ -15,7 +15,7 @@ A two-channel LED driver board for near-infrared (NIR) illumination of the spher
 
 ![]({{site.baseurl}}/Walking-Setup/Treadmill-Illumination/assets/Treadmill-Illumination-v2-0603_render.png){: .ifr .pop}
 
-The v2 board in `v2/0603/` is powered through J2, a polarized right-angle (side-entry) SMD JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. All parts are surface-mount on the top side. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND. This is the 0603 LED alternate; other footprint alternates (1206 SMD, THT) may be added alongside it under `v2/` later.
+The v2 board in `v2/0603-surface-mount/` is powered through J2, a polarized right-angle (side-entry) SMD JST PH connector at the bottom edge; the cable leaves in the plane of the board instead of standing up from it. All parts are surface-mount on the top side. Each of the two independent channels is a chain of +5 V → fixed resistor → trimmer → LED → LED → GND. This is the 0603 LED alternate; a 1206 LED alternate lives alongside it in `v2/1206-surface-mount/`, and a through-hole LED alternate may be added the same way later.
 
 The trimmer is wired as a variable resistor (rheostat): its wiper and one end terminal are tied together, so a wiper that loses contact leaves the full track in circuit, and the LEDs dim instead of going bright. Two trimmers let the two sides be balanced against each other at the ball, compensating for LED-to-LED output spread and lamp placement. Two M2 mounting holes (H1, H2) are plated and connected to GND.
 
@@ -98,6 +98,6 @@ The PCB also carries footprints for a surface-mount build. In v1.1 these are mar
 
 ## Production files
 
-`v2/0603/production/` contains the fabrication package for the 0603 LED alternate of version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled board is `assets/Treadmill-Illumination-v2-0603.step`. The 3D model of the trimmer comes from the EasyEDA/LCSC library.
+`v2/0603-surface-mount/production/` contains the fabrication package for the 0603 LED alternate of version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled board is `assets/Treadmill-Illumination-v2-0603.step`. `v2/1206-surface-mount/production/` contains the equivalent package for the 1206 LED alternate, with 3D model `assets/Treadmill-Illumination-v2-1206.step`. The 3D model of the trimmer comes from the EasyEDA/LCSC library.
 
 `v1/production/v1.1/` contains the legacy version 1.1 package (Gerber ZIP and IPC netlist), ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23. `v1/production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only.
