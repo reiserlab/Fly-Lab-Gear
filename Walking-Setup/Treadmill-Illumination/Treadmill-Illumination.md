@@ -106,7 +106,7 @@ In the strongest-board case, each resistor dissipates about 75 mW (rated 600 mW)
 #### Assembly notes (through-hole)
 
 - **LED polarity.** The HIR8323/C16 follows the usual convention: the flat on its flange marks the **cathode**. Each LED's silkscreen outline has a matching flat on the cathode side (pad 1), facing the bottom edge of the board. **Match the flats.** A reversed LED leaves that channel dark. Check one LED with a multimeter diode test before soldering the rest.
-- **LED aim.** Seat each LED with its flange flat on the board before soldering. With a 30° beam, a tilted LED visibly moves the spot on the ball.
+- **LED aim.** Seat each LED with its flange flat on the board before soldering. With a 30° beam, a tilted LED visibly moves the spot on the ball. The LED leads are intentionally oriented vertidally so the user can bend the pins to direct the beam toward the ball, as desired. 
 - **Mounting and cable.** The mounting note above applies unchanged. J2 mates with the same PHR-2 housing and SPH-002T-P0.5S contacts; it is held only by its two soldered pins, so tie the cable to the mount.
 
 #### Bring-up and bench test (through-hole)
@@ -149,10 +149,10 @@ The PCB also carries footprints for a surface-mount build. In v1.1 these are mar
 
 ## Production files
 
-`Treadmill-Illumination-v2-0603-smd/production/` contains the fabrication package for the 0603 LED alternate of version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled board is `assets/Treadmill-Illumination-v2-0603.step`. `Treadmill-Illumination-v2-1206-smd/production/` contains the same package for the 1206 LED alternate, with 3D model `assets/Treadmill-Illumination-v2-1206.step`.
+`Treadmill-Illumination-v2-0603-smd/production/` contains the fabrication package for the 0603 LED alternate of version 2: a Gerber/drill ZIP and IPC netlist, formatted for [JLCPCB]({{site.baseurl}}/production). The 3D model of the assembled board is `Treadmill-Illumination-v2-0603-smd/assets/Treadmill-Illumination-v2-0603-v2.1.step`. `Treadmill-Illumination-v2-1206-smd/production/` contains the same package for the 1206 LED alternate, with 3D model `Treadmill-Illumination-v2-1206-smd/assets/Treadmill-Illumination-v2-1206-v2.1.step`.
 
-`Treadmill-Illumination-v2-tht/production/` contains the same package for the through-hole alternate, with 3D model `assets/Treadmill-Illumination-v2-tht.step`.
+`Treadmill-Illumination-v2-tht/production/` contains the same package for the through-hole alternate, with 3D model `Treadmill-Illumination-v2-tht/assets/Treadmill-Illumination-v2-tht-v2.1.step`.
 
 The v2 projects share the custom KiCad libraries in `libraries/`, with symbols, footprints, and 3D models from the EasyEDA/LCSC library. The surface-mount alternates use the JST connector (LCSC C295747) and the trimmer (LCSC C48997897); the through-hole alternate uses the JST connector (C157932), the LED (C367225), the resistor (C1365973) and the trimmer (C48997948). The pads of the EasyEDA LED footprint are renumbered to KiCad's LED convention (pad 1 = cathode, at the flat) so they match the `Device:LED` symbol, and the through-hole trimmer's 3D model is offset by 1.12 mm to sit on its footprint. KiCad finds the libraries through a path relative to each project, so keep `libraries/` next to the v2 project folders when copying them.
 
-`Treadmill-Illumination-v1/production/v1.1/` contains the legacy version 1.1 package (Gerber ZIP and IPC netlist), ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23. `Treadmill-Illumination-v1/production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only. The 3D model of the assembled v1 board is `assets/Treadmill-Illumination-v1.step`.
+`Treadmill-Illumination-v1/production/v1.1/` contains the legacy version 1.1 package (Gerber ZIP and IPC netlist), ordered from project "Treadmill Illumination" as W2026062323003684 on 2026-06-23. `Treadmill-Illumination-v1/production/v1.0/` contains the earlier revision with a panel ZIP and IPC netlist only. The 3D model of the assembled v1.1 board is `Treadmill-Illumination-v1/assets/Treadmill-Illumination-v1.1.step`.

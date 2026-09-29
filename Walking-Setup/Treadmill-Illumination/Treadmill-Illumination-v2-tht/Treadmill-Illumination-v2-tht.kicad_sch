@@ -1228,44 +1228,44 @@
 		)
 	)
 	(junction
-		(at 146.05 127)
+		(at 139.7 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1de18c04-71d4-450d-af85-fb89d46543ec")
+		(uuid "2c83f198-338e-4c0f-93cf-f960a3f0bfc7")
 	)
 	(junction
-		(at 165.1 99.06)
+		(at 168.91 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f455058-8540-47aa-9867-90bc94a467e0")
 	)
 	(junction
-		(at 146.05 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "564960b8-50d5-4862-9255-0e8a793c82fb")
-	)
-	(junction
-		(at 127 99.06)
+		(at 130.81 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74341784-7cd0-47fd-8c5d-f864b52b6307")
 	)
 	(junction
-		(at 135.89 80.01)
+		(at 139.7 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78564023-a2c1-4d93-b29f-fc904f66515a")
 	)
 	(junction
-		(at 153.67 127)
+		(at 152.4 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5785cf9-edf2-47bb-928d-532729112eb7")
+		(uuid "a3573262-4294-4c24-a765-78694326b601")
+	)
+	(junction
+		(at 152.4 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e313a1a3-6498-42c3-89a5-525c9d5b351b")
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 127 114.3)
+			(xy 130.81 109.22) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1275,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 121.92) (xy 127 127)
+			(xy 130.81 121.92) (xy 130.81 127)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1285,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 92.71) (xy 127 101.6)
+			(xy 139.7 127) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3402c756-78c5-4ab2-8f4b-b6e8d3a5328f")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1295,17 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 127) (xy 153.67 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4664703c-6d91-4c04-97b3-79f1006c9429")
-	)
-	(wire
-		(pts
-			(xy 127 127) (xy 146.05 127)
+			(xy 130.81 127) (xy 139.7 127)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 146.05 80.01)
+			(xy 139.7 80.01) (xy 152.4 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 165.1 101.6)
+			(xy 168.91 92.71) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 127 99.06)
+			(xy 127 99.06) (xy 130.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 161.29 99.06)
+			(xy 165.1 96.52) (xy 165.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 109.22) (xy 165.1 114.3)
+			(xy 168.91 109.22) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1365,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 161.29 88.9)
+			(xy 152.4 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6ae8f9-ab99-4ac6-8e76-1d328630e3b6")
+	)
+	(wire
+		(pts
+			(xy 165.1 87.63) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 121.92) (xy 165.1 127)
+			(xy 168.91 121.92) (xy 168.91 127)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 165.1 99.06)
+			(xy 165.1 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 135.89 80.01)
+			(xy 127 80.01) (xy 139.7 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 123.19 99.06)
+			(xy 127 96.52) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 87.63) (xy 123.19 88.9)
+			(xy 127 87.63) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1425,23 +1435,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 127) (xy 165.1 127)
+			(xy 152.4 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ce5393-adf5-4dcf-ae3b-e776e1d65775")
-	)
-	(wire
-		(pts
-			(xy 146.05 80.01) (xy 161.29 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33369b1-a4cb-407e-8233-0dd49c590d86")
+		(uuid "e1211dec-8ea7-449c-9f6f-2a0ecfc90ec8")
 	)
 	(global_label "+5V"
 		(shape input)
@@ -1541,7 +1541,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 146.05 80.01 0)
+		(at 152.4 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1552,7 +1552,7 @@
 		(fields_autoplaced yes)
 		(uuid "10abff1b-ce62-4e06-9f3a-a4fc2a569ff5")
 		(property "Reference" "#PWR03"
-			(at 146.05 83.82 0)
+			(at 152.4 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,7 +1563,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 146.05 74.93 0)
+			(at 152.4 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1573,7 +1573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 80.01 0)
+			(at 152.4 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 80.01 0)
+			(at 152.4 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,7 +1595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 80.01 0)
+			(at 152.4 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1619,7 +1619,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 127 0)
+		(at 152.4 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1630,7 +1630,7 @@
 		(fields_autoplaced yes)
 		(uuid "13758819-a112-400d-8efc-b1c69d3a8218")
 		(property "Reference" "#PWR01"
-			(at 146.05 133.35 0)
+			(at 152.4 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 132.08 0)
+			(at 152.4 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1651,7 +1651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 127 0)
+			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1662,7 +1662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 127 0)
+			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1673,7 +1673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 127 0)
+			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +1697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 83.82 0)
+		(at 127 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1708,7 +1708,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a77a613-70c2-400c-b97a-1adcd8c1587f")
 		(property "Reference" "R3"
-			(at 125.73 82.5499 0)
+			(at 129.54 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1719,7 +1719,7 @@
 			)
 		)
 		(property "Value" "110"
-			(at 125.73 85.0899 0)
+			(at 129.54 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1730,7 +1730,7 @@
 			)
 		)
 		(property "Footprint" "resistor-C1365973:RES-TH_BD2.5-L6.5-P10.50-D0.6"
-			(at 121.412 83.82 90)
+			(at 125.222 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 83.82 0)
+			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 83.82 0)
+			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +1763,7 @@
 			)
 		)
 		(property "LCSC" "C1365973"
-			(at 123.19 83.82 0)
+			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,7 +1910,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "477cadd0-da4c-46f8-b10d-48e1c6dbdbff")
 		(property "Reference" "H2"
@@ -1980,7 +1980,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 83.82 0)
+		(at 165.1 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1991,7 +1991,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b533479-a47a-408d-8fe2-7d95fc275eb5")
 		(property "Reference" "R4"
-			(at 163.83 82.5499 0)
+			(at 167.64 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2002,7 +2002,7 @@
 			)
 		)
 		(property "Value" "110"
-			(at 163.83 85.0899 0)
+			(at 167.64 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2013,7 +2013,7 @@
 			)
 		)
 		(property "Footprint" "resistor-C1365973:RES-TH_BD2.5-L6.5-P10.50-D0.6"
-			(at 159.512 83.82 90)
+			(at 163.322 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2024,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 83.82 0)
+			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,7 +2035,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 83.82 0)
+			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2046,7 +2046,7 @@
 			)
 		)
 		(property "LCSC" "C1365973"
-			(at 161.29 83.82 0)
+			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2073,7 +2073,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 161.29 92.71 0)
+		(at 165.1 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2084,7 +2084,7 @@
 		(fields_autoplaced yes)
 		(uuid "79057c45-c411-444b-a0d6-379bda9fb406")
 		(property "Reference" "RV2"
-			(at 158.75 91.4399 0)
+			(at 162.56 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2095,7 +2095,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 158.75 93.9799 0)
+			(at 162.56 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2106,7 +2106,7 @@
 			)
 		)
 		(property "Footprint" "potentiometer-C48997948:RES-ADJ-TH_3362P"
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,7 +2117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2128,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,7 +2150,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2161,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +2172,7 @@
 			)
 		)
 		(property "LCSC" "C48997948"
-			(at 161.29 92.71 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,7 +2202,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 165.1 118.11 90)
+		(at 168.91 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2213,7 +2213,7 @@
 		(fields_autoplaced yes)
 		(uuid "99419922-442a-4e45-af44-be9f508e8b4d")
 		(property "Reference" "D15"
-			(at 168.91 118.4274 90)
+			(at 172.72 118.4274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2224,7 +2224,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 168.91 120.9674 90)
+			(at 172.72 120.9674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Footprint" "led-C367225:LED-TH_BD5.0-P2.54-FD"
-			(at 165.1 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2246,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2257,7 +2257,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 165.1 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2268,7 +2268,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 165.1 118.11 90)
+			(at 168.91 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "LCSC" "C367225"
-			(at 165.1 118.11 90)
+			(at 168.91 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,7 +2317,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 135.89 80.01 0)
+		(at 139.7 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2327,7 +2327,7 @@
 		(dnp no)
 		(uuid "aeff3dbc-c975-4d07-9aa9-10a0d04d6c81")
 		(property "Reference" "#FLG01"
-			(at 135.89 78.105 0)
+			(at 139.7 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,7 +2338,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.89 76.2 0)
+			(at 139.7 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2348,7 +2348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 80.01 0)
+			(at 139.7 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 80.01 0)
+			(at 139.7 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2370,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 135.89 80.01 0)
+			(at 139.7 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2394,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 105.41 90)
+		(at 130.81 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2405,7 +2405,7 @@
 		(fields_autoplaced yes)
 		(uuid "b713dfb6-5850-4282-88d1-dc185910c301")
 		(property "Reference" "D10"
-			(at 130.81 105.7274 90)
+			(at 134.62 105.7274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2416,7 +2416,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 130.81 108.2674 90)
+			(at 134.62 108.2674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2427,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" "led-C367225:LED-TH_BD5.0-P2.54-FD"
-			(at 127 105.41 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 105.41 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,7 +2449,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 105.41 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 105.41 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2471,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 127 105.41 90)
+			(at 130.81 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2482,7 @@
 			)
 		)
 		(property "LCSC" "C367225"
-			(at 127 105.41 90)
+			(at 130.81 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,7 +2516,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf1013fb-e9da-49d8-92b9-a4720e98f404")
 		(property "Reference" "H1"
 			(at 92.964 104.394 90)
@@ -2587,7 +2587,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 118.11 90)
+		(at 130.81 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2598,7 +2598,7 @@
 		(fields_autoplaced yes)
 		(uuid "c934e9d2-82f1-4628-8aaf-3ae236249a09")
 		(property "Reference" "D11"
-			(at 130.81 118.4274 90)
+			(at 134.62 118.4274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2609,7 +2609,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 130.81 120.9674 90)
+			(at 134.62 120.9674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2620,7 +2620,7 @@
 			)
 		)
 		(property "Footprint" "led-C367225:LED-TH_BD5.0-P2.54-FD"
-			(at 127 118.11 0)
+			(at 130.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +2631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 118.11 0)
+			(at 130.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +2642,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 118.11 0)
+			(at 130.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 118.11 0)
+			(at 130.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2664,7 +2664,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 127 118.11 90)
+			(at 130.81 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +2675,7 @@
 			)
 		)
 		(property "LCSC" "C367225"
-			(at 127 118.11 90)
+			(at 130.81 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2702,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 165.1 105.41 90)
+		(at 168.91 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2713,7 +2713,7 @@
 		(fields_autoplaced yes)
 		(uuid "cca7fcc8-19a4-4360-b598-154bc8526eb7")
 		(property "Reference" "D14"
-			(at 168.91 105.7274 90)
+			(at 172.72 105.7274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2724,7 +2724,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 168.91 108.2674 90)
+			(at 172.72 108.2674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2735,7 +2735,7 @@
 			)
 		)
 		(property "Footprint" "led-C367225:LED-TH_BD5.0-P2.54-FD"
-			(at 165.1 105.41 0)
+			(at 168.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,7 +2746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 105.41 0)
+			(at 168.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 165.1 105.41 0)
+			(at 168.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +2768,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 105.41 0)
+			(at 168.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,7 +2779,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 165.1 105.41 90)
+			(at 168.91 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "LCSC" "C367225"
-			(at 165.1 105.41 90)
+			(at 168.91 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +2817,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 153.67 127 180)
+		(at 139.7 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2827,7 +2827,7 @@
 		(dnp no)
 		(uuid "de913c2c-0b18-4d97-b952-a6e7e5be4ba6")
 		(property "Reference" "#FLG02"
-			(at 153.67 125.095 0)
+			(at 139.7 125.095 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +2838,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 153.67 130.81 0)
+			(at 139.7 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2848,7 +2848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 127 0)
+			(at 139.7 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +2859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 127 0)
+			(at 139.7 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +2870,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 127 0)
+			(at 139.7 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2894,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 123.19 92.71 0)
+		(at 127 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2905,7 +2905,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0b099d2-e99a-4de6-aa13-5b4ae1035390")
 		(property "Reference" "RV1"
-			(at 120.65 91.4399 0)
+			(at 124.46 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2916,7 +2916,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 120.65 93.9799 0)
+			(at 124.46 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2927,7 +2927,7 @@
 			)
 		)
 		(property "Footprint" "potentiometer-C48997948:RES-ADJ-TH_3362P"
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +2938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,7 +2949,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,7 +2960,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +2971,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,7 +2982,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +2993,7 @@
 			)
 		)
 		(property "LCSC" "C48997948"
-			(at 123.19 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

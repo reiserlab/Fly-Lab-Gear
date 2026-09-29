@@ -186,9 +186,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/99419922-442a-4e45-af44-be9f508e8b4d")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -634,6 +641,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "1c69943e-29d7-482f-a224-d4210923d96a")
 		)
 		(pad "2" thru_hole circle
@@ -643,6 +652,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D14-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "2f1662e8-c97b-4638-b04e-aed9d6c702f9")
 		)
 		(embedded_fonts no)
@@ -730,7 +741,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -878,9 +889,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cca7fcc8-19a4-4360-b598-154bc8526eb7")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1326,6 +1344,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D14-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "679504e2-029f-4642-849f-b334d86312a2")
 		)
 		(pad "2" thru_hole circle
@@ -1335,6 +1355,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D14-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "a7939bb9-fbb0-409e-b6af-76f08a1a5c8e")
 		)
 		(embedded_fonts no)
@@ -1422,7 +1444,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1561,6 +1583,12 @@
 		(path "/3138b413-8061-4ad7-adee-525ccc68c3e9")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1924,6 +1952,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "cb02e893-488c-4b9d-acee-ac6187e31019")
 		)
 		(pad "2" thru_hole circle
@@ -1933,6 +1963,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "a75f371c-be39-423d-926a-4a5f251cb17e")
 		)
 		(embedded_fonts no)
@@ -2047,9 +2079,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b713dfb6-5850-4282-88d1-dc185910c301")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2495,6 +2534,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D10-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "98490939-8aac-49ba-94bf-fbae0ca74fd4")
 		)
 		(pad "2" thru_hole circle
@@ -2504,6 +2545,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D10-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "129393bf-63c8-41c2-b8b6-9a96114cfd7b")
 		)
 		(embedded_fonts no)
@@ -2618,9 +2661,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/e0b099d2-e99a-4de6-aa13-5b4ae1035390")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2967,6 +3017,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R3-Pad2)")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "aa752d28-44dd-48c3-b38c-08ec24426889")
 		)
 		(pad "2" thru_hole circle
@@ -2976,6 +3028,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D10-A)")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "925c2a47-81be-4881-9ff7-d40c0059e76f")
 		)
 		(pad "3" thru_hole circle
@@ -2985,6 +3039,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D10-A)")
+			(pinfunction "3_3")
+			(pintype "passive")
 			(uuid "d7099aeb-a7fd-4351-b28a-16ab1f2b5d5d")
 		)
 		(embedded_fonts no)
@@ -3075,9 +3131,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5b533479-a47a-408d-8fe2-7d95fc275eb5")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3211,6 +3274,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "dbc92669-c2e9-4016-b78d-d72d859b80ee")
 		)
 		(pad "2" thru_hole circle
@@ -3220,6 +3284,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R4-Pad2)")
+			(pintype "passive")
 			(uuid "25a13dc2-c956-442a-a403-47103e2f5016")
 		)
 		(embedded_fonts no)
@@ -3334,9 +3399,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c934e9d2-82f1-4628-8aaf-3ae236249a09")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3782,6 +3854,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "54af742b-6ce0-4d3a-a34d-efc05c11db1a")
 		)
 		(pad "2" thru_hole circle
@@ -3791,6 +3865,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D10-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "90f30758-6cda-4f74-b084-f311bb78c9ab")
 		)
 		(embedded_fonts no)
@@ -3881,9 +3957,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1a77a613-70c2-400c-b97a-1adcd8c1587f")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4017,6 +4100,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "6751bb8a-f647-4fc9-8236-94c7a9c19f60")
 		)
 		(pad "2" thru_hole circle
@@ -4026,6 +4110,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R3-Pad2)")
+			(pintype "passive")
 			(uuid "c24f4a8b-6764-4757-9cba-6d262c1b37a6")
 		)
 		(embedded_fonts no)
@@ -4140,9 +4225,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/79057c45-c411-444b-a0d6-379bda9fb406")
 		(sheetname "/")
 		(sheetfile "Treadmill-Illumination-v2-tht.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4489,6 +4581,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R4-Pad2)")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "8425d300-c4bc-4820-b680-b77c6c839f4a")
 		)
 		(pad "2" thru_hole circle
@@ -4498,6 +4592,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D14-A)")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "396b176b-46d7-4d23-a527-85e0f67d3c86")
 		)
 		(pad "3" thru_hole circle
@@ -4507,6 +4603,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D14-A)")
+			(pinfunction "3_3")
+			(pintype "passive")
 			(uuid "358f207d-3cca-4055-bda5-e9650a44edf4")
 		)
 		(embedded_fonts no)
