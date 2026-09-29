@@ -300,7 +300,7 @@
 		(uuid "3d500b66-7454-4ebf-a5a3-3592ccaaff5c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/connector-C295747.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step"
+	(model "${KIPRJMOD}/../libraries/connector-C295747.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step"
 		(offset
 			(xyz 1 -2.8 0)
 		)

@@ -180,7 +180,7 @@
 			)
 		)
 	)
-	(model "${KIPRJMOD}/potentiometer-C48997897.3dshapes/JER33X.step"
+	(model "${KIPRJMOD}/../libraries/potentiometer-C48997897.3dshapes/JER33X.step"
 		(offset
 			(xyz 0 3.8 0)
 		)
