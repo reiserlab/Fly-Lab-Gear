@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Treadmill Illumination")
-		(date "2026-09-28")
+		(date "2026-09-29")
 		(rev "v2.1")
 		(company "Reiserlab @ Janelia | HHMI")
 	)

@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Treadmill Illumination 0603")
+		(date "2026-09-29")
+		(rev "v2.1")
+		(company "Reiserlab @ Janelia | HHMI")
+		(comment 1 "https://reiserlab.github.io/Fly-Lab-Gear/")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -2765,8 +2772,20 @@
 		(layer "Edge.Cuts")
 		(uuid "a732fc95-b73e-42ef-ba77-7dd418af9ada")
 	)
-	(gr_text "v2.1 2026-09-28"
-		(at 109.25 121.75 0)
+	(gr_text "${COMMENT1}"
+		(at 78.97 118.88 0)
+		(layer "F.SilkS")
+		(uuid "d55dde35-1eb3-46f8-87fb-0b86f2fd8b38")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "${REVISION} ${ISSUE_DATE}"
+		(at 106.85 121.14 0)
 		(layer "F.SilkS")
 		(uuid "412bbfc4-4642-4e31-abdb-90f0c13bf524")
 		(effects
@@ -2778,40 +2797,66 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 125.9 111.85 90)
-		(layer "F.SilkS")
-		(uuid "3d205500-eb91-4d6a-9644-185af1817b75")
+		(at 120.74 113.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "75d60b57-e9c9-4e30-b60b-4e3e548c390e")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "GND"
-		(at 127.9 111.85 90)
-		(layer "F.SilkS")
-		(uuid "b963203f-3242-4d71-8b06-f32bb4ef2e26")
+		(at 127.56 113.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "5d8a88a9-e512-4f85-a099-60b4a935849a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "Treadmill Illumination"
-		(at 83.25 121.75 0)
+	(gr_text "${TITLE}"
+		(at 78.8 121.14 0)
 		(layer "F.SilkS")
 		(uuid "14580b45-36a5-44ce-b670-719f6b7d170b")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1.3 1.3)
+				(thickness 0.26)
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "${REVISION} ${ISSUE_DATE}"
+		(at 90.04 121.04 0)
+		(layer "B.SilkS")
+		(uuid "72e6679d-fa34-4a32-b9a6-0e72b3102505")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "${COMMENT1}"
+		(at 118.23 118.85 0)
+		(layer "B.SilkS")
+		(uuid "eb18ccd1-f70b-4d77-b05e-7ae774fc3e0e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "https://reiserlab.github.io/Fly-Lab-Gear"
@@ -2826,26 +2871,14 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "v2.1 2026-09-28"
-		(at 98 121 0)
-		(layer "B.SilkS")
-		(uuid "72e6679d-fa34-4a32-b9a6-0e72b3102505")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Treadmill Illumination"
-		(at 123.5 121 0)
+	(gr_text "${TITLE}"
+		(at 118.44 121.1 0)
 		(layer "B.SilkS")
 		(uuid "926d5cd3-290a-4b60-8cda-83065c7f15e2")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1.3 1.3)
+				(thickness 0.26)
 				(bold yes)
 			)
 			(justify left bottom mirror)
