@@ -106,7 +106,7 @@ In the strongest-board case, each resistor dissipates about 75 mW (rated 600 mW)
 #### Assembly notes (through-hole)
 
 - **LED polarity.** The HIR8323/C16 follows the usual convention: the flat on its flange marks the **cathode**. Each LED's silkscreen outline has a matching flat on the cathode side (pad 1), facing the bottom edge of the board. **Match the flats.** A reversed LED leaves that channel dark. Check one LED with a multimeter diode test before soldering the rest.
-- **LED aim.** Seat each LED with its flange flat on the board before soldering. With a 30° beam, a tilted LED visibly moves the spot on the ball. The LED leads are intentionally oriented vertidally so the user can bend the pins to direct the beam toward the ball, as desired. 
+- **LED aim.** Seat each LED with its flange flat on the board before soldering. With a 30° beam, a tilted LED visibly moves the spot on the ball. The LED leads are intentionally oriented vertically so the user can bend the pins to direct the beam toward the ball, as desired.
 - **Mounting and cable.** The mounting note above applies unchanged. J2 mates with the same PHR-2 housing and SPH-002T-P0.5S contacts; it is held only by its two soldered pins, so tie the cable to the mount.
 
 #### Bring-up and bench test (through-hole)
