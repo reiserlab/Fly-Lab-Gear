@@ -162,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.125,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.08,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -541,6 +541,7 @@
       "netlist": "Treadmill-Illumination-2.net",
       "plot": "production/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -2036,7 +2036,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "477cadd0-da4c-46f8-b10d-48e1c6dbdbff")
 		(property "Reference" "H2"
@@ -2720,7 +2720,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf1013fb-e9da-49d8-92b9-a4720e98f404")
 		(property "Reference" "H1"
 			(at 59.944 96.774 90)

@@ -11,211 +11,6 @@
 		(company "Reiserlab @ Janelia | HHMI")
 	)
 	(lib_symbols
-		(symbol "connector-C295747:S2B-PH-SM4-TB"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "S2B-PH-SM4-TB"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "connector-C295747:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_S2B-PH-SM4-TB-LF-SN_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.html"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C295747"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "S2B-PH-SM4-TB_0_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -6.35 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 6.35 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -893,6 +688,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "connector-C295747:S2B-PH-SM4-TB"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S2B-PH-SM4-TB"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "connector-C295747:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_S2B-PH-SM4-TB-LF-SN_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.html"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C295747"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S2B-PH-SM4-TB_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 6.35 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1270,6 +1270,12 @@
 		(uuid "1de18c04-71d4-450d-af85-fb89d46543ec")
 	)
 	(junction
+		(at 55.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "246e4190-3b3d-42ca-a2f5-0eaf679d743c")
+	)
+	(junction
 		(at 146.05 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1339,13 +1345,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 152.4 114.3)
+			(xy 116.84 50.8) (xy 119.38 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfa77927-9c7d-4a11-89b2-dd421778a402")
+		(uuid "504a530e-e9a2-430d-89de-caeb39c908b9")
 	)
 	(wire
 		(pts
@@ -1389,6 +1395,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 87.63) (xy 55.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65af058f-88e9-4de0-a6c6-10adbbfdc445")
+	)
+	(wire
+		(pts
 			(xy 142.24 67.31) (xy 142.24 69.85)
 		)
 		(stroke
@@ -1406,6 +1422,16 @@
 			(type default)
 		)
 		(uuid "7a913961-678d-46a4-9455-41662ea7bc48")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7ac280-dbb0-494a-8afe-4cf799c0b9fc")
 	)
 	(wire
 		(pts
@@ -1469,13 +1495,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 50.8) (xy 119.38 50.8)
+			(xy 55.88 72.39) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "504a530e-e9a2-430d-89de-caeb39c908b9")
+		(uuid "be7551c0-f928-4c9e-af03-1fcfcc65db74")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5df6a47-3fe8-40b5-8f74-58e764482eb1")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 55.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7329b5d-e9bd-427e-b775-653277146090")
 	)
 	(wire
 		(pts
@@ -1496,6 +1542,16 @@
 			(type default)
 		)
 		(uuid "dbe909e0-de7a-477b-93f4-8be3f56d1d7f")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa77927-9c7d-4a11-89b2-dd421778a402")
 	)
 	(wire
 		(pts
@@ -1980,7 +2036,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "477cadd0-da4c-46f8-b10d-48e1c6dbdbff")
 		(property "Reference" "H2"
@@ -2136,6 +2192,84 @@
 			(project "Treadmill-Illumination-2"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ddcaf87-2f46-4e24-ae8d-df52457b0384")
+		(property "Reference" "#PWR02"
+			(at 55.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c9ec037-619b-4b47-a126-c1e0df0576cf")
+		)
+		(instances
+			(project "Treadmill-Illumination-2"
+				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2586,7 +2720,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf1013fb-e9da-49d8-92b9-a4720e98f404")
 		(property "Reference" "H1"
 			(at 59.944 96.774 90)
@@ -3086,140 +3220,6 @@
 			(project "Treadmill-Illumination-2"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 55.88 87.63) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65af058f-88e9-4de0-a6c6-10adbbfdc445")
-	)
-	(wire
-		(pts
-			(xy 55.88 74.93) (xy 55.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7329b5d-e9bd-427e-b775-653277146090")
-	)
-	(wire
-		(pts
-			(xy 55.88 72.39) (xy 52.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be7551c0-f928-4c9e-af03-1fcfcc65db74")
-	)
-	(wire
-		(pts
-			(xy 52.07 72.39) (xy 52.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5df6a47-3fe8-40b5-8f74-58e764482eb1")
-	)
-	(wire
-		(pts
-			(xy 52.07 88.9) (xy 55.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7ac280-dbb0-494a-8afe-4cf799c0b9fc")
-	)
-	(junction
-		(at 55.88 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "246e4190-3b3d-42ca-a2f5-0eaf679d743c")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ddcaf87-2f46-4e24-ae8d-df52457b0384")
-		(property "Reference" "#PWR02"
-			(at 55.88 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c9ec037-619b-4b47-a126-c1e0df0576cf")
-		)
-		(instances
-			(project "Treadmill-Illumination-2"
-				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
