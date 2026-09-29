@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "connector-C157932") (type "KiCad") (uri "${KIPRJMOD}/connector-C157932.pretty") (options "") (descr "JST S2B-PH-K-S, EasyEDA model"))
+	(lib (name "led-C367225") (type "KiCad") (uri "${KIPRJMOD}/led-C367225.pretty") (options "") (descr "Everlight HIR8323/C16 5 mm IR LED, EasyEDA model"))
+	(lib (name "resistor-C1365973") (type "KiCad") (uri "${KIPRJMOD}/resistor-C1365973.pretty") (options "") (descr "Vishay MBB0207 axial resistor, EasyEDA model"))
+	(lib (name "potentiometer-C48997948") (type "KiCad") (uri "${KIPRJMOD}/potentiometer-C48997948.pretty") (options "") (descr "JIERR 3362P-1-201LF trimmer, EasyEDA model"))
+)
