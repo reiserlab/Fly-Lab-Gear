@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Treadmill-Illumination-2.kicad_pro",
+    "filename": "Treadmill-Illumination-v2-1206.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -541,6 +541,7 @@
       "netlist": "Treadmill-Illumination-2.net",
       "plot": "production/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -720,8 +721,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Treadmill-Illumination-2.kicad_sch",
-        "name": "Treadmill-Illumination-2",
+        "filename": "Treadmill-Illumination-v2-1206.kicad_sch",
+        "name": "Treadmill-Illumination-v2-1206",
         "uuid": "d501dfae-7d1d-4c4d-b2cb-031cca727f60"
       }
     ],
@@ -731,7 +732,7 @@
   "sheets": [
     [
       "d501dfae-7d1d-4c4d-b2cb-031cca727f60",
-      "Treadmill-Illumination-2"
+      "Treadmill-Illumination-v2-1206"
     ]
   ],
   "text_variables": {},

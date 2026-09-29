@@ -1729,7 +1729,7 @@
 			(uuid "7f83a611-bf40-4dd0-9737-6ebb08a06284")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR03")
 					(unit 1)
@@ -1807,7 +1807,7 @@
 			(uuid "a8286e0e-e571-4a7c-8440-a00352b13a7b")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR01")
 					(unit 1)
@@ -1900,7 +1900,7 @@
 			(uuid "ce9e2f8b-00ab-4893-b3f2-1374d84c2464")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R3")
 					(unit 1)
@@ -2019,7 +2019,7 @@
 			(uuid "8c1ce87e-2dc4-4046-9d29-16b2118b5315")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "J2")
 					(unit 1)
@@ -2096,7 +2096,7 @@
 			(uuid "d8945fe5-4c85-44cb-bd05-401f7faa05ec")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "H2")
 					(unit 1)
@@ -2189,7 +2189,7 @@
 			(uuid "12f40bb6-1514-4d2a-9efb-95e8560103b7")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "R4")
 					(unit 1)
@@ -2267,7 +2267,7 @@
 			(uuid "1c9ec037-619b-4b47-a126-c1e0df0576cf")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#PWR02")
 					(unit 1)
@@ -2396,7 +2396,7 @@
 			(uuid "2c85b872-968a-4f94-a969-b534359d1bfb")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV2")
 					(unit 1)
@@ -2511,7 +2511,7 @@
 			(uuid "5f4f044f-bebb-4f9e-9cab-ac5d28a01ee8")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D15")
 					(unit 1)
@@ -2588,7 +2588,7 @@
 			(uuid "05478c9d-7150-4012-a46a-1e3d482b20d2")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#FLG01")
 					(unit 1)
@@ -2703,7 +2703,7 @@
 			(uuid "8bc6c862-4693-47e1-8569-13bab559f51a")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D10")
 					(unit 1)
@@ -2781,7 +2781,7 @@
 			(uuid "5a74710b-471d-4a7a-895a-4e8e31e3a905")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "H1")
 					(unit 1)
@@ -2896,7 +2896,7 @@
 			(uuid "e50ed630-a5ac-49b0-a9c1-497db00f7567")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D11")
 					(unit 1)
@@ -3011,7 +3011,7 @@
 			(uuid "d3e3dcef-25ee-4819-ac0c-29c59530fd6b")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "D14")
 					(unit 1)
@@ -3088,7 +3088,7 @@
 			(uuid "3dd78650-b16c-4b8b-89dd-57b201d8cf76")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "#FLG02")
 					(unit 1)
@@ -3217,7 +3217,7 @@
 			(uuid "5d0123a2-4a9d-4d43-86b1-fe8c02ac3ab4")
 		)
 		(instances
-			(project "Treadmill-Illumination-2"
+			(project "Treadmill-Illumination-v2-1206"
 				(path "/d501dfae-7d1d-4c4d-b2cb-031cca727f60"
 					(reference "RV1")
 					(unit 1)
