@@ -5,10 +5,11 @@
 	(uuid "d501dfae-7d1d-4c4d-b2cb-031cca727f60")
 	(paper "USLetter")
 	(title_block
-		(title "Treadmill Illumination")
-		(date "2026-09-28")
+		(title "Treadmill Illumination 0603")
+		(date "2026-09-29")
 		(rev "v2.1")
 		(company "Reiserlab @ Janelia | HHMI")
+		(comment 1 "https://reiserlab.github.io/Fly-Lab-Gear/")
 	)
 	(lib_symbols
 		(symbol "Device:LED"
