@@ -7,3 +7,41 @@ Questions and comments? [Get in contact](https://reiserlab.github.io/Fly-Lab-Gea
 The version 1.0, released at the time of the paper "Frank Loesche & Michael B. Reiser (2021). An Inexpensive, High-Precision, Modular Spherical Treadmill Setup Optimized for Drosophila Experiments. _Frontiers in Behavioral Neuroscience, 15_. https://doi.org/10.3389/fnbeh.2021.689573" in July 2021 is archived at Zenodo and accessible via [DOI 10.5281/zenodo.7822934](https://doi.org/10.5281/zenodo.7822934).
 
 Version 1.1, released in September 2021, includes the documentation of how to build the inexpensive treadmill at home and is available under the DOI [10.5281/zenodo.7825952](https://doi.org/10.5281/zenodo.7825952).
+
+## Local development
+
+### Using Podman (recommended, no local Ruby install needed)
+
+Build and serve the site in a container using the included `Containerfile`, avoiding the need to install Ruby or compile native gems locally:
+
+```sh
+make serve
+```
+
+This builds an image from `jekyll/jekyll:latest` with the project's gems installed, and serves the site at <http://localhost:4000>. Requires [Podman](https://podman.io).
+
+#### Windows and macOS
+
+On these platforms, use [Podman Desktop](https://podman-desktop.io) instead of the `make serve` target:
+
+1. Install and open Podman Desktop. On first launch it will prompt you to initialize and start a Podman machine, click through that onboarding step.
+2. Go to the **Images** tab and click **Build an image**. Set the *Containerfile path* to this repository's `Containerfile`, the *Build context* to the repository root, and give it a name such as `fly-lab-gear-jekyll`, then click **Build**.
+3. Once built, find the image in the list and click its **Run** (play) icon. In the run form, add:
+   - a port mapping of `4000` (host) to `4000` (container),
+   - a volume mapping from the repository root (host) to `/srv/jekyll` (container),
+
+   then click **Start**.
+4. Open <http://localhost:4000> in your browser to see the site.
+5. To stop it later, go to the **Containers** tab and stop the running container.
+
+The `:Z` volume label used in the Makefile's `serve` target is only needed for SELinux-enforcing Linux hosts (e.g. Fedora), it doesn't apply here, so the plain volume mapping in the Podman Desktop form is fine as is.
+
+### Using a local Ruby install
+
+Alternatively, preview the site directly with a local Ruby/Bundler setup matching the version in `.ruby-version`:
+
+```sh
+make serve-ruby
+```
+
+Native gem compilation can be finicky across platforms, which is why the Podman approach above is recommended instead.
