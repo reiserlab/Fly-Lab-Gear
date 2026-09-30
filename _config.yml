@@ -21,6 +21,10 @@ callouts:
 # change location of data directory from /_data to /assets/data
 data_dir: assets/data
 
+exclude:
+  - .pixi
+  - .worktrees
+
 gh_edit_link: true
 gh_edit_link_text: "🖊"
 gh_edit_repository: "https://github.com/reiserlab/Fly-Lab-Gear"
