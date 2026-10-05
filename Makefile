@@ -9,6 +9,7 @@ serve:
 		--userns=keep-id \
 		-v "$$PWD":/srv/jekyll:Z \
 		-p 4000:4000 \
+		-p 35729:35729 \
 		fly-lab-gear-jekyll
 
 update:
