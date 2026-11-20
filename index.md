@@ -3,7 +3,7 @@ title: Fly Lab Gear
 nav_order: 1
 ---
 
-This is where the [Reiser Lab](https://www.janelia.org/lab/reiser-lab) and colleagues are sharing tools and methods that are useful for lab experiments with _Drosophila_ neurobiology.
+This is where the [Reiser Lab](https://reiserlab.org/) and colleagues are sharing tools and methods that are useful for lab experiments with _Drosophila_ neurobiology.
 
 Most popular items are:
 
